@@ -1,0 +1,17 @@
+hash-format = "sha256"
+
+[[files]]
+file = "LICENCE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "README.md"
+hash = "95ce04de64e5a7fb9a3b5db94cca0446e385dde489e3500d3761a402567e98ab"
+
+[[files]]
+file = "flake.lock"
+hash = "ec544b806990af357a3888fef014c79c708ea104c63f0b3b277c25bde1757e1c"
+
+[[files]]
+file = "flake.nix"
+hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
