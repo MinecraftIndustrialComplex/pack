@@ -1,0 +1,13 @@
+name = "Trackwork"
+filename = "trackwork-1.20.1-1.1.2c6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FXDpZRJG/versions/9gmywyjq/trackwork-1.20.1-1.1.2c6.jar"
+hash-format = "sha512"
+hash = "7d90dc547b76ea51003075d34f715f6e29ba85a1db463872ec25bf00120f00375361bbea9d3d08a1b98a027d35bd305519345521cb3b262f7e5b8c21ffc3a613"
+
+[update]
+[update.modrinth]
+mod-id = "FXDpZRJG"
+version = "9gmywyjq"

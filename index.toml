@@ -15,3 +15,43 @@ hash = "ec544b806990af357a3888fef014c79c708ea104c63f0b3b277c25bde1757e1c"
 [[files]]
 file = "flake.nix"
 hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+metafile = true
+
+[[files]]
+file = "mods/destroy.pw.toml"
+hash = "68464965ef6cdbcd7a1dd3e72198e442154a77e85d10b4c281bd0aca7c2c0a41"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
+metafile = true
+
+[[files]]
+file = "mods/petrolpark.pw.toml"
+hash = "08db67f5571e690b026c38becb5c5273fc95b8519124cd046112529104605784"
+metafile = true
+
+[[files]]
+file = "mods/power-grid.pw.toml"
+hash = "b5c2cc14a114ab345d394ec8206b2ca49c3e6ccd750d81d3160a0c7524da7839"
+metafile = true
+
+[[files]]
+file = "mods/trackwork.pw.toml"
+hash = "3f2cada5f40ad16426b177a8d5cc1b715e031ece0754f3c64c08efbf0217e020"
+metafile = true
+
+[[files]]
+file = "mods/valkyrien-skies.pw.toml"
+hash = "752beea8634d215652b339eef69d592a647462b80654feaaf44b79fc4cbb4f6d"
+metafile = true

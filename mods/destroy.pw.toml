@@ -1,0 +1,13 @@
+name = "Destroy"
+filename = "destroy-1.20.1-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uY7EYHum/versions/iZZuSFZ3/destroy-1.20.1-0.1.2.jar"
+hash-format = "sha512"
+hash = "5cb7435df6378e3f48002a67c0c52529efc89980786cf547e514bd32bdc94c7693bb1f0b450e17558ed360a6b632732a2a9ef86227b37733aa2d80201903d4e3"
+
+[update]
+[update.modrinth]
+mod-id = "uY7EYHum"
+version = "iZZuSFZ3"
