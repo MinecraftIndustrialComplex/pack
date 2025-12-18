@@ -1,0 +1,13 @@
+name = "Create: Curios Jetpack & Backtank"
+filename = "create_jetpack_curios-1.2.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BBhCMftF/versions/MmHHKvju/create_jetpack_curios-1.2.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "28035c2e8123a651b0736382c50294717aecbf4a7610c7cf76f5b065fd8058c108517daf8a04dc9d910737ecddfe3f18af79a379f8dfb4405585f440711cf862"
+
+[update]
+[update.modrinth]
+mod-id = "BBhCMftF"
+version = "MmHHKvju"

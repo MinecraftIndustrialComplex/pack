@@ -9,6 +9,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Cobblemon FE Integration
 - Decent Weapon Crafting
 - Early game difficulty
+  - Nyf's Spiders
 - Kaiju
 - Minecolonies?
 - Check tank / plane / etc. building is decent.
@@ -27,3 +28,4 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Possible melee weapons?
 - Pirates / sails
 - Rework nether / end
+- Health rework mod

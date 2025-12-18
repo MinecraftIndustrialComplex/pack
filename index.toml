@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "8a06be08d08aaa1f1f5b21df918cbe7c3e366e370fbd14a83351d3064e020184"
+hash = "2d301389dfdfed6aee18463025626cb4f1b519ccebe8a5351fb4d5029dde6a70"
 
 [[files]]
 file = "flake.lock"
@@ -24,6 +24,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "a41a3cf3204c48e0a0b48acbad66ff4dbd71a94942cb4955973a7059b686aa05"
 metafile = true
 
 [[files]]
@@ -117,6 +122,11 @@ hash = "408ce5619020064fc084d150d331edc654bbf1749bbd289e19f050a0df51f1c8"
 metafile = true
 
 [[files]]
+file = "mods/coroutil.pw.toml"
+hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
+metafile = true
+
+[[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "58458b5ea5eba986c14b79bab34f84e7f44dba5edcedff94c0122865ccb4c520"
 metafile = true
@@ -124,6 +134,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "4852a9af0dd34136c85a20a9729b554bbb8afbf81f8bfdbb52b8a8cae898b1e6"
+metafile = true
+
+[[files]]
+file = "mods/create-curios-jetpack.pw.toml"
+hash = "afb43be35d18fe5357e0cc433a3ce2c455f595961af15961f368a49e6439a66a"
 metafile = true
 
 [[files]]
@@ -144,6 +159,11 @@ metafile = true
 [[files]]
 file = "mods/create-radars.pw.toml"
 hash = "d329779921574e5a4709ee468955af18c84546a2be55d13a0e49ca0fc88b0a6f"
+metafile = true
+
+[[files]]
+file = "mods/create-sound-of-steam.pw.toml"
+hash = "2f6d193a89636e07670a8c79e9a409a985468c9c29b9ea97a3c1ad4e8ed438d1"
 metafile = true
 
 [[files]]
@@ -177,6 +197,11 @@ hash = "891cbee41964e8c8c80f9191a28e2e827056effdbe2f799f6c14efb88d79e928"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+metafile = true
+
+[[files]]
 file = "mods/destroy.pw.toml"
 hash = "3ec1b526c89e0cc060827954e50c14dfd8411380f73f733ab160c049fadc3470"
 metafile = true
@@ -199,6 +224,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "84e6ec23b1d9e88d4e1147d3d3c7c50b387f4b7ce06c52d3d8b6ceb6412907ee"
 metafile = true
 
 [[files]]
@@ -242,6 +272,16 @@ hash = "1030e18f2e875dfdf39de82b823e1dfe6009f21f1aaad338137d3a90504e2f7e"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "df07d5af0d287b944943b65e0b0990dc21fbbad6fee05b9d698a9f62b906ea9c"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "fa721b8fd8604fdc63cfc36f5863504cabbf86bc34b6cbaebfcb27a445dfa5e0"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "7ca55cd661721ca944979439aac5160009e07ce2568fbf8aee53e019f3e55fba"
 metafile = true
@@ -254,6 +294,16 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "6b7b35db4ccf235d771504c313fb2897139c2f8f8b8857d9b00b97b5b9d624d8"
+metafile = true
+
+[[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "589b370ffcef405a00daafc5bfa6febaeafef81aa797a3cb63a49555db90fd76"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
 metafile = true
 
 [[files]]
@@ -292,6 +342,11 @@ hash = "b849dfdaaa3e4ad635fb16595bfd6ae03b83de0c02f5b06faafb24cc33926f3f"
 metafile = true
 
 [[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "1588f074af0ca7a5145fd676faf3e14381bb96d1383a3dfbaac7398b1dc6e2fd"
+metafile = true
+
+[[files]]
 file = "mods/numismatics.pw.toml"
 hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
 metafile = true
@@ -309,6 +364,16 @@ metafile = true
 [[files]]
 file = "mods/petrolpark.pw.toml"
 hash = "9e0e6977137d55d1d4f32188e351a59836d661cfd0317522da36d3005f01f3a9"
+metafile = true
+
+[[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "c3f63fc5f823fe29561fbbc9deb3957d991fb9331c62a5ae27ec3cad6b1265a7"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "765987a78e5d8c782d0da2de99998b43b5907d6c41347d3804045ad109e4a586"
 metafile = true
 
 [[files]]
@@ -372,6 +437,16 @@ hash = "0324b0503dc44b437c1cde0787927c30685963ee4cb3919267db9c0bd52a6f95"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "7a5aeffc745bff7b696683df2cf63ad32fb9d1e35c2ba117698672eeb6adaa74"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "5f395b2eb6cb717b844944fa7e77ea4cc6989d72b209b5fb114dcb07f4bceade"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
 metafile = true
@@ -409,6 +484,11 @@ metafile = true
 [[files]]
 file = "mods/warium.pw.toml"
 hash = "5c77516d61d8a135d2374d90d0f94d89dbacd1b6faf4c6f23af66e18b6dcc56e"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "c557d1b26559ef987c229187d2f2705616e78179ce04fa1c96cc3d76a1cdf1b5"
 metafile = true
 
 [[files]]
