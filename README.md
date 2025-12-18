@@ -4,6 +4,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Card Games
 - Cobblemon create integration
 - Bosses
+  - Mutant Monsters
   - Remove boss structures
   - Natural Boss Spawning
 - Cave difficulty scaling over time
@@ -19,6 +20,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - "Middle East"
 - Integrate Warium
 - Horde attacks
+  - https://modrinth.com/mod/undead-nights
 - Exposure destroy integration
 - Metalworking
 - Space?
@@ -28,3 +30,5 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Possible melee weapons?
 - Pirates / sails
 - Rework nether / end
+- Flint'N'Powder?
+- Backport mod

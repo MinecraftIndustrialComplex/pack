@@ -1,0 +1,13 @@
+name = "Flint'N'Powder - Guns, Cultists, Reloads!"
+filename = "flintnpowder-1.0.0-patch-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QrdvGk9s/versions/R7INDaKI/flintnpowder-1.0.0-patch-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "2b5d429a5c78344ec7a7202aacf7190c9b64cd54f56dbd21cd3180fb45dfebd9ed9d318eac6f77299610f03173bbb0818a89acc094a3447c1e79986e27d073e1"
+
+[update]
+[update.modrinth]
+mod-id = "QrdvGk9s"
+version = "R7INDaKI"

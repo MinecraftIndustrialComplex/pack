@@ -1,0 +1,13 @@
+name = "Create Air Forge (A ThinAir compat)"
+filename = "createair-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sbuRwhB5/versions/ninZiJqE/createair-1.0.5.jar"
+hash-format = "sha512"
+hash = "b6983554d8279f3ea0a6cadfc71b8a3234db4cf977864185289916804f71a896c953acb5341e76f1444100018425ba841edfb621bafd515371e95f71c1350852"
+
+[update]
+[update.modrinth]
+mod-id = "sbuRwhB5"
+version = "ninZiJqE"

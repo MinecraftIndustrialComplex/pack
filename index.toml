@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "2d301389dfdfed6aee18463025626cb4f1b519ccebe8a5351fb4d5029dde6a70"
+hash = "303991f81136f0b1bee43ac08658c621c19d196c11e1e91253a3f5ee5321a928"
 
 [[files]]
 file = "flake.lock"
@@ -124,6 +124,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
+metafile = true
+
+[[files]]
+file = "mods/create-air-forge.pw.toml"
+hash = "73b3273dc603dc090f3c0ceb43af16fa7b9a998660ed69a763b94147c140e52c"
 metafile = true
 
 [[files]]
@@ -257,6 +262,16 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
+file = "mods/firstaid.pw.toml"
+hash = "7823845c196434c7d310e7b9ae0628dd6934bff27d3d6e572a85833e15e643f4"
+metafile = true
+
+[[files]]
+file = "mods/flintnpowder.pw.toml"
+hash = "0b875176065672534af45ae658a8b419bbfdfc8ef957a91fe8ebe935bdbf5e70"
+metafile = true
+
+[[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "ce017d458014e11d80c66b0840779531fbdb0089d6d58be62e2ebb3916f8c1ca"
 metafile = true
@@ -269,6 +284,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "1030e18f2e875dfdf39de82b823e1dfe6009f21f1aaad338137d3a90504e2f7e"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "71f185e62d546881244d4b5a213ebc3d2d6df14b0218c0e5dd6426fcb22cb55f"
 metafile = true
 
 [[files]]
@@ -312,6 +332,21 @@ hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
+file = "mods/l2-complements.pw.toml"
+hash = "8cb991fead90c62ba94d6c3e711991b60bb318680c36c7a8c07cbfbe4c8f2bc5"
+metafile = true
+
+[[files]]
+file = "mods/l2hostility.pw.toml"
+hash = "482fa204da5f2dcf8d2c547fec5710926149f28b36aedc0debd75bc92933c7a5"
+metafile = true
+
+[[files]]
+file = "mods/l2library.pw.toml"
+hash = "448a5b18a17f48e560087ca0a4a6cbab8ca9c00d36f3314dba4f48a017b97555"
+metafile = true
+
+[[files]]
 file = "mods/lexiconfig.pw.toml"
 hash = "471f6366615d29246e35c3193359ea479925ad98eb2beb1d59f0647f9896df3d"
 metafile = true
@@ -337,6 +372,16 @@ hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
 
 [[files]]
+file = "mods/mutant-monsters.pw.toml"
+hash = "2b8f42e2738eee168da78318c19249f78a546dd3f0a08084afcb7ddacc0144b4"
+metafile = true
+
+[[files]]
+file = "mods/natural-progression.pw.toml"
+hash = "6598742dd66fa0e6898ae673b9a603fe24bf6ee0d36bc7e182d8ad625d94f5d5"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "b849dfdaaa3e4ad635fb16595bfd6ae03b83de0c02f5b06faafb24cc33926f3f"
 metafile = true
@@ -349,6 +394,11 @@ metafile = true
 [[files]]
 file = "mods/numismatics.pw.toml"
 hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
+metafile = true
+
+[[files]]
+file = "mods/nyfs-spiders.pw.toml"
+hash = "acaf74883794f150634fbaf000e15098162610d2e1ef2d4029a64c7b0fe71e6e"
 metafile = true
 
 [[files]]
@@ -384,6 +434,11 @@ metafile = true
 [[files]]
 file = "mods/power-grid.pw.toml"
 hash = "15deca95981302f47ebc81d38195b91c88512b84ded1ea909a8c24a758a63a64"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "4dd7038889da90e145f9d074bec64a61aaae12dc57c875aa7ad99b8b2e07979b"
 metafile = true
 
 [[files]]
@@ -462,13 +517,33 @@ hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
 metafile = true
 
 [[files]]
+file = "mods/thin-air.pw.toml"
+hash = "43711fcf98a883adc997cd8cf314185544994419f3a03b329a32f682b78f2a7d"
+metafile = true
+
+[[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
 hash = "c707a4dfd080ecb5a7ff06a62973eef0711cbee6b70eda0d1dec2bc459e12309"
 metafile = true
 
 [[files]]
+file = "mods/tough-as-nails.pw.toml"
+hash = "e8e2c72258f696c95099d8ecfe3cca73a96c0cbc12709c0b5877ad9d712eeae6"
+metafile = true
+
+[[files]]
 file = "mods/trackwork.pw.toml"
 hash = "3f2cada5f40ad16426b177a8d5cc1b715e031ece0754f3c64c08efbf0217e020"
+metafile = true
+
+[[files]]
+file = "mods/true-darkness-forge-updated-fork.pw.toml"
+hash = "4e783ca2336af03823a355e60c72f3e8d743ae9e5936d314adf43113adeb618a"
+metafile = true
+
+[[files]]
+file = "mods/undead-nights.pw.toml"
+hash = "2d7601375a8ac9c021e9f889ced5d16526a290311622fd1536c64a7a992b0fd0"
 metafile = true
 
 [[files]]
