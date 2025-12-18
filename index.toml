@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "638a150d164284245e6ca3568b68b80b6fa3a78b77da7572e4aaf887cd53edf5"
+hash = "8a06be08d08aaa1f1f5b21df918cbe7c3e366e370fbd14a83351d3064e020184"
 
 [[files]]
 file = "flake.lock"
@@ -202,6 +202,11 @@ hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "3b5b7d833a2dd0a0064371036ab1da338cbbf82fb42d84dc8078dc9f48a3b63c"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "628d5006156ef76351266ad03267b573b9b9f3777b105caee67ce18bbc410146"
 metafile = true
@@ -209,6 +214,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "c7dfdcddf32a63084e0b54679e33378769bc4f48bd97f006008405da5e6df2ba"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
+hash = "ce198cf0e4ac56f35c03b5e721eacbd6c6bc86b6ab318c4c7259082edb625fc2"
 metafile = true
 
 [[files]]
@@ -234,6 +244,11 @@ metafile = true
 [[files]]
 file = "mods/interiors.pw.toml"
 hash = "7ca55cd661721ca944979439aac5160009e07ce2568fbf8aee53e019f3e55fba"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "0fbcc8cf03336e6bed425e2115fc4ff1a3a05be5c655228b305e70380eb08b57"
 metafile = true
 
 [[files]]
@@ -317,6 +332,11 @@ hash = "6a038c1458fceacdd15d21e9d5ecf75118c0657710670d7d2f5b0aeed082d42a"
 metafile = true
 
 [[files]]
+file = "mods/ribbits.pw.toml"
+hash = "d668582ea913944b31fda3e0cbe8bd7fda3852f960bd4f7a58fe9bba526a9037"
+metafile = true
+
+[[files]]
 file = "mods/rpl.pw.toml"
 hash = "93128d85ae0b3be9c8248b09f3a63ed88c746568480cc7e9a8e2a9b4bd13477c"
 metafile = true
@@ -367,6 +387,11 @@ hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
 metafile = true
 
 [[files]]
+file = "mods/timeless-and-classics-zero.pw.toml"
+hash = "c707a4dfd080ecb5a7ff06a62973eef0711cbee6b70eda0d1dec2bc459e12309"
+metafile = true
+
+[[files]]
 file = "mods/trackwork.pw.toml"
 hash = "3f2cada5f40ad16426b177a8d5cc1b715e031ece0754f3c64c08efbf0217e020"
 metafile = true
@@ -397,6 +422,16 @@ hash = "7e7b7624e041a1364971057d1c47f2b74730e191f142b73aa50223f95978dd96"
 metafile = true
 
 [[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "152c6732da180e958fb29f492bae2e468d4dfd423ce4d3d0d31ef31c2eec6c61"
+metafile = true
+
+[[files]]
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
 hash = "d2b4881ec68c0fd35f6dad4885211ba1c3b36240b103d027a2ef87ccc3c8363d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/simple-create-radios.pw.toml"
+hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
 metafile = true

@@ -1,0 +1,13 @@
+name = "[TaCZ] Timeless and Classics Zero"
+filename = "tacz-1.20.1-1.1.7-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SzzJttH8/versions/fErpFI0g/tacz-1.20.1-1.1.7-release.jar"
+hash-format = "sha512"
+hash = "3f4aa30d50e75b1e4e5291c4eee59107da60355c5e4b59fc3be0bc84e611d1acf0320aa8a7b905ab42d0c464d19765e58bac16e9ad6770860c19695e887ccc94"
+
+[update]
+[update.modrinth]
+mod-id = "SzzJttH8"
+version = "fErpFI0g"

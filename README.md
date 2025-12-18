@@ -7,7 +7,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Cave difficulty scaling over time
 - Diesel Generator / Destroy Integration
 - Cobblemon FE Integration
-- TACZ
 - Decent Weapon Crafting
 - Early game difficulty
 - Kaiju
@@ -18,11 +17,13 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Remove boss structures
 - Natural Boss Spawning
 - Horde attacks
-- Photography
-- frogtowns
+- Exposure destroy integration
 - Metalworking
 - Space?
 - ComputerCraft
 - Economy System
-- radio texturepack
-- WAILA
+- Epic Fight?
+- Parcool?
+- Possible melee weapons?
+- Pirates / sails
+- Rework nether / end
