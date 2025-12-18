@@ -1,0 +1,13 @@
+name = "Lexiconfig"
+filename = "lexiconfig-forge-1.4.18-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D157Rgyf/versions/iv3Hdpa6/lexiconfig-forge-1.4.18-1.jar"
+hash-format = "sha512"
+hash = "6050924134d594dd7031061bfe70b34429842516b388262335024206e50993794baa3697f08053bd001e728d3ce42875ee5215e819ed2c595a002cec46c40985"
+
+[update]
+[update.modrinth]
+mod-id = "D157Rgyf"
+version = "iv3Hdpa6"
