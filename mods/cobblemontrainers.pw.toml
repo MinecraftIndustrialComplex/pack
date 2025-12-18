@@ -1,0 +1,13 @@
+name = "CobblemonTrainers (Discontinued)"
+filename = "CobblemonTrainers-1.1.11+1.5.2-forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/1QV9wNCJ/versions/fyqgHfzB/CobblemonTrainers-1.1.11%2B1.5.2-forge.jar"
+hash-format = "sha512"
+hash = "923607cfd68a5c9c3e9f7510babf47245c0ba64ebf5a52f8126fe19f0687828eaacf5cd729a6f32aed9b558a15af4c6a2e55d5781859d4dc31b8b668f2916055"
+
+[update]
+[update.modrinth]
+mod-id = "1QV9wNCJ"
+version = "fyqgHfzB"

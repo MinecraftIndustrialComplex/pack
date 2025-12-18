@@ -1,0 +1,13 @@
+name = "Ascension Megamons (Cobblemon)"
+filename = "MegamonsForge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kYxnqmnH/versions/rtAnM40X/MegamonsForge-1.2.1.jar"
+hash-format = "sha512"
+hash = "025a7918060431af76fc2a5d6c532345f76271ebbc04bcb81b1b6f8a30240123ccc41e2dd8bc3c7fbd939e341a78f6f34e8841d48ae68e9ca04bf8f45118c7f4"
+
+[update]
+[update.modrinth]
+mod-id = "kYxnqmnH"
+version = "rtAnM40X"

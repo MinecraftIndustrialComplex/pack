@@ -1,0 +1,13 @@
+name = "Cobblemon Mass Outbreaks"
+filename = "cobblemonoutbreaks-1.1.4-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZrvT3v2D/versions/w55F4Hr5/cobblemonoutbreaks-1.1.4-1.20.1.jar"
+hash-format = "sha512"
+hash = "e1d584fd7a2a98c17a4391ff2f970b61f545602bbf54c0b4ff63e95371539d5230945e8324babf123a0d104f2db7f311d47d8155147851b176061c4770c5a421"
+
+[update]
+[update.modrinth]
+mod-id = "ZrvT3v2D"
+version = "w55F4Hr5"

@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "95ce04de64e5a7fb9a3b5db94cca0446e385dde489e3500d3761a402567e98ab"
+hash = "638a150d164284245e6ca3568b68b80b6fa3a78b77da7572e4aaf887cd53edf5"
 
 [[files]]
 file = "flake.lock"
@@ -24,6 +24,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
+file = "mods/ascension-megamons.pw.toml"
+hash = "3c0597f79815adb7c94524210207b2e6848f8109a53a19676feb098ba658527a"
 metafile = true
 
 [[files]]
@@ -59,6 +64,51 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "0528d31259c9c719b37088fc34d967412eaca236e4118143d48ecf1b13d36a71"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
+hash = "cec69e10a9d3cb31270dbda861b98b365545710c32fe7b5b2eb92a4854a0d58d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-mass-outbreaks.pw.toml"
+hash = "1f5bd76a966e4de7b965dff9466ba1f6fb50d86aa6e343768f9811f39b0c4f3d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pokedex.pw.toml"
+hash = "a06e3323ea8ed1e327d580b583783ea3311340ae20e920cef58e768137d0d786"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-spawn-notification.pw.toml"
+hash = "2e92b7021ae4e72dd109be8ae3233ea791045353351758f4eba6ffeea17af9a4"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-whiteout.pw.toml"
+hash = "5b7ad3683ea76d03e629fa1d51b31c54facaa43be6671a706372615d8dc24854"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "541ed5025e526f075984bbf7653b18724d0bf254dcc5d1464e60dd5bb82f7651"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonrider1.5.pw.toml"
+hash = "614b9997972e60fa8abd7bf9d6a584992192dfdb2292dbebf60111b6c3dc5527"
+metafile = true
+
+[[files]]
+file = "mods/cobblemontrainers.pw.toml"
+hash = "af1e6c3f26d93d9c0e1cb5558444f7de195c44b193f81fe6eed2dac5f117afcc"
 metafile = true
 
 [[files]]
@@ -237,6 +287,11 @@ hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
+metafile = true
+
+[[files]]
 file = "mods/petrolpark.pw.toml"
 hash = "9e0e6977137d55d1d4f32188e351a59836d661cfd0317522da36d3005f01f3a9"
 metafile = true
@@ -254,6 +309,11 @@ metafile = true
 [[files]]
 file = "mods/radium.pw.toml"
 hash = "ae4d739bbdb025651a884093de72addac0865525b39e603fb575031a59987763"
+metafile = true
+
+[[files]]
+file = "mods/rctmod.pw.toml"
+hash = "6a038c1458fceacdd15d21e9d5ecf75118c0657710670d7d2f5b0aeed082d42a"
 metafile = true
 
 [[files]]
@@ -334,4 +394,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "7e7b7624e041a1364971057d1c47f2b74730e191f142b73aa50223f95978dd96"
+metafile = true
+
+[[files]]
+file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
+hash = "d2b4881ec68c0fd35f6dad4885211ba1c3b36240b103d027a2ef87ccc3c8363d"
 metafile = true

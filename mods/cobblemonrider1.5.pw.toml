@@ -1,0 +1,13 @@
+name = "CobblemonRider"
+filename = "cobblemonrider-1.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZLu8WiYO/versions/yeYtrv6P/cobblemonrider-1.2.4.jar"
+hash-format = "sha512"
+hash = "7a167698b7f9e772a7a8f428551b7ab79d49b92d403cc2a94c85468eeafafb7fdf2753a59052264bff49fe99172767cd6d172f6727416a912428a72a2f583cd0"
+
+[update]
+[update.modrinth]
+mod-id = "ZLu8WiYO"
+version = "yeYtrv6P"
