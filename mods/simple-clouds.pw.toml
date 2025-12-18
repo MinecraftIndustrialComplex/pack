@@ -1,0 +1,14 @@
+name = "Simple Clouds"
+filename = "simpleclouds-0.7.3+1.20.1-forge-all.jar"
+disabled = true
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LtZfKhel/versions/mcVeYqAI/simpleclouds-0.7.3%2B1.20.1-forge-all.jar"
+hash-format = "sha512"
+hash = "cdcdaf9ecb6443723ceb6fb59b492ffd3167fd65bf196262d9d564a84a45b865caef34e11188ad89b86023cc7bfb855b0ff67e48e5cf9365513370c96c512427"
+
+[update]
+[update.modrinth]
+mod-id = "LtZfKhel"
+version = "mcVeYqAI"

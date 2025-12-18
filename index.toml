@@ -47,6 +47,11 @@ hash = "3ec1b526c89e0cc060827954e50c14dfd8411380f73f733ab160c049fadc3470"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "751ba9ad0aceb491a5981acd52576f118f4822f3680f6f18cceb251e2dc8e78c"
+metafile = true
+
+[[files]]
 file = "mods/e4mc.pw.toml"
 hash = "8cadaaba10f7e38862f5c5ea301de270eca846969b442a624db0a033bb1e5e32"
 metafile = true
@@ -79,11 +84,6 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "9c94815c028b18cd04c63b604209be515d209dff8f4bc9960867da0b13a0dfe8"
-metafile = true
-
-[[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
 metafile = true
 
 [[files]]
@@ -144,6 +144,11 @@ metafile = true
 [[files]]
 file = "mods/ryoamiclights.pw.toml"
 hash = "eb3e0a0e6ce67ec6164900d16a1ad9a6b72b5a3dcae42ef66a5ba2b75f8ececc"
+metafile = true
+
+[[files]]
+file = "mods/simple-clouds.pw.toml"
+hash = "5ddbe3e6bffa061ddc97a53ffc9ffc6d6ef86500c18c1c2fd78a9a2b78c8d517"
 metafile = true
 
 [[files]]
