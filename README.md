@@ -4,19 +4,20 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Card Games
 - Cobblemon create integration
 - Bosses
+  - Remove boss structures
+  - Natural Boss Spawning
 - Cave difficulty scaling over time
 - Diesel Generator / Destroy Integration
 - Cobblemon FE Integration
 - Decent Weapon Crafting
 - Early game difficulty
   - Nyf's Spiders
+  - Health rework mod
 - Kaiju
 - Minecolonies?
 - Check tank / plane / etc. building is decent.
 - "Middle East"
 - Integrate Warium
-- Remove boss structures
-- Natural Boss Spawning
 - Horde attacks
 - Exposure destroy integration
 - Metalworking
@@ -24,8 +25,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - ComputerCraft
 - Economy System
 - Epic Fight?
-- Parcool?
 - Possible melee weapons?
 - Pirates / sails
 - Rework nether / end
-- Health rework mod
