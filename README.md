@@ -25,3 +25,5 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Space?
 - ComputerCraft
 - Economy System
+- radio texturepack
+- WAILA
