@@ -23,12 +23,12 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
 metafile = true
 
 [[files]]
 file = "mods/destroy.pw.toml"
-hash = "68464965ef6cdbcd7a1dd3e72198e442154a77e85d10b4c281bd0aca7c2c0a41"
+hash = "3ec1b526c89e0cc060827954e50c14dfd8411380f73f733ab160c049fadc3470"
 metafile = true
 
 [[files]]
@@ -38,12 +38,12 @@ metafile = true
 
 [[files]]
 file = "mods/petrolpark.pw.toml"
-hash = "08db67f5571e690b026c38becb5c5273fc95b8519124cd046112529104605784"
+hash = "9e0e6977137d55d1d4f32188e351a59836d661cfd0317522da36d3005f01f3a9"
 metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "b5c2cc14a114ab345d394ec8206b2ca49c3e6ccd750d81d3160a0c7524da7839"
+hash = "15deca95981302f47ebc81d38195b91c88512b84ded1ea909a8c24a758a63a64"
 metafile = true
 
 [[files]]
