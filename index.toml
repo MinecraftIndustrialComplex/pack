@@ -32,6 +32,11 @@ hash = "1b31cb793a692d9f692b233eab37e6fed156f7b05c4a2080a75ea6c06c38c178"
 metafile = true
 
 [[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "126db1f1ec01bbc4cf3393e087363e2fdbfe4a3face897ed27985b14a1a519a9"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "28358fe53c22695b3bf1f93ac2225c46fe3525918b7b993ac36e68a7f0a16fe8"
 metafile = true
@@ -57,8 +62,68 @@ hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "853df4ab2418f347cbb1e3b4ca6c82b2a517a8e4e8ccabcd42c27e3496707a32"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "58458b5ea5eba986c14b79bab34f84e7f44dba5edcedff94c0122865ccb4c520"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "aa8711ff3f1d590b8c3e4e092927e5a697d585e21c52107ddc559c93ffebdaed"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "65060f66cd19ebffad8ba87a11109877fc7f6965da5e005cb14686d6f6b2cfcc"
+metafile = true
+
+[[files]]
+file = "mods/create-ender-transmission.pw.toml"
+hash = "1a13cde135e8ff1bdbdb194afc39f00bd86af1bed666d46b9ddfad446ea4cb73"
+metafile = true
+
+[[files]]
+file = "mods/create-jetpack.pw.toml"
+hash = "0a0533fddd34d04fd6551f5c352081b711662d12f2f2051fe7232a53172edf0e"
+metafile = true
+
+[[files]]
+file = "mods/create-radars.pw.toml"
+hash = "d329779921574e5a4709ee468955af18c84546a2be55d13a0e49ca0fc88b0a6f"
+metafile = true
+
+[[files]]
+file = "mods/create-structures.pw.toml"
+hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
+metafile = true
+
+[[files]]
+file = "mods/create-tank-defenses.pw.toml"
+hash = "387b75010a7dbcb20e21720d6daa8736d6785534d81cb9ce5c7a28ec04e2636c"
+metafile = true
+
+[[files]]
+file = "mods/create-tweaked-controllers.pw.toml"
+hash = "aba70a0cd8e2169d87508bcf587b8f59cebd0ea466b2fd873a0ca21f9a02ade3"
+metafile = true
+
+[[files]]
+file = "mods/create-vintage-improvements.pw.toml"
+hash = "b162f7efb710763b3e8518f0c20f1e655795bc41570731a6e336baed41ec2105"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
+metafile = true
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "eaf87b925d774592d481b9a6660f140350c77a5b09a893a0cee3668d2f5cbbf6"
 metafile = true
 
 [[files]]
@@ -112,6 +177,16 @@ hash = "9c94815c028b18cd04c63b604209be515d209dff8f4bc9960867da0b13a0dfe8"
 metafile = true
 
 [[files]]
+file = "mods/interactive.pw.toml"
+hash = "c280e2b0fec3014a909c19bb654492d58d7c272307e2a2920f13125016a2d8eb"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "7ca55cd661721ca944979439aac5160009e07ce2568fbf8aee53e019f3e55fba"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "6b7b35db4ccf235d771504c313fb2897139c2f8f8b8857d9b00b97b5b9d624d8"
 metafile = true
@@ -142,13 +217,13 @@ hash = "b849dfdaaa3e4ad635fb16595bfd6ae03b83de0c02f5b06faafb24cc33926f3f"
 metafile = true
 
 [[files]]
-file = "mods/obsidianui.pw.toml"
-hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
+file = "mods/numismatics.pw.toml"
+hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
 metafile = true
 
 [[files]]
-file = "mods/oculus.pw.toml"
-hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
+file = "mods/obsidianui.pw.toml"
+hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
 metafile = true
 
 [[files]]
@@ -169,6 +244,11 @@ metafile = true
 [[files]]
 file = "mods/radium.pw.toml"
 hash = "ae4d739bbdb025651a884093de72addac0865525b39e603fb575031a59987763"
+metafile = true
+
+[[files]]
+file = "mods/rpl.pw.toml"
+hash = "93128d85ae0b3be9c8248b09f3a63ed88c746568480cc7e9a8e2a9b4bd13477c"
 metafile = true
 
 [[files]]

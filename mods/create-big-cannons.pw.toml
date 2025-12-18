@@ -1,0 +1,13 @@
+name = "Create Big Cannons"
+filename = "createbigcannons-5.9.1+mc.1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GWp4jCJj/versions/hdPNh3oa/createbigcannons-5.9.1%2Bmc.1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "2732bfaa49c762e6768d8b60b9e5d75c152a6e013b4898135fdbcb790e2c5b7087e06d2f13b30baf6eb22686711b21b2fb6d95daa6b387bd9cd9b905c29449a6"
+
+[update]
+[update.modrinth]
+mod-id = "GWp4jCJj"
+version = "hdPNh3oa"
