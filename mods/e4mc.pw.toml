@@ -1,0 +1,13 @@
+name = "e4mc"
+filename = "e4mc_minecraft-forge-5.5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qANg5Jrr/versions/UVAEJB5b/e4mc_minecraft-forge-5.5.2.jar"
+hash-format = "sha512"
+hash = "0c1277e03082af9810a55385cae68a79f9286719e98a866a1bb6608c9e43d67ac245ff6d5817aa46e819beb33f167d53afc2fa1aaea440d088265764619543db"
+
+[update]
+[update.modrinth]
+mod-id = "qANg5Jrr"
+version = "UVAEJB5b"
