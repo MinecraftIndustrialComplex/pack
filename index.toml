@@ -63,7 +63,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "853df4ab2418f347cbb1e3b4ca6c82b2a517a8e4e8ccabcd42c27e3496707a32"
+hash = "408ce5619020064fc084d150d331edc654bbf1749bbd289e19f050a0df51f1c8"
 metafile = true
 
 [[files]]
@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "aa8711ff3f1d590b8c3e4e092927e5a697d585e21c52107ddc559c93ffebdaed"
+hash = "4852a9af0dd34136c85a20a9729b554bbb8afbf81f8bfdbb52b8a8cae898b1e6"
 metafile = true
 
 [[files]]
@@ -112,8 +112,8 @@ hash = "aba70a0cd8e2169d87508bcf587b8f59cebd0ea466b2fd873a0ca21f9a02ade3"
 metafile = true
 
 [[files]]
-file = "mods/create-vintage-improvements.pw.toml"
-hash = "b162f7efb710763b3e8518f0c20f1e655795bc41570731a6e336baed41ec2105"
+file = "mods/create-vintage-(unofficial-port).pw.toml"
+hash = "a73aa0245cf97c142f1b49cf990b58aa51a332a58236a5e0347093d343db7a9f"
 metafile = true
 
 [[files]]
@@ -123,7 +123,7 @@ metafile = true
 
 [[files]]
 file = "mods/createnuclear.pw.toml"
-hash = "eaf87b925d774592d481b9a6660f140350c77a5b09a893a0cee3668d2f5cbbf6"
+hash = "891cbee41964e8c8c80f9191a28e2e827056effdbe2f799f6c14efb88d79e928"
 metafile = true
 
 [[files]]
@@ -174,11 +174,6 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "9c94815c028b18cd04c63b604209be515d209dff8f4bc9960867da0b13a0dfe8"
-metafile = true
-
-[[files]]
-file = "mods/interactive.pw.toml"
-hash = "c280e2b0fec3014a909c19bb654492d58d7c272307e2a2920f13125016a2d8eb"
 metafile = true
 
 [[files]]
