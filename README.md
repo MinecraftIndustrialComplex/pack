@@ -10,7 +10,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
   - Cataclysm: Make everything spawn without a structure
   - Mowzies mobs: Natty spawns
   - Legendary Monsters without structures
-- Cave difficulty scaling over time
 - Diesel Generator / Destroy Integration
 - Cobblemon FE Integration
 - Decent Weapon Crafting

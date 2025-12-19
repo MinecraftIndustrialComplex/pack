@@ -1,0 +1,15 @@
+name = "cavedifficulty"
+filename = "cavedifficulty-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/BenMac31/cavedifficulty/releases/download/v1.0.0/cavedifficulty-1.0.0.jar"
+hash-format = "sha256"
+hash = "91586ee1b03068632e062bfac5c659645f3578f8cc22cd90b5e42af6bfc98841"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "BenMac31/cavedifficulty"
+tag = "v1.0.0"
