@@ -1,9 +1,9 @@
 name = "SmallDice"
-filename = "Dice-.MC-1.20.1.-1.0.1.jar"
+filename = "Dice-1.0.1-mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/MinecraftIndustrialComplex/SmallDice/releases/download/1/Dice-.MC-1.20.1.-1.0.1.jar"
+url = "https://github.com/MinecraftIndustrialComplex/SmallDice/releases/download/1/Dice-1.0.1-mc1.20.1.jar"
 hash-format = "sha256"
 hash = "aeb4e00ae654be99103b202052e5cde3da03990a6dbfd6bf20b2b137a542d773"
 

@@ -1,0 +1,13 @@
+name = "Mowzie's Mobs"
+filename = "mowziesmobs-1.7.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BFbX9xcm/versions/WMCZ4t5U/mowziesmobs-1.7.3.jar"
+hash-format = "sha512"
+hash = "cd353cae6ea53b2c8026f570e52f38ca19982c4db60b62ebd1afd5d8d54febdd7d3805a92a8f6ab31522fb9fe709e50f63110854b701cd50ddd3cb11cb0f9e31"
+
+[update]
+[update.modrinth]
+mod-id = "BFbX9xcm"
+version = "WMCZ4t5U"

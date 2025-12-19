@@ -6,15 +6,11 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "ad18170651f817c20a484a58ffa148eecaac40daa5aaa1a2b2ef9267bd82851c"
+hash = "d867d7e3ac3ff7b169fba9980741191d5d05cf81350c2e5841261ebf9b65088a"
 
 [[files]]
 file = "data/firstaid/recipes/bandage.json"
 hash = "ce2363d1d1d31095da0cf02d3e6f8929e2aeb547e5cc68a0a5896979c97925c6"
-
-[[files]]
-file = "firstaid.jar"
-hash = "c2021a688e301f7a44da0ae04163ec8b8f077154e02c48e89063027b0cf33e4a"
 
 [[files]]
 file = "flake.lock"
@@ -76,6 +72,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "e271d3f6a204153ea55370a2fab28e6ed329ab020d05fc9b03a5163065384dec"
+metafile = true
+
+[[files]]
+file = "mods/citadel.pw.toml"
+hash = "0bdcf1c5057873c78db71bee196ccf5ec846f6cf82f639b094668b3ba92e151f"
 metafile = true
 
 [[files]]
@@ -314,6 +315,11 @@ hash = "df07d5af0d287b944943b65e0b0990dc21fbbad6fee05b9d698a9f62b906ea9c"
 metafile = true
 
 [[files]]
+file = "mods/ice-and-fire-dragons.pw.toml"
+hash = "3e8cbae6a944592a6485b8c5e62b0794fe950ba8a6b155302d08f4205b9ad9b3"
+metafile = true
+
+[[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "fa721b8fd8604fdc63cfc36f5863504cabbf86bc34b6cbaebfcb27a445dfa5e0"
 metafile = true
@@ -369,8 +375,23 @@ hash = "448a5b18a17f48e560087ca0a4a6cbab8ca9c00d36f3314dba4f48a017b97555"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "2077e6d69a10bbe27b402aa52e5a21ba1abec55b7b573e173e703908a85518ad"
+metafile = true
+
+[[files]]
+file = "mods/legendary-monsters.pw.toml"
+hash = "4171a06e8f356357eeba7a35d222996f61f130d023aefd29b59688c8a23dbc44"
+metafile = true
+
+[[files]]
 file = "mods/lexiconfig.pw.toml"
 hash = "471f6366615d29246e35c3193359ea479925ad98eb2beb1d59f0647f9896df3d"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "3e055c411c197b2103e338dc9fdcd37272df81aaf4246f801694f97feaf7d232"
 metafile = true
 
 [[files]]
@@ -384,6 +405,11 @@ hash = "66bcfe786e6bbdee6f7ea0805ec3d2561b41285a5c77f1e465e80f4c2fd9200c"
 metafile = true
 
 [[files]]
+file = "mods/meet-your-fight.pw.toml"
+hash = "2c95e2eccb83d8fa026cb634c24350dc2626a737c3ecbef1bd6e4b3bb48860a7"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "186909f73870979511db893fca2e2a318b311361f168d425ba0e58fc539188ee"
 metafile = true
@@ -391,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
+metafile = true
+
+[[files]]
+file = "mods/mowzies-mobs.pw.toml"
+hash = "fc09447db9efb9f9ec998ce84cf11edfd089a2515a300e45fd06e607aabc051a"
 metafile = true
 
 [[files]]
@@ -520,7 +551,7 @@ metafile = true
 
 [[files]]
 file = "mods/smalldice.pw.toml"
-hash = "eb0f23ca01779e50b5fa65b36f552e19d15cba2ddea997462a4760e261f515fd"
+hash = "8c879b67dfb4b23b17d9f3806bcd9b343f0b6f6d2981ed5a25e20c7b4359b5a4"
 metafile = true
 
 [[files]]

@@ -4,9 +4,8 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Card Games
 - Cobblemon create integration
 - Bosses
-  - Mutant Monsters
-  - Remove boss structures
   - Natural Boss Spawning
+  - Remove items & progression from boss mods: ice and fire, l ender cataclysm, legendary monsteres, meet your fight, mowzies mobs
 - Cave difficulty scaling over time
 - Diesel Generator / Destroy Integration
 - Cobblemon FE Integration
@@ -33,3 +32,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - re-balance loot tables so players can't skip early game
 - Swap healing item recipes to paper
 - Lightning / Better Rain
+- Remove structures from:
+  - terralith
+  - Legendary Monsters
+  - Meet your fight
