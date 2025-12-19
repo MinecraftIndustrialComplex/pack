@@ -6,7 +6,15 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "303991f81136f0b1bee43ac08658c621c19d196c11e1e91253a3f5ee5321a928"
+hash = "ad18170651f817c20a484a58ffa148eecaac40daa5aaa1a2b2ef9267bd82851c"
+
+[[files]]
+file = "data/firstaid/recipes/bandage.json"
+hash = "ce2363d1d1d31095da0cf02d3e6f8929e2aeb547e5cc68a0a5896979c97925c6"
+
+[[files]]
+file = "firstaid.jar"
+hash = "c2021a688e301f7a44da0ae04163ec8b8f077154e02c48e89063027b0cf33e4a"
 
 [[files]]
 file = "flake.lock"
@@ -15,6 +23,10 @@ hash = "ec544b806990af357a3888fef014c79c708ea104c63f0b3b277c25bde1757e1c"
 [[files]]
 file = "flake.nix"
 hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
+
+[[files]]
+file = "kubejs/server_scripts/recipes.js"
+hash = "a76dbb740a334004c1694d38e8c232ab43e7de4ae2a76b2959d6529b8ce0d6a4"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
@@ -329,6 +341,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "35ab39836ec065c9facaafd68bb435a3645d4d20cf08fe83031fb75007a7e827"
 metafile = true
 
 [[files]]

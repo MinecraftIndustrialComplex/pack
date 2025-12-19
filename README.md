@@ -11,9 +11,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Diesel Generator / Destroy Integration
 - Cobblemon FE Integration
 - Decent Weapon Crafting
-- Early game difficulty
-  - Nyf's Spiders
-  - Health rework mod
 - Kaiju
 - Minecolonies?
 - Check tank / plane / etc. building is decent.
@@ -32,3 +29,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Rework nether / end
 - Flint'N'Powder?
 - Backport mod
+- Better keybinds mod
+- re-balance loot tables so players can't skip early game
+- Swap healing item recipes to paper
+- Lightning / Better Rain
