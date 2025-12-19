@@ -5,7 +5,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Cobblemon create integration
 - Bosses
   - Natural Boss Spawning
-  - Remove items & progression from boss mods: ice and fire, l ender cataclysm, legendary monsteres, meet your fight, mowzies mobs
+  - Remove items & progression from boss mods: ice and fire, l ender cataclysm, legendary monsteres, meet your fight, mowzies mobs, bosses of mass destruction
   - Cataclysm: Make everything spawn without a structure
   - Mowzies mobs: Natty spawns
   - Legendary Monsters without structures
