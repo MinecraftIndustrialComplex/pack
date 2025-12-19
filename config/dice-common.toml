@@ -1,0 +1,4 @@
+[dice]
+#How many seconds should the dice last before exploding?
+#Range: 1 ~ 60
+"dice expire time" = 3600

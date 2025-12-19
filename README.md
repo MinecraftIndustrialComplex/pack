@@ -6,6 +6,9 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Bosses
   - Natural Boss Spawning
   - Remove items & progression from boss mods: ice and fire, l ender cataclysm, legendary monsteres, meet your fight, mowzies mobs
+  - Cataclysm: Make everything spawn without a structure
+  - Mowzies mobs: Natty spawns
+  - Legendary Monsters without structures
 - Cave difficulty scaling over time
 - Diesel Generator / Destroy Integration
 - Cobblemon FE Integration
@@ -16,7 +19,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - "Middle East"
 - Integrate Warium
 - Horde attacks
-  - https://modrinth.com/mod/undead-nights
+  - Maybe configure it a bit better?
 - Exposure destroy integration
 - Metalworking
 - Space?
@@ -32,7 +35,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - re-balance loot tables so players can't skip early game
 - Swap healing item recipes to paper
 - Lightning / Better Rain
-- Remove structures from:
-  - terralith
-  - Legendary Monsters
-  - Meet your fight
+- Rework flint'n'powder recipes
+- Makes bosses spawn in hordes???
+- Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)

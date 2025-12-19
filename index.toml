@@ -6,7 +6,11 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "d867d7e3ac3ff7b169fba9980741191d5d05cf81350c2e5841261ebf9b65088a"
+hash = "5318fa92d30a8444c6c6a884828eeaea2242b58922844596a101e7cff7fbe229"
+
+[[files]]
+file = "config/dice-common.toml"
+hash = "7aa584294eff9d653a471fadb44d4f4279246b6e2ec62d03286316c31a7bc2dd"
 
 [[files]]
 file = "data/firstaid/recipes/bandage.json"
@@ -505,6 +509,11 @@ hash = "6a038c1458fceacdd15d21e9d5ecf75118c0657710670d7d2f5b0aeed082d42a"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "5b92406160d9ea8a61ddf111caaecb7f6283678e2c40b08b72dce3eeaf20dc96"
+metafile = true
+
+[[files]]
 file = "mods/ribbits.pw.toml"
 hash = "d668582ea913944b31fda3e0cbe8bd7fda3852f960bd4f7a58fe9bba526a9037"
 metafile = true
@@ -570,6 +579,11 @@ hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
 metafile = true
 
 [[files]]
+file = "mods/structurify.pw.toml"
+hash = "e494f0a3e2a57634acb42aec9ac8d853f82cca92619cc1bb57ca80a63532acd9"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
 metafile = true
@@ -630,6 +644,11 @@ hash = "c557d1b26559ef987c229187d2f2705616e78179ce04fa1c96cc3d76a1cdf1b5"
 metafile = true
 
 [[files]]
+file = "mods/wits.pw.toml"
+hash = "4d949b696cb80dea8ffa799fae89b3d20b62503386e8e4067224689f79b7b695"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "1a592e56f6720b44d1031d2d715d454eff2099e915160c0c75f853ae8b314b15"
 metafile = true
@@ -637,6 +656,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "7e7b7624e041a1364971057d1c47f2b74730e191f142b73aa50223f95978dd96"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]
