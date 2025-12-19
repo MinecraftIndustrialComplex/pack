@@ -509,6 +509,11 @@ hash = "0324b0503dc44b437c1cde0787927c30685963ee4cb3919267db9c0bd52a6f95"
 metafile = true
 
 [[files]]
+file = "mods/smalldice.pw.toml"
+hash = "eb0f23ca01779e50b5fa65b36f552e19d15cba2ddea997462a4760e261f515fd"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "7a5aeffc745bff7b696683df2cf63ad32fb9d1e35c2ba117698672eeb6adaa74"
 metafile = true
