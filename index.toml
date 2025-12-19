@@ -6,11 +6,15 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "5318fa92d30a8444c6c6a884828eeaea2242b58922844596a101e7cff7fbe229"
+hash = "9e73e5cedcd3d602d98ec860b218c5ead72b400b76442330259578d269de25ea"
 
 [[files]]
 file = "config/dice-common.toml"
-hash = "7aa584294eff9d653a471fadb44d4f4279246b6e2ec62d03286316c31a7bc2dd"
+hash = "16f8a2192492535f10a5aa3b3ba08694e5b5a427945f8554594038b8f57f4c32"
+
+[[files]]
+file = "config/structurify.json"
+hash = "9f23dddf0db69bed1c48bc51f000d833dbcba41c909e9f83efb6947a373e6c69"
 
 [[files]]
 file = "data/firstaid/recipes/bandage.json"
@@ -474,6 +478,11 @@ hash = "fba2939765b7b4fdeaf0f01589ab562c806859ba10924c2dc2a9cdb8b05852b2"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "4e721a3949621080440a950b4aba930b91735455238b1ea4f01e25dba3e59c23"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
 metafile = true
@@ -654,11 +663,6 @@ hash = "c557d1b26559ef987c229187d2f2705616e78179ce04fa1c96cc3d76a1cdf1b5"
 metafile = true
 
 [[files]]
-file = "mods/wits.pw.toml"
-hash = "4d949b696cb80dea8ffa799fae89b3d20b62503386e8e4067224689f79b7b695"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "1a592e56f6720b44d1031d2d715d454eff2099e915160c0c75f853ae8b314b15"
 metafile = true
@@ -677,6 +681,10 @@ metafile = true
 file = "mods/yungs-api.pw.toml"
 hash = "152c6732da180e958fb29f492bae2e468d4dfd423ce4d3d0d31ef31c2eec6c61"
 metafile = true
+
+[[files]]
+file = "openloader/data/remove_ores_from_shipwereck_and_portal_loot.zip"
+hash = "582c631cd94bbd2ddb99588455a33d93f14a241acb3a8ad45c3e839dd149f4ff"
 
 [[files]]
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"

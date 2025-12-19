@@ -2,6 +2,7 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 - Card Games
+- Add Create: Metallurgy
 - Cobblemon create integration
 - Bosses
   - Natural Boss Spawning
@@ -38,3 +39,5 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Rework flint'n'powder recipes
 - Makes bosses spawn in hordes???
 - Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)
+- Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.
+- Remove Vintage centrifuge
