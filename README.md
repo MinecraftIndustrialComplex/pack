@@ -1,8 +1,6 @@
 # Minecraft Industrial Complex
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
-- Card Games
-- Add Create: Metallurgy
 - Cobblemon create integration
 - Bosses
   - Natural Boss Spawning
@@ -21,7 +19,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Horde attacks
   - Maybe configure it a bit better?
 - Exposure destroy integration
-- Metalworking
 - Space?
 - ComputerCraft
 - Economy System

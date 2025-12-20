@@ -1,0 +1,22 @@
+{
+	"generate_all_known_states": true,
+	"retro_gen": false,
+	"state_swapper": [],
+	"swapper": {
+		// --- Remove duplicate Crusty Chunks ores (swap into base stone/deepslate) ---
+		"crusty_chunks:zinc_ore": "minecraft:stone",
+		"crusty_chunks:lead_ore": "minecraft:stone",
+		"crusty_chunks:deepslate_lead_ore": "minecraft:deepslate",
+		"crusty_chunks:nickel_ore": "minecraft:stone",
+		"crusty_chunks:uranium_ore": "minecraft:stone",
+
+		// --- Remove Create: Tank Defenses aluminum ores ---
+		"create_tank_defenses:aluminum_ore": "minecraft:stone",
+		"create_tank_defenses:aluminum_deepslate_ore": "minecraft:deepslate",
+
+		// --- Ice and Fire ---
+		"iceandfire:silver_ore": "minecraft:stone",
+		"iceandfire:deepslate_silver_ore": "minecraft:stone",
+		"iceandfire:sapphire_ore": "minecraft:stone",
+	}
+}
