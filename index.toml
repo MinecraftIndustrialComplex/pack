@@ -206,6 +206,11 @@ hash = "65060f66cd19ebffad8ba87a11109877fc7f6965da5e005cb14686d6f6b2cfcc"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "c670ae9055f10dafb61fe340583c361f4c41ed45671c9440bae1f0696b47252a"
+metafile = true
+
+[[files]]
 file = "mods/create-ender-transmission.pw.toml"
 hash = "1a13cde135e8ff1bdbdb194afc39f00bd86af1bed666d46b9ddfad446ea4cb73"
 metafile = true
