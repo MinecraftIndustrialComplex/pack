@@ -376,6 +376,11 @@ hash = "7ca55cd661721ca944979439aac5160009e07ce2568fbf8aee53e019f3e55fba"
 metafile = true
 
 [[files]]
+file = "mods/invocore-utility-mod.pw.toml"
+hash = "d4756713bf8444bc87ad73d74c16a76469b7b2596006c09623ab424250018536"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "0fbcc8cf03336e6bed425e2115fc4ff1a3a05be5c655228b305e70380eb08b57"
 metafile = true
@@ -573,6 +578,11 @@ metafile = true
 [[files]]
 file = "mods/rctmod.pw.toml"
 hash = "6a038c1458fceacdd15d21e9d5ecf75118c0657710670d7d2f5b0aeed082d42a"
+metafile = true
+
+[[files]]
+file = "mods/revive-me.pw.toml"
+hash = "1018a28a59c744dbef63e61cc0cacd019fd9b2106145bc8b263197fa2e375886"
 metafile = true
 
 [[files]]
