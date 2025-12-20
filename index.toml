@@ -91,6 +91,11 @@ hash = "a613f5d2df911fea606968bbdb56eebfd05ac02ada846cf0d2e56e72345d9338"
 metafile = true
 
 [[files]]
+file = "mods/casinocraft.pw.toml"
+hash = "c36681779db37e0a49a0747c167bfc7cb869b0c796c135252a2368019f7a0fc0"
+metafile = true
+
+[[files]]
 file = "mods/cavedifficulty.pw.toml"
 hash = "e3c33e482c4b9d768fad4167e3f721333533e72f6e0657ac189e626e1cde9500"
 metafile = true
@@ -446,8 +451,23 @@ hash = "66bcfe786e6bbdee6f7ea0805ec3d2561b41285a5c77f1e465e80f4c2fd9200c"
 metafile = true
 
 [[files]]
+file = "mods/lucky77.pw.toml"
+hash = "c4b3d0a8c5879008f6a39882859bdd862a5f1b27a31e61930e7a44e719138d3a"
+metafile = true
+
+[[files]]
+file = "mods/maidusehandcrank.pw.toml"
+hash = "3f19cf58cb5097df37abd0e88aedadfc59af13a3ac90723d8c3554b0065c06d5"
+metafile = true
+
+[[files]]
 file = "mods/meet-your-fight.pw.toml"
 hash = "2c95e2eccb83d8fa026cb634c24350dc2626a737c3ecbef1bd6e4b3bb48860a7"
+metafile = true
+
+[[files]]
+file = "mods/minopp.pw.toml"
+hash = "434abaa8d91bebd209b0674e8d60be7d4b784ba83e40c71e44d927ffafe29d53"
 metafile = true
 
 [[files]]
@@ -648,6 +668,11 @@ metafile = true
 [[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "e8e2c72258f696c95099d8ecfe3cca73a96c0cbc12709c0b5877ad9d712eeae6"
+metafile = true
+
+[[files]]
+file = "mods/touhou-little-maid.pw.toml"
+hash = "821aaf931c7c148bca8fc2eae0318fb63ec3adc3be1f0689606108d5d4fd2ef6"
 metafile = true
 
 [[files]]
