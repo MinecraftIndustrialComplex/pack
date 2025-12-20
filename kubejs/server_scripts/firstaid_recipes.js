@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     // Bandage
     event.remove({ id: 'firstaid:plaster' });
     event.shaped('firstaid:plaster', [
-        'SS ',
+        '   ',
         'PP ',
         '   '
     ], {
