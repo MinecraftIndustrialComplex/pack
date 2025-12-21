@@ -1,0 +1,18 @@
+#Multiplier for difficulty increase per minute in cave
+#Range: 1 ~ 10
+difficultyMultiplier = 1
+#Ticks between cave pressure checks
+#Range: 1 ~ 72000
+refreshInterval = 200
+#Cave pressure change per refresh interval
+#Range: 1 ~ 1000
+accumulationSpeed = 30
+#Multiplier for how much faster cave pressure decreases than increases
+#Range: 1 ~ 10
+decreaseMultiplier = 3
+#Average ticks between cave waves (used as percent chance per refresh)
+#Range: 1 ~ 72000
+waveFrequency = 3000
+#List of spawn entries: 'modid:entity:cost' e.g. 'minecraft:zombie:10'
+spawnPool = ["minecraft:zombie:10", "minecraft:skeleton:25", "minecraft:creeper:50"]
+
