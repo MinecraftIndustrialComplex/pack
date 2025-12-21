@@ -1,0 +1,13 @@
+name = "CC:Destroy Bridge"
+filename = "ccdbridge-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7ZVzo8Of/versions/kmKuZY0U/ccdbridge-1.1.0.jar"
+hash-format = "sha512"
+hash = "b02d8ef13e1857819b297d72feecdac06ca7e4cb8c14528f1b04fc14b65faa5624e22317cfccf283f4a5ca53a32aae11b582790147f610853efe7ef8fa1ddf4d"
+
+[update]
+[update.modrinth]
+mod-id = "7ZVzo8Of"
+version = "kmKuZY0U"

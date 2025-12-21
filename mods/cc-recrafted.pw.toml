@@ -1,0 +1,13 @@
+name = "CC: Recrafted"
+filename = "cc-recrafted-forge-1.20.1.0.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P9GQgLsU/versions/B5tNY5l3/cc-recrafted-forge-1.20.1.0.0.3.jar"
+hash-format = "sha512"
+hash = "9ec658ecc2ee7339b0966340eb1c080704660165aa39cb095140e67348f829de5572ebc7f7fb93fff702832d1fa8e8f5eef062fdd820c58b6c11697db12bbc35"
+
+[update]
+[update.modrinth]
+mod-id = "P9GQgLsU"
+version = "B5tNY5l3"

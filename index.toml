@@ -126,6 +126,31 @@ hash = "e3c33e482c4b9d768fad4167e3f721333533e72f6e0657ac189e626e1cde9500"
 metafile = true
 
 [[files]]
+file = "mods/cc-recrafted.pw.toml"
+hash = "fa565923bb77fd85184bc7106db8f572eafd140a4c8bc4c2eabbc04bb34778cd"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "94615e505b64b850d3df7b50c292407a3b2f327ed1989c4e7d2907bb79785cde"
+metafile = true
+
+[[files]]
+file = "mods/cc-vs.pw.toml"
+hash = "81f5c4c49f35cb4c162a23236105bb1ccd35e130118169a081c3ca32e6d54e6a"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "29ff87cf944ddc64351bffbf504c94a57055daf91d4df5b0cd1b8b28d28280bc"
+metafile = true
+
+[[files]]
+file = "mods/ccdbridge.pw.toml"
+hash = "977d8dcda9fe69436e0d84dc1b8b1b9d66fe862e2f79f31611f39f018da46cfa"
+metafile = true
+
+[[files]]
 file = "mods/cerbons-api.pw.toml"
 hash = "b04f3690005952fb2f0d93b742a00d4b25547cbb4e2975aaca89fb0af58a9539"
 metafile = true
