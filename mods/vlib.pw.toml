@@ -1,0 +1,13 @@
+name = "VLib"
+filename = "vlib-1.20.1-0.0.15-alpha+forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V1UmcEMX/versions/eSVmXLVX/vlib-1.20.1-0.0.15-alpha%2Bforge.jar"
+hash-format = "sha512"
+hash = "32c2676d2f5e04277e262346ac7bd0bea22d123288352c5eeb1d14f1931261dcf413714489205d54421c3f7671a833849f5aca4785bd0eea3a85cee94f140fe2"
+
+[update]
+[update.modrinth]
+mod-id = "V1UmcEMX"
+version = "eSVmXLVX"

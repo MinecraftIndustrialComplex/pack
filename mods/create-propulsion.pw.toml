@@ -1,0 +1,13 @@
+name = "Create: Propulsion"
+filename = "createpropulsion-0.2.2a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fmudhH0S/versions/dVAGdLiv/createpropulsion-0.2.2a.jar"
+hash-format = "sha512"
+hash = "7baf898392544a34aea1c4a2fb432a14d062b70a9f0528683393b86b2d5c75ef51ca10b5b6d95e497376fa3a481d8d958706ff0e37f9667ae4c2ffab4cf8e2d3"
+
+[update]
+[update.modrinth]
+mod-id = "fmudhH0S"
+version = "dVAGdLiv"

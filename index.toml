@@ -6,11 +6,23 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "9adb9a0730f5bec2878a8872e037efb5b7b020199f823bbab8e05ce3b4fd1cc0"
+hash = "1d3e3de8b4ca60fc301be480b49228f0e33fcb2293f0c9a551c86abba6f73f0d"
+
+[[files]]
+file = "config/blockswap/block_swap.json5"
+hash = "22125c2d8e3005c82d3c878ca87c553bdc9047783421fff8ba69830911f6de8e"
+
+[[files]]
+file = "config/cavedifficulty-common.toml"
+hash = "480a1e7f5789767272170d78b0779ac4dd78fa93dad1a243c541f258ba1241f6"
 
 [[files]]
 file = "config/dice-common.toml"
 hash = "16f8a2192492535f10a5aa3b3ba08694e5b5a427945f8554594038b8f57f4c32"
+
+[[files]]
+file = "config/l2_configs/l2hostility-common.toml"
+hash = "4e357960629455d6d803fc81cbee16a3606ab530a74310f40e95e2e20fbf5cb8"
 
 [[files]]
 file = "config/openloader/data/remove_ores_from_shipwereck_and_portal_loot.zip"
@@ -25,6 +37,10 @@ file = "data/firstaid/recipes/bandage.json"
 hash = "ce2363d1d1d31095da0cf02d3e6f8929e2aeb547e5cc68a0a5896979c97925c6"
 
 [[files]]
+file = "defaultconfigs/gravestone-server.toml"
+hash = "dca2d292f2108879af3c11dab5a070d463228830c79c215e3d8318010d6f0a6f"
+
+[[files]]
 file = "flake.lock"
 hash = "ec544b806990af357a3888fef014c79c708ea104c63f0b3b277c25bde1757e1c"
 
@@ -34,11 +50,15 @@ hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
 
 [[files]]
 file = "kubejs/server_scripts/firstaid_recipes.js"
-hash = "a76dbb740a334004c1694d38e8c232ab43e7de4ae2a76b2959d6529b8ce0d6a4"
+hash = "cc99a13ab90758e4e2afb3a900a747dbac930882987d2003a635d1590ac3a8a3"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
 hash = "efe84bfd56c0067b664730d8fd02947b284d8954e5d4d51c75c2105bc877a74a"
+
+[[files]]
+file = "kubejs/server_scripts/warium.js"
+hash = "bec556e485915cf0ebf6b101112cc24fd435812b0fa80a95c87995ae23710c1f"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -171,6 +191,11 @@ hash = "af1e6c3f26d93d9c0e1cb5558444f7de195c44b193f81fe6eed2dac5f117afcc"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "4d5ba0ec7ea7abf0ef76f3f08853bd7c886eec95b1795cbeacaba8bc608e2913"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -228,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/create-metallurgy.pw.toml"
 hash = "2ea783e4b95304d840853f8aa0b0de6601c214af705b550cb0669ef9e6c91f53"
+metafile = true
+
+[[files]]
+file = "mods/create-propulsion.pw.toml"
+hash = "5c0b41d6cbc8d61e53f3d95d4f06c8b9333e75132a49df735a5fdc077754aa14"
 metafile = true
 
 [[files]]
@@ -338,6 +368,11 @@ metafile = true
 [[files]]
 file = "mods/flintnpowder.pw.toml"
 hash = "0b875176065672534af45ae658a8b419bbfdfc8ef957a91fe8ebe935bdbf5e70"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "2a2f2168bf03bfa3034ad9583588676c5d66b6f7c767df9fe259ab55350792d2"
 metafile = true
 
 [[files]]
@@ -711,6 +746,16 @@ hash = "2d7601375a8ac9c021e9f889ced5d16526a290311622fd1536c64a7a992b0fd0"
 metafile = true
 
 [[files]]
+file = "mods/valkyrien-pirates.pw.toml"
+hash = "102598ba0b30448c8691d26b4863c87adcb9421d003d27b6b7a05279580970eb"
+metafile = true
+
+[[files]]
+file = "mods/valkyrien-sails.pw.toml"
+hash = "7cc27b0572b8e642aa9570c7db7f26207a19d13105eef6474899f75c3c5a4699"
+metafile = true
+
+[[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "752beea8634d215652b339eef69d592a647462b80654feaaf44b79fc4cbb4f6d"
 metafile = true
@@ -718,6 +763,11 @@ metafile = true
 [[files]]
 file = "mods/veinminer.pw.toml"
 hash = "e3a2b7e4cf982ab5bebe2e6116173aa2aadb313d52c1bb11886772f83a848a9f"
+metafile = true
+
+[[files]]
+file = "mods/vlib.pw.toml"
+hash = "4a144b01a621ec0666e2d437f30363202eac7d3fc51b986127c38217148757e6"
 metafile = true
 
 [[files]]
