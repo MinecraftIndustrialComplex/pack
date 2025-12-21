@@ -20,6 +20,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Research TacZ system, and shim the mod to block crafting for now.
 - Touhou music
 - playtest reviving, mino, poker
+- New map mod
 ## Post Launch
 - Check tank / plane / etc. building is decent.
 - Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.
