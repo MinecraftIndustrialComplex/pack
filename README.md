@@ -41,3 +41,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Exposure destroy integration
 - Space?
 - Makes bosses spawn in hordes???
+
+# Installation:
+- Add cobblemontrainers (discontinued)
+- Add in magic jar: https://github.com/Petrolpark-Mods/Destroy/pull/775
