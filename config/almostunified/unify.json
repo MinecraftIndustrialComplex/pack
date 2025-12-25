@@ -92,10 +92,6 @@
   ],
 
   "priorityOverrides": {
-    "forge:dusts/iron": "alloyed",
-    "forge:dusts/gold": "alloyed",
-    "forge:dusts/copper": "alloyed",
-    "forge:dusts/zinc": "alloyed",
 
     "forge:ores/zinc": "create",
     "forge:ores/lead": "createnuclear",
@@ -105,30 +101,24 @@
     "forge:ingots/zinc": "create",
     "forge:ingots/brass": "create",
     "forge:ingots/steel": "alloyed",
-    "forge:ingots/aluminum": "create_tank_defenses",
 
     "forge:plates/steel": "create_tank_defenses",
 
-    "forge:dusts/aluminum": "create_tank_defenses"
   },
 
   "customTags": {
     "forge:dusts/iron": [
       "crust_chunks:iron_dust",
       "create_tank_defenses:iron_dust",
-      "alloyed:iron_dust"
     ],
     "forge:dusts/gold": [
       "crust_chunks:gold_dust",
-      "alloyed:gold_dust"
     ],
     "forge:dusts/copper": [
       "crust_chunks:copper_dust",
-      "alloyed:copper_dust"
     ],
     "forge:dusts/zinc": [
       "crust_chunks:zinc_dust",
-      "alloyed:zinc_dust"
     ],
 
     "forge:ores/zinc": [
