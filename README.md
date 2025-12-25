@@ -2,10 +2,9 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Minecolonies
-- Legendary Survival Overhaul
-- Initial cobblemon create integration
 - Middle East
+  - Dangerous deserts
+  - Oil in deserts
 - Epic Fight?
 - Rework nether / end
 - Rework Flint'N'Powder Recipes
@@ -21,6 +20,8 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Touhou music
 - playtest reviving, mino, poker
 - New map mod
+- Initial cobblemon create integration
+- Legendary Survival Overhaul
 ## Post Launch
 - Check tank / plane / etc. building is decent.
 - Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.

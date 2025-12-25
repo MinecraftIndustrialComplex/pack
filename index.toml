@@ -446,6 +446,11 @@ hash = "3e8cbae6a944592a6485b8c5e62b0794fe950ba8a6b155302d08f4205b9ad9b3"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "632c93f30f4ec119ff6acbd825c57609bbf86b06b9c2c8cc024ee3ab2cc89d94"
+metafile = true
+
+[[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "fa721b8fd8604fdc63cfc36f5863504cabbf86bc34b6cbaebfcb27a445dfa5e0"
 metafile = true
