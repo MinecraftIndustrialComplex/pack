@@ -1,0 +1,203 @@
+{
+  "modPriorities": [
+    "minecraft",
+    "kubejs",
+    "crafttweaker",
+
+    "alloyed",
+    "create_tank_defenses",
+    "createnuclear",
+    "create",
+    "destroy",
+
+    "thermal",
+    "immersiveengineering",
+    "mekanism",
+
+    "crust_chunks",
+    "crusty_chunks",
+    "warium"
+  ],
+  "stoneStrata": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "nether",
+    "end"
+  ],
+  "tags": [
+    "forge:nuggets/{material}",
+    "forge:dusts/{material}",
+    "forge:gears/{material}",
+    "forge:gems/{material}",
+    "forge:ingots/{material}",
+    "forge:raw_materials/{material}",
+    "forge:ores/{material}",
+    "forge:plates/{material}",
+    "forge:rods/{material}",
+    "forge:wires/{material}",
+    "forge:storage_blocks/{material}",
+    "forge:storage_blocks/raw_{material}"
+  ],
+  "materials": [
+    "aeternium",
+    "aluminum",
+    "amber",
+    "apatite",
+    "bitumen",
+    "brass",
+    "bronze",
+    "charcoal",
+    "chrome",
+    "cinnabar",
+    "coal",
+    "coal_coke",
+    "cobalt",
+    "constantan",
+    "copper",
+    "diamond",
+    "electrum",
+    "elementium",
+    "emerald",
+    "enderium",
+    "fluorite",
+    "gold",
+    "graphite",
+    "invar",
+    "iridium",
+    "iron",
+    "lapis",
+    "lead",
+    "lumium",
+    "mithril",
+    "netherite",
+    "nickel",
+    "obsidian",
+    "osmium",
+    "peridot",
+    "platinum",
+    "potassium_nitrate",
+    "ruby",
+    "sapphire",
+    "signalum",
+    "silver",
+    "steel",
+    "sulfur",
+    "tin",
+    "tungsten",
+    "uranium",
+    "zinc"
+  ],
+
+  "priorityOverrides": {
+    "forge:dusts/iron": "alloyed",
+    "forge:dusts/gold": "alloyed",
+    "forge:dusts/copper": "alloyed",
+    "forge:dusts/zinc": "alloyed",
+
+    "forge:ores/zinc": "create",
+    "forge:ores/lead": "createnuclear",
+    "forge:ores/nickel": "destroy",
+    "forge:ores/uranium": "createnuclear",
+
+    "forge:ingots/zinc": "create",
+    "forge:ingots/brass": "create",
+    "forge:ingots/steel": "alloyed",
+    "forge:ingots/aluminum": "create_tank_defenses",
+
+    "forge:plates/steel": "create_tank_defenses",
+
+    "forge:dusts/aluminum": "create_tank_defenses"
+  },
+
+  "customTags": {
+    "forge:dusts/iron": [
+      "crust_chunks:iron_dust",
+      "create_tank_defenses:iron_dust",
+      "alloyed:iron_dust"
+    ],
+    "forge:dusts/gold": [
+      "crust_chunks:gold_dust",
+      "alloyed:gold_dust"
+    ],
+    "forge:dusts/copper": [
+      "crust_chunks:copper_dust",
+      "alloyed:copper_dust"
+    ],
+    "forge:dusts/zinc": [
+      "crust_chunks:zinc_dust",
+      "alloyed:zinc_dust"
+    ],
+
+    "forge:ores/zinc": [
+      "crust_chunks:zinc_ore",
+      "create:zinc_ore"
+    ],
+    "forge:ores/lead": [
+      "crust_chunks:lead_ore",
+      "crust_chunks:deepslate_lead_ore",
+      "createnuclear:lead_ore",
+      "createnuclear:deepslate_lead_ore"
+    ],
+    "forge:ores/nickel": [
+      "crust_chunks:nickel_ore",
+      "destroy:nickel_ore"
+    ],
+    "forge:ores/uranium": [
+      "crust_chunks:uranium_ore",
+      "createnuclear:uranium_ore"
+    ],
+
+    "forge:ingots/zinc": [
+      "crusty_chunks:zinc_ingot",
+      "create:zinc_ingot"
+    ],
+    "forge:ingots/brass": [
+      "crusty_chunks:brass_ingot",
+      "create:brass_ingot"
+    ],
+    "forge:ingots/steel": [
+      "createnuclear:steel_ingot",
+      "create_tank_defenses:steel_ingot",
+      "flintnpowder:steel_ingot",
+      "crusty_chunks:steel_ingot",
+      "alloyed:steel_ingot"
+    ],
+    "forge:ingots/aluminum": [
+      "crusty_chunks:aluminum_ingot",
+      "create_tank_defenses:aluminum_ingot"
+    ],
+
+    "forge:plates/steel": [
+      "crusty_chunks:steelplate",
+      "create_tank_defenses:steel_sheet"
+    ],
+
+    "forge:dusts/aluminum": [
+      "crusty_chunks:aluminum_dust",
+      "create_tank_defenses:aluminum_dust"
+    ]
+  },
+
+  "tagOwnerships": {},
+
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
+
+  "ignoredTags": [],
+
+  "ignoredItems": [
+    ".*:small_aluminum_dust"
+  ],
+
+  "ignoredRecipeTypes": [
+    "cucumber:shaped_tag"
+  ],
+  "ignoredRecipes": [],
+
+  "itemsHidingJeiRei": true
+}

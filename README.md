@@ -11,8 +11,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Economy System?
 - Fix treasure chest loot tables
 - Possible melee weapons?
-- Lightning / Better Rain
-- Rework flint'n'powder recipes
 - Remove Vintage centrifuge
 - Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)
 - Test server for lag
@@ -22,6 +20,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - New map mod
 - Initial cobblemon create integration
 - Legendary Survival Overhaul
+- Foxy Items
 ## Post Launch
 - Check tank / plane / etc. building is decent.
 - Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.
