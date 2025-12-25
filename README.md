@@ -3,12 +3,9 @@ Advanced create based modpack which has an extremely difficult early game, with 
 # TODO
 ## For Launch:
 - Middle East
-  - Dangerous deserts
   - Oil in deserts
 - Epic Fight?
-- Rework nether / end
 - Rework Flint'N'Powder Recipes
-- Economy System?
 - Fix treasure chest loot tables
 - Possible melee weapons?
 - Remove Vintage centrifuge
@@ -18,11 +15,15 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Touhou music
 - playtest reviving, mino, poker
 - New map mod
-- Initial cobblemon create integration
 - Legendary Survival Overhaul
 - Foxy Items
+- Fix cavedifficulty commands
+- Clockwork & Frens
+- Make touhou stuff only for Mr. Fox
+- Make touhou not change slime model (except for Mr. Fox)
 ## Post Launch
 - Check tank / plane / etc. building is decent.
+- Initial cobblemon create integration
 - Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.
 - Bosses
   - Natural Boss Spawning

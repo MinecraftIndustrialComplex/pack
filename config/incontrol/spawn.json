@@ -1,0 +1,20 @@
+[
+  {
+    "mob": ["minecraft:blaze", "iceandfire:fire_dragon"],
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:desert",
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:blaze", "iceandfire:fire_dragon"],
+    "dimension": "minecraft:overworld",
+    "incontrol": true,
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mod": "touhou_little_maid",
+    "result": "deny"
+  }
+]
