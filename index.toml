@@ -360,6 +360,11 @@ hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
+file = "mods/createaddoncompatibility.pw.toml"
+hash = "abc9d37db15b923cab7bab5561e1ca7bf842d82a62ee04a1e20a4c4e9c031433"
+metafile = true
+
+[[files]]
 file = "mods/createnuclear.pw.toml"
 hash = "eaf87b925d774592d481b9a6660f140350c77a5b09a893a0cee3668d2f5cbbf6"
 metafile = true
