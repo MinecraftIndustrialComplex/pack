@@ -1,13 +1,13 @@
 name = "CC: VS"
-filename = "cc_vs-1.20.1-forge-0.5.1.jar"
+filename = "cc_vs-1.20.1-forge-0.6.0.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/bvgy8HrZ/versions/3TJmgseh/cc_vs-1.20.1-forge-0.5.1.jar"
+url = "https://cdn.modrinth.com/data/bvgy8HrZ/versions/BTJW2a72/cc_vs-1.20.1-forge-0.6.0.jar"
 hash-format = "sha512"
-hash = "8c729af71986e0805a40b959e901a436e53e87b510cc8bbd2fae8473dab484e97d4357d30958c34656ee521d566dbeec453d83837d3a45b9087b25479dab326b"
+hash = "21996654ce597ed83fe21c3e4ade2c75463f13ed8b78e088f62e0a22e6b58b0a374d8b957ddce7e3697db3fd1b9a103228642b633558f55fe517310c6fd88120"
 
 [update]
 [update.modrinth]
 mod-id = "bvgy8HrZ"
-version = "3TJmgseh"
+version = "BTJW2a72"

@@ -2,7 +2,7 @@
   {
     "mob": ["minecraft:blaze", "iceandfire:fire_dragon"],
     "dimension": "minecraft:overworld",
-    "biome": "minecraft:desert",
+    "biometags": "forge:is_desert",
     "when": "onjoin",
     "result": "default"
   },

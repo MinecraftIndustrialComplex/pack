@@ -1,0 +1,13 @@
+name = "Clockwork"
+filename = "clockwork-forge-0.5.3-[MELTING_POINT].jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/84USeAvk/versions/NZwO7Sji/clockwork-forge-0.5.3-%5BMELTING_POINT%5D.jar"
+hash-format = "sha512"
+hash = "5ab6633e0d1f53bf2f1c51652e29c70b8b52c761e4a28d16ed73d1d7371108c5944bb632d212c66c902d219bc227188e2490aaeb1934e994a47a2710a7acccd4"
+
+[update]
+[update.modrinth]
+mod-id = "84USeAvk"
+version = "NZwO7Sji"

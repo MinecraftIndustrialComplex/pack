@@ -6,7 +6,23 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "c71acf5c4975a1655065760b758e42888bed86605703afa5ba1d3f9cbcf82ad6"
+hash = "b043e1e51c709c470c1eb878081c2f7f4477fc2f246ef6cdcd0e10d2368978b2"
+
+[[files]]
+file = "config/almostunified/debug.json"
+hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
+
+[[files]]
+file = "config/almostunified/duplicates.json"
+hash = "40639e8cb9e9ea52b8557c50d29fc06e73e2ad1e7ca27ae5ce8fe2eca2e97188"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "256871cd4f7abac73bedee544200bb63958ccb842de325494545c67dd310eb35"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -19,6 +35,14 @@ hash = "480a1e7f5789767272170d78b0779ac4dd78fa93dad1a243c541f258ba1241f6"
 [[files]]
 file = "config/dice-common.toml"
 hash = "16f8a2192492535f10a5aa3b3ba08694e5b5a427945f8554594038b8f57f4c32"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "050b4496f6fd1b148443f03aeeab5a7cda42d597e5bd635b56754bf78b76ca48"
+
+[[files]]
+file = "config/incontrol/spawner.json"
+hash = "305232ede66fb7d6bb2b60a9a28b95b3b60c2d0ff78d4868cd60a4b13685353e"
 
 [[files]]
 file = "config/l2_configs/l2hostility-common.toml"
@@ -102,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockui.pw.toml"
-hash = "a8f0762eb0b57696a445cc9f9b8968de9492de538595e27d756bd7fe39ca1a9f"
+hash = "fd959551b1350715af0d706dfeef77d2e3677f0bb5b8345e4d256fe2381810a5"
 metafile = true
 
 [[files]]
@@ -142,7 +166,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "81f5c4c49f35cb4c162a23236105bb1ccd35e130118169a081c3ca32e6d54e6a"
+hash = "fdf79665dd59c66d4dff01eb8530189fe43f140eb5b9420e6dd3981d7b28c2cc"
 metafile = true
 
 [[files]]
@@ -256,6 +280,11 @@ hash = "9eb4f3e7a5a83c588e0caa676d91597c18f2c8004c9e57a10e72859e474fa0e5"
 metafile = true
 
 [[files]]
+file = "mods/create-clockwork.pw.toml"
+hash = "5e02a73f787d876c971bd4dc34848ed0fb4c87b4ac0c49cbeda9abdc76fa48cf"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "aa8711ff3f1d590b8c3e4e092927e5a697d585e21c52107ddc559c93ffebdaed"
 metafile = true
@@ -341,11 +370,6 @@ hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
 
 [[files]]
-file = "mods/destroy.pw.toml"
-hash = "3ec1b526c89e0cc060827954e50c14dfd8411380f73f733ab160c049fadc3470"
-metafile = true
-
-[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "47fd33da68d0b13cdffd4124f5bc9cff64caa2878ce7e979ba8092400c2ae1eb"
 metafile = true
@@ -362,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "8cadaaba10f7e38862f5c5ea301de270eca846969b442a624db0a033bb1e5e32"
+hash = "98713566cc727183fdd2fe9ceba4c4b79b99e21bed6c253fd496b1ab19f5e7ed"
 metafile = true
 
 [[files]]
@@ -422,7 +446,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "9c94815c028b18cd04c63b604209be515d209dff8f4bc9960867da0b13a0dfe8"
+hash = "64426fd63554594b3d2d2390cae5183309bb1ac2116db0baa77f1957d3eee4ac"
 metafile = true
 
 [[files]]
@@ -447,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "632c93f30f4ec119ff6acbd825c57609bbf86b06b9c2c8cc024ee3ab2cc89d94"
+hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
 metafile = true
 
 [[files]]
@@ -552,7 +576,7 @@ metafile = true
 
 [[files]]
 file = "mods/maidusehandcrank.pw.toml"
-hash = "3f19cf58cb5097df37abd0e88aedadfc59af13a3ac90723d8c3554b0065c06d5"
+hash = "0f5d8c449145733764c2dfd9362ad196a78a24d70d56935fa69c3e23c4c95d6b"
 metafile = true
 
 [[files]]
@@ -562,7 +586,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "89931e26c9c9b526d4e8e4e0e215966dbf0911639b03e3d83226160973dfeeba"
+hash = "741a05c183a6d23de53bae81a75e5d2628f29eafba5348148403666d8fb616aa"
 metafile = true
 
 [[files]]
@@ -636,11 +660,6 @@ hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
 metafile = true
 
 [[files]]
-file = "mods/petrolpark.pw.toml"
-hash = "08db67f5571e690b026c38becb5c5273fc95b8519124cd046112529104605784"
-metafile = true
-
-[[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "c3f63fc5f823fe29561fbbc9deb3957d991fb9331c62a5ae27ec3cad6b1265a7"
 metafile = true
@@ -657,7 +676,7 @@ metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "2def5c94b8ec001eac1d5d3e854bb8ac1abf9f2e5bacadd7edf90ff341be5111"
+hash = "2e3097b317a6554b0ecf25c32658a973fdd9910bccb49c4fd0c25f5b53ab133f"
 metafile = true
 
 [[files]]
@@ -752,7 +771,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "e494f0a3e2a57634acb42aec9ac8d853f82cca92619cc1bb57ca80a63532acd9"
+hash = "fe1516f5f97ab1278665ab82e612a8d9c1b9f138207dd9c13646437400f6341a"
 metafile = true
 
 [[files]]
@@ -797,7 +816,7 @@ metafile = true
 
 [[files]]
 file = "mods/trackwork.pw.toml"
-hash = "3f2cada5f40ad16426b177a8d5cc1b715e031ece0754f3c64c08efbf0217e020"
+hash = "5c9aa20f7356f9a5fb43f689d839899a50deb8d8645f1515422da6fa97629f17"
 metafile = true
 
 [[files]]
@@ -817,12 +836,12 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-sails.pw.toml"
-hash = "7cc27b0572b8e642aa9570c7db7f26207a19d13105eef6474899f75c3c5a4699"
+hash = "a15fc5f46a09913309a0c6ead5fa895e882d57b807c973b6aaeec83e0db2537f"
 metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "752beea8634d215652b339eef69d592a647462b80654feaaf44b79fc4cbb4f6d"
+hash = "d51c317ce1c22c238638b678910a6e2a505f3613f8fbc4a57dddb1ab633999fe"
 metafile = true
 
 [[files]]
@@ -832,12 +851,12 @@ metafile = true
 
 [[files]]
 file = "mods/vlib.pw.toml"
-hash = "4a144b01a621ec0666e2d437f30363202eac7d3fc51b986127c38217148757e6"
+hash = "bf329320b5ba7fd501bc27a9973f86a4c44f85903e29cdc5e0e914cb158e1fa2"
 metafile = true
 
 [[files]]
 file = "mods/warium.pw.toml"
-hash = "5c77516d61d8a135d2374d90d0f94d89dbacd1b6faf4c6f23af66e18b6dcc56e"
+hash = "63d3cd9e330f2c3ba7a5c710143898cd194b46fac334bc5d1ae4c539b9c0423d"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Valkyrien Sails"
-filename = "vs_sails-1.20.1-0.2.3-forge.jar"
+filename = "vs_sails-1.20.1-0.2.4-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/esFadCt9/versions/jU6LVfW0/vs_sails-1.20.1-0.2.3-forge.jar"
+url = "https://cdn.modrinth.com/data/esFadCt9/versions/aTwohbAM/vs_sails-1.20.1-0.2.4-forge.jar"
 hash-format = "sha512"
-hash = "b5dd8d2c7bd0fcd8cd8ddea5d3c069cc5e84f9bdbc107b842e4451e6e390f5ec70610d9aac87198fd99a2de3262bd957e6b097ce25ece49881ccd7328092dd86"
+hash = "5e975aae87d2fc3cb76945e76a4a3b9b4b8b75b90c6f4d132443fda47b2a914617e97487b89d05fd5574acb6767d2ab60acb6a277df3b0c4f855f4a66aae1e6b"
 
 [update]
 [update.modrinth]
 mod-id = "esFadCt9"
-version = "jU6LVfW0"
+version = "aTwohbAM"

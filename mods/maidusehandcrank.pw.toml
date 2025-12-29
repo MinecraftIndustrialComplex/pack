@@ -1,13 +1,13 @@
 name = "MaidUseHandCrank"
-filename = "MaidUseHandCrank_1.4.2-forge_47.1.33-1.20.1.jar"
+filename = "MaidUseHandCrank_1.5.1-forge_47.1.33-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kVNtrRcL/versions/M5tPfQWz/MaidUseHandCrank_1.4.2-forge_47.1.33-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/kVNtrRcL/versions/69FbSsQg/MaidUseHandCrank_1.5.1-forge_47.1.33-1.20.1.jar"
 hash-format = "sha512"
-hash = "616a5daec011e0b3d3195693ea867224b25d4e2fa712be1e39c79f8a3b4c8e0e1484dbb7129c5307d292a1fed304431192fae49040d9a4a4df02889f51ab611b"
+hash = "13845386b0cf714c70b271373e90934f599c8ecee3c15d2432da17bca2529af5970da318cdc16413dc425f2885b56af90a0a28d061d588bc97bf1fc731c562e3"
 
 [update]
 [update.modrinth]
 mod-id = "kVNtrRcL"
-version = "M5tPfQWz"
+version = "69FbSsQg"
