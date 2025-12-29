@@ -21,6 +21,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Clockwork & Frens
 - Make touhou stuff only for Mr. Fox
 - Make touhou not change slime model (except for Mr. Fox)
+- Make iceandfire dragons not melt from Flint'n'Powder guns
 ## Post Launch
 - Check tank / plane / etc. building is decent.
 - Initial cobblemon create integration
