@@ -2,20 +2,19 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Make touhou stuff only for Mr. Fox
-- Make touhou not change slime model (except for Mr. Fox)
 - Make iceandfire dragons not melt from Flint'n'Powder guns
 - Rework Flint'N'Powder Recipes
 - Add blacksmithing mod
 - Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)
 - Test server for lag
-- Check born in chaos structures
+- Good keybinds
 - Touhou music
 - playtest reviving, mino, poker
 - Redo legendary survival overhaul progression
 - Investigate jar not having all files
 - Add weird destroy jars builds
 - Investigate ror mod
+- Make touhou replace slime model for the fox
 ## Post Launch
 - Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
