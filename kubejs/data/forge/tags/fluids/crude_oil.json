@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "createdieselgenerators:crude_oil",
+    "destroy:crude_oil",
+    "crusty_chunks:crude_oil",
+
+    "createdieselgenerators:flowing_crude_oil",
+    "destroy:flowing_crude_oil",
+    "crusty_chunks:flowing_crude_oil"
+  ]
+}
