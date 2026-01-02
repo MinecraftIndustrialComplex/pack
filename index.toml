@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "0cf10bd9aa7605d4e023c1316bb3a54b0a7733de6e0c64cab4643783360284c9"
+hash = "b55263c21e5444a678d4664978bffded6ade3fabc9eca6d299719ba011feca0a"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -965,6 +965,10 @@ metafile = true
 file = "mods/yungs-api.pw.toml"
 hash = "152c6732da180e958fb29f492bae2e468d4dfd423ce4d3d0d31ef31c2eec6c61"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "f96262b01c7e047cb150d4268e03725419df9d9003d0767e9531771b1b283192"
 
 [[files]]
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
