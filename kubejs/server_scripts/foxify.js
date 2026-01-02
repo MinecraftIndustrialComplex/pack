@@ -38,4 +38,5 @@ PlayerEvents.loggedIn(event => {
     player.give('touhou_little_maid:smart_slab_init')
     player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"touhou_little_maid:memorizable_gensokyo"}'))
     player.give(keyPaper)
+    player.stages.add("foxy")
 })

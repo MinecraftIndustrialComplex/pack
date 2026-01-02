@@ -171,6 +171,11 @@ hash = "ecbab69ff127ce3fdc9a50bcc3ec344eb1ac6929c073ee16839a8f9d3e206f9c"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "02062a6b61e230e7debaf1c03d5e1e7203e427588fceb9f3d6ef8cad8062397e"
+metafile = true
+
+[[files]]
 file = "mods/born-in-chaos.pw.toml"
 hash = "fbe61f16eb71deeb9ecb4c9af7c50de97b56a2d347ee69d65810f8d8678c275a"
 metafile = true
@@ -486,6 +491,11 @@ hash = "64426fd63554594b3d2d2390cae5183309bb1ac2116db0baa77f1957d3eee4ac"
 metafile = true
 
 [[files]]
+file = "mods/game-stages.pw.toml"
+hash = "b92fa7fc7fa497f034ba2a33d031101b554ddbf9db645a60a0f0fc4a9127c4e7"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
 metafile = true
@@ -513,6 +523,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "fa721b8fd8604fdc63cfc36f5863504cabbf86bc34b6cbaebfcb27a445dfa5e0"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "be6cb78947aecc992c077f4cf4e19fe6714d4c9b328a9ebe71c6d6887b4f98cf"
 metafile = true
 
 [[files]]

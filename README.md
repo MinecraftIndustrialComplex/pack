@@ -13,6 +13,9 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Touhou music
 - playtest reviving, mino, poker
 - Redo legendary survival overhaul progression
+- Investigate jar not having all files
+- Add weird destroy jars builds
+- Investigate ror mod
 ## Post Launch
 - Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
