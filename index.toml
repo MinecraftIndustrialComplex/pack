@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "8ebdca80268ae931318e7f48be63febca683eb31bc5b3c87c967392db5f6ffa0"
+hash = "0cf10bd9aa7605d4e023c1316bb3a54b0a7733de6e0c64cab4643783360284c9"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -139,6 +139,10 @@ hash = "dbf0af2842cf51ed65d2f5009c29124e6a045fd04303d916c38ebaaf75dbd05f"
 [[files]]
 file = "kubejs/server_scripts/taczfreeze.js"
 hash = "6940192d789b10859d2400a1714f0d3ffe2bf9bc108d022f15fd29b5be2a4a4f"
+
+[[files]]
+file = "kubejs/server_scripts/volatile_compounds.js"
+hash = "1e59bf550bb8c48c2207978ac35be0d84823fa2b21c97cc0c8dad7f8f8062001"
 
 [[files]]
 file = "kubejs/server_scripts/warium.js"
