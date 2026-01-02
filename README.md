@@ -2,18 +2,14 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Boom boom when on fire and holding explosives.
 - Good keybinds
 - Test server for lag
 - Touhou music
 - playtest reviving, mino, poker
-- Redo legendary survival overhaul progression
-- Investigate jar not having all files
-- Add weird destroy jars builds
-- Investigate ror mod
 - Make touhou replace slime model for the fox
 - Configure hordes mod
 ## Post Launch
+- Redo legendary survival overhaul progression
 - Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
 - Initial cobblemon create integration
@@ -43,5 +39,4 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Waterframe reasonable crafting
 
 # Installation:
-- Add cobblemontrainers (discontinued)
 - Add in magic jar: https://github.com/Petrolpark-Mods/Destroy/pull/775
