@@ -14,6 +14,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Add weird destroy jars builds
 - Investigate ror mod
 - Make touhou replace slime model for the fox
+- Configure hordes mod
 ## Post Launch
 - Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
@@ -40,6 +41,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Boss raid system
 - Make comutercraft recipes cool
 - Electric Heater
+- Powergrid battery uses destroy acid, and lead.
 
 # Installation:
 - Add cobblemontrainers (discontinued)

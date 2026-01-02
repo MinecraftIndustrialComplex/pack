@@ -189,7 +189,8 @@
   "blockTagInheritance": {},
   "ignoredTags": [],
   "ignoredItems": [
-    ".*:small_aluminum_dust"
+    ".*:small_aluminum_dust",
+    "destroy:stainless_steel_.*"
   ],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"

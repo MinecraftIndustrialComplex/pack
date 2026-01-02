@@ -706,6 +706,11 @@ hash = "4e721a3949621080440a950b4aba930b91735455238b1ea4f01e25dba3e59c23"
 metafile = true
 
 [[files]]
+file = "mods/overgeared.pw.toml"
+hash = "12189fdc76ccd12a9eb85c61f9a7d3dd1a181de55207ec5601ec0a2811a29817"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
 metafile = true
