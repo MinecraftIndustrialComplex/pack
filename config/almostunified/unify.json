@@ -3,20 +3,17 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
-
     "alloyed",
     "create_tank_defenses",
     "createnuclear",
     "create",
     "destroy",
-
     "createbigcannons",
     "thermal",
     "immersiveengineering",
     "mekanism",
-
     "flintnpowder",
-    "crusty_chunks",
+    "crusty_chunks"
   ],
   "stoneStrata": [
     "stone",
@@ -95,60 +92,52 @@
     "uranium",
     "zinc"
   ],
-
   "priorityOverrides": {
-
     "forge:ores/zinc": "create",
     "forge:ores/lead": "createnuclear",
     "forge:ores/nickel": "destroy",
     "forge:ores/uranium": "createnuclear",
-
     "forge:ingots/zinc": "create",
     "forge:ingots/brass": "create",
     "forge:ingots/steel": "alloyed",
-
     "forge:plates/steel": "create_tank_defenses",
-
     "forge:autocannon_barrels/steel": "createbigcannons",
     "forge:cannon_barrels/steel": "createbigcannons",
     "forge:autocannon_barrels/cast_iron": "createbigcannons",
     "forge:cannon_barrels/cast_iron": "createbigcannons"
   },
-
   "customTags": {
     "forge:dusts/iron": [
-      "crust_chunks:iron_dust",
-      "create_tank_defenses:iron_dust",
+      "crusty_chunks:iron_dust",
+      "create_tank_defenses:iron_dust"
     ],
     "forge:dusts/gold": [
-      "crust_chunks:gold_dust",
+      "crusty_chunks:gold_dust"
     ],
     "forge:dusts/copper": [
-      "crust_chunks:copper_dust",
+      "crusty_chunks:copper_dust"
     ],
     "forge:dusts/zinc": [
-      "crust_chunks:zinc_dust",
+      "crusty_chunks:zinc_dust"
     ],
-
     "forge:ores/zinc": [
-      "crust_chunks:zinc_ore",
+      "crusty_chunks:zinc_ore",
       "create:zinc_ore"
     ],
     "forge:ores/lead": [
-      "crust_chunks:lead_ore",
-      "crust_chunks:deepslate_lead_ore",
+      "crusty_chunks:lead_ore",
+      "crusty_chunks:deepslate_lead_ore",
       "createnuclear:lead_ore",
       "createnuclear:deepslate_lead_ore"
     ],
     "forge:ores/nickel": [
-      "crust_chunks:nickel_ore",
+      "crusty_chunks:nickel_ore",
       "destroy:nickel_ore"
     ],
     "forge:ores/uranium": [
-      "crust_chunks:uranium_ore",
+      "crusty_chunks:uranium_ore",
       "createnuclear:uranium_ore"
     ],
-
     "forge:ingots/zinc": [
       "crusty_chunks:zinc_ingot",
       "create:zinc_ingot"
@@ -168,12 +157,10 @@
       "crusty_chunks:aluminum_ingot",
       "create_tank_defenses:aluminum_ingot"
     ],
-
     "forge:plates/steel": [
       "crusty_chunks:steelplate",
       "create_tank_defenses:steel_sheet"
     ],
-
     "forge:dusts/aluminum": [
       "crusty_chunks:aluminum_dust",
       "create_tank_defenses:aluminum_dust"
@@ -194,26 +181,19 @@
       "createbigcannons:cast_iron_cannon_barrel",
       "flintnpowder:cast_iron_heavy_barrel"
     ]
-
   },
-
   "tagOwnerships": {},
-
-  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritanceMode": "allow",
   "itemTagInheritance": {},
-  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritanceMode": "allow",
   "blockTagInheritance": {},
-
   "ignoredTags": [],
-
   "ignoredItems": [
     ".*:small_aluminum_dust"
   ],
-
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
   "ignoredRecipes": [],
-
-  "itemsHidingJeiRei": true
+  "hideJeiRei": true
 }
