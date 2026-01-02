@@ -2,7 +2,6 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Fix L2hostility making anything close to a boss invincible
 - Boom boom when on fire and holding explosives.
 - Mod for watching videos on screens
 - Good keybinds

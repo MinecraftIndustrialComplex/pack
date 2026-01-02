@@ -1,5 +1,5 @@
 #Allow entity specific difficulty configs to load
-enableEntitySpecificDatapack = true
+enableEntitySpecificDatapack = false
 #Allow structure specific difficulty configs to load
 enableStructureSpecificDatapack = true
 
