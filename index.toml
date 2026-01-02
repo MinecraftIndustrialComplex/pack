@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "b043e1e51c709c470c1eb878081c2f7f4477fc2f246ef6cdcd0e10d2368978b2"
+hash = "aaf28601225bdc85fce1be7203f696038420d667710db9c0f6298d0bb30c116c"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -38,7 +38,7 @@ hash = "16f8a2192492535f10a5aa3b3ba08694e5b5a427945f8554594038b8f57f4c32"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "050b4496f6fd1b148443f03aeeab5a7cda42d597e5bd635b56754bf78b76ca48"
+hash = "2609600b23e4c259a7f69ccab46ae87a32f65481a6428177a28d70b54418efe9"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -61,8 +61,12 @@ file = "data/firstaid/recipes/bandage.json"
 hash = "ce2363d1d1d31095da0cf02d3e6f8929e2aeb547e5cc68a0a5896979c97925c6"
 
 [[files]]
+file = "defaultconfigs/createdieselgenerators-server.toml"
+hash = "e350a1c71c480ba4a6af09c3c5750aaa2cf6e202e6c057b0b01592e8a36d238d"
+
+[[files]]
 file = "defaultconfigs/gravestone-server.toml"
-hash = "dca2d292f2108879af3c11dab5a070d463228830c79c215e3d8318010d6f0a6f"
+hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
 
 [[files]]
 file = "flake.lock"
@@ -73,12 +77,44 @@ file = "flake.nix"
 hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
 
 [[files]]
+file = "kubejs/client_scripts/oilyunification.js"
+hash = "7693b15b86fef1e9a2337a93fce7feec5575c01f0e6df1d89e83426889bb1eb1"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
+hash = "2398173b4ba10a2f85b84aec59aa9fd157c57bf672b22af3ec40353081d65874"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
+hash = "386c690c5292fdfb7a19c9fffc3454feb82bf9ff3a4a876957596a2670af867e"
+
+[[files]]
+file = "kubejs/data/forge/tags/fluids/crude_oil.json"
+hash = "452dabd43586291d9bf1823d8fd521cde7adf16ba805804ea45ec1a6fc0bb37d"
+
+[[files]]
+file = "kubejs/data/forge/tags/fluids/diesel.json"
+hash = "34602f508f7ab629f820ec1d4ba534eb9dc95e603941c6e0f206f49a47292aab"
+
+[[files]]
+file = "kubejs/data/forge/tags/fluids/gasoline.json"
+hash = "223600b1ee33ee19d569f60590d5ac4640c3baf420b6af0e68b55896863a35a2"
+
+[[files]]
+file = "kubejs/data/mic/createdieselgenerators/fuel_type/diesel.json"
+hash = "6ccfbd1458b0963ebbc4271efe8f64d60496f3336e05b4df1e0ed8e195d5c131"
+
+[[files]]
 file = "kubejs/server_scripts/firstaid_recipes.js"
 hash = "cc99a13ab90758e4e2afb3a900a747dbac930882987d2003a635d1590ac3a8a3"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
 hash = "efe84bfd56c0067b664730d8fd02947b284d8954e5d4d51c75c2105bc877a74a"
+
+[[files]]
+file = "kubejs/server_scripts/oilyunification.js"
+hash = "fa685c6f42a767ccf45ebdd5d4846d3c7c13c4599ba5e2af8b634180b95caf2c"
 
 [[files]]
 file = "kubejs/server_scripts/warium.js"
@@ -122,11 +158,6 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "28358fe53c22695b3bf1f93ac2225c46fe3525918b7b993ac36e68a7f0a16fe8"
-metafile = true
-
-[[files]]
-file = "mods/blockui.pw.toml"
-hash = "fd959551b1350715af0d706dfeef77d2e3677f0bb5b8345e4d256fe2381810a5"
 metafile = true
 
 [[files]]
@@ -380,11 +411,6 @@ hash = "47fd33da68d0b13cdffd4124f5bc9cff64caa2878ce7e979ba8092400c2ae1eb"
 metafile = true
 
 [[files]]
-file = "mods/domum-ornamentum.pw.toml"
-hash = "633b13c5912472982f53776c205117edbbf4b13b4de1975c37c42b6cf79624cf"
-metafile = true
-
-[[files]]
 file = "mods/dynamiccrosshair.pw.toml"
 hash = "94d369eafd7a6107f990eee7a3b746d0b20374b63083b2e76a0cec9efecda592"
 metafile = true
@@ -590,11 +616,6 @@ hash = "2c95e2eccb83d8fa026cb634c24350dc2626a737c3ecbef1bd6e4b3bb48860a7"
 metafile = true
 
 [[files]]
-file = "mods/minecolonies.pw.toml"
-hash = "741a05c183a6d23de53bae81a75e5d2628f29eafba5348148403666d8fb616aa"
-metafile = true
-
-[[files]]
 file = "mods/minopp.pw.toml"
 hash = "434abaa8d91bebd209b0674e8d60be7d4b784ba83e40c71e44d927ffafe29d53"
 metafile = true
@@ -612,11 +633,6 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "fc09447db9efb9f9ec998ce84cf11edfd089a2515a300e45fd06e607aabc051a"
-metafile = true
-
-[[files]]
-file = "mods/multi-piston.pw.toml"
-hash = "9895bf13e14fbb0b5284f7ad800b1fb3c7d4c373306231d5c6f95a282079fcbe"
 metafile = true
 
 [[files]]
@@ -780,11 +796,6 @@ hash = "fe1516f5f97ab1278665ab82e612a8d9c1b9f138207dd9c13646437400f6341a"
 metafile = true
 
 [[files]]
-file = "mods/structurize.pw.toml"
-hash = "3729eabcb3ba4d80224e48e87a46fed0f7ec27981df2cbb0ecc12797e2ca6140"
-metafile = true
-
-[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
 metafile = true
@@ -812,11 +823,6 @@ metafile = true
 [[files]]
 file = "mods/touhou-little-maid.pw.toml"
 hash = "821aaf931c7c148bca8fc2eae0318fb63ec3adc3be1f0689606108d5d4fd2ef6"
-metafile = true
-
-[[files]]
-file = "mods/towntalk.pw.toml"
-hash = "32e0f6bce7adc5b09ba3350110ac4be7ee04e556db35ba1db97bacfabd31e4dc"
 metafile = true
 
 [[files]]
