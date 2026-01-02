@@ -1,0 +1,321 @@
+
+["General Configs"]
+	#Toggle for the mod's custom tooltips
+	enableModTooltips = true
+
+["Anvil Conversion"]
+	#Allow shift-right-clicking stone to convert into Stone Smithing Anvil
+	enableStoneToAnvil = true
+	#Allow shift-right-clicking vanilla anvil to convert into Smithing Anvil
+	enableAnvilToSmithing = true
+
+["Stone Smithing Anvil"]
+	#Number of uses before the Stone Smithing Anvil breaks. Set to 0 to disable.
+	#Range: > 0
+	max_uses = 64
+	#Enable Stone Smithing Anvil turns into cobblestone after falling
+	enableAnvilToStone = true
+
+["Heated Items"]
+	#How many ticks before a heated item cools off in inventory (default: 1200 = 60s)
+	#Range: > 1
+	heatedItemCooldownTicks = 1200
+
+["Arrow Fletching Settings"]
+	#Enable or disable all Fletching recipes and related tab
+	enableFletchingRecipes = true
+	#Enable or disable Dragon Breath's brewing recipe
+	enableDragonBreathRecipe = true
+	#Toggle for the ability to tip iron, steel, diamond arrows.
+	enableUpgradeArrowTipping = true
+	#How many arrows can a bottle of potion tip before it's depleted
+	#Range: > 0
+	maxPotionTipping = 8
+
+["Minigame Common Settings"]
+	#Toggle for the forging minigame
+	enableMinigame = true
+	#Toggle for if ingredients' quality define the result's
+	ingredientsDefineQuality = true
+	#How likely it is for the player to get Masterwork when getting Perfectly Forged. Set to 0 to disable it.
+	#Range: 0.0 ~ 1.0
+	masterQualityChance = 0.05
+	#Chance that using a Master-quality ingredient results in Master-quality result
+	#Range: 0.0 ~ 1.0
+	masterFromIngredientChance = 0.5
+	#Maximum distance you can go from your Smithing Anvil before minigame reset
+	#Range: 0 ~ 1000
+	maxAnvilDistance = 100
+	#Toggle for if the result item has player's name
+	enableAuthorTooltips = true
+	#Lowest score required to get perfect quality
+	#Range: 0.0 ~ 1.0
+	perfectQualityScore = 0.9
+	#Lowest score required to get expert quality
+	#Range: 0.0 ~ 1.0
+	expertQualityScore = 0.6
+	#Lowest score required to get well quality
+	#Range: 0.0 ~ 1.0
+	wellQualityScore = 0.3
+
+["Default (No Blueprint)"]
+	#Zone starting size for default forging (in % chance)
+	#Range: 0 ~ 100
+	zoneStartingSize = 20
+	#Zone shrink factor for default forging
+	#Range: 0.0 ~ 1.0
+	zoneShrinkFactor = 0.9
+	#Minimum perfect zone size for default forging
+	#Range: 0 ~ 100
+	minPerfectZone = 8
+	#Arrow speed for default forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeed = 2.0
+	#Arrow speed increase per hit for default forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeedIncrease = 0.6
+	#Maximum arrow speed for default forging
+	#Range: 0.0 ~ 10.0
+	maxArrowSpeed = 8.0
+
+["Poorly Forged"]
+	#Zone starting size for POOR forging
+	#Range: 0 ~ 100
+	zoneStartingSize = 30
+	#Zone shrink factor for POOR forging
+	#Range: 0.0 ~ 1.0
+	zoneShrinkFactor = 0.9
+	#Minimum perfect zone size for POOR forging
+	#Range: 0 ~ 100
+	minPerfectZone = 15
+	#Arrow speed for POOR forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeed = 1.5
+	#Arrow speed increase per hit for POOR forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeedIncrease = 0.5
+	#Maximum arrow speed for POOR forging
+	#Range: 0.0 ~ 10.0
+	maxArrowSpeed = 4.0
+
+["Well Forged"]
+	#Zone starting size for WELL forging
+	#Range: 0 ~ 100
+	zoneStartingSize = 20
+	#Zone shrink factor for WELL forging
+	#Range: 0.0 ~ 1.0
+	zoneShrinkFactor = 0.8
+	#Minimum perfect zone size for WELL forging
+	#Range: 0 ~ 100
+	minPerfectZone = 12
+	#Arrow speed for WELL forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeed = 2.0
+	#Arrow speed increase per hit for WELL forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeedIncrease = 0.7
+	#Maximum arrow speed for WELL forging
+	#Range: 0.0 ~ 10.0
+	maxArrowSpeed = 5.0
+
+["Expertly Forged"]
+	#Zone starting size for EXPERT forging
+	#Range: 0 ~ 100
+	zoneStartingSize = 18
+	#Zone shrink factor for EXPERT forging
+	#Range: 0.0 ~ 1.0
+	zoneShrinkFactor = 0.8
+	#Minimum perfect zone size for EXPERT forging
+	#Range: 0 ~ 100
+	minPerfectZone = 10
+	#Arrow speed for EXPERT forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeed = 2.5
+	#Arrow speed increase per hit for EXPERT forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeedIncrease = 0.85
+	#Maximum arrow speed for EXPERT forging
+	#Range: 0.0 ~ 10.0
+	maxArrowSpeed = 6.0
+
+["Perfectly Forged"]
+	#Zone starting size for PERFECT forging
+	#Range: 0 ~ 100
+	zoneStartingSize = 15
+	#Zone shrink factor for PERFECT forging
+	#Range: 0.0 ~ 1.0
+	zoneShrinkFactor = 0.8
+	#Minimum perfect zone size for PERFECT forging
+	#Range: 0 ~ 100
+	minPerfectZone = 10
+	#Arrow speed for PERFECT forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeed = 3.0
+	#Arrow speed increase per hit for PERFECT forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeedIncrease = 1.0
+	#Maximum arrow speed for PERFECT forging
+	#Range: 0.0 ~ 10.0
+	maxArrowSpeed = 7.0
+
+[Masterwork]
+	#Zone starting size for MASTER forging
+	#Range: 0 ~ 100
+	zoneStartingSize = 12
+	#Zone shrink factor for MASTER forging
+	#Range: 0.0 ~ 1.0
+	zoneShrinkFactor = 0.7
+	#Minimum perfect zone size for MASTER forging
+	#Range: 0 ~ 100
+	minPerfectZone = 8
+	#Arrow speed for MASTER forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeed = 3.5
+	#Arrow speed increase per hit for MASTER forging
+	#Range: -5.0 ~ 5.0
+	arrowSpeedIncrease = 1.2
+	#Maximum arrow speed for MASTER forging
+	#Range: 0.0 ~ 10.0
+	maxArrowSpeed = 8.0
+
+["Durability & Grinding"]
+	#Defines the base durability multiplier of all items that has durability.
+	#Range: 0.0 ~ 10000.0
+	durability = 1.0
+	#Items or tags that will NOT receive base durability multiplier
+	base_durability_blacklist = ["minecraft:flint_and_steel", "overgeared:fired_tool_cast"]
+	#Can the grindstone be used for restoring durability or not
+	grindingToggle = true
+	#Items or tags that cannot be repaired or affected by grinding. Prefix with '#' to use a tag, e.g. '#forge:ingots/iron'
+	grindingBlacklist = ["minecraft:elytra", "overgeared:wooden_tongs", "overgeared:fired_tool_cast"]
+	#How much the item durability reduce per grindstone use
+	#Range: 0.0 ~ 1.0
+	durabilityReduce = 0.05
+	#How much the item's durability restore per grindstone use
+	#Range: 0.0 ~ 1.0
+	damageRestore = 0.1
+
+["Quality Failure Chances"]
+	#Chance that forging with WELL quality fails
+	#Range: 0.0 ~ 1.0
+	failOnWellQualityChance = 0.1
+	#Chance that forging with EXPERT quality fails
+	#Range: 0.0 ~ 1.0
+	failOnExpertQualityChance = 0.05
+
+["Blueprint & Tool Types"]
+	#List of available tool types for blueprints. Default options: sword, axe, pickaxe, shovel, hoe. You may freely add or remove types.
+	#To add a custom blueprint type: add it to availableToolTypes, then define its display name in your lang file.
+	#Template format: "availableToolTypes": ["sword", "axe", "your_custom_type"]
+	#Lang format: tooltype.overgeared.your_custom_type
+	availableToolTypes = ["sword", "axe", "pickaxe", "shovel", "hoe"]
+	#List of hidden tool types for blueprints. These exist but do NOT appear in the Drafting Table.
+	hiddenToolTypes = []
+	#Only increase blueprint's use if you get Expert or above in minigame.
+	expertAboveIncreaseBlueprintToggle = true
+	#Uses required to reach the next quality after Master
+	#Range: > 0
+	masterMaxUse = 0
+	#Uses required to reach the next quality after Perfect
+	#Range: 0 ~ 1000
+	perfectMaxUse = 50
+	#Uses required to reach the next quality after Expert
+	#Range: 0 ~ 1000
+	expertMaxUse = 20
+	#Uses required to reach the next quality after Well
+	#Range: 0 ~ 1000
+	wellMaxUse = 10
+	#Uses required to reach the next quality after Poor
+	#Range: 0 ~ 1000
+	poorMaxUse = 5
+
+["Weapon Bonuses"]
+	#Range: -10.0 ~ 10.0
+	masterWeaponDamage = 3.0
+	#Range: -10.0 ~ 10.0
+	perfectWeaponDamage = 2.0
+	#Range: -10.0 ~ 10.0
+	expertWeaponDamage = 1.5
+	#Range: -10.0 ~ 10.0
+	wellWeaponDamage = 0.0
+	#Range: -10.0 ~ 10.0
+	poorWeaponDamage = -1.0
+	#Range: -2.0 ~ 2.0
+	masterWeaponSpeed = 1.0
+	#Range: -2.0 ~ 2.0
+	perfectWeaponSpeed = 0.5
+	#Range: -2.0 ~ 2.0
+	expertWeaponSpeed = 0.25
+	#Range: -2.0 ~ 2.0
+	wellWeaponSpeed = 0.0
+	#Range: -2.0 ~ 2.0
+	poorWeaponSpeed = -0.5
+
+["Armor Bonuses"]
+	#Range: -5.0 ~ 5.0
+	masterArmorBonus = 2.0
+	#Range: -5.0 ~ 5.0
+	perfectArmorBonus = 1.5
+	#Range: -5.0 ~ 5.0
+	expertArmorBonus = 1.0
+	#Range: -5.0 ~ 5.0
+	wellArmorBonus = 0.0
+	#Range: -5.0 ~ 5.0
+	poorArmorBonus = -1.0
+
+["Durability Bonuses"]
+	#Range: -5.0 ~ 5.0
+	masterDurabilityBonus = 1.6
+	#Range: -5.0 ~ 5.0
+	perfectDurabilityBonus = 1.5
+	#Range: -5.0 ~ 5.0
+	expertDurabilityBonus = 1.3
+	#Range: -5.0 ~ 5.0
+	wellDurabilityBonus = 1.0
+	#Range: 0.0 ~ 5.0
+	poorDurabilityBonus = 0.7
+
+["Knapping Settings"]
+	#Toggle for obtaining rock using flint
+	useFlintGetRock = true
+	#Range: 0.0 ~ 1.0
+	rockDroppingChance = 0.1
+	#Range: 0.0 ~ 1.0
+	flintBreakingChance = 0.1
+
+["Loot Quality"]
+	#Toggle for loot quality
+	enableLootQuality = true
+	#Weight for Poor quality for loot-tools/weapons. Set to 0 to disable.
+	#Range: > 0
+	weightPoorQuality = 0
+	#Weight for Well quality for loot-tools/weapons. Set to 0 to disable.
+	#Range: > 0
+	weightWellQuality = 30
+	#Weight for Expert quality for loot-tools/weapons. Set to 0 to disable.
+	#Range: > 0
+	weightExpertQuality = 30
+	#Weight for Perfect quality for loot-tools/weapons. Set to 0 to disable.
+	#Range: > 0
+	weightPerfectQuality = 10
+	#Weight for Master quality for loot-tools/weapons. Set to 0 to disable.
+	#Range: > 0
+	weightMasterQuality = 5
+
+[Casting]
+	#Is casting enabled or not. Would affects normal progression due to your first smithing hammers require casting.
+	castingToggle = true
+	#Durability of the Fired Tool Cast.
+	#Range: > 0
+	firedCastDurability = 5
+	#Tool Types for casting: [tool_id, max_material_amount]
+	#Amount is in "nugget units" (9 nuggets = 1 ingot).
+	#Adjust these for balancing your mod.
+	#
+	#Example: ["sword", 18] = 2 ingots
+	#
+	castingToolTypes = [["sword", 18], ["pickaxe", 27], ["axe", 27], ["shovel", 9], ["hoe", 18], ["hammer", 18]]
+	#Material Types: [material_id]
+	materialTypes = ["iron", "gold", "copper", "steel"]
+	#Material Source Items: [item_id or item_tag, material_id, material_value]
+	materialSetting = [["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#forge:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#forge:ingots/steel", "steel", 9], ["#forge:nuggets/steel", "steel", 1], ["#forge:storage_blocks/steel", "steel", 81], ["#forge:ingots/silver", "silver", 9], ["#forge:nuggets/silver", "silver", 1], ["#forge:storage_blocks/silver", "silver", 81]]
