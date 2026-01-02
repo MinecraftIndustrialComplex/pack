@@ -1,13 +1,13 @@
 name = "Create: Vintage"
-filename = "vintage-1.20.1-1.4.5.jar"
+filename = "vintage-1.20.1-1.5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qVZh767G/versions/v7NmC9DW/vintage-1.20.1-1.4.5.jar"
+url = "https://cdn.modrinth.com/data/qVZh767G/versions/L0okXshn/vintage-1.20.1-1.5.0.jar"
 hash-format = "sha512"
-hash = "1cabf0c343c878160465b1aa99c023fcab7116a2b691f098791f463da34f5794ced8564b64f3dc659d1b465fdbd5013b35105826ac68ca9c861c37929b979861"
+hash = "b6e294ab91c90ce26b7277a0b0010cf0c790b8ffd2d30a505751d54c0d590e9d205f00c704495c3b45b7364fea27145cd849bdcd0fa79c2bca49a5548e8a35cc"
 
 [update]
 [update.modrinth]
 mod-id = "qVZh767G"
-version = "v7NmC9DW"
+version = "L0okXshn"

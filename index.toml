@@ -49,10 +49,6 @@ file = "config/l2_configs/l2hostility-common.toml"
 hash = "4e357960629455d6d803fc81cbee16a3606ab530a74310f40e95e2e20fbf5cb8"
 
 [[files]]
-file = "config/openloader/data/remove_ores_from_shipwereck_and_portal_loot.zip"
-hash = "582c631cd94bbd2ddb99588455a33d93f14a241acb3a8ad45c3e839dd149f4ff"
-
-[[files]]
 file = "config/structurify.json"
 hash = "9f23dddf0db69bed1c48bc51f000d833dbcba41c909e9f83efb6947a373e6c69"
 
@@ -115,6 +111,10 @@ hash = "efe84bfd56c0067b664730d8fd02947b284d8954e5d4d51c75c2105bc877a74a"
 [[files]]
 file = "kubejs/server_scripts/oilyunification.js"
 hash = "fa685c6f42a767ccf45ebdd5d4846d3c7c13c4599ba5e2af8b634180b95caf2c"
+
+[[files]]
+file = "kubejs/server_scripts/remove_metals_from_chests.js"
+hash = "c2b31710490209a0d5f14506d813e20e90d5b93080a0b694ff3a5450d489b2f7"
 
 [[files]]
 file = "kubejs/server_scripts/warium.js"
@@ -312,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-clockwork.pw.toml"
-hash = "5e02a73f787d876c971bd4dc34848ed0fb4c87b4ac0c49cbeda9abdc76fa48cf"
+hash = "0839edc9d0b0594671feb898b3433c16001c8380a9f6823f019e91fa12ae1bab"
 metafile = true
 
 [[files]]
@@ -351,11 +351,6 @@ hash = "0a0533fddd34d04fd6551f5c352081b711662d12f2f2051fe7232a53172edf0e"
 metafile = true
 
 [[files]]
-file = "mods/create-propulsion.pw.toml"
-hash = "5c0b41d6cbc8d61e53f3d95d4f06c8b9333e75132a49df735a5fdc077754aa14"
-metafile = true
-
-[[files]]
 file = "mods/create-radars.pw.toml"
 hash = "d329779921574e5a4709ee468955af18c84546a2be55d13a0e49ca0fc88b0a6f"
 metafile = true
@@ -382,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-vintage-(unofficial-port).pw.toml"
-hash = "ce400646d46b1eab84498abf974dacd4eef58a92d776c1bcacc97126727bfb77"
+hash = "c74c6571f2c377aad0325b4c2fd3d32735a1ef4e10d32110969692ac5ba4a53a"
 metafile = true
 
 [[files]]
@@ -432,17 +427,17 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "3b5b7d833a2dd0a0064371036ab1da338cbbf82fb42d84dc8078dc9f48a3b63c"
+hash = "2a5ec036147e0c0ac36f551c0f5e357afff8de395803b0dd5b6a04343e7ba1af"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "628d5006156ef76351266ad03267b573b9b9f3777b105caee67ce18bbc410146"
+hash = "25d3f272639cef595de126a2c51faff793dc03bcde63ef060e1277c315583ce7"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "c7dfdcddf32a63084e0b54679e33378769bc4f48bd97f006008405da5e6df2ba"
+hash = "c61547fcb79cbc520c73374a01430c25af6ce2de258f019bd2c617b2d9bd71c7"
 metafile = true
 
 [[files]]
@@ -527,7 +522,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "270e7deb656a87290ebe612dd7aaae35f6e353e31611ffdbd71d5ebf78dc8176"
+hash = "b0441c2b5bb6ff680d97eac28d95847f0d4dbee34d1d42d897997b500acd44ca"
 metafile = true
 
 [[files]]
@@ -607,12 +602,12 @@ metafile = true
 
 [[files]]
 file = "mods/maidusehandcrank.pw.toml"
-hash = "0f5d8c449145733764c2dfd9362ad196a78a24d70d56935fa69c3e23c4c95d6b"
+hash = "c2f6e4fa180943763c8bca451a3dd050d618f3940695ef81e4fddca9737373a1"
 metafile = true
 
 [[files]]
 file = "mods/meet-your-fight.pw.toml"
-hash = "2c95e2eccb83d8fa026cb634c24350dc2626a737c3ecbef1bd6e4b3bb48860a7"
+hash = "49907e081568e7750065050556aa1e076f3df91b01624cb59adb9af40541f83e"
 metafile = true
 
 [[files]]
@@ -697,7 +692,7 @@ metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "2e3097b317a6554b0ecf25c32658a973fdd9910bccb49c4fd0c25f5b53ab133f"
+hash = "7e878435f7360826c69f0abab6abf0b2b86b43fa4b31ce8cc39667a5f37ab566"
 metafile = true
 
 [[files]]
@@ -777,12 +772,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "0d5093e1ddfdb2ab443356a6c4e8e9b33bad72a82b3bb3aa7ee2cce98cd48a78"
+hash = "93123611f5de9f6c8b25e1fe2e1b7defdcf65810fe3aeb9aa8800e8ecfafa6a3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9648beb4c150c3854f3dad72d72c4446c1e0b272ae0b3f787d7d8718ef6adc7e"
+hash = "69dd7341ad086e0fa23bef3ba04237c4c74ea76800cf8289050b09eda3268c5c"
 metafile = true
 
 [[files]]
@@ -812,7 +807,7 @@ metafile = true
 
 [[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
-hash = "c707a4dfd080ecb5a7ff06a62973eef0711cbee6b70eda0d1dec2bc459e12309"
+hash = "c7b32bdcf176bdc10ff6cebc8e98cd656f4b25273066aa4cf8ee6edc893fa8e7"
 metafile = true
 
 [[files]]
@@ -827,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "mods/trackwork.pw.toml"
-hash = "5c9aa20f7356f9a5fb43f689d839899a50deb8d8645f1515422da6fa97629f17"
+hash = "70fd63c64e9d2e530ee5dc87f71c1bef0253299848515e8ad4057e715cc3ffea"
 metafile = true
 
 [[files]]
@@ -847,12 +842,12 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-sails.pw.toml"
-hash = "a15fc5f46a09913309a0c6ead5fa895e882d57b807c973b6aaeec83e0db2537f"
+hash = "7ef2adf5e4d511ebf2e134095cc47cb01838d63f4b9dccd41675178189c4f5d5"
 metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "d51c317ce1c22c238638b678910a6e2a505f3613f8fbc4a57dddb1ab633999fe"
+hash = "74b316fd6a4d1efa917e7037d98b7b79c2d296f793adb528cbba4d35df5630de"
 metafile = true
 
 [[files]]
@@ -867,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/warium.pw.toml"
-hash = "63d3cd9e330f2c3ba7a5c710143898cd194b46fac334bc5d1ae4c539b9c0423d"
+hash = "d22a166d07b9cc9319bf8d6e877d7167e977a21ee13a1eacae8c16bf64d183d6"
 metafile = true
 
 [[files]]
@@ -877,12 +872,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "1a592e56f6720b44d1031d2d715d454eff2099e915160c0c75f853ae8b314b15"
+hash = "d2263f8ee90a91d0a863eaaf7e6d0984e90e685732bc1fd8f0c7178b5820b104"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "7e7b7624e041a1364971057d1c47f2b74730e191f142b73aa50223f95978dd96"
+hash = "c96390ad0889a7f1ad544d711371661a305f3d3b1fe139dd771ec69b4a201b5e"
 metafile = true
 
 [[files]]

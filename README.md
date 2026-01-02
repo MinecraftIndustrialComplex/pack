@@ -19,6 +19,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Rework Flint'N'Powder Recipes
 - Fix treasure chest loot tables
 ## Post Launch
+- Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
 - Initial cobblemon create integration
 - Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.

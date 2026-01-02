@@ -1,13 +1,13 @@
 name = "Warium"
-filename = "Warium 1.2.5.jar"
+filename = "Warium 1.2.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/xgjvEen1/versions/P9Ca10aq/Warium%201.2.5.jar"
+url = "https://cdn.modrinth.com/data/xgjvEen1/versions/skDSezhQ/Warium%201.2.6.jar"
 hash-format = "sha512"
-hash = "ae5557fa61c91d4e9bea3c41faa1c5edffe3958ae547caf48a7475d37515929d9fefeffaa9dc01e9c50dad2db8168dbf53d52cbbe0951259ae3282b3cabdc4f8"
+hash = "bb047b5df6c0941ef10ecb7454f64090e6eb479039ade471a0aa9dc5839009a9a6c929be1504599ea51519d2a98c7651a029702131d371e3b397ffbe3eab9e11"
 
 [update]
 [update.modrinth]
 mod-id = "xgjvEen1"
-version = "P9Ca10aq"
+version = "skDSezhQ"
