@@ -581,6 +581,11 @@ hash = "4171a06e8f356357eeba7a35d222996f61f130d023aefd29b59688c8a23dbc44"
 metafile = true
 
 [[files]]
+file = "mods/legendary-survival-overhaul.pw.toml"
+hash = "4ed80bfaadf914046257bf1e9c5cbeef1a8b7739247570472b5cc182cecdd437"
+metafile = true
+
+[[files]]
 file = "mods/lexiconfig.pw.toml"
 hash = "471f6366615d29246e35c3193359ea479925ad98eb2beb1d59f0647f9896df3d"
 metafile = true

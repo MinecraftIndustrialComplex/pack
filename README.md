@@ -2,7 +2,6 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Legendary Survival Overhaul
 - Foxy Items
 - Fix cavedifficulty commands
 - Clockwork & Frens
@@ -16,6 +15,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Check born in chaos structures
 - Touhou music
 - playtest reviving, mino, poker
+- Redo legendary survival overhaul progression
 ## Post Launch
 - Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
@@ -41,6 +41,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Destroy powergrid integration
 - Boss raid system
 - Make comutercraft recipes cool
+- Electric Heater
 
 # Installation:
 - Add cobblemontrainers (discontinued)
