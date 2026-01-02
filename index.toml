@@ -126,6 +126,11 @@ hash = "e1a222c5ace6d1b4bab067b1245e460179a153f1e7bc8538335056fa8442155c"
 metafile = true
 
 [[files]]
+file = "mods/antique-atlas-4.pw.toml"
+hash = "760f8ccd60b3bd86f6a68149cbb33cebaa7a110362ae591e1fe0f62061eb467a"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
 metafile = true
@@ -611,6 +616,11 @@ hash = "c2f6e4fa180943763c8bca451a3dd050d618f3940695ef81e4fddca9737373a1"
 metafile = true
 
 [[files]]
+file = "mods/mcqoy.pw.toml"
+hash = "4060d5afd849f988fab9dd602998144180149f547f6f5052ab7f12538f84d49c"
+metafile = true
+
+[[files]]
 file = "mods/meet-your-fight.pw.toml"
 hash = "49907e081568e7750065050556aa1e076f3df91b01624cb59adb9af40541f83e"
 metafile = true
@@ -793,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/structurify.pw.toml"
 hash = "fe1516f5f97ab1278665ab82e612a8d9c1b9f138207dd9c13646437400f6341a"
+metafile = true
+
+[[files]]
+file = "mods/surveyor.pw.toml"
+hash = "87f9f35750611363f0a07accc70e191090d9a967505dfd68a0b42e2dff231071"
 metafile = true
 
 [[files]]

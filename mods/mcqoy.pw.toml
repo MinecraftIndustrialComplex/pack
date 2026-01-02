@@ -1,0 +1,13 @@
+name = "McQoy"
+filename = "mcqoy-0.4.1+forge-1.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tNmWwdI2/versions/ovT7XMOW/mcqoy-0.4.1%2Bforge-1.20.jar"
+hash-format = "sha512"
+hash = "3f1e1fe399e1d6916f06070d09c025edf321755989183b68aaf6c5c5f1c4e3e5305e39729e89d4c8364c2210cf5cef9adedd48d7954f4facb8b4462b55f8c6a8"
+
+[update]
+[update.modrinth]
+mod-id = "tNmWwdI2"
+version = "ovT7XMOW"
