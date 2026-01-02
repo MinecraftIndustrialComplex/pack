@@ -2,9 +2,6 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Foxy Items
-- Fix cavedifficulty commands
-- Clockwork & Frens
 - Make touhou stuff only for Mr. Fox
 - Make touhou not change slime model (except for Mr. Fox)
 - Make iceandfire dragons not melt from Flint'n'Powder guns
