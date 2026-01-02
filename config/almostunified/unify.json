@@ -10,13 +10,13 @@
     "create",
     "destroy",
 
+    "createbigcannons",
     "thermal",
     "immersiveengineering",
     "mekanism",
 
-    "crust_chunks",
+    "flintnpowder",
     "crusty_chunks",
-    "warium"
   ],
   "stoneStrata": [
     "stone",
@@ -39,7 +39,11 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:autocannon_barrels/steel",
+    "forge:cannon_barrels/steel",
+    "forge:autocannon_barrels/cast_iron",
+    "forge:cannon_barrels/cast_iron"
   ],
   "materials": [
     "aeternium",
@@ -49,6 +53,7 @@
     "bitumen",
     "brass",
     "bronze",
+    "cast_iron",
     "charcoal",
     "chrome",
     "cinnabar",
@@ -104,6 +109,10 @@
 
     "forge:plates/steel": "create_tank_defenses",
 
+    "forge:autocannon_barrels/steel": "createbigcannons",
+    "forge:cannon_barrels/steel": "createbigcannons",
+    "forge:autocannon_barrels/cast_iron": "createbigcannons",
+    "forge:cannon_barrels/cast_iron": "createbigcannons"
   },
 
   "customTags": {
@@ -168,7 +177,24 @@
     "forge:dusts/aluminum": [
       "crusty_chunks:aluminum_dust",
       "create_tank_defenses:aluminum_dust"
+    ],
+    "forge:autocannon_barrels/steel": [
+      "createbigcannons:steel_autocannon_barrel",
+      "flintnpowder:steel_barrel"
+    ],
+    "forge:cannon_barrels/steel": [
+      "createbigcannons:steel_cannon_barrel",
+      "flintnpowder:steel_heavy_barrel"
+    ],
+    "forge:autocannon_barrels/cast_iron": [
+      "createbigcannons:cast_iron_autocannon_barrel",
+      "flintnpowder:cast_iron_barrel"
+    ],
+    "forge:cannon_barrels/cast_iron": [
+      "createbigcannons:cast_iron_cannon_barrel",
+      "flintnpowder:cast_iron_heavy_barrel"
     ]
+
   },
 
   "tagOwnerships": {},

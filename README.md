@@ -2,12 +2,11 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Make iceandfire dragons not melt from Flint'n'Powder guns
-- Rework Flint'N'Powder Recipes
 - Add blacksmithing mod
 - Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)
-- Test server for lag
+- Mod for watching videos on screens
 - Good keybinds
+- Test server for lag
 - Touhou music
 - playtest reviving, mino, poker
 - Redo legendary survival overhaul progression
