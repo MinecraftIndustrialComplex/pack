@@ -2,10 +2,6 @@
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
 ## For Launch:
-- Remove Vintage centrifuge
-- Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)
-- Test server for lag
-- Research TacZ system, and shim the mod to block crafting for now.
 - Touhou music
 - playtest reviving, mino, poker
 - New map mod
@@ -17,7 +13,9 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Make touhou not change slime model (except for Mr. Fox)
 - Make iceandfire dragons not melt from Flint'n'Powder guns
 - Rework Flint'N'Powder Recipes
-- Fix treasure chest loot tables
+- Add blacksmithing mod
+- Make natural progression less annoying (make it not fw planks, and allow breaking but just don't drop items)
+- Test server for lag
 ## Post Launch
 - Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
@@ -39,6 +37,10 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Exposure destroy integration
 - Space?
 - Makes bosses spawn in hordes???
+- Add in a system for getting guns
+- Destroy powergrid integration
+- Boss raid system
+- Make comutercraft recipes cool
 
 # Installation:
 - Add cobblemontrainers (discontinued)
