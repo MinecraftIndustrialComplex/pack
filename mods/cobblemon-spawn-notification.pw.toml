@@ -1,6 +1,6 @@
 name = "Cobblemon Spawn Notification"
 filename = "cobblemon-spawn-notification-1.5-forge-1.2.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/LPuJjiQz/versions/Wwus4QWy/cobblemon-spawn-notification-1.5-forge-1.2.0.jar"

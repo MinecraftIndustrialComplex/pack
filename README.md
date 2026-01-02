@@ -3,7 +3,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 # TODO
 ## For Launch:
 - Boom boom when on fire and holding explosives.
-- Mod for watching videos on screens
 - Good keybinds
 - Test server for lag
 - Touhou music
@@ -41,6 +40,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Make comutercraft recipes cool
 - Electric Heater
 - Powergrid battery uses destroy acid, and lead.
+- Waterframe reasonable crafting
 
 # Installation:
 - Add cobblemontrainers (discontinued)

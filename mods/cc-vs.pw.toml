@@ -1,6 +1,6 @@
 name = "CC: VS"
 filename = "cc_vs-1.20.1-forge-0.6.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/bvgy8HrZ/versions/BTJW2a72/cc_vs-1.20.1-forge-0.6.0.jar"

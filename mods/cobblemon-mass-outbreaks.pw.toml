@@ -1,6 +1,6 @@
 name = "Cobblemon Mass Outbreaks"
 filename = "cobblemonoutbreaks-1.1.4-1.20.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/ZrvT3v2D/versions/w55F4Hr5/cobblemonoutbreaks-1.1.4-1.20.1.jar"

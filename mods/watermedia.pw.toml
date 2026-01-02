@@ -1,0 +1,13 @@
+name = "WATERMeDIA: Multimedia API"
+filename = "watermedia-3.0.0-alpha.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/G922NeHS/versions/ZoWrQUbb/watermedia-3.0.0-alpha.3.jar"
+hash-format = "sha512"
+hash = "3c1c3797b8d3bc6d8e570ef6f5512268671c36e1a0b1416a3dbcd89787d292bed9a1a5aca9419727c21b7273939c3439327435c6b76c9cbf7152e28bbe81e8e5"
+
+[update]
+[update.modrinth]
+mod-id = "G922NeHS"
+version = "ZoWrQUbb"

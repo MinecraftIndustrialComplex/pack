@@ -411,6 +411,11 @@ hash = "eaf87b925d774592d481b9a6660f140350c77a5b09a893a0cee3668d2f5cbbf6"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "9582c04926dd9cea7f68f6f1b4e068bd2ec3f6fcb2734497d885364c6b74b1e1"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
@@ -908,6 +913,21 @@ metafile = true
 [[files]]
 file = "mods/warium.pw.toml"
 hash = "d22a166d07b9cc9319bf8d6e877d7167e977a21ee13a1eacae8c16bf64d183d6"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "bf80e336cf4ac7cc33ae97d1f4deac1fa94d5d1cb7c0ac6a2429c2d3120583f6"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "0500426b027e95e3952fe8b0f81c51bb724fd5951b8725e8b9a9cab62309cec5"
+metafile = true
+
+[[files]]
+file = "mods/watervision.pw.toml"
+hash = "3e94877a9b48b2156de7f348232beb84729d3e230c7cf267f6e381ef9f8bf8df"
 metafile = true
 
 [[files]]

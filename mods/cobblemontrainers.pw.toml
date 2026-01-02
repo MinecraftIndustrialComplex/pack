@@ -1,6 +1,6 @@
 name = "CobblemonTrainers (Discontinued)"
 filename = "CobblemonTrainers-1.1.11+1.5.2-forge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/1QV9wNCJ/versions/fyqgHfzB/CobblemonTrainers-1.1.11%2B1.5.2-forge.jar"
