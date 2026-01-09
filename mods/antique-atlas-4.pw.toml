@@ -1,6 +1,6 @@
 name = "Antique Atlas 4"
 filename = "antique-atlas-3.1.0+1.20.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Y5Ve4Ui4/versions/8F1hrMpk/antique-atlas-3.1.0%2B1.20.jar"
