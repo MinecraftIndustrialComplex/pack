@@ -1,13 +1,13 @@
 name = "Overgeared"
-filename = "overgeared-1.6.2.jar"
+filename = "overgeared-1.20.1-1.6.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SQL3X2Ky/versions/ARusKfsY/overgeared-1.6.2.jar"
+url = "https://cdn.modrinth.com/data/SQL3X2Ky/versions/hV2mJr8m/overgeared-1.20.1-1.6.4.jar"
 hash-format = "sha512"
-hash = "956fcda0ef7225b19df7d85e08dcf362d93737e41d63416192fa4050a1afc410ede7b886ae8114a8c8a0080a83bf6e9b128f754e6b06ae4fb1c17ca0446a81e6"
+hash = "94e2f08220332b61f1b047a2358bb38c9cb21c1552653f83c35543fc9700f887de719a8cc1acf3fe8adbe3fe39d07ad344aba7c5d05fe8684a900013f67342e8"
 
 [update]
 [update.modrinth]
 mod-id = "SQL3X2Ky"
-version = "ARusKfsY"
+version = "hV2mJr8m"

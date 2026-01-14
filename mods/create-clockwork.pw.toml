@@ -1,13 +1,13 @@
 name = "Clockwork"
-filename = "clockwork-0.5.4.2.jar"
+filename = "clockwork-0.5.4.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/84USeAvk/versions/eustoh2X/clockwork-0.5.4.2.jar"
+url = "https://cdn.modrinth.com/data/84USeAvk/versions/v9oJ9IHd/clockwork-0.5.4.5.jar"
 hash-format = "sha512"
-hash = "f898b2ba62b33774f8de37a389555025479a1bde614552134eef6517025fd66ec881e9d245d70689bb8565b1b2294d969fec63e2576a4a4a6e8b58f9680ece89"
+hash = "1ec99e497fdbfa2b3942f4120bb4f9d4179d6d5904c63971953de4b7eeeec7069bdb904197733d729b094ebcf5282a215985f829d7b6b885ce9ccf1b9af79a97"
 
 [update]
 [update.modrinth]
 mod-id = "84USeAvk"
-version = "eustoh2X"
+version = "v9oJ9IHd"
