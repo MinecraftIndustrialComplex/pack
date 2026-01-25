@@ -1,0 +1,13 @@
+name = "Valkyrien Pirates"
+filename = "pirates-1.20.1-1.9.3-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jv8hXuHT/versions/S7QDr2qc/pirates-1.20.1-1.9.3-forge.jar"
+hash-format = "sha512"
+hash = "3feaeab3b36be85f8a6fe42f604590f6a3d3e4f41b90098f7c374131c43b4c1d881dd4ffc33724133f0fbf90e02f5fd136230a7810c96c6dc1296dbb2aa5b5af"
+
+[update]
+[update.modrinth]
+mod-id = "jv8hXuHT"
+version = "S7QDr2qc"

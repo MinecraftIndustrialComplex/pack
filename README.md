@@ -1,12 +1,9 @@
 # Minecraft Industrial Complex
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 # TODO
-- 
 - Redo legendary survival overhaul progression
-- Add Eureka / Valkyrien Pirates
 - Check tank / plane / etc. building is decent.
 - Initial cobblemon create integration
-- Make gunpowder based weaponry not work when wet, and make you go boom boom boom boom.
 - Bosses
   - Natural Boss Spawning
   - Remove items & progression from boss mods: l ender cataclysm, legendary monsteres, meet your fight, mowzies mobs, bosses of mass destruction
