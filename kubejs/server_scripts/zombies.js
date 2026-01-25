@@ -28,7 +28,8 @@ EntityEvents.spawned('minecraft:zombie', event => {
     // Nighttime double spawns
     if (level.isNight() && !entity.tags.contains('extra_spawn')) {
         if (Math.random() < 0.5) { 
-            let e = entity.block.createEntity('minecraft:zombie');
+            let e = level.createEntity('minecraft:zombie');
+            e.setPosition(entity.x, entity.y, entity.z);
             e.addTag('extra_spawn');
             e.spawn();
         }
@@ -39,7 +40,8 @@ EntityEvents.spawned('minecraft:zombie', event => {
 LevelEvents.tick(event => {
     const { level, server } = event;
     
-    if (level.time == 13000) {
+    // Use dayTime % 24000 to catch the start of night reliably
+    if (level.dayTime % 24000 == 13000) {
         server.players.forEach(p => {
             if (Math.random() < RAID_CHANCE) {
                 p.tell(Text.red('The air grows cold... A zombie raid has begun!'));
@@ -48,7 +50,7 @@ LevelEvents.tick(event => {
         });
     }
 
-    if (level.time == 0) {
+    if (level.dayTime % 24000 == 0) {
         server.players.forEach(p => {
             if (p.persistentData.isRaidActive) {
                 p.persistentData.isRaidActive = false;
@@ -64,7 +66,7 @@ LevelEvents.tick(event => {
                 if (diff < DIFFICULTY_FLOOR) diff = DIFFICULTY_FLOOR;
 
                 let count = Math.floor(diff * QUANTITY_MULTIPLIER);
-                if (count < 1 && diff >= DIFFICULTY_FLOOR) count = 1; // Ensure at least 1 spawn if raid is active
+                if (count < 1 && diff >= DIFFICULTY_FLOOR) count = 1; 
                 
                 for (let i = 0; i < count; i++) {
                     let offsetX = (Math.random() - 0.5) * (SPAWN_RADIUS * 2);
@@ -73,11 +75,12 @@ LevelEvents.tick(event => {
                     let spawnZ = Math.floor(p.z + offsetZ);
                     
                     let spawnY = level.getHeight('motion_blocking', spawnX, spawnZ);
-                    let blockPos = BlockPos(spawnX, spawnY, spawnZ);
-                    let block = level.getBlock(blockPos);
                     
-                    // Safety check: Avoid void, spawning inside blocks, or spawning in liquids
-                    if (spawnY > level.minBuildHeight && block.isAir() && !level.getBlock(spawnX, spawnY - 1, spawnZ).liquid) {
+                    // FIXED: Using .air property and direct coordinate access
+                    let block = level.getBlock(spawnX, spawnY, spawnZ);
+                    let groundBlock = level.getBlock(spawnX, spawnY - 1, spawnZ);
+                    
+                    if (spawnY > level.minBuildHeight && block.air && !groundBlock.liquid) {
                         let zombie = level.createEntity('minecraft:zombie');
                         zombie.setPosition(spawnX, spawnY, spawnZ);
                         zombie.addTag('raid_zombie');
@@ -97,7 +100,6 @@ EntityEvents.death(event => {
         let currentDiff = entity.persistentData.raidDifficultyScore || 1.0;
         let penalty = currentDiff * DEATH_PENALTY_MULT * KILL_DIFF_INCREASE;
         
-        // Apply floor logic
         let newDiff = Math.max(DIFFICULTY_FLOOR, currentDiff - penalty);
         entity.persistentData.raidDifficultyScore = newDiff;
         
@@ -152,7 +154,6 @@ ServerEvents.commandRegistry(event => {
                 let p = c.source.player;
                 if (p) {
                     let v = Args.FLOAT.getResult(c, 'val');
-                    // Force floor on manual set
                     p.persistentData.raidDifficultyScore = Math.max(DIFFICULTY_FLOOR, v);
                     p.tell(`Difficulty set to ${p.persistentData.raidDifficultyScore}`);
                     return 1;

@@ -55,6 +55,7 @@ ServerEvents.recipes(e => {
     "flintnpowder:blowback_handgun",
     "flintnpowder:empty_handgun_mag",
     "flintnpowder:bayonet_bolt_action_rifle",
+    "flintnpowder:steel_alloy",
   ];
   removeItems.forEach(id => e.remove({ output: id }));
   e.shaped('flintnpowder:flintlock_mechanism', [

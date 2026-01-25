@@ -1,13 +1,13 @@
 name = "Touhou Little Maid"
-filename = "touhoulittlemaid-1.4.6-forge+mc1.20.1.jar"
+filename = "touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/iwdMzV8V/touhoulittlemaid-1.4.6-forge%2Bmc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/tuOQjuRE/touhoulittlemaid-1.5.0-forge%2Bmc1.20.1-release.jar"
 hash-format = "sha512"
-hash = "56809ec4483ccf2095dfa536ca80c9766b5cd4b9009e098547e3af8664baa42f970779b13ea8e111a559af44d44becb68605a51759b16786bb50f943be7b5744"
+hash = "71823c20c89171a09c7653d3319c14df77fc413e7a4d7eab01c03cae36ff4ca56663593e064e42804c78c269f3b78b40c4f0f92846b24dde40c7ce14eb07b4c5"
 
 [update]
 [update.modrinth]
 mod-id = "R0bDWFAW"
-version = "iwdMzV8V"
+version = "tuOQjuRE"

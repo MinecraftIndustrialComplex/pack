@@ -1,3 +1,3 @@
 ServerEvents.recipes(event => {
-  event.remove({ mod: 'warium' })
+  event.remove({ mod: 'crusty_chunks' })
 })

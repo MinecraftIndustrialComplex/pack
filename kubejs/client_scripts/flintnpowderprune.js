@@ -54,6 +54,7 @@ JEIEvents.hideItems(e => {
     "flintnpowder:blowback_handgun",
     "flintnpowder:empty_handgun_mag",
     "flintnpowder:bayonet_bolt_action_rifle",
+    "flintnpowder:steel_alloy",
   ];
   hide.forEach(id => e.hide(id));
 });
