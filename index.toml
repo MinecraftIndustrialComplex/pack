@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "92962c9c0fc925651202eaf51cd07e5bc722bca8c66a4380468ba9154a9d4ea9"
+hash = "6f0d7cf1fd04e02bfa0cda4c1caf4cb5482fbbec007b560d5a2c28536e9e9e16"
 metafile = true
 
 [[files]]
@@ -368,7 +368,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "9eb4f3e7a5a83c588e0caa676d91597c18f2c8004c9e57a10e72859e474fa0e5"
+hash = "608998146e799962dd05b9bee537260603eb06ce1554256ee797d5b94728f722"
 metafile = true
 
 [[files]]
@@ -378,7 +378,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "aa8711ff3f1d590b8c3e4e092927e5a697d585e21c52107ddc559c93ffebdaed"
+hash = "bcd218d6c21498e86f6cb498dad3910060e315d4119f00a87f5443c4ffce0c2d"
 metafile = true
 
 [[files]]
@@ -413,7 +413,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-radars.pw.toml"
-hash = "d329779921574e5a4709ee468955af18c84546a2be55d13a0e49ca0fc88b0a6f"
+hash = "beddda7f1ceee42a6056c2386a741aaef45fddd1ae66682a52bff7f8e5479ec5"
 metafile = true
 
 [[files]]
@@ -637,7 +637,7 @@ metafile = true
 
 [[files]]
 file = "mods/l2hostility.pw.toml"
-hash = "2ca40ada13fa3e1d0d190f63cf00008f303cfb763d921a579480ab5565aa18f7"
+hash = "8310578312be6ca5a71e50ff22b220052e6d205de95a8e19de2e1224aa9dd612"
 metafile = true
 
 [[files]]
@@ -677,7 +677,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "dac76b57fd114d37956011ad054aab6b5e86f1fd9e308da534bff0ca69a78989"
+hash = "3e33e0b6b8e3344678161758972264b069d8dbed72ae2ac3791843aa661bde5b"
 metafile = true
 
 [[files]]
@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/overgeared.pw.toml"
-hash = "e973870adaba61ef67b4546f22e14854fa904bc7859d52c16e8de64c31a1316f"
+hash = "98ff5be2650871d1fa33e0b91d871b3d1fc056d02b9083b22c378915ed30aa47"
 metafile = true
 
 [[files]]
@@ -811,7 +811,7 @@ metafile = true
 
 [[files]]
 file = "mods/revive-me.pw.toml"
-hash = "5481a1e98ccd8dfd4761225e1f1adffbd5e2daf7e5ef1aaf1ccced3f8a7ed573"
+hash = "f1ae660cb0447e81b177250d6bae99defbbfa8f7e060c4a890b09378825924d1"
 metafile = true
 
 [[files]]
@@ -876,7 +876,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "098a1cd00ea41ca039bfe3c348148095e0a9c0736eefdaee4c36904f913a2b97"
+hash = "18eb4f14caf210aca3762309ffec848fafd94877a804cb9812be651642a3c748"
 metafile = true
 
 [[files]]
@@ -886,7 +886,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "164de668e6d4fc0a2955b15664d6b34977435b8dd7e18a2d2007b9ab3e53ca49"
+hash = "671ca39d8c1e8a3e42e700d72f62aaf06561ef324bdacb00a1a1be6f56972119"
 metafile = true
 
 [[files]]
@@ -966,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia-yt-plugin.pw.toml"
-hash = "e0b5d86b63b2aa52bf50d3b58280fed584f8cfef65edc32e7a8b317690e877bc"
+hash = "9fa9b86f4975f5995519f284c519482d7aa69f2e3cbc2be208dc43c46998bed6"
 metafile = true
 
 [[files]]
