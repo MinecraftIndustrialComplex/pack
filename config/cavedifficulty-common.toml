@@ -6,13 +6,12 @@ difficultyMultiplier = 1
 refreshInterval = 200
 #Cave pressure change per refresh interval
 #Range: 1 ~ 1000
-accumulationSpeed = 30
+accumulationSpeed = 25
 #Multiplier for how much faster cave pressure decreases than increases
 #Range: 1 ~ 10
 decreaseMultiplier = 3
 #Average ticks between cave waves (used as percent chance per refresh)
 #Range: 1 ~ 72000
-waveFrequency = 3000
+waveFrequency = 4500
 #List of spawn entries: 'modid:entity:cost' e.g. 'minecraft:zombie:10'
-spawnPool = ["minecraft:zombie:10", "minecraft:skeleton:25", "minecraft:creeper:50"]
-
+spawnPool = ["minecraft:zombie:10", "born_in_chaos_v1:decrepit_skeleton:24", "minecraft:skeleton:25", "born_in_chaos_v1:skeleton_demoman:30", "born_in_chaos_v1:baby_spider:60",, "born_in_chaos_v1:baby_skeleton:60", "minecraft:creeper:50", "born_in_chaos_v1:zombie_bruiser:100", "born_in_chaos_v1:skeleton_thrasher:150", "born_in_chaos_v1:nightmare_stalker:200", "born_in_chaos_v1:missioner:250"]

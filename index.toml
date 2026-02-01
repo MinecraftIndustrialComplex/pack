@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "89f67cea2b71973a001630262325e89a8453d0a6da3632d7a336a7b79af0f029"
+hash = "ba6adf83e12a993d4343b93b1461edf4b1e41cc31091bd7b34fc25ec78c91db4"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -30,7 +30,7 @@ hash = "22125c2d8e3005c82d3c878ca87c553bdc9047783421fff8ba69830911f6de8e"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"
-hash = "480a1e7f5789767272170d78b0779ac4dd78fa93dad1a243c541f258ba1241f6"
+hash = "200a287658d3846dfb8493f849e407259ca331b0abb9c09a05950a0bf5042876"
 
 [[files]]
 file = "config/dice-common.toml"
@@ -82,15 +82,11 @@ hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
 
 [[files]]
 file = "kubejs/client_scripts/flintnpowderprune.js"
-hash = "5d66b8c8c4b312a0368a598e1853c80843e62fcff25ff436843afcfaa05bbb14"
+hash = "fe675034017351dcf99f863e43481a37bc4d3111e46d02608da7b1f8007f9f32"
 
 [[files]]
 file = "kubejs/client_scripts/oilyunification.js"
 hash = "7693b15b86fef1e9a2337a93fce7feec5575c01f0e6df1d89e83426889bb1eb1"
-
-[[files]]
-file = "kubejs/client_scripts/overgeared.js"
-hash = "dd0871393e5c33df587e7d1c0c4039c21a6315d367fd22e38d3308c5d42f21c9"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -118,7 +114,7 @@ hash = "6ccfbd1458b0963ebbc4271efe8f64d60496f3336e05b4df1e0ed8e195d5c131"
 
 [[files]]
 file = "kubejs/server_scripts/flintnpowder.js"
-hash = "742e70f38e57356750a69f06e811fa852a35f5d8737996b50e51780b4f9517d7"
+hash = "f03176f5340ae4009da8bfd0e19b353b698e0a0fa4d098a0d995d845ce4205ff"
 
 [[files]]
 file = "kubejs/server_scripts/foxify.js"
@@ -129,16 +125,24 @@ file = "kubejs/server_scripts/iceandfire.js"
 hash = "efe84bfd56c0067b664730d8fd02947b284d8954e5d4d51c75c2105bc877a74a"
 
 [[files]]
+file = "kubejs/server_scripts/legendarysurvival.js"
+hash = "5a974c47f992d3346f91aa7599a53b2c80a9bb69173bd06cea200cb2c6e3ff18"
+
+[[files]]
 file = "kubejs/server_scripts/oilyunification.js"
 hash = "fa685c6f42a767ccf45ebdd5d4846d3c7c13c4599ba5e2af8b634180b95caf2c"
 
 [[files]]
 file = "kubejs/server_scripts/overgeared.js"
-hash = "1ef8c889fe3d58cd1b74b95579d4e26acc505a51978fe7e21b56456896ce7200"
+hash = "3812ca012463084cfbc3b399749457553f88f24a0511edbf50257adf68dac6bc"
 
 [[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
 hash = "dbf0af2842cf51ed65d2f5009c29124e6a045fd04303d916c38ebaaf75dbd05f"
+
+[[files]]
+file = "kubejs/server_scripts/tacz_new_recipes.js"
+hash = "53e8dceef06cdfbdff15d657d0f7dc0df3d6817f09709b2e5984e104a869621a"
 
 [[files]]
 file = "kubejs/server_scripts/taczfreeze.js"
@@ -150,11 +154,15 @@ hash = "1e59bf550bb8c48c2207978ac35be0d84823fa2b21c97cc0c8dad7f8f8062001"
 
 [[files]]
 file = "kubejs/server_scripts/warium.js"
-hash = "bec556e485915cf0ebf6b101112cc24fd435812b0fa80a95c87995ae23710c1f"
+hash = "846b81b52a4410e19d782d44b06804559932563ce471cbbb941619dc867dbce8"
 
 [[files]]
 file = "kubejs/server_scripts/zombies.js"
-hash = "f2664055feb38f34946a8fe1cbe5f8279e1cf199ac313bf99d1d329d9d2949d2"
+hash = "92cd33d6d50c5545726e5528744fed1dc20d95fc51e588957cd994a6148ae3a5"
+
+[[files]]
+file = "kubejs/textures/item/smokeless_powder.png"
+hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -325,6 +333,10 @@ metafile = true
 file = "mods/cobblemon.pw.toml"
 hash = "541ed5025e526f075984bbf7653b18724d0bf254dcc5d1464e60dd5bb82f7651"
 metafile = true
+
+[[files]]
+file = "mods/cobblemonrf-1.0.0.jar"
+hash = "da8bb88ce407c40d65c99aeb119841d7d2e1fd5ca667d58d00cdf74fe840b700"
 
 [[files]]
 file = "mods/cobblemonrider1.5.pw.toml"
@@ -1007,3 +1019,7 @@ metafile = true
 file = "resourcepacks/simple-create-radios.pw.toml"
 hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
 metafile = true
+
+[[files]]
+file = "startup_scripts/item.js"
+hash = "119eedb9c5332514124c236e28b45f3a12f9691c7a5378d1ae37f47fa8eda547"
