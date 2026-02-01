@@ -14,4 +14,4 @@ decreaseMultiplier = 3
 #Range: 1 ~ 72000
 waveFrequency = 4500
 #List of spawn entries: 'modid:entity:cost' e.g. 'minecraft:zombie:10'
-spawnPool = ["minecraft:zombie:10", "born_in_chaos_v1:decrepit_skeleton:24", "minecraft:skeleton:25", "born_in_chaos_v1:skeleton_demoman:30", "born_in_chaos_v1:baby_spider:60",, "born_in_chaos_v1:baby_skeleton:60", "minecraft:creeper:50", "born_in_chaos_v1:zombie_bruiser:100", "born_in_chaos_v1:skeleton_thrasher:150", "born_in_chaos_v1:nightmare_stalker:200", "born_in_chaos_v1:missioner:250"]
+spawnPool = ["minecraft:zombie:10", "born_in_chaos_v1:decrepit_skeleton:24", "minecraft:skeleton:25", "born_in_chaos_v1:skeleton_demoman:30", "born_in_chaos_v1:baby_spider:60", "born_in_chaos_v1:baby_skeleton:60", "minecraft:creeper:50", "born_in_chaos_v1:zombie_bruiser:100", "born_in_chaos_v1:skeleton_thrasher:150", "born_in_chaos_v1:nightmare_stalker:200", "born_in_chaos_v1:missioner:250"]

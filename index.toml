@@ -30,7 +30,7 @@ hash = "22125c2d8e3005c82d3c878ca87c553bdc9047783421fff8ba69830911f6de8e"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"
-hash = "200a287658d3846dfb8493f849e407259ca331b0abb9c09a05950a0bf5042876"
+hash = "769c4a4462090ca0b2245673e6b68b669ada1b589bdfde011e865c74a66d3678"
 
 [[files]]
 file = "config/dice-common.toml"
@@ -79,6 +79,10 @@ hash = "ec544b806990af357a3888fef014c79c708ea104c63f0b3b277c25bde1757e1c"
 [[files]]
 file = "flake.nix"
 hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
+
+[[files]]
+file = "kubejs/assets/textures/item/smokeless_powder.png"
+hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
 file = "kubejs/client_scripts/flintnpowderprune.js"
@@ -159,10 +163,6 @@ hash = "846b81b52a4410e19d782d44b06804559932563ce471cbbb941619dc867dbce8"
 [[files]]
 file = "kubejs/server_scripts/zombies.js"
 hash = "92cd33d6d50c5545726e5528744fed1dc20d95fc51e588957cd994a6148ae3a5"
-
-[[files]]
-file = "kubejs/textures/item/smokeless_powder.png"
-hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
