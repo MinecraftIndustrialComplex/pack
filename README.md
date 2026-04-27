@@ -33,12 +33,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 
 ## 1.21 Migration
 The following `packwiz update --all` failures were moved to `disabledMods/`:
-- Block Swap
-- CC:Destroy Bridge
-- CC: Recrafted
-- Create Air Forge (A ThinAir compat)
-- Create: Radars
-- Destroy (1.20.1 jar)
 - Flint'N'Powder - Guns, Cultists, Reloads!
 - Game Stages
 - Ice and Fire
@@ -49,9 +43,10 @@ The following `packwiz update --all` failures were moved to `disabledMods/`:
 - Simple Create Radios
 - Simple Radio
 - SmallDice
-- [TaCZ] Timeless and Classics Zero
-- Thin Air
 - Veinminer
+- CC:Destroy Bridge
+- Create: Radars
+- Destroy (1.20.1 jar)
 
 ### KubeJS scripts currently broken or migration-blocked
 These scripts reference removed mods/content and need follow-up before a clean 1.21 release:
