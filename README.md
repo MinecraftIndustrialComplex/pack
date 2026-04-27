@@ -11,7 +11,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
   - Mowzies mobs: Natty spawns
   - Legendary Monsters without structures
 - Diesel Generator / Destroy Integration
-- Cobblemon FE Integration
 - Decent Weapon Crafting
 - Kaiju
 - Integrate Warium
