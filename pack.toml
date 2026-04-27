@@ -1,13 +1,13 @@
 name = "Minecraft Industiral Complex"
 author = "benmac"
-version = "1.1.0"
+version = "2.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5223f330ec72fde443be91a6d6408cbc74d86c54df6c25c99e430277808450e7"
+hash = "c20f860ac1f7701758c21939ecc1b3d29eadfedbeb93e7cef3f90c346356b481"
 
 [versions]
-forge = "47.4.10"
-minecraft = "1.20.1"
+minecraft = "1.21.1"
+neoforge = "21.1.228"

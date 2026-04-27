@@ -1,3 +1,4 @@
+if (Platform.isLoaded('flintnpowder') && typeof JEIEvents !== 'undefined') {
 JEIEvents.hideItems(e => {
   const hide = [
     "flintnpowder:steel_ingot",
@@ -58,3 +59,4 @@ JEIEvents.hideItems(e => {
   ];
   hide.forEach(id => e.hide(id));
 });
+}

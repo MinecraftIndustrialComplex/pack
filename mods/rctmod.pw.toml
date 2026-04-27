@@ -1,13 +1,13 @@
 name = "Radical Cobblemon Trainers"
-filename = "rctmod-forge-1.20.1-0.12.1-beta.jar"
+filename = "rctmod-neoforge-1.21.1-0.18.1-beta.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lRwTUnD7/versions/8edTHlEm/rctmod-forge-1.20.1-0.12.1-beta.jar"
+url = "https://cdn.modrinth.com/data/lRwTUnD7/versions/qyxrdzND/rctmod-neoforge-1.21.1-0.18.1-beta.jar"
 hash-format = "sha512"
-hash = "304d390c8f664278ae1f340e30f71833592cd841a37233aa1f3171220ef56821c94994ee509bf7b5c1603d06c95c5e2ae8cd11c0f2c824f9accee5775ecaf072"
+hash = "5169e5839348c766724ea3a0d18dbcfd78c105afadb4584eb8b05ec2392d7e5a2ea28f1a58e005cf9ba71409e7f26efe5ede86cabe85f077a9d2065427c5f75f"
 
 [update]
 [update.modrinth]
 mod-id = "lRwTUnD7"
-version = "8edTHlEm"
+version = "qyxrdzND"

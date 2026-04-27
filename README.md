@@ -27,6 +27,97 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Powergrid battery uses destroy acid, and lead.
 - Waterframe reasonable crafting
 - Null Cataclysms recipes
+- Re-work simple radio crafting tree
 
 # Installation:
 - Add in magic jar: https://github.com/Petrolpark-Mods/Destroy/pull/775
+
+## 1.21 Migration
+Target loader/version: NeoForge on Minecraft 1.21.
+
+The following entries were disabled because no NeoForge 1.21 release was available during migration:
+- Ascension Megamons (Cobblemon)
+- Block Swap
+- CC: Recrafted
+- CC: VS
+- CC:Destroy Bridge
+- CobblemonRider
+- CobblemonTrainers (Discontinued)
+- Create Air Forge (A ThinAir compat)
+- Clockwork
+- Create: Radars
+- Create: Structures
+- Create: Tank Defenses
+- Destroy (1.20.1 jar)
+- Eureka! Ships! for Valkyrien Skies (Forge/Fabric)
+- Flint'N'Powder - Guns, Cultists, Reloads!
+- Game Stages
+- Ice and Fire
+- Legendary Monsters
+- Lexiconfig
+- Meet Your Fight
+- Petrolpark (Destroy dependency, 1.20.1 jar)
+- Simple Radio
+- Thin Air
+- [TaCZ] Timeless and Classics Zero
+- Trackwork
+- Valkyrien Pirates
+- Valkyrien Sails
+- Valkyrien Skies
+- Veinminer
+- VLib
+- Warium
+
+The following `packwiz update --all` failures were moved to `disabledMods/`:
+- Ice and Fire
+- Meet Your Fight
+- Simple Radio
+- Block Swap
+- Create: Tank Defenses
+- [TaCZ] Timeless and Classics Zero
+- CC: VS
+- Clockwork
+- Game Stages
+- Create Air Forge (A ThinAir compat)
+- Create: Radars
+- CobblemonRider
+- Trackwork
+- Veinminer
+- Warium
+- CC:Destroy Bridge
+- Create: Structures
+- Ascension Megamons (Cobblemon)
+- Thin Air
+- CobblemonTrainers (Discontinued)
+- CC: Recrafted
+- Flint'N'Powder - Guns, Cultists, Reloads!
+- Lexiconfig
+- VLib
+- Valkyrien Pirates
+- Simple Create Radios
+- Valkyrien Sails
+- Valkyrien Skies
+- Eureka! Ships! for Valkyrien Skies (Forge/Fabric)
+- Legendary Monsters
+- SmallDice
+
+### KubeJS scripts currently broken or migration-blocked
+These scripts reference removed mods/content and need follow-up before a clean 1.21 release:
+
+- `kubejs/server_scripts/tacz_new_recipes.js` - depends on `tacz` and `destroy` content that is currently removed. Script is now guard-wrapped and inactive until those mods return.
+- `kubejs/server_scripts/taczfreeze.js` - depends on `tacz` workbench blocks that are currently removed. Script is now guard-wrapped and inactive.
+- `kubejs/server_scripts/flintnpowder.js` - depends on `flintnpowder` items currently removed. Script is now guard-wrapped and inactive.
+- `kubejs/client_scripts/flintnpowderprune.js` - hides `flintnpowder` items in JEI, but mod is removed. Script is now guard-wrapped and inactive.
+- `kubejs/server_scripts/iceandfire.js` - targets `iceandfire` recipes/loot tables, but mod is removed. Script is now guard-wrapped and inactive.
+- `kubejs/server_scripts/oilyunification.js` - still references `destroy` items (`destroy:seismometer`, `destroy:pumpjack`) and should be rewritten or removed for Destroy-free progression.
+- `kubejs/client_scripts/oilyunification.js` - still hides `destroy` items in JEI and should be rewritten or removed for Destroy-free progression.
+
+Related data files that still include Destroy fluids and may need a migration cleanup pass:
+- `kubejs/data/forge/tags/fluids/crude_oil.json`
+- `kubejs/data/forge/tags/fluids/diesel.json`
+- `kubejs/data/forge/tags/fluids/gasoline.json`
+- `kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json`
+Additional 1.21 runtime crash blocker moved to `disabledMods/`:
+- Create: Vintage NeoForged (title screen render crash in `OpenVintageMenuButton`, NullPointerException)
+- Create: Tweaked Controllers (title screen render crash in `ModMainConfigButton`, NullPointerException)
+

@@ -1,13 +1,13 @@
 name = "Rhino"
-filename = "rhino-forge-2001.2.3-build.10.jar"
+filename = "rhino-2101.2.7-build.81.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
+url = "https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar"
 hash-format = "sha512"
-hash = "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58"
+hash = "83a4f35cce9902b7175700aeccb8519716ff407dff2a936aa0215e162d81421d109c95f82ff88a84ccbe197caee0a4a76ca44d9c8b8ce954162596d7ede18c23"
 
 [update]
 [update.modrinth]
 mod-id = "sk9knFPE"
-version = "uNALdylI"
+version = "ZdLtebKH"

@@ -1,13 +1,13 @@
 name = "Bosses of Mass Destruction Forge"
-filename = "BOMD-Forge-1.20.1-1.1.2.jar"
+filename = "BOMD-NeoForge-1.21-1.3.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hFUzfDsn/versions/2Kw4xPhp/BOMD-Forge-1.20.1-1.1.2.jar"
+url = "https://cdn.modrinth.com/data/hFUzfDsn/versions/HMIiPvSY/BOMD-NeoForge-1.21-1.3.2.jar"
 hash-format = "sha512"
-hash = "f67acaec9e34ec8b580aaf69f98c05067feff996156c7ee9c2d8372f8544dad73d9fe942a5c43db687caf47c1f0c8f3d3d318e5fb0c87bfcf702242218cf81ab"
+hash = "a0d8ee00f1190a6e35b1e03a6f088c2d559fd1cf9ea1e5a2f87698442bf800a2cee7bbacc9a02014b7805629b926f07f7183b68403a26815b6dc65a372885576"
 
 [update]
 [update.modrinth]
 mod-id = "hFUzfDsn"
-version = "2Kw4xPhp"
+version = "HMIiPvSY"

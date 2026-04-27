@@ -1,13 +1,13 @@
 name = "Create: Alloyed"
-filename = "create_alloyed-2.1.3+1.20.1.jar"
+filename = "alloyed-3.0.8+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/KUInlTFo/versions/4m9INgko/create_alloyed-2.1.3%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/KUInlTFo/versions/p0ZgNPlj/alloyed-3.0.8%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "44931a87c52280b0ccb838d59811a4eb50f53708b5e8bedc8d6adca14bf9d3c96bb67f2e2e7371187a26db8d206c6ad3d3e2c941ce0560a03da305feb48346be"
+hash = "05c48e9b91681c3902d18e192fb314d658772348d32bf8021f5627c0c643e2554869e4d655cd9bdc0e9660cc8ce81615daa9fa96f7196a797634e114c5d1e79e"
 
 [update]
 [update.modrinth]
 mod-id = "KUInlTFo"
-version = "4m9INgko"
+version = "p0ZgNPlj"

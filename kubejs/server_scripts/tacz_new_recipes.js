@@ -1,3 +1,4 @@
+if (Platform.isLoaded('tacz') && Platform.isLoaded('destroy')) {
 ServerEvents.recipes(event => {
 
     event.recipes.create.mixing(
@@ -71,3 +72,4 @@ ServerEvents.recipes(event => {
     // .loops(1)
     // .id('kubejs:sequenced_assembly/ammo_workbench');
 });
+}

@@ -1,13 +1,13 @@
 name = "CC:C Bridge"
-filename = "cccbridge-mc1.20.1-v1.7.1-forge.jar"
+filename = "cccbridge-mc1.21.1-v1.7.2-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fXt291FO/versions/yxrimuPr/cccbridge-mc1.20.1-v1.7.1-forge.jar"
+url = "https://cdn.modrinth.com/data/fXt291FO/versions/k3OVsWus/cccbridge-mc1.21.1-v1.7.2-neoforge.jar"
 hash-format = "sha512"
-hash = "23d6cb811e731581fd33b898ab055b3ba32ee53aa60e0fcc6df4c8bcdda93dcd20681e7ca25a6043903c483158c9b8c9b2867747e6bbda14dc58cf04fbbeaa95"
+hash = "b00cc2b77b8db073de77a82afb39e4f1d17addaa055382172d4fccff570d3c20b712a958de6f3f4a206f22513f56b1bd5267ee053a97f95e48e0e88b8780e58e"
 
 [update]
 [update.modrinth]
 mod-id = "fXt291FO"
-version = "yxrimuPr"
+version = "k3OVsWus"

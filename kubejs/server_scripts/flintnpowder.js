@@ -1,3 +1,4 @@
+if (Platform.isLoaded('flintnpowder')) {
 ServerEvents.recipes(e => {
   const removeItems = [
     "flintnpowder:steel_ingot",
@@ -69,3 +70,4 @@ ServerEvents.recipes(e => {
       T: 'minecraft:tripwire_hook'
     });
 });
+}

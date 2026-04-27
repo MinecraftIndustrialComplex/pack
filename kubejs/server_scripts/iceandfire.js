@@ -1,7 +1,9 @@
-ServerEvents.recipes(event => {
-  event.remove({ mod: 'iceandfire' })
-})
-LootJS.modifiers(event => {
-  event.addLootTableModifier(/iceandfire:.*/)
-    .removeLoot(/.*/)
-})
+if (Platform.isLoaded('iceandfire')) {
+  ServerEvents.recipes(event => {
+    event.remove({ mod: 'iceandfire' })
+  })
+  LootJS.modifiers(event => {
+    event.addLootTableModifier(/iceandfire:.*/)
+      .removeLoot(/.*/)
+  })
+}

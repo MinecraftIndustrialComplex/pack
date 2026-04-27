@@ -1,13 +1,13 @@
 name = "Invocore (Code Library)"
-filename = "invocore-1.20.1-4.3.2.jar"
+filename = "invocore-1.21.1-5.2.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/J07on8wS/versions/DxrFmZDF/invocore-1.20.1-4.3.2.jar"
+url = "https://cdn.modrinth.com/data/J07on8wS/versions/nSlyXbwa/invocore-1.21.1-5.2.4.jar"
 hash-format = "sha512"
-hash = "46d5159c40a8063844b28ad4296aab4dc27abd6ee10edd429fbfb12419ecaadad2a69f0937784884d5122144322bedaaf78959b5190708319798d8e4dca6ab75"
+hash = "de6336c29c62bfbfaf921a5655374b832be24ea58493ae1f7deeffc5604dc8a29a7b576322d961ae85a273335c3d602830c6ed3224181e383e3ce74f0772b076"
 
 [update]
 [update.modrinth]
 mod-id = "J07on8wS"
-version = "DxrFmZDF"
+version = "nSlyXbwa"

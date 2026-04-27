@@ -1,13 +1,13 @@
 name = "Boat Item View"
-filename = "Boat-Item-View-Forge-1.20.1-0.0.5.jar"
+filename = "boatiview-neoforge-0.0.6-1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/BdKIyOLe/versions/msJBWPLN/Boat-Item-View-Forge-1.20.1-0.0.5.jar"
+url = "https://cdn.modrinth.com/data/BdKIyOLe/versions/6EYLZUOH/boatiview-neoforge-0.0.6-1.21.1.jar"
 hash-format = "sha512"
-hash = "5dae93ebea0ea6af2283223d78303e98cac68365e7ce6cae85a8ad91e40027f804bd427844fb5c7792231dc40dd75861d5ab2f1bba4afe8ebcf618934466676d"
+hash = "b61bcfb81daadcbd451538e088e34e42ec8876b62a1a960b729558dba9560614b76f593e743b1241703d3eae606f87a3ccfa01931da45e740526d811ca8df0f9"
 
 [update]
 [update.modrinth]
 mod-id = "BdKIyOLe"
-version = "msJBWPLN"
+version = "6EYLZUOH"
