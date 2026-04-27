@@ -336,6 +336,11 @@ file = "modDocs/powergrid-mc1.20.1-0.4.2.jar"
 hash = "74575e82feb5eb69607055390fd4340f9793ea92097fb2b9dc11e47292809319"
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "778fa4eda9d46a79ba4ae4a8425d5202bc584fbf5a64467588567bef5e458726"
 metafile = true
@@ -463,6 +468,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-mass-outbreaks.pw.toml"
 hash = "2e89bdc525d4bbc64969b1db112ab876b773a0313062e3ff1f0fefeb81b49617"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-mega-showdown.pw.toml"
+hash = "3efa711e77a99008f28b7831ab8696263bccaab984cd1e62e44b7220e69a6a3c"
 metafile = true
 
 [[files]]
@@ -873,6 +883,11 @@ metafile = true
 [[files]]
 file = "mods/overgeared.pw.toml"
 hash = "2438ee73195c7928945c2a6b1b74e5278bc87c190411aed0da632c61a61a7eb8"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
 
 [[files]]
