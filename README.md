@@ -33,20 +33,13 @@ Advanced create based modpack which has an extremely difficult early game, with 
 
 ## 1.21 Migration
 The following `packwiz update --all` failures were moved to `disabledMods/`:
-- Flint'N'Powder - Guns, Cultists, Reloads!
-- Game Stages
-- Ice and Fire
-- Legendary Monsters
-- Lexiconfig
-- Meet Your Fight
-- Petrolpark (Destroy dependency, 1.20.1 jar)
-- Simple Create Radios
-- Simple Radio
-- SmallDice
-- Veinminer
+Add when possible:
 - CC:Destroy Bridge
 - Create: Radars
-- Destroy (1.20.1 jar)
+- Destroy
+- Tweaked Controllers
+- Legendary Monsters
+- Meet Your Fight
 
 ### KubeJS scripts currently broken or migration-blocked
 These scripts reference removed mods/content and need follow-up before a clean 1.21 release:

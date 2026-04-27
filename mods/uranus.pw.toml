@@ -1,0 +1,13 @@
+name = "Uranus"
+filename = "uranus-2.4-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3Acxy864/versions/BBb3HOQ5/uranus-2.4-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "6c0b85a49921c32480e4547a8108694a16b1f3fa5fb0b5120b2942715234a1d02931a6748a87869c0704b0492aeb3cfbd6814d3cc25c7c2e99f720c11c3c4fdd"
+
+[update]
+[update.modrinth]
+mod-id = "3Acxy864"
+version = "BBb3HOQ5"

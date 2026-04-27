@@ -1,0 +1,13 @@
+name = "Veinminer"
+filename = "Veinminer-neoforge-3.1.2+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MnavVAzj/versions/axtsxx77/Veinminer-neoforge-3.1.2%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "4a667a652decb0d5b9d65c49360f235f39d8a974161278d1d2ef8b901631705c400c3817df00a1f4befd02f05403b93ca7011388c8d78d3412faf27564280388"
+
+[update]
+[update.modrinth]
+mod-id = "MnavVAzj"
+version = "axtsxx77"

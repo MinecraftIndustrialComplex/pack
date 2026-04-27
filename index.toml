@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "80ac6fb0537eedd7766973af7ec10575cd5434288eedf1621e570f5ef268518e"
+hash = "b69b8e4bbb42af6871fac7f39c19beacdd3065aab41bb0b0d1de625f6e468cbf"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -73,171 +73,16 @@ file = "defaultconfigs/gravestone-server.toml"
 hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
 
 [[files]]
-file = "disabledMods/ascension-megamons.pw.toml"
-hash = "3c0597f79815adb7c94524210207b2e6848f8109a53a19676feb098ba658527a"
-metafile = true
-
-[[files]]
-file = "disabledMods/block-swap.pw.toml"
-hash = "c89a994dc0964243562fe3e3d5050587db2057a006be99bee11773d8b37d1d5a"
-metafile = true
-
-[[files]]
-file = "disabledMods/cc-recrafted.pw.toml"
-hash = "fa565923bb77fd85184bc7106db8f572eafd140a4c8bc4c2eabbc04bb34778cd"
-metafile = true
-
-[[files]]
-file = "disabledMods/cc-vs.pw.toml"
-hash = "6f0d7cf1fd04e02bfa0cda4c1caf4cb5482fbbec007b560d5a2c28536e9e9e16"
-metafile = true
-
-[[files]]
-file = "disabledMods/ccdbridge.pw.toml"
-hash = "977d8dcda9fe69436e0d84dc1b8b1b9d66fe862e2f79f31611f39f018da46cfa"
-metafile = true
-
-[[files]]
 file = "disabledMods/cobblemonrf-1.0.0.jar"
 hash = "da8bb88ce407c40d65c99aeb119841d7d2e1fd5ca667d58d00cdf74fe840b700"
-
-[[files]]
-file = "disabledMods/cobblemonrider1.5.pw.toml"
-hash = "614b9997972e60fa8abd7bf9d6a584992192dfdb2292dbebf60111b6c3dc5527"
-metafile = true
-
-[[files]]
-file = "disabledMods/cobblemontrainers.pw.toml"
-hash = "80a354f0cd7ea3ed4506ba9e47cce5f17447291259c4e5444fe5a9634b17f92d"
-metafile = true
-
-[[files]]
-file = "disabledMods/create-air-forge.pw.toml"
-hash = "73b3273dc603dc090f3c0ceb43af16fa7b9a998660ed69a763b94147c140e52c"
-metafile = true
-
-[[files]]
-file = "disabledMods/create-clockwork.pw.toml"
-hash = "5021b4a0f5474201447787ebe98a5d6cf3d18b10e06fe64f726608e4739e8a9f"
-metafile = true
-
-[[files]]
-file = "disabledMods/create-radars.pw.toml"
-hash = "beddda7f1ceee42a6056c2386a741aaef45fddd1ae66682a52bff7f8e5479ec5"
-metafile = true
-
-[[files]]
-file = "disabledMods/create-structures.pw.toml"
-hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
-metafile = true
-
-[[files]]
-file = "disabledMods/create-tank-defenses.pw.toml"
-hash = "387b75010a7dbcb20e21720d6daa8736d6785534d81cb9ce5c7a28ec04e2636c"
-metafile = true
 
 [[files]]
 file = "disabledMods/destroy-1.20.1-0.1.4.jar"
 hash = "57ed35d8ae7835e1a475684e1b37091a083519d9a93518958083eada9a14f87d"
 
 [[files]]
-file = "disabledMods/eureka.pw.toml"
-hash = "efb71d9842d26ee82c813e95e2648a445b1ebc4d2de8491df6b6438603130856"
-metafile = true
-
-[[files]]
-file = "disabledMods/flintnpowder.pw.toml"
-hash = "0b875176065672534af45ae658a8b419bbfdfc8ef957a91fe8ebe935bdbf5e70"
-metafile = true
-
-[[files]]
-file = "disabledMods/game-stages.pw.toml"
-hash = "b92fa7fc7fa497f034ba2a33d031101b554ddbf9db645a60a0f0fc4a9127c4e7"
-metafile = true
-
-[[files]]
-file = "disabledMods/ice-and-fire-dragons.pw.toml"
-hash = "3e8cbae6a944592a6485b8c5e62b0794fe950ba8a6b155302d08f4205b9ad9b3"
-metafile = true
-
-[[files]]
-file = "disabledMods/legendary-monsters.pw.toml"
-hash = "4171a06e8f356357eeba7a35d222996f61f130d023aefd29b59688c8a23dbc44"
-metafile = true
-
-[[files]]
-file = "disabledMods/lexiconfig.pw.toml"
-hash = "471f6366615d29246e35c3193359ea479925ad98eb2beb1d59f0647f9896df3d"
-metafile = true
-
-[[files]]
-file = "disabledMods/meet-your-fight.pw.toml"
-hash = "49907e081568e7750065050556aa1e076f3df91b01624cb59adb9af40541f83e"
-metafile = true
-
-[[files]]
 file = "disabledMods/petrolpark-1.20.1-1.4.24.jar"
 hash = "8f5a296de8ea043aac4f0004af97866874747dfcd3a3ee12fa39326d6f98d05b"
-
-[[files]]
-file = "disabledMods/simple-create-radios.pw.toml"
-hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
-metafile = true
-
-[[files]]
-file = "disabledMods/simple-radio.pw.toml"
-hash = "60a3b1aa962b013468fbaf732b7b7e5e04734ed0e8f09e7eed84b2da3e01ab0a"
-metafile = true
-
-[[files]]
-file = "disabledMods/smalldice.pw.toml"
-hash = "8c879b67dfb4b23b17d9f3806bcd9b343f0b6f6d2981ed5a25e20c7b4359b5a4"
-metafile = true
-
-[[files]]
-file = "disabledMods/thin-air.pw.toml"
-hash = "43711fcf98a883adc997cd8cf314185544994419f3a03b329a32f682b78f2a7d"
-metafile = true
-
-[[files]]
-file = "disabledMods/timeless-and-classics-zero.pw.toml"
-hash = "c7b32bdcf176bdc10ff6cebc8e98cd656f4b25273066aa4cf8ee6edc893fa8e7"
-metafile = true
-
-[[files]]
-file = "disabledMods/trackwork.pw.toml"
-hash = "973388a9461c0012eb1c13d5868d37c4ad310b54900f8ab42f507bf159f399c2"
-metafile = true
-
-[[files]]
-file = "disabledMods/valkyrien-pirates.pw.toml"
-hash = "7fde23624f03602de59192669a8735e7ef810335c304a7b3c94bb3d44530b4f2"
-metafile = true
-
-[[files]]
-file = "disabledMods/valkyrien-sails.pw.toml"
-hash = "fe98662efb87f9f0f88acc2f0dad45542bd6d2d148565982d3b2c463d1190735"
-metafile = true
-
-[[files]]
-file = "disabledMods/valkyrien-skies.pw.toml"
-hash = "24332be98ab9c9250af31714c85785b6790bddc2def491e1ba6d249defa714ae"
-metafile = true
-
-[[files]]
-file = "disabledMods/veinminer.pw.toml"
-hash = "e3a2b7e4cf982ab5bebe2e6116173aa2aadb313d52c1bb11886772f83a848a9f"
-metafile = true
-
-[[files]]
-file = "disabledMods/vlib.pw.toml"
-hash = "bf329320b5ba7fd501bc27a9973f86a4c44f85903e29cdc5e0e914cb158e1fa2"
-metafile = true
-
-[[files]]
-file = "disabledMods/warium.pw.toml"
-hash = "d22a166d07b9cc9319bf8d6e877d7167e977a21ee13a1eacae8c16bf64d183d6"
-metafile = true
 
 [[files]]
 file = "flake.lock"
@@ -253,11 +98,11 @@ hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
 file = "kubejs/client_scripts/flintnpowderprune.js"
-hash = "539c346144e8712684b194213bed594e34750072dc56f8a0d3d32da78c48374e"
+hash = "9a46b5050d4a77d86bb6c0c6f06d1a512a07e390363a36e04b74e0c252ad152b"
 
 [[files]]
 file = "kubejs/client_scripts/oilyunification.js"
-hash = "7693b15b86fef1e9a2337a93fce7feec5575c01f0e6df1d89e83426889bb1eb1"
+hash = "bffa367e729197ef245034f1638b78a834865f28b776629e66e720bd9cdc8b38"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -408,16 +253,6 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
-metafile = true
-
-[[files]]
-file = "mods/casinocraft.pw.toml"
-hash = "c36681779db37e0a49a0747c167bfc7cb869b0c796c135252a2368019f7a0fc0"
-metafile = true
-
-[[files]]
-file = "mods/cavedifficulty.pw.toml"
-hash = "fc402b3a525e05977ed696e12632dd90fb8e531bbe64b6e2f7f2faa1feb37939"
 metafile = true
 
 [[files]]
@@ -591,6 +426,11 @@ hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
 metafile = true
 
 [[files]]
+file = "mods/create-vintage-(unofficial-port).pw.toml"
+hash = "7cfdeb64db904b6d30d2ebb34aa14d953466a9cc501e129f1b3de47e69384f08"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -628,11 +468,6 @@ metafile = true
 [[files]]
 file = "mods/e4mc.pw.toml"
 hash = "36732fd7fdad0831fdaef0c806def4ebcab5084bfd851bcff5e948923cd1b1d7"
-metafile = true
-
-[[files]]
-file = "mods/embeddium.pw.toml"
-hash = "778c42263b2ba7c9e73553bdcd70f48a3e485ba52b6a83474160d48be696b71f"
 metafile = true
 
 [[files]]
@@ -701,6 +536,11 @@ hash = "89321cbcc8789aca2ba0e70cbd3e498de493a5f2b9db51f9c72d65d99c7afee7"
 metafile = true
 
 [[files]]
+file = "mods/iceandfire-ce.pw.toml"
+hash = "3bf33cdda984b2275588cd1b3e0723e3ba2cc817db33d88ffa00c92063a23aa7"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
 metafile = true
@@ -733,6 +573,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/jupiter.pw.toml"
+hash = "3f44721c554a06b9e922c6102bed6402fed57d6d340de0299ee4237544724c48"
 metafile = true
 
 [[files]]
@@ -808,11 +653,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "114b4f1097f17b916cc5df3334aa57e34c6f4a108b87cb911e29134dd5ff980d"
-metafile = true
-
-[[files]]
-file = "mods/lucky77.pw.toml"
-hash = "c4b3d0a8c5879008f6a39882859bdd862a5f1b27a31e61930e7a44e719138d3a"
 metafile = true
 
 [[files]]
@@ -981,6 +821,11 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
+file = "mods/sgtveinminer.pw.toml"
+hash = "80fffbc3f9f5d2a118732169783cf9332008208fd8d7e0d11aa71aadb0586397"
+metafile = true
+
+[[files]]
 file = "mods/simple-clouds.pw.toml"
 hash = "e312f9b01407aadff6d7a3b52d68e9d38f048e376cc6ceeb4789eaa6b1ad94cb"
 metafile = true
@@ -989,6 +834,10 @@ metafile = true
 file = "mods/simple-voice-chat.pw.toml"
 hash = "c4f12c7bf746bdf25719995f9da8626187e9f879a20e29a9b4854e2066ad20bc"
 metafile = true
+
+[[files]]
+file = "mods/simpleradio-neoforge-1.21.1-4.4.6.8.jar"
+hash = "0e48165c6b71695544cd62f700c162937f3c0368eb469f07d8eac4d5585d7235"
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
@@ -1046,8 +895,13 @@ hash = "c46e22076b4905de8ac9a2d61976c830d709258d641de7c99cca68063e745eed"
 metafile = true
 
 [[files]]
-file = "mods/true-darkness-forge-updated-fork.pw.toml"
-hash = "97e78254f2db3f32811b04cafd138df7e64a0da0a9b2812f7573ace98e6f837f"
+file = "mods/true-darkness-biomes.pw.toml"
+hash = "45a47531d9a4ce40092aaf22284ef4aa04e3049561c9b82bdf6fbbb790bcc0e9"
+metafile = true
+
+[[files]]
+file = "mods/uranus.pw.toml"
+hash = "0d38304c4dee1ad199288dcaae5578f5d732af9f329f0ff5cb8269dc634821dc"
 metafile = true
 
 [[files]]
@@ -1068,11 +922,6 @@ metafile = true
 [[files]]
 file = "mods/watermedia.pw.toml"
 hash = "7756678c5600a6d421f39ef00d4a25afd6ac6ba2d76ec9a10bd7536a8d4f8558"
-metafile = true
-
-[[files]]
-file = "mods/watervision.pw.toml"
-hash = "393310e8c75c51eb3143c8ddcdac51917a5d759d428e5b962e4c2b4c8e87bc0e"
 metafile = true
 
 [[files]]
@@ -1097,6 +946,11 @@ hash = "f96262b01c7e047cb150d4268e03725419df9d9003d0767e9531771b1b283192"
 [[files]]
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
 hash = "a958030f95997d32191ffd80d656314b86747c46adfb16a3a128389d6a3ff6c9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/simple-create-radios.pw.toml"
+hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
 metafile = true
 
 [[files]]
