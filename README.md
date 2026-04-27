@@ -13,7 +13,6 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Diesel Generator / Destroy Integration
 - Decent Weapon Crafting
 - Kaiju
-- Integrate Warium
 - Horde attacks
   - Maybe configure it a bit better?
 - Exposure destroy integration
@@ -33,23 +32,17 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Add in magic jar: https://github.com/Petrolpark-Mods/Destroy/pull/775
 
 ## 1.21 Migration
-Target loader/version: NeoForge on Minecraft 1.21.
-
-The following entries were disabled because no NeoForge 1.21 release was available during migration:
-- Ascension Megamons (Cobblemon)
+The following `packwiz update --all` failures were moved to `disabledMods/`:
 - Block Swap
-- CC: Recrafted
-- CC: VS
 - CC:Destroy Bridge
+- CC: Recrafted
 - CobblemonRider
 - CobblemonTrainers (Discontinued)
 - Create Air Forge (A ThinAir compat)
-- Clockwork
 - Create: Radars
 - Create: Structures
 - Create: Tank Defenses
 - Destroy (1.20.1 jar)
-- Eureka! Ships! for Valkyrien Skies (Forge/Fabric)
 - Flint'N'Powder - Guns, Cultists, Reloads!
 - Game Stages
 - Ice and Fire
@@ -57,49 +50,12 @@ The following entries were disabled because no NeoForge 1.21 release was availab
 - Lexiconfig
 - Meet Your Fight
 - Petrolpark (Destroy dependency, 1.20.1 jar)
-- Simple Radio
-- Thin Air
-- [TaCZ] Timeless and Classics Zero
-- Trackwork
-- Valkyrien Pirates
-- Valkyrien Sails
-- Valkyrien Skies
-- Veinminer
-- VLib
-- Warium
-
-The following `packwiz update --all` failures were moved to `disabledMods/`:
-- Ice and Fire
-- Meet Your Fight
-- Simple Radio
-- Block Swap
-- Create: Tank Defenses
-- [TaCZ] Timeless and Classics Zero
-- CC: VS
-- Clockwork
-- Game Stages
-- Create Air Forge (A ThinAir compat)
-- Create: Radars
-- CobblemonRider
-- Trackwork
-- Veinminer
-- Warium
-- CC:Destroy Bridge
-- Create: Structures
-- Ascension Megamons (Cobblemon)
-- Thin Air
-- CobblemonTrainers (Discontinued)
-- CC: Recrafted
-- Flint'N'Powder - Guns, Cultists, Reloads!
-- Lexiconfig
-- VLib
-- Valkyrien Pirates
 - Simple Create Radios
-- Valkyrien Sails
-- Valkyrien Skies
-- Eureka! Ships! for Valkyrien Skies (Forge/Fabric)
-- Legendary Monsters
+- Simple Radio
 - SmallDice
+- [TaCZ] Timeless and Classics Zero
+- Thin Air
+- Veinminer
 
 ### KubeJS scripts currently broken or migration-blocked
 These scripts reference removed mods/content and need follow-up before a clean 1.21 release:

@@ -416,6 +416,11 @@ hash = "fc402b3a525e05977ed696e12632dd90fb8e531bbe64b6e2f7f2faa1feb37939"
 metafile = true
 
 [[files]]
+file = "mods/cc-sable.pw.toml"
+hash = "cc686a2a01e80740c102f62c2989ad5e69c675c86c2687b5d49063943506f010"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
 metafile = true
@@ -506,6 +511,11 @@ hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
+metafile = true
+
+[[files]]
 file = "mods/create-alloyed.pw.toml"
 hash = "cdbbea9cb7866aeabdb4385c833f0cf4d34dbf1393ce663bd7155ca6e4fd5b87"
 metafile = true
@@ -513,6 +523,11 @@ metafile = true
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "c0ce5acc926fd747135f330cb3e53b847e5c05ed950b96f7cbe0d1159aefa285"
+metafile = true
+
+[[files]]
+file = "mods/create-ccbr.pw.toml"
+hash = "2c0a8e956e3a1508d12544d59db0db04df6d88460dc56b80a1a8b4bdf1266005"
 metafile = true
 
 [[files]]
@@ -560,18 +575,11 @@ file = "mods/create-sound-of-steam.pw.toml"
 hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
 metafile = true
 
-# MIGRATION 1.21: disabled - crashes on title screen (create_tweaked_controllers GUI render NPE)
-# [[files]]
-# file = "mods/create-tweaked-controllers.pw.toml"
-# hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
-# metafile = true
-#
-# MIGRATION 1.21: disabled - crashes on title screen (createvintageneoforged GUI render NPE)
-# [[files]]
-# file = "mods/create-vintage-(unofficial-port).pw.toml"
-# hash = "7cfdeb64db904b6d30d2ebb34aa14d953466a9cc501e129f1b3de47e69384f08"
-# metafile = true
-#
+[[files]]
+file = "mods/create-tracks.pw.toml"
+hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
+metafile = true
+
 [[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
@@ -948,6 +956,11 @@ hash = "907a7f3584909169937bdb0891304108f6a5291ae1fdce211b62e2e8c3e14e68"
 metafile = true
 
 [[files]]
+file = "mods/sable.pw.toml"
+hash = "735f0a8e564e8c80c282a7ba97fe77c34edec0402883f7154fd0206572537afe"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
@@ -960,6 +973,16 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "c4f12c7bf746bdf25719995f9da8626187e9f879a20e29a9b4854e2066ad20bc"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "a1fb713df668ed21dda0602e99cb23b991c8faff841e130d7aae46258c3d6a45"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
