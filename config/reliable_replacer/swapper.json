@@ -1,0 +1,14 @@
+{
+  "crusty_chunks:zinc_ore": "minecraft:stone",
+  "crusty_chunks:lead_ore": "minecraft:stone",
+  "crusty_chunks:deepslate_lead_ore": "minecraft:deepslate",
+  "crusty_chunks:nickel_ore": "minecraft:stone",
+  "crusty_chunks:uranium_ore": "minecraft:stone",
+
+  "create_tank_defenses:aluminum_ore": "minecraft:stone",
+  "create_tank_defenses:aluminum_deepslate_ore": "minecraft:deepslate",
+
+  "iceandfire:silver_ore": "minecraft:stone",
+  "iceandfire:deepslate_silver_ore": "minecraft:stone",
+  "iceandfire:sapphire_ore": "minecraft:stone"
+}
