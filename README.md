@@ -27,6 +27,7 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Waterframe reasonable crafting
 - Null Cataclysms recipes
 - Re-work simple radio crafting tree
+- Sophisticated Backpacks: re-visit Everlasting and Inception upgrade crafting (recipes removed for now)
 
 # Installation:
 - Add in magic jar: https://github.com/Petrolpark-Mods/Destroy/pull/775

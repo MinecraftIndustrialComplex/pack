@@ -1,13 +1,13 @@
 name = "MaidUseHandCrank"
-filename = "MaidUseHandCrank_1.5.4-neoforge_21.1.206-1.21.1.jar"
+filename = "MaidUseHandCrank_1.6.0-neoforge_21.1.206-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kVNtrRcL/versions/Ng5hlSEF/MaidUseHandCrank_1.5.4-neoforge_21.1.206-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/kVNtrRcL/versions/GXsYXFOe/MaidUseHandCrank_1.6.0-neoforge_21.1.206-1.21.1.jar"
 hash-format = "sha512"
-hash = "bdc7adfb699aca8c143d503d10331f580ffef8f21e914ff9311fc375681ae18f15870a558fabf1be19ade473e55b216d61768a836b6fc924bc3f22dac590d91d"
+hash = "c99aca59e08aa3f3952ca090c1da285764f354286d5a2c1433ef6910a4fb5cc98dca5acaaa9a8b416c98fc0612c77ebfd9779fa6d916dad7c384783864f35b50"
 
 [update]
 [update.modrinth]
 mod-id = "kVNtrRcL"
-version = "Ng5hlSEF"
+version = "GXsYXFOe"

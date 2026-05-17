@@ -12,14 +12,5 @@
     "incontrol": true,
     "when": "onjoin",
     "result": "deny"
-  },
-  {
-    "mod": "touhou_little_maid",
-    "gamestage": "foxy",
-    "result": "default"
-  },
-  {
-    "mod": "touhou_little_maid",
-    "result": "deny"
   }
 ]

@@ -100,14 +100,25 @@ function destroyAllVolatiles(inv) {
   }
 }
 
-EntityEvents.hurt(function (event) {
-  var player = event.entity
-  if (!player || !(typeof player.isPlayer === "function" && player.isPlayer())) return
+var volatileHandler = function (event) {
+  var player = event.entity || (typeof event.getEntity === "function" ? event.getEntity() : null)
+  if (!player) return
 
-  var inv = player.inventory
+  var isPlayer = false
+  if (typeof player.isPlayer === "function" && player.isPlayer()) {
+    isPlayer = true
+  } else if (player.getClass && player.getClass().getName().indexOf("Player") !== -1) {
+    isPlayer = true
+  } else if (player.getType && String(player.getType()).indexOf("player") !== -1) {
+    isPlayer = true
+  }
+  if (!isPlayer) return
+
+  var inv = player.inventory || (typeof player.getInventory === "function" ? player.getInventory() : null)
   if (!inv) return
 
-  if (!isFireDamage(event.source)) return
+  var source = event.source || (typeof event.getSource === "function" ? event.getSource() : null)
+  if (!isFireDamage(source)) return
 
   var result = computeExplosion(inv)
   if (!result.hasAny) return
@@ -118,6 +129,18 @@ EntityEvents.hurt(function (event) {
   // consume items first to prevent chain triggers
   destroyAllVolatiles(inv)
 
-  var level = event.level || player.level
+  var level = event.level || (typeof player.level === "function" ? player.level() : player.level)
   explodeLikeTnt(level, player, result.strength)
-})
+}
+
+try {
+  if (typeof NeoForgeEvents !== "undefined") {
+    NeoForgeEvents.onEvent("net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Post", volatileHandler)
+  } else if (typeof NativeEvents !== "undefined") {
+    NativeEvents.onEvent("net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Post", volatileHandler)
+  } else if (typeof EntityEvents !== "undefined") {
+    EntityEvents.hurt(volatileHandler)
+  }
+} catch (e) {
+  console.log("[volatile] Failed to register hurt event: " + e)
+}

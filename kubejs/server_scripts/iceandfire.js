@@ -3,7 +3,7 @@ if (Platform.isLoaded('iceandfire')) {
     event.remove({ mod: 'iceandfire' })
   })
   LootJS.modifiers(event => {
-    event.addLootTableModifier(/iceandfire:.*/)
+    event.addTableModifier(/iceandfire:.*/)
       .removeLoot(/.*/)
   })
 }

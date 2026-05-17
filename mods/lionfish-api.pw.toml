@@ -1,13 +1,13 @@
 name = "Lionfish-API"
-filename = "lionfishapi-2.7-fix-fix.jar"
+filename = "lionfishapi-2.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FoVacERa/versions/FaK9Vh36/lionfishapi-2.7-fix-fix.jar"
+url = "https://cdn.modrinth.com/data/FoVacERa/versions/EuxMIyMd/lionfishapi-2.8.jar"
 hash-format = "sha512"
-hash = "3c5b6a6d355e71352eaae2e327a097158a77b93d834480455ac0fcb9238909353cdcabf86eff17711ece4da2a6fac87f5b639b9da29889286e9f58f6ffa7e2a8"
+hash = "25109ba20a3c8711d9397263a43729e63637296532159a49832ed2cf0f9d2b771e324c7ff5c745b00f8a99b7b95ae30a0bcd0701b6863751df56218eca8b82fa"
 
 [update]
 [update.modrinth]
 mod-id = "FoVacERa"
-version = "FaK9Vh36"
+version = "EuxMIyMd"

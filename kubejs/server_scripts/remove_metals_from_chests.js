@@ -26,7 +26,7 @@ LootJS.modifiers(function (event) {
   ];
 
   for (var t = 0; t < targets.length; t++) {
-    var mod = event.addLootTableModifier(targets[t]);
+    var mod = event.addTableModifier(targets[t]);
 
     for (var i = 0; i < tagFilters.length; i++) {
       mod.removeLoot(tagFilters[i]);
