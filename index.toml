@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "fceb5ff47ff5bc68c147550558a142721c34b8a1ddf7a14e976cbaf33bf90cb1"
+hash = "d0bd9ff3b2beac6a3abfa97ba3485b0b5d74411564118599b83f2fd22bc5ba76"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -22,7 +22,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "93d0b20e5e279ba31942b38bbbeef268e0b5804eb052013b2da2384e9a4de9f3"
+hash = "cf31b1e0b20e06ae2cca90553f7fa693559360812a6a6f5c48afe656bd636b3b"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -69,6 +69,34 @@ file = "defaultconfigs/gravestone-server.toml"
 hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
 
 [[files]]
+file = "futureAdv.md"
+hash = "9f5c1dbc445ddd6e9411d8b4dfb8c9f38c946a342c32ec1d7ba1afff92be8662"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_axe_mold.png"
+hash = "ff764a1c19b3a7dbb16f3d0699827f6ff782938f12b1a347b84b14be926ca590"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_hammer_mold.png"
+hash = "1e0c28dc2a7ccdd99d92239ac95d67f15a0b0a4019307b38ebffc76ea6040555"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_hoe_mold.png"
+hash = "63303e38f18b2116c97ca7356b4249bfd9d461228360ca3ced2e1215f313bc50"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_pickaxe_mold.png"
+hash = "9d187256fd651cf211e78f14cd014fe456a10d896227d112d807b6836e33f0c9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_shovel_mold.png"
+hash = "00efe1a4662d59ed9772a1f06fd7af7e7765c7bbc4be068db64e97c986d46d76"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_sword_mold.png"
+hash = "ab4a1fcac110cd7cddc668cd68301712267c0599fd828c1b299fa54729fefae9"
+
+[[files]]
 file = "kubejs/assets/textures/item/smokeless_powder.png"
 hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
@@ -105,8 +133,16 @@ file = "kubejs/data/mic/createdieselgenerators/fuel_type/diesel.json"
 hash = "6ccfbd1458b0963ebbc4271efe8f64d60496f3336e05b4df1e0ed8e195d5c131"
 
 [[files]]
+file = "kubejs/server_scripts/cbc_metallurgy_integration.js"
+hash = "fa996c46ec16c207d0f8463c12983aaa335b0279af23fa413d3cb607c3c58fc9"
+
+[[files]]
 file = "kubejs/server_scripts/create_aeronautics.js"
 hash = "9aa17769f902fb2f11e1da0d472d0e19e59f3aa7907e31cff7c72b95311d8f8c"
+
+[[files]]
+file = "kubejs/server_scripts/disable_villager_trading.js"
+hash = "03102b54ce500bf19e960cfcdf988c1503df5b0090354ac9d9f91a76c09e91d1"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
@@ -122,7 +158,7 @@ hash = "fa685c6f42a767ccf45ebdd5d4846d3c7c13c4599ba5e2af8b634180b95caf2c"
 
 [[files]]
 file = "kubejs/server_scripts/overgeared.js"
-hash = "c5fee2963b7df1233dbc4003f09d1ab865ded71b6f6adfbafc086376779b9cd0"
+hash = "aff9e666a1721c645ee0a7cd1ed19ea68f7c5f30656ee1a7875330d82dbc759f"
 
 [[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
@@ -154,11 +190,11 @@ hash = "92cd33d6d50c5545726e5528744fed1dc20d95fc51e588957cd994a6148ae3a5"
 
 [[files]]
 file = "kubejs/startup_scripts/overgeared_molds.js"
-hash = "9c992dc67db1704787ead306321c51c313d01a2bb9f18e7b84f2fb8fddcb69a8"
+hash = "6f830fb2518a966a6d87ab608a009082f2f10d469dc2cf17d0b82e55e26b91a6"
 
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "3ba045520a7ac7a495e13f0c8edb8e065f299fa2d549107fcfca3d3ca52cd4af"
+hash = "cfdff9163a9bc6e67186a6d5496e5c3b601829ae29592ac49c87dce7855eebfa"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -308,11 +344,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
 hash = "63d31d5820a5fe31ddee48ecfe5d03acb56c56d16e7b64e940ef664127d220d4"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-mass-outbreaks.pw.toml"
-hash = "2e89bdc525d4bbc64969b1db112ab876b773a0313062e3ff1f0fefeb81b49617"
 metafile = true
 
 [[files]]
@@ -695,8 +726,8 @@ hash = "1b0bcb6b0739ac51a706398c6f3765e1875e95490a9284603ee5628c259a4f63"
 metafile = true
 
 [[files]]
-file = "mods/moreculling.pw.toml"
-hash = "4eaef45625336f16e9461e00e9e4f4ed789bcd25b4ca8e011d68564ddb7c8c3a"
+file = "mods/morejs.pw.toml"
+hash = "f53cc593da93578483624241ca1390829588bc5881a9d31ac512b74b0eb2f86b"
 metafile = true
 
 [[files]]
@@ -966,6 +997,10 @@ metafile = true
 file = "resourcepacks/simple-create-radios.pw.toml"
 hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
 metafile = true
+
+[[files]]
+file = "scripts/molds_config.json"
+hash = "e5e846116483f69014989f54e38b71a82a70b6c14d4d82198a4141ee7fac2331"
 
 [[files]]
 file = "startup_scripts/item.js"
