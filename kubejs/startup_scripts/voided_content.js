@@ -32,7 +32,11 @@ global.VOIDED_ITEMS = [
 
   // create big cannons (use createmetallurgy molten steel/bronze)
   'createbigcannons:molten_steel_bucket',
-  'createbigcannons:molten_bronze_bucket'
+  'createbigcannons:molten_bronze_bucket',
+
+  // create vintage (use createmetallurgy:mechanical_belt_grinder)
+  'createvintageneoforged:belt_grinder',
+  'createvintageneoforged:grinder_belt'
 ]
 
 global.VOIDED_ITEM_PATTERNS = [
