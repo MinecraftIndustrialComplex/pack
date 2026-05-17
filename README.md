@@ -47,8 +47,6 @@ These scripts reference removed mods/content and need follow-up before a clean 1
 
 - `kubejs/server_scripts/tacz_new_recipes.js` - depends on `tacz` and `destroy` content that is currently removed. Script is now guard-wrapped and inactive until those mods return.
 - `kubejs/server_scripts/taczfreeze.js` - depends on `tacz` workbench blocks that are currently removed. Script is now guard-wrapped and inactive.
-- `kubejs/server_scripts/flintnpowder.js` - depends on `flintnpowder` items currently removed. Script is now guard-wrapped and inactive.
-- `kubejs/client_scripts/flintnpowderprune.js` - hides `flintnpowder` items in JEI, but mod is removed. Script is now guard-wrapped and inactive.
 - `kubejs/server_scripts/iceandfire.js` - targets `iceandfire` recipes/loot tables, but mod is removed. Script is now guard-wrapped and inactive.
 - `kubejs/server_scripts/oilyunification.js` - still references `destroy` items (`destroy:seismometer`, `destroy:pumpjack`) and should be rewritten or removed for Destroy-free progression.
 - `kubejs/client_scripts/oilyunification.js` - still hides `destroy` items in JEI and should be rewritten or removed for Destroy-free progression.

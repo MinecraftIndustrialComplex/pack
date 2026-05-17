@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "db1e7c9276b1a96f966a3c0f10879eb0471ecdd010f92cc002a3fb75029b92a2"
+hash = "fceb5ff47ff5bc68c147550558a142721c34b8a1ddf7a14e976cbaf33bf90cb1"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -22,7 +22,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "ec7c13844849cd231f4ef7c8457b8f01f28b7811eed5bd7c3ac936ea770f1a22"
+hash = "93d0b20e5e279ba31942b38bbbeef268e0b5804eb052013b2da2384e9a4de9f3"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
@@ -73,10 +73,6 @@ file = "kubejs/assets/textures/item/smokeless_powder.png"
 hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
-file = "kubejs/client_scripts/flintnpowderprune.js"
-hash = "9a46b5050d4a77d86bb6c0c6f06d1a512a07e390363a36e04b74e0c252ad152b"
-
-[[files]]
 file = "kubejs/client_scripts/oilyunification.js"
 hash = "bffa367e729197ef245034f1638b78a834865f28b776629e66e720bd9cdc8b38"
 
@@ -109,10 +105,6 @@ file = "kubejs/server_scripts/create_aeronautics.js"
 hash = "650429eaa487bd4471ccafa4a642434050fca8036c39177aae5124c565bb9def"
 
 [[files]]
-file = "kubejs/server_scripts/flintnpowder.js"
-hash = "b5d8af3855d0ab276d06d0bc6dd23d46c1d6a44cd3ddf67b9311fe02e84ecae8"
-
-[[files]]
 file = "kubejs/server_scripts/iceandfire.js"
 hash = "aeec16960394af2641c975e1b516d228cab0c3446ef2622258e11a18a47a5464"
 
@@ -134,11 +126,11 @@ hash = "08581bf4fe70b2b211b7a657e6933ce9333a411d5897f0f6bf63451a86609fd1"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks.js"
-hash = "a37bbf613d7aab87cd644c7f3890b02f05cf63cdc3a32255cf4a5778158e167c"
+hash = "3a36559cc6764bd3704212707742a5b9091a66323a9816a9e0c1482d5e073829"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_new_recipes.js"
-hash = "b575e19089079e0f12559b40270727f43ae8ec5f125467e1edb4bbcfeacb3ce0"
+hash = "977b48714366b7d84a052279a9e97221e2f047e299115537da575a8937e657b4"
 
 [[files]]
 file = "kubejs/server_scripts/taczfreeze.js"
@@ -162,8 +154,18 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "3d8f918c52e27d4c640f78c67c0a51a2ddbe4e3703c149e8ed9461f43bd5fedd"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "778fa4eda9d46a79ba4ae4a8425d5202bc584fbf5a64467588567bef5e458726"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "18cf2b63d293ba0738c1073690fbd2c62305b161f76d346a551a66a9bbf8af32"
 metafile = true
 
 [[files]]
@@ -184,6 +186,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
 
 [[files]]
@@ -277,6 +284,11 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "418e00920f24ef960858eec94feaa9ea7361ca2b53dda230efee45c2fbd50576"
 metafile = true
@@ -308,7 +320,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "35b95dd119a88d590788dea202bcc7ae6bc856c5091b032fe434eddcee719de1"
+hash = "fcdff70e42059d560693addb673b3511159e5d2d20b2391b8880c7f187e2201f"
 metafile = true
 
 [[files]]
@@ -344,11 +356,6 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
-metafile = true
-
-[[files]]
-file = "mods/create-alloyed.pw.toml"
-hash = "6b4e00ae66b76c3d0a941d62d5423ffb67f17cfcd24a96ab5f0db16f035c1048"
 metafile = true
 
 [[files]]
@@ -399,6 +406,11 @@ metafile = true
 [[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "4c0763d5351f0264d1d60c6fee012663f4855a9def0c31c309560779782945d1"
+metafile = true
+
+[[files]]
+file = "mods/create-metallurgy.pw.toml"
+hash = "7c019ecabc835ffb896822d736060468c67bc0d387a36ba91fab5b92d41a5c7e"
 metafile = true
 
 [[files]]
@@ -504,6 +516,11 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
 metafile = true
 
 [[files]]
@@ -662,6 +679,11 @@ hash = "1b0bcb6b0739ac51a706398c6f3765e1875e95490a9284603ee5628c259a4f63"
 metafile = true
 
 [[files]]
+file = "mods/moreculling.pw.toml"
+hash = "4eaef45625336f16e9461e00e9e4f4ed789bcd25b4ca8e011d68564ddb7c8c3a"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
@@ -714,6 +736,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
@@ -807,6 +834,11 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "00f400af981bbe8be3767ef49f4bc422a9649c3fa2d403bae7b25202a05fda1a"
+metafile = true
+
+[[files]]
 file = "mods/sgtveinminer.pw.toml"
 hash = "80fffbc3f9f5d2a118732169783cf9332008208fd8d7e0d11aa71aadb0586397"
 metafile = true
@@ -832,7 +864,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "d2a615d48539929c212fda6a9e44a2737d226aad0b791d61bd31a52b68e12f72"
+hash = "c117e1dc0d4580eee61d63309056c10357b337cf44211c3c2d8a8e56f39efa39"
 metafile = true
 
 [[files]]

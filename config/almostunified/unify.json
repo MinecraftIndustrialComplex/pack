@@ -3,7 +3,7 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
-    "alloyed",
+    "createmetallurgy",
     "create_tank_defenses",
     "createnuclear",
     "create",
@@ -12,7 +12,6 @@
     "thermal",
     "immersiveengineering",
     "mekanism",
-    "flintnpowder",
     "crusty_chunks"
   ],
   "stoneStrata": [
@@ -99,7 +98,7 @@
     "forge:ores/uranium": "createnuclear",
     "forge:ingots/zinc": "create",
     "forge:ingots/brass": "create",
-    "forge:ingots/steel": "alloyed",
+    "forge:ingots/steel": "createmetallurgy",
     "forge:plates/steel": "create_tank_defenses",
     "forge:autocannon_barrels/steel": "createbigcannons",
     "forge:cannon_barrels/steel": "createbigcannons",
@@ -149,9 +148,8 @@
     "forge:ingots/steel": [
       "createnuclear:steel_ingot",
       "create_tank_defenses:steel_ingot",
-      "flintnpowder:steel_ingot",
       "crusty_chunks:steel_ingot",
-      "alloyed:steel_ingot"
+      "createmetallurgy:steel_ingot"
     ],
     "forge:ingots/aluminum": [
       "crusty_chunks:aluminum_ingot",
@@ -164,22 +162,6 @@
     "forge:dusts/aluminum": [
       "crusty_chunks:aluminum_dust",
       "create_tank_defenses:aluminum_dust"
-    ],
-    "forge:autocannon_barrels/steel": [
-      "createbigcannons:steel_autocannon_barrel",
-      "flintnpowder:steel_barrel"
-    ],
-    "forge:cannon_barrels/steel": [
-      "createbigcannons:steel_cannon_barrel",
-      "flintnpowder:steel_heavy_barrel"
-    ],
-    "forge:autocannon_barrels/cast_iron": [
-      "createbigcannons:cast_iron_autocannon_barrel",
-      "flintnpowder:cast_iron_barrel"
-    ],
-    "forge:cannon_barrels/cast_iron": [
-      "createbigcannons:cast_iron_cannon_barrel",
-      "flintnpowder:cast_iron_heavy_barrel"
     ]
   },
   "tagOwnerships": {},

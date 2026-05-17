@@ -3,7 +3,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
   ServerEvents.recipes(e => {
     const goldSheet = '#forge:plates/gold'
     const ironSheet = '#forge:plates/iron'
-    const alloyedSteel = 'alloyed:steel_ingot'
+    const steelIngot = '#forge:ingots/steel'
 
     const replaceOutputs = [
       'sophisticatedbackpacks:upgrade_base',
@@ -38,9 +38,9 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'ILI',
       'SIS'
     ], {
-      S: '#forge:strings',
+      S: '#forge:string',
       I: ironSheet,
-      L: '#forge:leathers'
+      L: '#forge:leather'
     }).id('kubejs:sophisticated_backpacks/upgrade_base')
 
     // --- Magnet upgrades ---
@@ -53,7 +53,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       M: 'powergrid:magnet',
       P: 'sophisticatedbackpacks:pickup_upgrade',
       R: '#forge:dusts/redstone',
-      L: '#forge:gems/lapis'
+      L: 'minecraft:lapis_lazuli'
     }).id('kubejs:sophisticated_backpacks/magnet_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_magnet_upgrade', [
@@ -65,7 +65,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       M: 'powergrid:magnet',
       P: 'sophisticatedbackpacks:advanced_pickup_upgrade',
       R: '#forge:dusts/redstone',
-      L: '#forge:gems/lapis'
+      L: 'minecraft:lapis_lazuli'
     }).id('kubejs:sophisticated_backpacks/advanced_magnet_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_magnet_upgrade', [
@@ -73,7 +73,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GMG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       M: 'sophisticatedbackpacks:magnet_upgrade',
       R: '#forge:dusts/redstone'
@@ -97,7 +97,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GVG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:restock_upgrade',
       R: '#forge:dusts/redstone'
@@ -130,7 +130,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GPG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       I: 'minecraft:dispenser',
       G: goldSheet,
       P: 'sophisticatedbackpacks:pump_upgrade',
@@ -155,7 +155,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GBG',
       'SGS'
     ], {
-      S: alloyedSteel,
+      S: steelIngot,
       G: '#forge:ingots/gold',
       B: 'sophisticatedbackpacks:iron_backpack'
     }).id('kubejs:sophisticated_backpacks/gold_backpack')
@@ -164,7 +164,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       type: 'minecraft:smithing_transform',
       template: { item: 'overgeared:diamond_upgrade_smithing_template' },
       base: { item: 'sophisticatedbackpacks:gold_backpack' },
-      addition: { tag: 'forge:gems/diamond' },
+      addition: { item: 'minecraft:diamond' },
       result: { id: 'sophisticatedbackpacks:diamond_backpack', count: 1 }
     }).id('kubejs:sophisticated_backpacks/diamond_backpack')
 
@@ -174,7 +174,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GPG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       P: 'sophisticatedbackpacks:pickup_upgrade',
       R: '#forge:dusts/redstone'
@@ -185,7 +185,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GVG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:void_upgrade',
       R: '#forge:dusts/redstone'
@@ -205,7 +205,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GVG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:deposit_upgrade',
       R: '#forge:dusts/redstone'
@@ -216,7 +216,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GVG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:feeding_upgrade',
       R: '#forge:dusts/redstone'
@@ -227,7 +227,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GFG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       F: 'sophisticatedbackpacks:refill_upgrade',
       R: '#forge:dusts/redstone'
@@ -238,7 +238,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GAG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       A: 'sophisticatedbackpacks:alchemy_upgrade',
       R: '#forge:dusts/redstone'
@@ -249,7 +249,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GCG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       C: 'sophisticatedbackpacks:compacting_upgrade',
       R: '#forge:dusts/redstone'
@@ -260,7 +260,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GJG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       J: 'sophisticatedbackpacks:jukebox_upgrade',
       R: '#forge:dusts/redstone'
@@ -271,7 +271,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'GVG',
       'RRR'
     ], {
-      D: '#forge:gems/diamond',
+      D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:tool_swapper_upgrade',
       R: '#forge:dusts/redstone'
