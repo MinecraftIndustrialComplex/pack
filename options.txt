@@ -199,8 +199,6 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.carry.desc:key.keyboard.left.shift
-key_key.touhou_little_maid.stt_chat.desc:key.keyboard.unknown
-key_key.touhou_little_maid.dismount.desc:key.keyboard.unknown
 key_key.cataclysm.ability:key.keyboard.unknown
 key_key.cataclysm.helmet_ability:key.keyboard.unknown
 key_key.cataclysm.chestplate_ability:key.keyboard.unknown

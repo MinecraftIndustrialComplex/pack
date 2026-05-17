@@ -61,10 +61,6 @@ file = "config/structurify.json"
 hash = "9f23dddf0db69bed1c48bc51f000d833dbcba41c909e9f83efb6947a373e6c69"
 
 [[files]]
-file = "config/touhou_little_maid-common.toml"
-hash = "b62c9a1ef0ae9553c06cd63217cdf23e1595e7ea1f2cf47cc84792c8715e3c26"
-
-[[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
 hash = "e350a1c71c480ba4a6af09c3c5750aaa2cf6e202e6c057b0b01592e8a36d238d"
 
@@ -115,10 +111,6 @@ hash = "650429eaa487bd4471ccafa4a642434050fca8036c39177aae5124c565bb9def"
 [[files]]
 file = "kubejs/server_scripts/flintnpowder.js"
 hash = "b5d8af3855d0ab276d06d0bc6dd23d46c1d6a44cd3ddf67b9311fe02e84ecae8"
-
-[[files]]
-file = "kubejs/server_scripts/foxify.js"
-hash = "aa7c00399916caa0b6b972490a8e1ac1941dd1212c58d97437ee46c73ec42a8a"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
@@ -645,11 +637,6 @@ hash = "988377a2fb2346223a83b6545ec52f5b22ebd0e26b63d141427ad389bedfe4f0"
 metafile = true
 
 [[files]]
-file = "mods/maidusehandcrank.pw.toml"
-hash = "e70b05e5b547527de4589c0a495fec0560664497d42e9d76ba5a407de4f7b7bc"
-metafile = true
-
-[[files]]
 file = "mods/mcqoy.pw.toml"
 hash = "604b7674b96d10b2c9f03e47a91ec50b448e8193de56f36fca93b5ff0f3132f6"
 metafile = true
@@ -879,11 +866,6 @@ hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
-file = "mods/touhou-little-maid.pw.toml"
-hash = "f3cf6caa22a19e0993cac2299ad3c3e84f9c104a8cae49d57e1d4f3c9d1bf1f6"
-metafile = true
-
-[[files]]
 file = "mods/true-darkness-biomes.pw.toml"
 hash = "45a47531d9a4ce40092aaf22284ef4aa04e3049561c9b82bdf6fbbb790bcc0e9"
 metafile = true
@@ -910,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "f96262b01c7e047cb150d4268e03725419df9d9003d0767e9531771b1b283192"
+hash = "5f5eb760ed1f95c626113e178f6e559015005487113f45b7168effa1eab3aaa7"
 
 [[files]]
 file = "resourcepacks/angels-weather.pw.toml"
