@@ -11,8 +11,10 @@ global.VOIDED_ITEMS = [
   'createdieselgenerators:gasoline_bucket',
   'createdieselgenerators:ethanol_bucket',
 
-  // overgeared (metallurgy replaces these)
+  // overgeared / duplicate steel (createmetallurgy:steel_ingot is canonical)
   'overgeared:steel_ingot',
+  'createbigcannons:steel_ingot',
+  'createnuclear:steel_ingot',
   'overgeared:crude_steel',
   'overgeared:unfired_tool_cast',
   'overgeared:clay_tool_cast',

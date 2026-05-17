@@ -146,7 +146,6 @@
       "create:brass_ingot"
     ],
     "forge:ingots/steel": [
-      "createnuclear:steel_ingot",
       "create_tank_defenses:steel_ingot",
       "crusty_chunks:steel_ingot",
       "createmetallurgy:steel_ingot"

@@ -18,6 +18,10 @@ ServerEvents.recipes(e => {
   
   e.remove({ output: 'overgeared:steel_ingot' });
   e.remove({ output: 'overgeared:crude_steel' });
+
+  // Duplicate steel ingots — createmetallurgy:steel_ingot is canonical
+  e.remove({ output: 'createbigcannons:steel_ingot' });
+  e.remove({ output: 'createnuclear:steel_ingot' });
   e.remove({ output: 'overgeared:unfired_tool_cast' });
   e.remove({ output: 'overgeared:clay_tool_cast' });
   e.remove({ output: 'overgeared:nether_tool_cast' });
