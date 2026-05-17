@@ -1,0 +1,28 @@
+# Version Control
+.git/**
+.gitignore
+.gitattributes
+.github/**
+
+# IDEs & Environment
+.vscode/**
+.idea/**
+.cursor/**
+.envrc
+.direnv/**
+flake.nix
+flake.lock
+
+# Packwiz & Exports
+*.mrpack
+*.zip
+.packwizignore
+HTCE/**
+
+# Documentation & Development
+.cache_moddocs/**
+modDocs/**
+techTree/**
+
+# Misc
+disabledMods/**

@@ -6,3 +6,10 @@
 
 # Exclude wacky mods
 *.jar
+.envrc
+
+# ???
+.direnv/**
+modDocs/**
+techTree/**
+.cache_moddocs/**

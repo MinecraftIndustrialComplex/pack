@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "b69b8e4bbb42af6871fac7f39c19beacdd3065aab41bb0b0d1de625f6e468cbf"
+hash = "db1e7c9276b1a96f966a3c0f10879eb0471ecdd010f92cc002a3fb75029b92a2"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -73,26 +73,6 @@ file = "defaultconfigs/gravestone-server.toml"
 hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
 
 [[files]]
-file = "disabledMods/cobblemonrf-1.0.0.jar"
-hash = "da8bb88ce407c40d65c99aeb119841d7d2e1fd5ca667d58d00cdf74fe840b700"
-
-[[files]]
-file = "disabledMods/destroy-1.20.1-0.1.4.jar"
-hash = "57ed35d8ae7835e1a475684e1b37091a083519d9a93518958083eada9a14f87d"
-
-[[files]]
-file = "disabledMods/petrolpark-1.20.1-1.4.24.jar"
-hash = "8f5a296de8ea043aac4f0004af97866874747dfcd3a3ee12fa39326d6f98d05b"
-
-[[files]]
-file = "flake.lock"
-hash = "ec544b806990af357a3888fef014c79c708ea104c63f0b3b277c25bde1757e1c"
-
-[[files]]
-file = "flake.nix"
-hash = "1b5c2140b2ad331ee832d0e3da785454c9de1f98da98eae486dc04f5d4a7c7af"
-
-[[files]]
 file = "kubejs/assets/textures/item/smokeless_powder.png"
 hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
@@ -129,6 +109,10 @@ file = "kubejs/data/mic/createdieselgenerators/fuel_type/diesel.json"
 hash = "6ccfbd1458b0963ebbc4271efe8f64d60496f3336e05b4df1e0ed8e195d5c131"
 
 [[files]]
+file = "kubejs/server_scripts/create_aeronautics.js"
+hash = "650429eaa487bd4471ccafa4a642434050fca8036c39177aae5124c565bb9def"
+
+[[files]]
 file = "kubejs/server_scripts/flintnpowder.js"
 hash = "b5d8af3855d0ab276d06d0bc6dd23d46c1d6a44cd3ddf67b9311fe02e84ecae8"
 
@@ -157,6 +141,10 @@ file = "kubejs/server_scripts/remove_metals_from_chests.js"
 hash = "08581bf4fe70b2b211b7a657e6933ce9333a411d5897f0f6bf63451a86609fd1"
 
 [[files]]
+file = "kubejs/server_scripts/sophisticated_backpacks.js"
+hash = "a37bbf613d7aab87cd644c7f3890b02f05cf63cdc3a32255cf4a5778158e167c"
+
+[[files]]
 file = "kubejs/server_scripts/tacz_new_recipes.js"
 hash = "b575e19089079e0f12559b40270727f43ae8ec5f125467e1edb4bbcfeacb3ce0"
 
@@ -166,7 +154,7 @@ hash = "fb9e365a906c165e46b794e5345654397e18969c4f7fff0e400d3ce15d2087c3"
 
 [[files]]
 file = "kubejs/server_scripts/volatile_compounds.js"
-hash = "8c0947519e094427377a024ed5b3fbc5f415021737684845d50f75a1edb4566d"
+hash = "b074a6d828d3e44c8a31144ac638ea9cb0067bd1a2fd0ad3cf0d4d77f7c99e28"
 
 [[files]]
 file = "kubejs/server_scripts/warium.js"
@@ -175,46 +163,6 @@ hash = "846b81b52a4410e19d782d44b06804559932563ce471cbbb941619dc867dbce8"
 [[files]]
 file = "kubejs/server_scripts/zombies.js"
 hash = "92cd33d6d50c5545726e5528744fed1dc20d95fc51e588957cd994a6148ae3a5"
-
-[[files]]
-file = "modDocs/cobblemon.md"
-hash = "dee6876818f885792afd83f413811eb2e078d6de4ece4cae1bbccbc38c4d6688"
-
-[[files]]
-file = "modDocs/create-aeronautics.md"
-hash = "765aeb6387f6a2bb9bf3286c16a0ea050bfd8695f0ab6415c09d43cd8732536a"
-
-[[files]]
-file = "modDocs/create-alloyed.md"
-hash = "8d1fa82368049537a4c91109864bd49afc747b6948eea719817e259d4da84ecb"
-
-[[files]]
-file = "modDocs/create-destroy.md"
-hash = "ec7e77044154b59b92b114f7fa3c254545d83509a1c076fda0685eeee1b4228c"
-
-[[files]]
-file = "modDocs/create-diesel-generators.md"
-hash = "6c0bdf7761d066e044b0ef0fb1ac458deba6a4c2ff996e4c86d7c8adf6b7a1ab"
-
-[[files]]
-file = "modDocs/create-vintage-improvements.md"
-hash = "c2e202cf4e40a6fb09882799b2f02e35b19082c280d927101d80fd87dc1cb5ea"
-
-[[files]]
-file = "modDocs/create.md"
-hash = "ef10ea7335343f19f52cb76ad7cd80ebb231612bfeb06a6a23135efce8f924e3"
-
-[[files]]
-file = "modDocs/create_power_grid.md"
-hash = "32adbaa93638a713f53db88af2cf0d2c555db00b07919a5d99429f496ac35854"
-
-[[files]]
-file = "modDocs/overgeared.md"
-hash = "aa3c78eaef78fcac3c6b8520621ed4cec452cdda5fc9f87fe9b1ae97ff9e352e"
-
-[[files]]
-file = "modDocs/template.md"
-hash = "9fdd8c8fe684c40e353dd3dc3b5add79c14cb093a0d4a3f70c2cdf4b29e7ba94"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -277,8 +225,8 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
-file = "mods/born-in-chaos.pw.toml"
-hash = "8e2b38b8c4788d37fd0b55192a3dca6e19174e314dcdb628578c633e5f527ff2"
+file = "mods/borninchaos.pw.toml"
+hash = "6d6592921805a740571094baab543ee8e3a954d6ff4df78bd4c000a49e0a6d84"
 metafile = true
 
 [[files]]
@@ -497,6 +445,11 @@ hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
 metafile = true
 
 [[files]]
+file = "mods/drive-by-wire-sable.pw.toml"
+hash = "10b4667fda9920f6a68577d61d17b318d97a988f5a8e9efcacc8c83c665cdc4b"
+metafile = true
+
+[[files]]
 file = "mods/dynamiccrosshair.pw.toml"
 hash = "41ddb2dfcf6b2d87bd52d0fb8dc9c8c3a7e3e83f9f1cbf9c495ab195333dfbd9"
 metafile = true
@@ -553,7 +506,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
+hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
@@ -663,12 +616,8 @@ metafile = true
 
 [[files]]
 file = "mods/legendary-survival-overhaul.pw.toml"
-hash = "ad7234904e2475402817c6a3f3e03b5e0bf7d58cd9334aaf2bea069cc3da4092"
+hash = "ac28adfc439374ba252cfeff8439c14894f70522b10549400a17ff5ecf221f2f"
 metafile = true
-
-[[files]]
-file = "mods/lexiconfig-neoforge-1.21-1.4.19.jar"
-hash = "7bcb26452918cf4e31df787ac10566e2f462c80aed53c4e1aa7c4b47bb70d687"
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
@@ -891,12 +840,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e5c93ef7ac08fe360c200c41618ccbe02ed1288db03a14ee0e8c88d59dc14ce0"
+hash = "50e47fd9fadb581368eba709a8777b34b73938a0911cd436783979c032a0145f"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "7f7ef360ee12ecfcf5597534a8cb16bb25604ef0fee11aecd6456d03781642a9"
+hash = "3642ae8539b2af68e1169284a294aecc5fff94281e339dff0cdf767cd94de2f9"
 metafile = true
 
 [[files]]
@@ -981,91 +930,3 @@ metafile = true
 [[files]]
 file = "startup_scripts/item.js"
 hash = "119eedb9c5332514124c236e28b45f3a12f9691c7a5378d1ae37f47fa8eda547"
-
-[[files]]
-file = "techTree/README.md"
-hash = "71246cae71e0201182bc4669459536789e6c5a56fbb1aa010ac243e759408f13"
-
-[[files]]
-file = "techTree/data/mods/alloyed.yaml"
-hash = "f8e94ca1d55c75c8e0743daeef373ae558350084eb8f7e03d9134c92acbca78b"
-
-[[files]]
-file = "techTree/data/mods/cobblemon.yaml"
-hash = "c589159f59e410c6f58884c60e7fca89f4c881ad52449e682061faa2924e87db"
-
-[[files]]
-file = "techTree/data/mods/create-aeronautics.yaml"
-hash = "bc5531e3dbd2e7cce84b1d68aa52a891144d5608ff30ba45679b359eb11f4d2d"
-
-[[files]]
-file = "techTree/data/mods/create-diesel-generators.yaml"
-hash = "12b26596b33f2207a28edad07df1748b3c067c61fca81e86aa0c2839fa6d12f7"
-
-[[files]]
-file = "techTree/data/mods/create-power-grid.yaml"
-hash = "5c40cf9bc79b6c2e2c5a9d6e3b88b5e39c42e42fb65bf9cebc6ce2c712346aba"
-
-[[files]]
-file = "techTree/data/mods/create-vintage-improvements.yaml"
-hash = "12233bc4804d27c33b8f1cd0113409630c9c47d80acf297d8bfe2c2c883c08ca"
-
-[[files]]
-file = "techTree/data/mods/create.yaml"
-hash = "3c4a9927c7dd52c3f18d7b8452a97f6d0a9445580e0a832b3ad8a73856090fa1"
-
-[[files]]
-file = "techTree/data/mods/destroy.yaml"
-hash = "67110928190e0d9a7804dfa5438679a64683e81de05eb8388c49628ecfde7e1d"
-
-[[files]]
-file = "techTree/data/mods/minecraft.yaml"
-hash = "14974767f21a57db2341fea8d3c72c2e4caf4144e1d38a2a03e362e4d47e5af1"
-
-[[files]]
-file = "techTree/data/mods/overgeared.yaml"
-hash = "8a8da7213d6c750751fa7e1f54c08d69e04ff2d126df1cee98771a8580fb11bb"
-
-[[files]]
-file = "techTree/data/schema/tech-tree.schema.json"
-hash = "7ead5c4f9497e01e949ce4b90552fc3e3f0f96ca547ae27ee07a65be4b271b55"
-
-[[files]]
-file = "techTree/data/tech-tree.yaml"
-hash = "ed1cd0043bdbb3e1bf7dbc36eaf70339a02464bcaf1ddd55e69ef2e4788f9ed3"
-
-[[files]]
-file = "techTree/dist/analysis-report.json"
-hash = "d51f4012d431c6746bce92844f376fd190eb76e414aa47085e03d5047e74f864"
-
-[[files]]
-file = "techTree/dist/analysis-report.md"
-hash = "aa1b811cfdeb79ac9555101c3bd0eba895f10a08f73ee904e4bbb5c43ebb0525"
-
-[[files]]
-file = "techTree/dist/tech-tree.json"
-hash = "e77fd9283593e55bb44b8b5ea98fa18c274345e4d21cb24dc6608445fc60408d"
-
-[[files]]
-file = "techTree/dist/tech-tree.meta.json"
-hash = "fab3f65877bdda35fe53797bf3e184d0b91d8d24f05f9253c1ddae74a5f8445c"
-
-[[files]]
-file = "techTree/index.html"
-hash = "5e1bb0387e4a85b2a9e619507d3020755dc83b79a2c876a888c40e81339d3415"
-
-[[files]]
-file = "techTree/scripts/__pycache__/build.cpython-313.pyc"
-hash = "39e11d8dd2ab34f122379c2503f8e9be4a6962604f955562aeb77ac5e4831c4d"
-
-[[files]]
-file = "techTree/scripts/analyze.py"
-hash = "472e5ad55bcc9d2e8e034a62bb4699b91c0e1ba374ad95e969830fcec079c382"
-
-[[files]]
-file = "techTree/scripts/build.py"
-hash = "91b825f31f24c44c553e2b8a059d4fe01dff9c5f0f30ac4682514bf8a68d7af5"
-
-[[files]]
-file = "techTree/viewer.html"
-hash = "ed986c86494dcde5510cdc233eab736077b3b9cecac2bada0aaba585e810716f"

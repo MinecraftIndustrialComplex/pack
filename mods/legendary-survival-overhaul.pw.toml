@@ -3,11 +3,11 @@ filename = "legendarysurvivaloverhaul-1.21.1-2.4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "826525021abbf5c9c3b53764ca1829087ddcb512"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/TQr3t8Sb/versions/AgUpT99l/legendarysurvivaloverhaul-1.21.1-2.4.2.jar"
+hash-format = "sha512"
+hash = "b437a3fdaee9e761691be80b058b1f303e81e20c5d407bb7eefc3d63322549af2c678777be44f1c5fefb98e6053d6deaba04efd444298e2f798dc258ea98e3ef"
 
 [update]
-[update.curseforge]
-file-id = 7603851
-project-id = 840254
+[update.modrinth]
+mod-id = "TQr3t8Sb"
+version = "AgUpT99l"
