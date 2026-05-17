@@ -1,0 +1,13 @@
+name = "Reliable Replacer"
+filename = "reliable_replacer-neoforge-1.21.1-1.4.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/swDAEYpN/versions/wuTCCOMt/reliable_replacer-neoforge-1.21.1-1.4.0.jar"
+hash-format = "sha512"
+hash = "78bacf086e49895e58a03ada8feb4b39231119a5494d0f503615692de4eb8e6d78e0501c6ae2a8797178e295223bf4c150a66cfdc76b93935ef0e51f1a722fa8"
+
+[update]
+[update.modrinth]
+mod-id = "swDAEYpN"
+version = "wuTCCOMt"
