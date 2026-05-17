@@ -227,6 +227,11 @@ hash = "30ffe79b0347aa0c24e2c6ad917457f1ccae75423b96c8d30c7c8c372fb90cc5"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "3bd93a96d168035a570a97dddc1db9f7fc9f73b992d1e3d7227bc2080d1c6f68"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
@@ -254,6 +259,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "8f0d13cc7d1b993657aa32e4495b9d75cfdd2e7f93f9a10dec522866e18afc6f"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
