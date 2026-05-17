@@ -1,9 +1,9 @@
 // Sophisticated Backpacks — recipe gating for MIC progression
 if (Platform.isLoaded('sophisticatedbackpacks')) {
   ServerEvents.recipes(e => {
-    const goldSheet = '#forge:plates/gold'
-    const ironSheet = '#forge:plates/iron'
-    const steelIngot = '#forge:ingots/steel'
+    const goldSheet = '#c:plates/gold'
+    const ironSheet = '#c:plates/iron'
+    const steelIngot = '#c:ingots/steel'
 
     const replaceOutputs = [
       'sophisticatedbackpacks:upgrade_base',
@@ -38,9 +38,9 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'ILI',
       'SIS'
     ], {
-      S: '#forge:string',
+      S: 'minecraft:string',
       I: ironSheet,
-      L: '#forge:leather'
+      L: 'minecraft:leather'
     }).id('kubejs:sophisticated_backpacks/upgrade_base')
 
     // --- Magnet upgrades ---
@@ -49,10 +49,10 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'MPM',
       'RL '
     ], {
-      E: '#forge:ender_pearls',
+      E: 'minecraft:ender_pearl',
       M: 'powergrid:magnet',
       P: 'sophisticatedbackpacks:pickup_upgrade',
-      R: '#forge:dusts/redstone',
+      R: 'minecraft:redstone',
       L: 'minecraft:lapis_lazuli'
     }).id('kubejs:sophisticated_backpacks/magnet_upgrade')
 
@@ -61,10 +61,10 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'MPM',
       'RL '
     ], {
-      E: '#forge:ender_pearls',
+      E: 'minecraft:ender_pearl',
       M: 'powergrid:magnet',
       P: 'sophisticatedbackpacks:advanced_pickup_upgrade',
-      R: '#forge:dusts/redstone',
+      R: 'minecraft:redstone',
       L: 'minecraft:lapis_lazuli'
     }).id('kubejs:sophisticated_backpacks/advanced_magnet_upgrade')
 
@@ -76,7 +76,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       M: 'sophisticatedbackpacks:magnet_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_magnet_from_basic')
 
     // --- Restock upgrades ---
@@ -86,10 +86,10 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'RCR'
     ], {
       S: 'create:stock_link',
-      I: '#forge:ingots/iron',
+      I: '#c:ingots/iron',
       B: 'sophisticatedbackpacks:upgrade_base',
-      R: '#forge:dusts/redstone',
-      C: '#forge:chests/wooden'
+      R: 'minecraft:redstone',
+      C: '#c:chests/wooden'
     }).id('kubejs:sophisticated_backpacks/restock_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_restock_upgrade', [
@@ -100,7 +100,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:restock_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_restock_upgrade')
 
     // --- Fluid upgrades ---
@@ -134,7 +134,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       I: 'minecraft:dispenser',
       G: goldSheet,
       P: 'sophisticatedbackpacks:pump_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_pump_upgrade')
 
     // --- Battery upgrade (see HTCE/overrides/scripts/electronics.zs) ---
@@ -156,7 +156,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       'SGS'
     ], {
       S: steelIngot,
-      G: '#forge:ingots/gold',
+      G: '#c:ingots/gold',
       B: 'sophisticatedbackpacks:iron_backpack'
     }).id('kubejs:sophisticated_backpacks/gold_backpack')
 
@@ -177,7 +177,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       P: 'sophisticatedbackpacks:pickup_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_pickup_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_void_upgrade', [
@@ -188,7 +188,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:void_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_void_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_filter_upgrade', [
@@ -197,7 +197,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
     ], {
       G: goldSheet,
       P: 'sophisticatedbackpacks:filter_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_filter_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_deposit_upgrade', [
@@ -208,7 +208,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:deposit_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_deposit_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_feeding_upgrade', [
@@ -219,7 +219,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:feeding_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_feeding_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_refill_upgrade', [
@@ -230,7 +230,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       F: 'sophisticatedbackpacks:refill_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_refill_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_alchemy_upgrade', [
@@ -241,7 +241,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       A: 'sophisticatedbackpacks:alchemy_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_alchemy_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_compacting_upgrade', [
@@ -252,7 +252,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       C: 'sophisticatedbackpacks:compacting_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_compacting_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_jukebox_upgrade', [
@@ -263,7 +263,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       J: 'sophisticatedbackpacks:jukebox_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_jukebox_upgrade')
 
     e.shaped('sophisticatedbackpacks:advanced_tool_swapper_upgrade', [
@@ -274,7 +274,7 @@ if (Platform.isLoaded('sophisticatedbackpacks')) {
       D: 'minecraft:diamond',
       G: goldSheet,
       V: 'sophisticatedbackpacks:tool_swapper_upgrade',
-      R: '#forge:dusts/redstone'
+      R: 'minecraft:redstone'
     }).id('kubejs:sophisticated_backpacks/advanced_tool_swapper_upgrade')
 
     // Everlasting / Inception: crafting disabled until progression recipes are designed (see README TODO)

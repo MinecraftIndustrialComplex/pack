@@ -26,3 +26,7 @@ techTree/**
 
 # Misc
 disabledMods/**
+
+# Scripts
+*.py
+*.sh

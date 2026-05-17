@@ -1,5 +1,8 @@
 # Minecraft Industrial Complex
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
+Makes heavy use of aeronautics, tacz, create, powergrid.
+
+Waiting on Destroy 1.21 to release, or a sufficient community port.
 # TODO
 - Redo legendary survival overhaul progression
 - Check tank / plane / etc. building is decent.
@@ -30,33 +33,5 @@ Advanced create based modpack which has an extremely difficult early game, with 
 - Sophisticated Backpacks: re-visit Everlasting and Inception upgrade crafting (recipes removed for now)
 
 # Installation:
-- Add in magic jar: https://github.com/Petrolpark-Mods/Destroy/pull/775
-
-## 1.21 Migration
-The following `packwiz update --all` failures were moved to `disabledMods/`:
-Add when possible:
-- CC:Destroy Bridge
-- Create: Radars
-- Destroy
-- Tweaked Controllers
-- Legendary Monsters
-- Meet Your Fight
-
-### KubeJS scripts currently broken or migration-blocked
-These scripts reference removed mods/content and need follow-up before a clean 1.21 release:
-
-- `kubejs/server_scripts/tacz_new_recipes.js` - depends on `tacz` and `destroy` content that is currently removed. Script is now guard-wrapped and inactive until those mods return.
-- `kubejs/server_scripts/taczfreeze.js` - depends on `tacz` workbench blocks that are currently removed. Script is now guard-wrapped and inactive.
-- `kubejs/server_scripts/iceandfire.js` - targets `iceandfire` recipes/loot tables, but mod is removed. Script is now guard-wrapped and inactive.
-- `kubejs/server_scripts/oilyunification.js` - still references `destroy` items (`destroy:seismometer`, `destroy:pumpjack`) and should be rewritten or removed for Destroy-free progression.
-- `kubejs/client_scripts/oilyunification.js` - still hides `destroy` items in JEI and should be rewritten or removed for Destroy-free progression.
-
-Related data files that still include Destroy fluids and may need a migration cleanup pass:
-- `kubejs/data/forge/tags/fluids/crude_oil.json`
-- `kubejs/data/forge/tags/fluids/diesel.json`
-- `kubejs/data/forge/tags/fluids/gasoline.json`
-- `kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json`
-Additional 1.21 runtime crash blocker moved to `disabledMods/`:
-- Create: Vintage NeoForged (title screen render crash in `OpenVintageMenuButton`, NullPointerException)
-- Create: Tweaked Controllers (title screen render crash in `ModMainConfigButton`, NullPointerException)
-
+- Grab simple radio jars from their discord.
+- Possible run scripts to re-generate various items.

@@ -73,8 +73,12 @@ file = "kubejs/assets/textures/item/smokeless_powder.png"
 hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
-file = "kubejs/client_scripts/oilyunification.js"
-hash = "bffa367e729197ef245034f1638b78a834865f28b776629e66e720bd9cdc8b38"
+file = "kubejs/client_scripts/create_aeronautics.js"
+hash = "4f6faa67f52c82af1664aba7ef0c321ef20b587538e7ad8bb9713ceba50b489c"
+
+[[files]]
+file = "kubejs/client_scripts/voided_jei.js"
+hash = "b0839a30005d0fe2de4835fd2415b2d74a6d5074ff67a0b2590929991638d232"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -102,7 +106,7 @@ hash = "6ccfbd1458b0963ebbc4271efe8f64d60496f3336e05b4df1e0ed8e195d5c131"
 
 [[files]]
 file = "kubejs/server_scripts/create_aeronautics.js"
-hash = "650429eaa487bd4471ccafa4a642434050fca8036c39177aae5124c565bb9def"
+hash = "9aa17769f902fb2f11e1da0d472d0e19e59f3aa7907e31cff7c72b95311d8f8c"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
@@ -118,7 +122,7 @@ hash = "fa685c6f42a767ccf45ebdd5d4846d3c7c13c4599ba5e2af8b634180b95caf2c"
 
 [[files]]
 file = "kubejs/server_scripts/overgeared.js"
-hash = "3812ca012463084cfbc3b399749457553f88f24a0511edbf50257adf68dac6bc"
+hash = "c5fee2963b7df1233dbc4003f09d1ab865ded71b6f6adfbafc086376779b9cd0"
 
 [[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
@@ -126,7 +130,7 @@ hash = "08581bf4fe70b2b211b7a657e6933ce9333a411d5897f0f6bf63451a86609fd1"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks.js"
-hash = "3a36559cc6764bd3704212707742a5b9091a66323a9816a9e0c1482d5e073829"
+hash = "7b72278889782a8c6e1c975155ea970b890c13fa477106aabda112860a0dc3f0"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_new_recipes.js"
@@ -147,6 +151,14 @@ hash = "846b81b52a4410e19d782d44b06804559932563ce471cbbb941619dc867dbce8"
 [[files]]
 file = "kubejs/server_scripts/zombies.js"
 hash = "92cd33d6d50c5545726e5528744fed1dc20d95fc51e588957cd994a6148ae3a5"
+
+[[files]]
+file = "kubejs/startup_scripts/overgeared_molds.js"
+hash = "9c992dc67db1704787ead306321c51c313d01a2bb9f18e7b84f2fb8fddcb69a8"
+
+[[files]]
+file = "kubejs/startup_scripts/voided_content.js"
+hash = "3ba045520a7ac7a495e13f0c8edb8e065f299fa2d549107fcfca3d3ca52cd4af"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -639,6 +651,10 @@ hash = "ac28adfc439374ba252cfeff8439c14894f70522b10549400a17ff5ecf221f2f"
 metafile = true
 
 [[files]]
+file = "mods/lexiconfig-neoforge-1.21-1.4.19.jar"
+hash = "7bcb26452918cf4e31df787ac10566e2f462c80aed53c4e1aa7c4b47bb70d687"
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "c61f3c7eebe1c76067188d1e35fb10c40969c68f0bcac355a56542d215b3aaa3"
 metafile = true
@@ -854,8 +870,8 @@ hash = "82e2c1ac8875303b3dfc70ce7cfe8ca08ca1c1629c34f986441ea203f5fb645c"
 metafile = true
 
 [[files]]
-file = "mods/simpleradio-neoforge-1.21.1-4.4.6.8.jar"
-hash = "0e48165c6b71695544cd62f700c162937f3c0368eb469f07d8eac4d5585d7235"
+file = "mods/simpleradio-neoforge-1.21.1-4.4.6.9.jar"
+hash = "6a0ba960ddb38d00ce8fc851804c624471239ec259ca8c3fbc8ea111460575b0"
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"

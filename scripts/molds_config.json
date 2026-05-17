@@ -1,0 +1,14 @@
+{
+  "blank_mold_jar": "/tmp/createmetallurgy.jar",
+  "blank_mold_path": "assets/createmetallurgy/textures/item/graphite_blank_mold.png",
+  "tool_heads_jar": "/tmp/overgeared.jar",
+  "output_dir": "kubejs/assets/kubejs/textures/item",
+  "molds": {
+    "axe": "assets/overgeared/textures/item/steel_axe_head.png",
+    "pickaxe": "assets/overgeared/textures/item/steel_pickaxe_head.png",
+    "shovel": "assets/overgeared/textures/item/steel_shovel_head.png",
+    "hoe": "assets/overgeared/textures/item/steel_hoe_head.png",
+    "sword": "assets/overgeared/textures/item/steel_sword_blade.png",
+    "hammer": "assets/overgeared/textures/item/steel_hammer_head.png"
+  }
+}
