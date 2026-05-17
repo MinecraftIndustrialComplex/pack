@@ -12,12 +12,12 @@ LootJS.modifiers(function (event) {
     "#c:nuggets",
     "#c:gems",
     "#c:storage_blocks",
-    "#forge:ores",
-    "#forge:raw_materials",
-    "#forge:ingots",
-    "#forge:nuggets",
-    "#forge:gems",
-    "#forge:storage_blocks"
+    "#c:ores",
+    "#c:raw_materials",
+    "#c:ingots",
+    "#c:nuggets",
+    "#c:gems",
+    "#c:storage_blocks"
   ];
 
   var itemFilters = [

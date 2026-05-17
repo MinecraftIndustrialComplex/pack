@@ -186,7 +186,7 @@
 	base_durability_blacklist = ["minecraft:flint_and_steel", "overgeared:fired_tool_cast"]
 	#Can the grindstone be used for restoring durability or not
 	grindingToggle = true
-	#Items or tags that cannot be repaired or affected by grinding. Prefix with '#' to use a tag, e.g. '#forge:ingots/iron'
+	#Items or tags that cannot be repaired or affected by grinding. Prefix with '#' to use a tag, e.g. '#c:ingots/iron'
 	grindingBlacklist = ["minecraft:elytra", "overgeared:wooden_tongs", "overgeared:fired_tool_cast"]
 	#How much the item durability reduce per grindstone use
 	#Range: 0.0 ~ 1.0
@@ -318,4 +318,4 @@
 	#Material Types: [material_id]
 	materialTypes = ["iron", "gold", "copper", "steel"]
 	#Material Source Items: [item_id or item_tag, material_id, material_value]
-	materialSetting = [["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#forge:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#forge:ingots/steel", "steel", 9], ["#forge:nuggets/steel", "steel", 1], ["#forge:storage_blocks/steel", "steel", 81], ["#forge:ingots/silver", "silver", 9], ["#forge:nuggets/silver", "silver", 1], ["#forge:storage_blocks/silver", "silver", 81]]
+	materialSetting = [["minecraft:iron_nugget", "iron", 1], ["minecraft:iron_ingot", "iron", 9], ["minecraft:iron_block", "iron", 81], ["minecraft:gold_nugget", "gold", 1], ["minecraft:gold_ingot", "gold", 9], ["minecraft:gold_block", "gold", 81], ["minecraft:copper_ingot", "copper", 9], ["#c:nuggets/copper", "copper", 1], ["minecraft:copper_block", "copper", 81], ["#c:ingots/steel", "steel", 9], ["#c:nuggets/steel", "steel", 1], ["#c:storage_blocks/steel", "steel", 81], ["#c:ingots/silver", "silver", 9], ["#c:nuggets/silver", "silver", 1], ["#c:storage_blocks/silver", "silver", 81]]

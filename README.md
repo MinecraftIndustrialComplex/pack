@@ -5,7 +5,6 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
 Waiting on Destroy 1.21 to release, or a sufficient community port.
 # TODO
 - Redo legendary survival overhaul progression
-- Check tank / plane / etc. building is decent.
 - Initial cobblemon create integration
 - Bosses
   - Natural Boss Spawning
@@ -25,12 +24,14 @@ Waiting on Destroy 1.21 to release, or a sufficient community port.
 - Destroy powergrid integration
 - Boss raid system
 - Make comutercraft recipes cool
-- Electric Heater
+- Electric Heater (LSO)
 - Powergrid battery uses destroy acid, and lead.
 - Waterframe reasonable crafting
 - Null Cataclysms recipes
 - Re-work simple radio crafting tree
 - Sophisticated Backpacks: re-visit Everlasting and Inception upgrade crafting (recipes removed for now)
+- Powergrid wires through vintage
+- Metallurgy and vintage have sanders
 
 # Installation:
 - Grab simple radio jars from their discord.

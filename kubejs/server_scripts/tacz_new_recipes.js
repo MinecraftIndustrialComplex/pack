@@ -21,8 +21,8 @@ ServerEvents.recipes(event => {
     //         'LL LL'
     //     ],
     //     {
-    //         P: '#forge:plates/steel',
-    //         S: '#forge:storage_blocks/steel',
+    //         P: '#c:plates/steel',
+    //         S: '#c:storage_blocks/steel',
     //         C: 'create:precision_mechanism', // Represents the precision tools (screwdrivers, etc.)
     //         A: 'minecraft:anvil',
     //         L: 'create:treated_wood_planks' // Or standard logs if treated wood is unavailable
@@ -42,14 +42,14 @@ ServerEvents.recipes(event => {
     */
     // event.recipes.create.sequenced_assembly(
     //     [Item.of('tacz:workbench_c', '{BlockId:"tacz:attachment_workbench"}')], 
-    //     '#forge:storage_blocks/steel',
+    //     '#c:storage_blocks/steel',
     //     [
-    //         event.recipes.create.deploying('#forge:storage_blocks/steel', ['#forge:storage_blocks/steel', 'create:precision_mechanism']),
-    //         event.recipes.create.deploying('#forge:storage_blocks/steel', ['#forge:storage_blocks/steel', 'create:deployer']),
-    //         event.recipes.create.deploying('#forge:storage_blocks/steel', ['#forge:storage_blocks/steel', 'create:mechanical_piston']),
-    //         event.recipes.create.pressing('#forge:storage_blocks/steel', '#forge:storage_blocks/steel')
+    //         event.recipes.create.deploying('#c:storage_blocks/steel', ['#c:storage_blocks/steel', 'create:precision_mechanism']),
+    //         event.recipes.create.deploying('#c:storage_blocks/steel', ['#c:storage_blocks/steel', 'create:deployer']),
+    //         event.recipes.create.deploying('#c:storage_blocks/steel', ['#c:storage_blocks/steel', 'create:mechanical_piston']),
+    //         event.recipes.create.pressing('#c:storage_blocks/steel', '#c:storage_blocks/steel')
     //     ]
-    // ).transitionalItem('#forge:plates/steel')
+    // ).transitionalItem('#c:plates/steel')
     // .loops(1)
     // .id('kubejs:sequenced_assembly/attachment_workbench');
 
@@ -61,14 +61,14 @@ ServerEvents.recipes(event => {
     */
     // event.recipes.create.sequenced_assembly(
     //     [Item.of('tacz:workbench_a', '{BlockId:"tacz:ammo_workbench"}')], 
-    //     '#forge:storage_blocks/steel',
+    //     '#c:storage_blocks/steel',
     //     [
-    //         event.recipes.create.deploying('#forge:storage_blocks/steel', ['#forge:storage_blocks/steel', 'create:precision_mechanism']),
-    //         event.recipes.create.deploying('#forge:storage_blocks/steel', ['#forge:storage_blocks/steel', 'create:mechanical_pump']),
-    //         event.recipes.create.deploying('#forge:storage_blocks/steel', ['#forge:storage_blocks/steel', 'create:fluid_pipe']),
-    //         event.recipes.create.pressing('#forge:storage_blocks/steel', '#forge:storage_blocks/steel')
+    //         event.recipes.create.deploying('#c:storage_blocks/steel', ['#c:storage_blocks/steel', 'create:precision_mechanism']),
+    //         event.recipes.create.deploying('#c:storage_blocks/steel', ['#c:storage_blocks/steel', 'create:mechanical_pump']),
+    //         event.recipes.create.deploying('#c:storage_blocks/steel', ['#c:storage_blocks/steel', 'create:fluid_pipe']),
+    //         event.recipes.create.pressing('#c:storage_blocks/steel', '#c:storage_blocks/steel')
     //     ]
-    // ).transitionalItem('#forge:plates/steel')
+    // ).transitionalItem('#c:plates/steel')
     // .loops(1)
     // .id('kubejs:sequenced_assembly/ammo_workbench');
 });

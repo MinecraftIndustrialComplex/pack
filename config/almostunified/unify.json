@@ -24,22 +24,22 @@
     "end"
   ],
   "tags": [
-    "forge:nuggets/{material}",
-    "forge:dusts/{material}",
-    "forge:gears/{material}",
-    "forge:gems/{material}",
-    "forge:ingots/{material}",
-    "forge:raw_materials/{material}",
-    "forge:ores/{material}",
-    "forge:plates/{material}",
-    "forge:rods/{material}",
-    "forge:wires/{material}",
-    "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}",
-    "forge:autocannon_barrels/steel",
-    "forge:cannon_barrels/steel",
-    "forge:autocannon_barrels/cast_iron",
-    "forge:cannon_barrels/cast_iron"
+    "c:nuggets/{material}",
+    "c:dusts/{material}",
+    "c:gears/{material}",
+    "c:gems/{material}",
+    "c:ingots/{material}",
+    "c:raw_materials/{material}",
+    "c:ores/{material}",
+    "c:plates/{material}",
+    "c:rods/{material}",
+    "c:wires/{material}",
+    "c:storage_blocks/{material}",
+    "c:storage_blocks/raw_{material}",
+    "c:autocannon_barrels/steel",
+    "c:cannon_barrels/steel",
+    "c:autocannon_barrels/cast_iron",
+    "c:cannon_barrels/cast_iron"
   ],
   "materials": [
     "aeternium",
@@ -92,73 +92,73 @@
     "zinc"
   ],
   "priorityOverrides": {
-    "forge:ores/zinc": "create",
-    "forge:ores/lead": "createnuclear",
-    "forge:ores/nickel": "destroy",
-    "forge:ores/uranium": "createnuclear",
-    "forge:ingots/zinc": "create",
-    "forge:ingots/brass": "create",
-    "forge:ingots/steel": "createmetallurgy",
-    "forge:plates/steel": "create_tank_defenses",
-    "forge:autocannon_barrels/steel": "createbigcannons",
-    "forge:cannon_barrels/steel": "createbigcannons",
-    "forge:autocannon_barrels/cast_iron": "createbigcannons",
-    "forge:cannon_barrels/cast_iron": "createbigcannons"
+    "c:ores/zinc": "create",
+    "c:ores/lead": "createnuclear",
+    "c:ores/nickel": "destroy",
+    "c:ores/uranium": "createnuclear",
+    "c:ingots/zinc": "create",
+    "c:ingots/brass": "create",
+    "c:ingots/steel": "createmetallurgy",
+    "c:plates/steel": "create_tank_defenses",
+    "c:autocannon_barrels/steel": "createbigcannons",
+    "c:cannon_barrels/steel": "createbigcannons",
+    "c:autocannon_barrels/cast_iron": "createbigcannons",
+    "c:cannon_barrels/cast_iron": "createbigcannons"
   },
   "customTags": {
-    "forge:dusts/iron": [
+    "c:dusts/iron": [
       "crusty_chunks:iron_dust",
       "create_tank_defenses:iron_dust"
     ],
-    "forge:dusts/gold": [
+    "c:dusts/gold": [
       "crusty_chunks:gold_dust"
     ],
-    "forge:dusts/copper": [
+    "c:dusts/copper": [
       "crusty_chunks:copper_dust"
     ],
-    "forge:dusts/zinc": [
+    "c:dusts/zinc": [
       "crusty_chunks:zinc_dust"
     ],
-    "forge:ores/zinc": [
+    "c:ores/zinc": [
       "crusty_chunks:zinc_ore",
       "create:zinc_ore"
     ],
-    "forge:ores/lead": [
+    "c:ores/lead": [
       "crusty_chunks:lead_ore",
       "crusty_chunks:deepslate_lead_ore",
       "createnuclear:lead_ore",
       "createnuclear:deepslate_lead_ore"
     ],
-    "forge:ores/nickel": [
+    "c:ores/nickel": [
       "crusty_chunks:nickel_ore",
       "destroy:nickel_ore"
     ],
-    "forge:ores/uranium": [
+    "c:ores/uranium": [
       "crusty_chunks:uranium_ore",
       "createnuclear:uranium_ore"
     ],
-    "forge:ingots/zinc": [
+    "c:ingots/zinc": [
       "crusty_chunks:zinc_ingot",
       "create:zinc_ingot"
     ],
-    "forge:ingots/brass": [
+    "c:ingots/brass": [
       "crusty_chunks:brass_ingot",
       "create:brass_ingot"
     ],
-    "forge:ingots/steel": [
+    "c:ingots/steel": [
       "create_tank_defenses:steel_ingot",
       "crusty_chunks:steel_ingot",
       "createmetallurgy:steel_ingot"
     ],
-    "forge:ingots/aluminum": [
+    "c:ingots/aluminum": [
       "crusty_chunks:aluminum_ingot",
       "create_tank_defenses:aluminum_ingot"
     ],
-    "forge:plates/steel": [
+    "c:plates/steel": [
       "crusty_chunks:steelplate",
       "create_tank_defenses:steel_sheet"
     ],
-    "forge:dusts/aluminum": [
+    "c:dusts/aluminum": [
       "crusty_chunks:aluminum_dust",
       "create_tank_defenses:aluminum_dust"
     ]

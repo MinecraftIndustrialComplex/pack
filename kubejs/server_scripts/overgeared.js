@@ -74,60 +74,60 @@ ServerEvents.recipes(e => {
     });
   });
 
-  // ----------------------------
-  // 3. Melting Integration
-  // ----------------------------
-  // Melting down tool heads
-  Object.entries(materials).forEach(([mat, data]) => {
-    Object.entries(molds).forEach(([mold, amount]) => {
-      let headItem = `overgeared:${mat}_${mold === 'sword' ? 'sword_blade' : mold + '_head'}`;
-      if (mat === 'golden' && mold === 'hammer') return;
-      if (mat === 'iron' && mold === 'hammer') return;
-
-      e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), headItem)
-      .processingTime(amount / 3)
-      .heated()
-      .id(`kubejs:melting_${mat}_${mold}_head`);
-    });
-  });
-
-  // Melting down full tools (refunds the head amount)
-  Object.entries(materials).forEach(([mat, data]) => {
-    Object.entries(molds).forEach(([mold, amount]) => {
-      let toolItem = `${data.prefix}${mold}`;
-      if (mold === 'hammer') {
-          toolItem = mat === 'steel' ? 'overgeared:smithing_hammer' : `overgeared:${mat}_smithing_hammer`;
-      }
-      
-      if (mat === 'golden' && mold === 'hammer') return;
-      if (mat === 'iron' && mold === 'hammer') return;
-
-      e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), toolItem)
-      .processingTime(amount / 3)
-      .heated()
-      .id(`kubejs:melting_${mat}_${mold}_tool`);
-    });
-  });
-
-  // Melting down armor pieces
-  const armorPieces = {
-    'helmet': 450, // 5 ingots
-    'chestplate': 720, // 8 ingots
-    'leggings': 630, // 7 ingots
-    'boots': 360 // 4 ingots
-  };
-
-  Object.entries(materials).forEach(([mat, data]) => {
-    Object.entries(armorPieces).forEach(([piece, amount]) => {
-      let armorItem = `${data.prefix}${piece}`;
-      
-      e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), armorItem)
-      .processingTime(amount / 3)
-      .heated()
-      .id(`kubejs:melting_${mat}_${piece}`);
-    });
-  });
-
+  // // ----------------------------
+  // // 3. Melting Integration
+  // // ----------------------------
+  // // Melting down tool heads
+  // Object.entries(materials).forEach(([mat, data]) => {
+  //   Object.entries(molds).forEach(([mold, amount]) => {
+  //     let headItem = `overgeared:${mat}_${mold === 'sword' ? 'sword_blade' : mold + '_head'}`;
+  //     if (mat === 'golden' && mold === 'hammer') return;
+  //     if (mat === 'iron' && mold === 'hammer') return;
+  //
+  //     e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), headItem)
+  //     .processingTime(amount / 3)
+  //     .heated()
+  //     .id(`kubejs:melting_${mat}_${mold}_head`);
+  //   });
+  // });
+  //
+  // // Melting down full tools (refunds the head amount)
+  // Object.entries(materials).forEach(([mat, data]) => {
+  //   Object.entries(molds).forEach(([mold, amount]) => {
+  //     let toolItem = `${data.prefix}${mold}`;
+  //     if (mold === 'hammer') {
+  //         toolItem = mat === 'steel' ? 'overgeared:smithing_hammer' : `overgeared:${mat}_smithing_hammer`;
+  //     }
+  //     
+  //     if (mat === 'golden' && mold === 'hammer') return;
+  //     if (mat === 'iron' && mold === 'hammer') return;
+  //
+  //     e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), toolItem)
+  //     .processingTime(amount / 3)
+  //     .heated()
+  //     .id(`kubejs:melting_${mat}_${mold}_tool`);
+  //   });
+  // });
+  //
+  // // Melting down armor pieces
+  // const armorPieces = {
+  //   'helmet': 450, // 5 ingots
+  //   'chestplate': 720, // 8 ingots
+  //   'leggings': 630, // 7 ingots
+  //   'boots': 360 // 4 ingots
+  // };
+  //
+  // Object.entries(materials).forEach(([mat, data]) => {
+  //   Object.entries(armorPieces).forEach(([piece, amount]) => {
+  //     let armorItem = `${data.prefix}${piece}`;
+  //     
+  //     e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), armorItem)
+  //     .processingTime(amount / 3)
+  //     .heated()
+  //     .id(`kubejs:melting_${mat}_${piece}`);
+  //   });
+  // });
+  //
   // ----------------------------
   // 4. Mechanical Crafter Recipe for Diamond Upgrade Template
   // ----------------------------

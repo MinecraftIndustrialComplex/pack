@@ -1,4 +1,4 @@
 {
   "replace": true,
-  "values": ["#forge:is_desert"]
+  "values": ["#c:is_desert"]
 }

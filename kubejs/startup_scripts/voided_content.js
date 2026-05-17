@@ -28,7 +28,11 @@ global.VOIDED_ITEMS = [
   'simulated:incomplete_engine_assembly',
 
   // legendary survival overhaul
-  'legendarysurvivaloverhaul:heart_container'
+  'legendarysurvivaloverhaul:heart_container',
+
+  // create big cannons (use createmetallurgy molten steel/bronze)
+  'createbigcannons:molten_steel_bucket',
+  'createbigcannons:molten_bronze_bucket'
 ]
 
 global.VOIDED_ITEM_PATTERNS = [
@@ -40,7 +44,13 @@ global.VOIDED_FLUIDS = [
   'createdieselgenerators:crude_oil',
   'createdieselgenerators:biodiesel',
   'createdieselgenerators:gasoline',
-  'createdieselgenerators:ethanol'
+  'createdieselgenerators:ethanol',
+
+  // create big cannons (canonical: createmetallurgy)
+  'createbigcannons:molten_steel',
+  'createbigcannons:flowing_molten_steel',
+  'createbigcannons:molten_bronze',
+  'createbigcannons:flowing_molten_bronze'
 ]
 
 // Entire mods with all recipes removed

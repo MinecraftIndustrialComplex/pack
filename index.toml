@@ -841,6 +841,11 @@ hash = "62be690120a069777b7c7646e146692119f612583f84b0f194bba88ab7ebffcd"
 metafile = true
 
 [[files]]
+file = "mods/reliable-replacer.pw.toml"
+hash = "088b4db54168e69a4843cad9c85c5beb53c22a48f5fb7d5f420a4c8b77085dae"
+metafile = true
+
+[[files]]
 file = "mods/revive-me.pw.toml"
 hash = "521c311c7ffb8df80f66c958eae1d7ec5b1f6df7b6e2af690842356963f8c968"
 metafile = true
