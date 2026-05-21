@@ -1,13 +1,13 @@
 name = "Revive Me! - Player Revival Mod"
-filename = "revive_me-1.21.1-5.8.1.jar"
+filename = "revive_me-1.21.1-5.9.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/e1Ub5iPm/versions/bJaQ5Ztf/revive_me-1.21.1-5.8.1.jar"
+url = "https://cdn.modrinth.com/data/e1Ub5iPm/versions/2xs70mTl/revive_me-1.21.1-5.9.1.jar"
 hash-format = "sha512"
-hash = "58bce04655f2afe3d7f41c449edffc54c4fa3efb772ef3a6d67bddb5ef6e76bb6c884665db1af8ec4fec7e37d72c11c60c2b0d682e9c7e2da896a12689fbb5d2"
+hash = "e70c5cc6b6ebde86db8caf4cb33bb93739154ac32eefbcdc9cbd22497da33f163ab83869f855e1a900210a7a8597c0fd1f95bbf939fe6148d827b312bcb5d99e"
 
 [update]
 [update.modrinth]
 mod-id = "e1Ub5iPm"
-version = "bJaQ5Ztf"
+version = "2xs70mTl"
