@@ -1,8 +1,18 @@
-# Minecraft Industrial Complex
+![Minecraft Industrial Complex](./logo.png)
 Advanced create based modpack which has an extremely difficult early game, with a create based progression system that results in modern industrial tooling (guns, tanks, etc.) used to conquer this difficult world.
 Makes heavy use of aeronautics, tacz, create, powergrid.
 
 Waiting on Destroy 1.21 to release, or a sufficient community port.
+# Core Mods:
+- Create
+- Create Aeronautics to enable creation of military vehicles.
+- Overgeared and Create Metallurgy to provide better early game progression and metal working.
+- Destroy to provide for more engaging crafting recipes
+- Powergrid to provide power management and transmisison systems.
+- Cobblemon as I am yet to find an engineer who does not like pokemon.
+- Timeless and Classic Zero to provide responsive weapons
+- Ice and Fire, as well as various other boss mods to provide
+
 # TODO
 - Redo legendary survival overhaul progression
 - Initial cobblemon create integration
