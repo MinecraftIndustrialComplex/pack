@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "778fa4eda9d46a79ba4ae4a8425d5202bc584fbf5a64467588567bef5e458726"
+hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
 metafile = true
 
 [[files]]
@@ -447,7 +447,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "a548a99f9d9ba0d237aaf64acee67b29271d05a40c1c3ef87bc1bc18267c640c"
+hash = "57e8ff6c2bf41c7556f727251fda72946ebd8d849e5e83c141a679387a559dbc"
 metafile = true
 
 [[files]]
@@ -492,7 +492,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-metallurgy.pw.toml"
-hash = "7c019ecabc835ffb896822d736060468c67bc0d387a36ba91fab5b92d41a5c7e"
+hash = "12a90beeb5a46b46dfdc7ba2a5510107fbc60915e6cf1af129d365e20b99ce2d"
 metafile = true
 
 [[files]]
@@ -507,7 +507,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-vintage-(unofficial-port).pw.toml"
-hash = "ff988ae39f5223a6e0dd55d3c3255d2ef39b6756b106fa22063f5c3fccd2225c"
+hash = "12a5156ec3dce3da38f08c5660d78c671b42751c327cba5bb2e293285c2c1638"
 metafile = true
 
 [[files]]
@@ -527,7 +527,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "d6e8a17cd30032fb2eaeb910f65ffca9cd41a6530b607d58dfa18ac619b6d9f1"
+hash = "054c5a15bdaf0647066beddfb4a6b49e3222ab37c09b4d213af221b5cf3d5c39"
 metafile = true
 
 [[files]]
@@ -537,7 +537,7 @@ metafile = true
 
 [[files]]
 file = "mods/destroy.pw.toml"
-hash = "0a03e93512a37f4f692fd3033bd580895087cc480412691b1cb95208973e5abc"
+hash = "5b8fbba7bd4ecb9faf3e858f131ef753eb9aa451469875ccdfbd8adfaf77ce56"
 metafile = true
 
 [[files]]
@@ -771,7 +771,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "1b0bcb6b0739ac51a706398c6f3765e1875e95490a9284603ee5628c259a4f63"
+hash = "e16a311d5197e286f0955f2ebfb46a72d711050e589224f60fcb8e931eb3a386"
 metafile = true
 
 [[files]]
@@ -881,7 +881,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "a5170d69ea069773cad9186c1bc7f51bfc82045336292943b176875ccb55b0fe"
+hash = "10d7f603799aa8e4185b440595640e35996bc8d9c1cdcc4a645ca394c8fa5d29"
 metafile = true
 
 [[files]]
@@ -946,7 +946,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "333658569a76adc35989f791a6c0b5d4745eeec2fd273631a1e22907bf1cd0c1"
+hash = "ba0fbc01b797b664021580151aa626f3816bdf4420136cc424761df4d05c9d55"
 metafile = true
 
 [[files]]
@@ -980,12 +980,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "96ca5bcdf2bdedf402808ebfd4e7691fec1e4cea0778fb83c5f5e961490ca347"
+hash = "f8f05819409e1c8f35095603595a422e2e6367541fea670b840ea54ae4f8dbf2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9917b39f1e6bc9810692629ce3676cc7588ff10c2eeb2753f49d3afedcc06b55"
+hash = "ef01d70ba79fe521e78a122f87dbf430a4e8639f41264f9fdc653b7b617132f9"
 metafile = true
 
 [[files]]
@@ -1005,7 +1005,7 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-1.21.1.pw.toml"
-hash = "950887204c560dea40424bbc36b7c58ac4cba566dad3076bf1f7be030f4cceb0"
+hash = "0b4a44af1e8faf703c8306a78031cd555562f5d9243e7ea98c4dcedf27fef05b"
 metafile = true
 
 [[files]]
@@ -1020,7 +1020,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-hordes.pw.toml"
-hash = "2e3d86a122db86191f0e2083520d726560e342b9a3d6a843d8d7df8b93c08a94"
+hash = "52d0b29b965324ed296c84c2be6614d94bf029a8b653264ed22e3a672b83a217"
 metafile = true
 
 [[files]]
