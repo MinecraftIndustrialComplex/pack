@@ -1,9 +1,4 @@
 ServerEvents.recipes(event => {
-  // ================================================================
-  // CCBR ITEM RECIPES — always reassign, keep originals as fallbacks
-  // ================================================================
-
-  // Basic Integrated Circuit — add Destroy plastic substrate
   event.remove({ output: 'ccbr:basic_integrated_circuit' })
   if (Platform.isLoaded('destroy')) {
     event.shaped('ccbr:basic_integrated_circuit', [' a ', 'bPb', 'ccc'], {
@@ -20,7 +15,6 @@ ServerEvents.recipes(event => {
     }).id('kubejs:ccbr/basic_integrated_circuit')
   }
 
-  // Integrated Circuit — add Destroy circuit board + PowerGrid components
   event.remove({ output: 'ccbr:integrated_circuit' })
   if (Platform.isLoaded('destroy') && Platform.isLoaded('powergrid')) {
     event.recipes.create.mechanical_crafting('ccbr:integrated_circuit', [
@@ -74,11 +68,7 @@ ServerEvents.recipes(event => {
     }).id('kubejs:ccbr/integrated_circuit')
   }
 
-  // ================================================================
-  // DESTROY-ONLY DEVICE RECIPES
-  // ================================================================
   if (Platform.isLoaded('destroy')) {
-    // Cable — use PVC instead of andesite alloy
     event.remove({ output: 'computercraft:cable' })
     event.shaped('8x computercraft:cable', [' # ', '#R#', ' # '], {
       '#': 'destroy:polyvinyl_chloride',
@@ -86,11 +76,7 @@ ServerEvents.recipes(event => {
     }).id('kubejs:ccbr/cable')
   }
 
-  // ================================================================
-  // POWERGRID-ONLY DEVICE RECIPES — casing stays brass if Destroy absent
-  // ================================================================
   if (Platform.isLoaded('powergrid')) {
-    // Disk Drive — add electric motor
     event.remove({ id: 'computercraft:disk_drive' })
     event.shaped('computercraft:disk_drive', ['###', 'MCM', '#R#'], {
       '#': 'create:andesite_alloy',
@@ -99,7 +85,6 @@ ServerEvents.recipes(event => {
       'R': '#c:dusts/redstone'
     }).id('kubejs:ccbr/disk_drive')
 
-    // Speaker — add electromagnet
     event.remove({ id: 'computercraft:speaker' })
     event.shaped('computercraft:speaker', ['###', 'NMN', '#R#'], {
       '#': 'create:andesite_alloy',
@@ -108,7 +93,6 @@ ServerEvents.recipes(event => {
       'R': '#ccbr:basic_integrated_circuits'
     }).id('kubejs:ccbr/speaker')
 
-    // Printer — add 2x electric motors (paper feed + print head)
     event.remove({ id: 'computercraft:printer' })
     event.shaped('computercraft:printer', ['###', 'MRM', '#D#'], {
       '#': 'create:andesite_alloy',
@@ -117,7 +101,6 @@ ServerEvents.recipes(event => {
       'D': '#c:dyes'
     }).id('kubejs:ccbr/printer')
 
-    // Normal Pocket Computer — add battery
     event.remove({ id: 'computercraft:pocket_computer_normal' })
     event.shaped('computercraft:pocket_computer_normal', ['#A#', '#R#', 'B#G'], {
       '#': 'create:andesite_alloy',
@@ -127,7 +110,6 @@ ServerEvents.recipes(event => {
       'G': '#c:glass_panes'
     }).id('kubejs:ccbr/pocket_computer_normal')
 
-    // Wired Modem — add insulated copper wire
     event.remove({ id: 'computercraft:wired_modem' })
     event.shaped('computercraft:wired_modem', ['WWW', '#R#', '###'], {
       '#': 'create:andesite_alloy',
@@ -135,7 +117,6 @@ ServerEvents.recipes(event => {
       'R': '#ccbr:basic_integrated_circuits'
     }).id('kubejs:ccbr/wired_modem')
 
-    // Normal Wireless Modem — add resistor
     event.remove({ id: 'computercraft:wireless_modem_normal' })
     event.shaped('computercraft:wireless_modem_normal', ['#T#', 'RCR', '#E#'], {
       '#': 'create:andesite_alloy',
@@ -145,8 +126,7 @@ ServerEvents.recipes(event => {
       'E': '#c:ender_pearls'
     }).id('kubejs:ccbr/wireless_modem_normal')
 
-    // Turtle Normal — kept unchanged (entry-level)
-    // Turtle Advanced upgrade recipe (transform_shaped) — add servo
+    // Normal turtle kept unchanged (entry-level)
     event.remove({ id: 'computercraft:turtle_advanced_upgrade' })
     event.custom({
       type: 'computercraft:transform_shaped',
@@ -167,11 +147,7 @@ ServerEvents.recipes(event => {
     }).id('kubejs:ccbr/turtle_advanced_upgrade')
   }
 
-  // ================================================================
-  // ADVANCED DEVICES — stainless steel (Destroy) + PowerGrid components
-  // ================================================================
   if (Platform.isLoaded('destroy') && Platform.isLoaded('powergrid')) {
-    // Advanced Computer — stainless steel casing + circuit board
     event.remove({ id: 'computercraft:computer_advanced' })
     event.shaped('computercraft:computer_advanced', ['###', 'BRB', '#G#'], {
       '#': 'destroy:stainless_steel_ingot',
@@ -180,7 +156,6 @@ ServerEvents.recipes(event => {
       'G': '#c:glass_panes'
     }).id('kubejs:ccbr/computer_advanced')
 
-    // Advanced Computer Upgrade
     event.remove({ id: 'computercraft:computer_advanced_upgrade' })
     event.custom({
       type: 'computercraft:transform_shaped',
@@ -199,7 +174,6 @@ ServerEvents.recipes(event => {
       }]
     }).id('kubejs:ccbr/computer_advanced_upgrade')
 
-    // Advanced Monitor — stainless steel + CRT
     event.remove({ id: 'computercraft:monitor_advanced' })
     event.shaped('4x computercraft:monitor_advanced', ['###', '#G#', '#E#'], {
       '#': 'destroy:stainless_steel_ingot',
@@ -207,7 +181,6 @@ ServerEvents.recipes(event => {
       'E': 'powergrid:crt'
     }).id('kubejs:ccbr/monitor_advanced')
 
-    // Advanced Pocket Computer — stainless steel + portable battery
     event.remove({ id: 'computercraft:pocket_computer_advanced' })
     event.shaped('computercraft:pocket_computer_advanced', ['#A#', '#R#', 'B#G'], {
       '#': 'destroy:stainless_steel_ingot',
@@ -217,7 +190,6 @@ ServerEvents.recipes(event => {
       'G': '#c:glass_panes'
     }).id('kubejs:ccbr/pocket_computer_advanced')
 
-    // Advanced Pocket Computer Upgrade
     event.remove({ id: 'computercraft:pocket_computer_advanced_upgrade' })
     event.custom({
       type: 'computercraft:transform_shaped',
@@ -236,7 +208,6 @@ ServerEvents.recipes(event => {
       }]
     }).id('kubejs:ccbr/pocket_computer_advanced_upgrade')
 
-    // Advanced Turtle — stainless steel + servo (transform_shaped to copy computer data)
     event.remove({ id: 'computercraft:turtle_advanced' })
     event.custom({
       type: 'computercraft:transform_shaped',
@@ -255,7 +226,6 @@ ServerEvents.recipes(event => {
       }]
     }).id('kubejs:ccbr/turtle_advanced')
 
-    // Advanced Wireless Modem — stainless steel + diode
     event.remove({ id: 'computercraft:wireless_modem_advanced' })
     event.shaped('computercraft:wireless_modem_advanced', ['#T#', 'RCR', '#E#'], {
       '#': 'destroy:stainless_steel_ingot',

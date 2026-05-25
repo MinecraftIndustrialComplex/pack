@@ -1,5 +1,3 @@
-// Create Aeronautics: portable engines removed from pack progression.
-// Redstone magnet retuned to require powergrid magnets.
 if (Platform.isLoaded('simulated')) {
   ServerEvents.recipes(event => {
     event.remove({ output: /simulated:\w+_portable_engine/ })

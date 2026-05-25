@@ -1,5 +1,3 @@
-// Create: Vintage belt grinder removed; polishing moved to Create Metallurgy mechanical belt grinder.
-
 ServerEvents.recipes(e => {
   const voidedOutputs = [
     'createvintageneoforged:belt_grinder',

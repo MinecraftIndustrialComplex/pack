@@ -1,19 +1,9 @@
-// Power Grid / Destroy integration: route acid through Destroy chemistry
-
 const PG = 'powergrid'
 
 ServerEvents.recipes(event => {
   if (!Platform.isLoaded('powergrid') || !Platform.isLoaded('destroy')) return
 
-  // ────────────────────────────────────────────────────────────────
-  // A) Remove acid from Power Grid — Destroy's chemistry replaces it
-  // ────────────────────────────────────────────────────────────────
-
-  // Remove Power Grid's simple acid recipe (redstone + blaze + water)
   event.remove({ id: `${PG}:mixing/acid` })
-
-  // Replace powergrid:acid with destroy:mixture containing sulfuric acid
-  // for circuit board etching
   event.remove({ id: `${PG}:mixing/etched_circuit_board` })
 
   const SULFURIC_ACID_MIXTURE = {
@@ -36,15 +26,8 @@ ServerEvents.recipes(event => {
     ]
   }).id('kubejs:mixing/etch_circuit')
 
-  // ────────────────────────────────────────────────────────────────
-  // B) Battery rework: lead step + Destroy sulfuric acid mixture
-  // ────────────────────────────────────────────────────────────────
-
-  // Remove the original battery sequenced assembly (uses powergrid:acid)
   event.remove({ id: `${PG}:sequenced_assembly/battery` })
 
-  // New battery: deploy lead ingots → deploy zinc plates → fill with
-  // destroy:mixture containing 4M destroy:sulfuric_acid (3 loops)
   event.custom({
     type: 'create:sequenced_assembly',
     ingredient: { item: `${PG}:conductive_casing` },

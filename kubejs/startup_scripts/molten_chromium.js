@@ -1,4 +1,3 @@
-// Chromium fluid (placeholder texture from Metallurgy silver)
 StartupEvents.registry('fluid', event => {
   event.create('molten_chromium', 'thin')
     .displayName('Molten Chromium')

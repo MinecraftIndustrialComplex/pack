@@ -1,4 +1,3 @@
-// Create Aeronautics: remove voided engine recipes from JEI (items hidden in voided_jei.js).
 const DYE_COLORS = [
   'white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink',
   'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'

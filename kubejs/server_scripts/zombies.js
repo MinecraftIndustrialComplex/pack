@@ -1,22 +1,18 @@
-// --- CONFIGS ---
 const RAID_CHANCE = 0.10;
 const BASE_LEVEL_BOOST = 5;
 const MAX_LEVEL_BOOST = 10;
 const SPAWN_RADIUS = 25;
 
-// --- DYNAMIC SCALING CONFIGS ---
-const DIFFICULTY_FLOOR = 0.1;    // The absolute minimum difficulty
+const DIFFICULTY_FLOOR = 0.1;
 const KILL_DIFF_INCREASE = 0.01; // Increase per zombie kill
 const DEATH_PENALTY_MULT = 10.0; // Penalty = CurrentDiff * 10 * KILL_DIFF_INCREASE
 const QUANTITY_MULTIPLIER = 2.0; 
 const LEVEL_SCALING_FACTOR = 5.0; 
 
-// --- SPAWN LOGIC ---
 EntityEvents.spawned('minecraft:zombie', event => {
     const { entity, level } = event;
     let nearestPlayer = level.getNearestPlayer(entity.x, entity.y, entity.z, 64, false);
     
-    // Ensure we respect the 0.1 floor even for natural spawns
     let pData = nearestPlayer ? nearestPlayer.persistentData : null;
     let diffScore = (pData && pData.raidDifficultyScore >= DIFFICULTY_FLOOR) ? pData.raidDifficultyScore : 1.0;
     
@@ -25,7 +21,6 @@ EntityEvents.spawned('minecraft:zombie', event => {
     
     entity.mergeNbt({ "l2hostility:level": Math.floor(currentLevel + dynamicBoost) });
 
-    // Nighttime double spawns
     if (level.isNight() && !entity.tags.contains('extra_spawn')) {
         if (Math.random() < 0.5) { 
             let e = level.createEntity('minecraft:zombie');
@@ -36,11 +31,9 @@ EntityEvents.spawned('minecraft:zombie', event => {
     }
 });
 
-// --- RAID TICKER ---
 LevelEvents.tick(event => {
     const { level, server } = event;
     
-    // Use dayTime % 24000 to catch the start of night reliably
     if (level.dayTime % 24000 == 13000) {
         server.players.forEach(p => {
             if (Math.random() < RAID_CHANCE) {
@@ -76,7 +69,6 @@ LevelEvents.tick(event => {
                     
                     let spawnY = level.getHeight('motion_blocking', spawnX, spawnZ);
                     
-                    // Using .air property instead of isAir()
                     let block = level.getBlock(spawnX, spawnY, spawnZ);
                     let groundBlock = level.getBlock(spawnX, spawnY - 1, spawnZ);
                     
@@ -92,7 +84,6 @@ LevelEvents.tick(event => {
     }
 });
 
-// --- REAL-TIME DIFFICULTY SCALING ---
 EntityEvents.death(event => {
     const { entity, source } = event;
 
@@ -117,7 +108,6 @@ EntityEvents.death(event => {
     }
 });
 
-// --- COMMANDS ---
 ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Args } = event;
 

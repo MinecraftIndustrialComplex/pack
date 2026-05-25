@@ -1,5 +1,3 @@
-// Route Destroy metal alloying through Metallurgy's foundry system
-
 const CM = 'createmetallurgy'
 const DS = 'destroy'
 const FLUID_OF = Fluid.of
@@ -40,7 +38,6 @@ ServerEvents.recipes(e => {
     .superheated()
     .id('kubejs:destroy/alloy_stainless_steel_fluxed')
 
-  // Melting — route Destroy metals through Metallurgy foundry
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_nickel`, INGOT_MB), `${DS}:nickel_ingot`).processingTime(30).heated().id('kubejs:destroy/melt_nickel_ingot')
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_nickel`, INGOT_MB), `${DS}:nickel_powder`).processingTime(30).heated().id('kubejs:destroy/melt_nickel_powder')
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_nickel`, BLOCK_MB), `${DS}:nickel_block`).processingTime(180).heated().id('kubejs:destroy/melt_nickel_block')
@@ -58,7 +55,6 @@ ServerEvents.recipes(e => {
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_gold`, INGOT_MB), `${DS}:pure_gold_ingot`).processingTime(25).heated().id('kubejs:destroy/melt_pure_gold_ingot')
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_gold`, INGOT_MB), `${DS}:pure_gold_dust`).processingTime(25).heated().id('kubejs:destroy/melt_pure_gold_dust')
 
-  // Destroy powders → standard molten fluids
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_copper`, INGOT_MB), `${DS}:copper_powder`).processingTime(30).heated().id('kubejs:destroy/melt_copper_powder')
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_iron`, INGOT_MB), `${DS}:iron_powder`).processingTime(35).heated().id('kubejs:destroy/melt_iron_powder')
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_zinc`, INGOT_MB), `${DS}:zinc_powder`).processingTime(20).heated().id('kubejs:destroy/melt_zinc_powder')
@@ -84,7 +80,6 @@ ServerEvents.recipes(e => {
   // Sodium → molten_lithium placeholder
   e.recipes[CM].melting(FLUID_OF(`${CM}:molten_lithium`, INGOT_MB), `${DS}:sodium_ingot`).processingTime(10).id('kubejs:destroy/melt_sodium_ingot')
 
-  // Casting stainless steel shapes
   e.recipes[CM]
     .casting_in_table(`${DS}:stainless_steel_ingot`, [
       FLUID_OF(`${DS}:molten_stainless_steel`, INGOT_MB),
@@ -116,7 +111,6 @@ ServerEvents.recipes(e => {
     .processingTime(300)
     .id('kubejs:destroy/cast_stainless_block')
 
-  // Casting chromium shapes
   e.recipes[CM]
     .casting_in_table(`${DS}:chromium_ingot`, [
       FLUID_OF('kubejs:molten_chromium', INGOT_MB),
@@ -141,7 +135,6 @@ ServerEvents.recipes(e => {
     .id('kubejs:destroy/cast_chromium_block')
 })
 
-// Tag fluids for Metallurgy foundry compatibility
 ServerEvents.tags('fluid', e => {
   e.add(`${CM}:molten_material`, [
     `${DS}:molten_stainless_steel`,

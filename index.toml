@@ -486,6 +486,11 @@ hash = "dba1cec5505db9aa2a65d9cc14f017a956a6e2044c006db1d48ff92c59871992"
 metafile = true
 
 [[files]]
+file = "mods/create-heat-js.pw.toml"
+hash = "32b0389c51e6e2d903fd65ab814ed5d2f7355e63b211b48d460eb7ca049fd722"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "4c0763d5351f0264d1d60c6fee012663f4855a9def0c31c309560779782945d1"
 metafile = true

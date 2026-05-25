@@ -1,5 +1,3 @@
-// Removes armorer, librarian, toolsmith, and weaponsmith trades (requires MoreJS).
-
 if (!Platform.isLoaded('morejs')) {
   console.warn('[kubejs] disable_villager_trading.js: MoreJS is not loaded; those professions are unchanged.')
 } else {

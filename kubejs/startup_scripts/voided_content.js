@@ -1,4 +1,3 @@
-// Items and fluids unobtainable after recipe removal — shared by voided_jei (client) and server scripts.
 global.VOIDED_ITEMS = [
   // oilyunification
   'createdieselgenerators:distillation_controller',
@@ -11,14 +10,14 @@ global.VOIDED_ITEMS = [
   'createdieselgenerators:gasoline_bucket',
   'createdieselgenerators:ethanol_bucket',
 
-  // overgeared / duplicate steel (createmetallurgy:steel_ingot is canonical)
+  // duplicate steel (createmetallurgy is canonical)
   'overgeared:steel_ingot',
   'createbigcannons:steel_ingot',
   'createnuclear:steel_ingot',
   'createnuclear:steel_nugget',
   'createnuclear:steel_block',
 
-  // duplicate lead (destroy:lead_ingot is canonical)
+  // duplicate lead (destroy is canonical)
   'createnuclear:lead_ingot',
   'createnuclear:lead_nugget',
   'createnuclear:lead_block',
@@ -34,9 +33,8 @@ global.VOIDED_ITEMS = [
   'simulated:engine_assembly',
   'simulated:incomplete_engine_assembly',
 
-  // legendary survival overhaul
+  // legendary survival overhaul (herbs replaced by cobblemon)
   'legendarysurvivaloverhaul:heart_container',
-  // Original herbs replaced by cobblemon integration
   'legendarysurvivaloverhaul:sun_fern_leaf',
   'legendarysurvivaloverhaul:sun_fern_gold_leaf',
   'legendarysurvivaloverhaul:sun_fern_seeds',
@@ -46,11 +44,11 @@ global.VOIDED_ITEMS = [
   'legendarysurvivaloverhaul:cold_string',
   'legendarysurvivaloverhaul:warm_string',
 
-  // create big cannons (use createmetallurgy molten steel/bronze)
+  // big cannons (canonical: createmetallurgy)
   'createbigcannons:molten_steel_bucket',
   'createbigcannons:molten_bronze_bucket',
 
-  // create vintage (use createmetallurgy:mechanical_belt_grinder; destroy:centrifuge for separation)
+  // vintage (belt grinder + centrifuge replaced)
   'createvintageneoforged:belt_grinder',
   'createvintageneoforged:grinder_belt',
   'createvintageneoforged:centrifuge'
@@ -67,14 +65,14 @@ global.VOIDED_FLUIDS = [
   'createdieselgenerators:gasoline',
   'createdieselgenerators:ethanol',
 
-  // create big cannons (canonical: createmetallurgy)
+  // big cannons (canonical: createmetallurgy)
   'createbigcannons:molten_steel',
   'createbigcannons:flowing_molten_steel',
   'createbigcannons:molten_bronze',
   'createbigcannons:flowing_molten_bronze'
 ]
 
-// Entire mods with all recipes removed
+// entire mods removed
 global.VOIDED_MOD_IDS = [
   'iceandfire',
   'crusty_chunks'

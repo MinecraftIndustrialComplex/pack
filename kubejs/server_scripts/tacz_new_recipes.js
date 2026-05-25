@@ -23,9 +23,9 @@ ServerEvents.recipes(event => {
     //     {
     //         P: '#c:plates/steel',
     //         S: '#c:storage_blocks/steel',
-    //         C: 'create:precision_mechanism', // Represents the precision tools (screwdrivers, etc.)
-    //         A: 'minecraft:anvil',
-    //         L: 'create:treated_wood_planks' // Or standard logs if treated wood is unavailable
+    //     C: 'create:precision_mechanism',
+    //     A: 'minecraft:anvil',
+    //     L: 'create:treated_wood_planks'
     //     }
     // ).id('kubejs:mechanical_crafting/gun_smith_table');
 

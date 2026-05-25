@@ -1,5 +1,3 @@
-// Hide voided items and fluids from JEI / REI / EMI (see startup_scripts/voided_content.js).
-
 function collectVoidedItems() {
   const items = (global.VOIDED_ITEMS || []).slice()
   if (Platform.isLoaded('tacz')) {

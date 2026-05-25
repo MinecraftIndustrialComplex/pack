@@ -1,5 +1,4 @@
 ServerEvents.recipes(e => {
-  // Force Metallurgy steel — remove Overgeared furnaces & steel recipes
   const removeRecipes = [
     'overgeared:alloy_furnace',
     'overgeared:nether_alloy_furnace',
@@ -31,7 +30,6 @@ ServerEvents.recipes(e => {
   e.remove({ type: 'overgeared:cast_smelting' });
   e.remove({ type: 'overgeared:cast_blasting' });
 
-  // Casting tool heads
   const molds = {
     'axe': 270,
     'pickaxe': 270,
@@ -48,7 +46,6 @@ ServerEvents.recipes(e => {
     'steel': { fluid: 'createmetallurgy:molten_steel', prefix: 'overgeared:steel_' }
   };
 
-  // Stonecutting recipes for molds
   Object.keys(molds).forEach(mold => {
     e.stonecutting(`kubejs:graphite_${mold}_mold`, 'createmetallurgy:graphite_blank_mold');
   });
@@ -57,7 +54,6 @@ ServerEvents.recipes(e => {
     Object.entries(molds).forEach(([mold, amount]) => {
       let headItem = `overgeared:${mat}_${mold === 'sword' ? 'sword_blade' : mold + '_head'}`;
       
-      // Skip non-existent items
       if (mat === 'golden' && mold === 'hammer') return;
       if (mat === 'iron' && mold === 'hammer') return;
       
@@ -71,7 +67,6 @@ ServerEvents.recipes(e => {
   });
 
   // // Melting integration (disabled)
-  // // Melting down tool heads
   // Object.entries(materials).forEach(([mat, data]) => {
   //   Object.entries(molds).forEach(([mold, amount]) => {
   //     let headItem = `overgeared:${mat}_${mold === 'sword' ? 'sword_blade' : mold + '_head'}`;
@@ -85,7 +80,7 @@ ServerEvents.recipes(e => {
   //   });
   // });
   //
-  // // Melting down full tools (refunds the head amount)
+  // // Melting down full tools
   // Object.entries(materials).forEach(([mat, data]) => {
   //   Object.entries(molds).forEach(([mold, amount]) => {
   //     let toolItem = `${data.prefix}${mold}`;
@@ -104,25 +99,7 @@ ServerEvents.recipes(e => {
   // });
   //
   // // Armor melting (disabled)
-  // const armorPieces = {
-  //   'helmet': 450, // 5 ingots
-  //   'chestplate': 720, // 8 ingots
-  //   'leggings': 630, // 7 ingots
-  //   'boots': 360 // 4 ingots
-  // };
-  //
-  // Object.entries(materials).forEach(([mat, data]) => {
-  //   Object.entries(armorPieces).forEach(([piece, amount]) => {
-  //     let armorItem = `${data.prefix}${piece}`;
-  //     
-  //     e.recipes.createmetallurgy.melting(Fluid.of(data.fluid, amount), armorItem)
-  //     .processingTime(amount / 3)
-  //     .heated()
-  //     .id(`kubejs:melting_${mat}_${piece}`);
-  //   });
-  // });
-  //
-  // Diamond upgrade template — 5x5 grid, 24 diamonds + 1 steel ingot
+
   e.custom({
     type: "create:mechanical_crafting",
     pattern: [

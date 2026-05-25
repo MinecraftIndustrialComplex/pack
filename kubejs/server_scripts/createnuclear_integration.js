@@ -24,19 +24,15 @@ const DYE_MAP = {
 }
 
 ServerEvents.recipes(e => {
-  // ── Steel → Stainless steel ────────────────────────────────────
-  // Replace all createnuclear steel item references with destroy stainless steel
   e.replaceInput({}, 'createnuclear:steel_ingot', 'destroy:stainless_steel_ingot')
   e.replaceInput({}, 'createnuclear:steel_nugget', 'destroy:stainless_steel_ingot')
   e.replaceInput({}, 'createnuclear:steel_block', 'destroy:stainless_steel_block')
 
-  // ── Lead conversion (voided createnuclear lead → destroy lead) ──
   e.shapeless('destroy:lead_ingot', ['createnuclear:lead_ingot'])
     .id('kubejs:createnuclear/convert_lead_ingot')
   e.shapeless('destroy:lead_ingot', ['createnuclear:lead_block'])
     .id('kubejs:createnuclear/convert_lead_block')
 
-  // ── Remove original anti-radiation cloth & armor recipes ────────
   COLORS.forEach(c => {
     e.remove({ output: `createnuclear:${c}_cloth` })
     e.remove({ output: `createnuclear:${c}_anti_radiation_helmet` })
@@ -45,8 +41,6 @@ ServerEvents.recipes(e => {
   })
   e.remove({ output: 'createnuclear:anti_radiation_boots' })
 
-  // ── Cloth: mixed from Destroy polymers + lead powder ────────────
-  // White cloth → heated basin mixing of nylon, polyethylene, and lead powder
   e.recipes.create.mixing('2x createnuclear:white_cloth', [
     'destroy:nylon',
     'destroy:polyethene',
@@ -54,7 +48,6 @@ ServerEvents.recipes(e => {
   ]).heated()
     .id('kubejs:createnuclear/mix_white_cloth')
 
-  // Dye white cloth into any color
   COLORS.forEach(c => {
     if (c === 'white') return
     e.shapeless(`createnuclear:${c}_cloth`, [
@@ -63,10 +56,7 @@ ServerEvents.recipes(e => {
     ]).id(`kubejs:createnuclear/dye_cloth_${c}`)
   })
 
-  // ── Anti-radiation armor: upgrade Destroy hazmat pieces ─────────
-  // Smithing table: template = cloth, base = hazmat piece, addition = lead ingot
   COLORS.forEach(c => {
-    // Helmet: gas_mask + cloth + lead → anti-radiation helmet
     e.custom({
       type: 'minecraft:smithing_transform',
       template: { item: `createnuclear:${c}_cloth` },
@@ -75,7 +65,6 @@ ServerEvents.recipes(e => {
       result:    { id: `createnuclear:${c}_anti_radiation_helmet` }
     }).id(`kubejs:createnuclear/upgrade_helmet_${c}`)
 
-    // Chestplate: hazmat_suit + cloth + lead → anti-rad chestplate
     e.custom({
       type: 'minecraft:smithing_transform',
       template: { item: `createnuclear:${c}_cloth` },
@@ -84,7 +73,6 @@ ServerEvents.recipes(e => {
       result:    { id: `createnuclear:${c}_anti_radiation_chestplate` }
     }).id(`kubejs:createnuclear/upgrade_chestplate_${c}`)
 
-    // Leggings: hazmat_leggings + cloth + lead → anti-rad leggings
     e.custom({
       type: 'minecraft:smithing_transform',
       template: { item: `createnuclear:${c}_cloth` },
@@ -94,7 +82,6 @@ ServerEvents.recipes(e => {
     }).id(`kubejs:createnuclear/upgrade_leggings_${c}`)
   })
 
-  // Boots: wellington_boots + white cloth + lead → anti-rad boots (uncolored)
   e.custom({
     type: 'minecraft:smithing_transform',
     template: { item: 'createnuclear:white_cloth' },
@@ -102,8 +89,6 @@ ServerEvents.recipes(e => {
     addition:  { item: 'destroy:lead_ingot' },
     result:    { id: 'createnuclear:anti_radiation_boots' }
   }).id('kubejs:createnuclear/upgrade_boots')
-
-  // ── Reactor material gating ─────────────────────────────────────
 
   // Reactor Controller: requires CC:Tweaked advanced computer
   e.remove({ id: 'createnuclear:mechanical_crafting/reactor_controller' })
@@ -129,7 +114,6 @@ ServerEvents.recipes(e => {
     result: { id: 'createnuclear:reactor_controller' }
   }).id('kubejs:createnuclear/reactor_controller')
 
-  // Reactor Casing: stainless steel instead of generic steel
   e.remove({ id: 'createnuclear:item_application/reactor_casing_from_steel_and_brass_casing' })
   e.custom({
     type: 'create:item_application',
@@ -140,7 +124,6 @@ ServerEvents.recipes(e => {
     results: [{ id: 'createnuclear:reactor_casing' }]
   }).id('kubejs:createnuclear/reactor_casing')
 
-  // Reinforced Glass: borosilicate glass + lead
   e.remove({ id: 'createnuclear:crafting/reactor/reinforced_glass' })
   e.shaped('createnuclear:reinforced_glass', [
     'LGL',
@@ -151,7 +134,6 @@ ServerEvents.recipes(e => {
     G: 'destroy:borosilicate_glass'
   }).id('kubejs:createnuclear/reinforced_glass')
 
-  // Reactor Cooler: stainless steel
   e.remove({ id: 'createnuclear:mechanical_crafting/reactor_cooler' })
   e.custom({
     type: 'create:mechanical_crafting',
@@ -173,7 +155,6 @@ ServerEvents.recipes(e => {
     result: { id: 'createnuclear:reactor_cooler' }
   }).id('kubejs:createnuclear/reactor_cooler')
 
-  // Reactor Core: stainless steel
   e.remove({ id: 'createnuclear:mechanical_crafting/reactor_core' })
   e.custom({
     type: 'create:mechanical_crafting',
@@ -195,7 +176,6 @@ ServerEvents.recipes(e => {
     result: { id: 'createnuclear:reactor_core' }
   }).id('kubejs:createnuclear/reactor_core')
 
-  // Reactor Main Frame: stainless steel
   e.remove({ id: 'createnuclear:mechanical_crafting/reactor_frame' })
   e.custom({
     type: 'create:mechanical_crafting',
@@ -217,7 +197,6 @@ ServerEvents.recipes(e => {
     result: { id: 'createnuclear:reactor_frame' }
   }).id('kubejs:createnuclear/reactor_frame')
 
-  // Reactor Blueprint: stainless steel
   e.remove({ id: 'createnuclear:crafting/reactor_blueprint_item' })
   e.shaped('createnuclear:reactor_blueprint_item', [
     'SDS',
@@ -231,7 +210,6 @@ ServerEvents.recipes(e => {
   }).id('kubejs:createnuclear/reactor_blueprint')
 })
 
-// ── Ensure Destroy lead items carry the unified tags ─────────────
 ServerEvents.tags('item', e => {
   e.add('c:ingots/lead', 'destroy:lead_ingot')
   e.add('c:storage_blocks/lead', 'destroy:lead_block')
@@ -239,7 +217,6 @@ ServerEvents.tags('item', e => {
   e.remove('c:storage_blocks/lead', 'createnuclear:lead_block')
 })
 
-// ── Destroy sieving byproducts for nuclear ores ──────────────────
 ServerEvents.recipes(e => {
   e.custom({
     type: 'destroy:sieving',
