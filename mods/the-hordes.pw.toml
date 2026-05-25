@@ -1,0 +1,13 @@
+name = "The Hordes"
+filename = "The-Hordes-1.21-1.6.3b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O3HDffUR/versions/aynBLsko/The-Hordes-1.21-1.6.3b.jar"
+hash-format = "sha512"
+hash = "585d706cf9953f1988e012481c2983d3dda4df0cc2ffadb4f0df1007d6555ea14d5caf497c60d78c3e8609c6fcb723b6ec6b0af6a44a0029917d8b38df98b493"
+
+[update]
+[update.modrinth]
+mod-id = "O3HDffUR"
+version = "aynBLsko"
