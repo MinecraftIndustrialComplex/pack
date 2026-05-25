@@ -22,7 +22,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "1c727d801c992643b11c28beeea0398870ad2f9ff3949f1e5564f40f3888ee8b"
+hash = "58052c36acecf4e961a6f595bb64ce4e0733fb54fb60ed55c17f337a07f3182a"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"
@@ -110,11 +110,11 @@ hash = "a9955f60ddc93fc5cd66ecc985b9e41cd7a9c887f29e806b7321fcc27fb6a94e"
 
 [[files]]
 file = "kubejs/client_scripts/create_aeronautics.js"
-hash = "4f6faa67f52c82af1664aba7ef0c321ef20b587538e7ad8bb9713ceba50b489c"
+hash = "46d76aaddf692f824b9d905445ce0dc9a45a2c1b6b66c8f853e624f1e7001b2d"
 
 [[files]]
 file = "kubejs/client_scripts/voided_jei.js"
-hash = "b0839a30005d0fe2de4835fd2415b2d74a6d5074ff67a0b2590929991638d232"
+hash = "d3eb7b947b2a6bf2226442266960f3447b0f7d2a7af75cf81a05f83445ba3faf"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -137,32 +137,60 @@ file = "kubejs/data/forge/tags/fluids/gasoline.json"
 hash = "223600b1ee33ee19d569f60590d5ac4640c3baf420b6af0e68b55896863a35a2"
 
 [[files]]
+file = "kubejs/data/kubejs/tags/worldgen/biome/empty.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/legendarysurvivaloverhaul/neoforge/biome_modifier/add_ice_fern.json"
+hash = "cbb30b0108a8f0c28f11d7a4a32a624b1239082209db225ca68e1a41f835a426"
+
+[[files]]
+file = "kubejs/data/legendarysurvivaloverhaul/neoforge/biome_modifier/add_sun_fern.json"
+hash = "9f2d746f8acdb97379e2b00bd4b5a892838f91e2e282e98b4fcd0d07ed6b7236"
+
+[[files]]
+file = "kubejs/data/legendarysurvivaloverhaul/neoforge/biome_modifier/add_water_plant.json"
+hash = "d3e911bb87ca315c9452f6a4bc2991c7219ff8d387dd298216e5aa886698479c"
+
+[[files]]
 file = "kubejs/data/mic/createdieselgenerators/fuel_type/diesel.json"
 hash = "e8ef59396efd083515b235d0816f889a171a91bbc1ef9a2873abaa36c4d0d343"
 
 [[files]]
+file = "kubejs/data/powergrid/legendarysurvivaloverhaul/temperature/blocks/basin_heater.json"
+hash = "db34957d72880fe69ae27807d4aabce33c6df43d066b637a7793bfe1163fa843"
+
+[[files]]
 file = "kubejs/server_scripts/cbc_metallurgy_integration.js"
-hash = "fa996c46ec16c207d0f8463c12983aaa335b0279af23fa413d3cb607c3c58fc9"
+hash = "9b9dda4f0a01edc984f02ade6f066ef8c4a0a61a1b6826774cb5caa0767676fc"
+
+[[files]]
+file = "kubejs/server_scripts/ccbr_integration.js"
+hash = "6152daae540ffc6fa1caa1ae97d99f2359f7db80fa5a3fc24c7fd0e1a10d17c2"
 
 [[files]]
 file = "kubejs/server_scripts/create_aeronautics.js"
-hash = "9aa17769f902fb2f11e1da0d472d0e19e59f3aa7907e31cff7c72b95311d8f8c"
+hash = "1004eb20f5ebcb837ef768153e6b1f853d854e8eeb6abea7fb292bad253cab11"
 
 [[files]]
 file = "kubejs/server_scripts/create_vintage.js"
-hash = "efb42d1f19584c3dd603157c02d88884676487887d0c53a14fb8c81226d10977"
+hash = "10cb48e31b89b3473f1f309e9598449548945236126cdb7390568159d99023f4"
+
+[[files]]
+file = "kubejs/server_scripts/createnuclear_integration.js"
+hash = "5559636ff538a4b8e5fabc5064b19b79d850f3d26df365eb3c970a48ae34ccc9"
 
 [[files]]
 file = "kubejs/server_scripts/destroy_metallurgy_integration.js"
-hash = "434e6a93448e52f637352b4a3ed7566ee4747e5c390e23f073c4fc9fb7402d38"
+hash = "6f61b2ee77df1801ab3bb1b234b4fa0c80f0ce505116de90eb45c910850e7651"
 
 [[files]]
 file = "kubejs/server_scripts/disable_villager_trading.js"
-hash = "03102b54ce500bf19e960cfcdf988c1503df5b0090354ac9d9f91a76c09e91d1"
+hash = "cb617114caf6b64b9150382af9dbab4500703552a45ef657200ee254b7aa2c3c"
 
 [[files]]
 file = "kubejs/server_scripts/electron_tube.js"
-hash = "8cef1389eaf2ac4d19978bc7801a77ced8ec63ed0bb999211cf5eb71e13c8a47"
+hash = "9e224e011881ca3fb5b190be03f880d57ad2ae312731970d39d4ad1d03bd28b1"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
@@ -173,12 +201,20 @@ file = "kubejs/server_scripts/legendarysurvival.js"
 hash = "5a974c47f992d3346f91aa7599a53b2c80a9bb69173bd06cea200cb2c6e3ff18"
 
 [[files]]
+file = "kubejs/server_scripts/lso_cobblemon_herbs.js"
+hash = "0c2864ffb9034ffe84c4c9b5f689da6e9aa7e738f915da1da7186d0aecfad0ff"
+
+[[files]]
 file = "kubejs/server_scripts/oilyunification.js"
-hash = "fa685c6f42a767ccf45ebdd5d4846d3c7c13c4599ba5e2af8b634180b95caf2c"
+hash = "aa9b8f1d395ffdbd2f7bedcb524e571daba2ab1adc3a3e619eeb538e8096de37"
 
 [[files]]
 file = "kubejs/server_scripts/overgeared.js"
-hash = "088652794a071c328debe30e740395f5ec2d81c13b054cabaf430a86b6111962"
+hash = "0c6a78fd980134a6668fbc3edb96e529d196d89ed6c3eb9611d75d63fc683b14"
+
+[[files]]
+file = "kubejs/server_scripts/powergrid_destroy_integration.js"
+hash = "89fdc6789f148667726ea7290c759ca60d5e2795fb068e5a6bd26a32f4b785d5"
 
 [[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
@@ -186,15 +222,15 @@ hash = "27dc91ff70d1dc92ed8c69c7f0bab6f0e185af8e7472b12654045921f85b17a6"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks.js"
-hash = "7b72278889782a8c6e1c975155ea970b890c13fa477106aabda112860a0dc3f0"
+hash = "212207138d5a21593765e4a3224d8aca1031cc681a089ad55c42d488dd36a20e"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_new_recipes.js"
-hash = "6ee9ed4265bcc820f0244cfceb678c5e38d8dc5707d4e8c0458a3598340af739"
+hash = "7fce28b20174eb95efb68d5c02a9371b0f3d7b9a7b8209d30aefa1e893e40a25"
 
 [[files]]
 file = "kubejs/server_scripts/taczfreeze.js"
-hash = "fb9e365a906c165e46b794e5345654397e18969c4f7fff0e400d3ce15d2087c3"
+hash = "3c4965ef4d03db51cd87049e12c20af4a5f2c1dc71a66af693bdf852c223712b"
 
 [[files]]
 file = "kubejs/server_scripts/volatile_compounds.js"
@@ -206,15 +242,27 @@ hash = "846b81b52a4410e19d782d44b06804559932563ce471cbbb941619dc867dbce8"
 
 [[files]]
 file = "kubejs/server_scripts/zombies.js"
-hash = "92cd33d6d50c5545726e5528744fed1dc20d95fc51e588957cd994a6148ae3a5"
+hash = "e25bf7e9cfa7de313ff9ee551e49de7ec555db5467e6119e20140f7bf62cd01c"
+
+[[files]]
+file = "kubejs/startup_scripts/heatjs_basin_heater.js"
+hash = "e54baac200142931f847b042eec8e4b25e37d396cfd3e81f3710bf16a74ac2ad"
+
+[[files]]
+file = "kubejs/startup_scripts/molten_chromium.js"
+hash = "de9b55759f6e671362ee0faa6dbd3882f3c7f1d4fcd68f462404cd0caea2c229"
 
 [[files]]
 file = "kubejs/startup_scripts/overgeared_molds.js"
 hash = "6f830fb2518a966a6d87ab608a009082f2f10d469dc2cf17d0b82e55e26b91a6"
 
 [[files]]
+file = "kubejs/startup_scripts/smokeless_powder.js"
+hash = "4356fabb798b7f138034a0068aa3e0016e6f3f4cac1fd533213346c463ea8927"
+
+[[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "1f2b4ef9f04d6e77745f0a1109087287e38c98611597484fcce0e0aae0666600"
+hash = "c29291823a6130453c054263a1a900bd8237ef2a9fbb81d36671c89c2e31f3d9"
 
 [[files]]
 file = "logo.png"
@@ -498,6 +546,11 @@ metafile = true
 [[files]]
 file = "mods/create-metallurgy.pw.toml"
 hash = "12a90beeb5a46b46dfdc7ba2a5510107fbc60915e6cf1af129d365e20b99ce2d"
+metafile = true
+
+[[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "b3adf7e1a518ce4e49332c3d5855d5c9cdc4ff10a31dc652e5daa85d8f33a619"
 metafile = true
 
 [[files]]
@@ -937,6 +990,11 @@ metafile = true
 [[files]]
 file = "mods/ryoamiclights.pw.toml"
 hash = "907a7f3584909169937bdb0891304108f6a5291ae1fdce211b62e2e8c3e14e68"
+metafile = true
+
+[[files]]
+file = "mods/sable-true-impact.pw.toml"
+hash = "5e0a49d5271292e159c53bc70949fd2f2bd195cbc8b4e2461648167f0478c048"
 metafile = true
 
 [[files]]

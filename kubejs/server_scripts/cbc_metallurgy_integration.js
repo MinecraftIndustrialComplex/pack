@@ -132,7 +132,7 @@ ServerEvents.recipes(e => {
   e.recipes.createmetallurgy
     .alloying(Fluid.of(CBC_MATERIALS.cast_iron, MB_INGOT), [
       Fluid.of('createmetallurgy:molten_iron', MB_INGOT),
-      '#c:coal_coke'
+      'minecraft:charcoal'
     ])
     .processingTime(40)
     .heated()
@@ -144,7 +144,7 @@ ServerEvents.recipes(e => {
       'minecraft:netherite_scrap'
     ])
     .processingTime(100)
-    .superheated()
+    .heatLevel("HYPERHEATED")
     .id('kubejs:cbc/alloy_nethersteel_from_steel')
 
   e.recipes.createmetallurgy
@@ -153,7 +153,7 @@ ServerEvents.recipes(e => {
       'minecraft:netherite_scrap'
     ])
     .processingTime(100)
-    .superheated()
+    .heatLevel("HYPERHEATED")
     .id('kubejs:cbc/alloy_nethersteel_from_cast_iron')
 
   const castForms = [
