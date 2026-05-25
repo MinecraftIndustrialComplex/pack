@@ -99,6 +99,8 @@
     "c:ores/uranium": "createnuclear",
     "c:ingots/zinc": "create",
     "c:ingots/brass": "create",
+    "c:ingots/lead": "destroy",
+    "c:storage_blocks/lead": "destroy",
     "c:ingots/steel": "createmetallurgy",
     "c:plates/steel": "create_tank_defenses",
     "c:slag": "destroy",

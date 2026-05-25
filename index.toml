@@ -261,6 +261,11 @@ hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
 metafile = true
 
 [[files]]
+file = "mods/atlas-lib.pw.toml"
+hash = "57d314558add15212267a2a73439def174a8d8179e3cbd6abf8926f23fbca2e5"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
@@ -461,6 +466,11 @@ hash = "2ba3112a833d6e23aae1e0a38a7a324f89efb8a532ea101f355dc38490840b3b"
 metafile = true
 
 [[files]]
+file = "mods/create-encapsulated.pw.toml"
+hash = "7904ecb57981b67413aeb7d5cfae051d2d18724f2f0a89f3edc92d6b074667ae"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "52f8600e5c7ab7358bee923cfff7cd2428d7599cb1ff3c0fdbd373330f770587"
 metafile = true
@@ -543,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/e4mc.pw.toml"
 hash = "36732fd7fdad0831fdaef0c806def4ebcab5084bfd851bcff5e948923cd1b1d7"
+metafile = true
+
+[[files]]
+file = "mods/ecliptic-seasons.pw.toml"
+hash = "122b6498f22c33a94c97b3bf8679ba62eec8c50a68f55276ce624b91ece3ef64"
 metafile = true
 
 [[files]]
@@ -895,6 +910,11 @@ hash = "6a598c073aabc968d8ee736141d238c517e13662f3de0feb81796cb9c0d6f4f0"
 metafile = true
 
 [[files]]
+file = "mods/rolled-homongenous-forked.pw.toml"
+hash = "740a94aeded4f47ebb6c305d871b2a6df93218586558d8d0857848b8aaceef9c"
+metafile = true
+
+[[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
 metafile = true
@@ -991,6 +1011,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+metafile = true
+
+[[files]]
+file = "mods/the-hordes.pw.toml"
+hash = "2e3d86a122db86191f0e2083520d726560e342b9a3d6a843d8d7df8b93c08a94"
 metafile = true
 
 [[files]]

@@ -15,6 +15,13 @@ global.VOIDED_ITEMS = [
   'overgeared:steel_ingot',
   'createbigcannons:steel_ingot',
   'createnuclear:steel_ingot',
+  'createnuclear:steel_nugget',
+  'createnuclear:steel_block',
+
+  // duplicate lead (destroy:lead_ingot is canonical)
+  'createnuclear:lead_ingot',
+  'createnuclear:lead_nugget',
+  'createnuclear:lead_block',
   'overgeared:crude_steel',
   'overgeared:unfired_tool_cast',
   'overgeared:clay_tool_cast',
@@ -43,9 +50,10 @@ global.VOIDED_ITEMS = [
   'createbigcannons:molten_steel_bucket',
   'createbigcannons:molten_bronze_bucket',
 
-  // create vintage (use createmetallurgy:mechanical_belt_grinder)
+  // create vintage (use createmetallurgy:mechanical_belt_grinder; destroy:centrifuge for separation)
   'createvintageneoforged:belt_grinder',
-  'createvintageneoforged:grinder_belt'
+  'createvintageneoforged:grinder_belt',
+  'createvintageneoforged:centrifuge'
 ]
 
 global.VOIDED_ITEM_PATTERNS = [
