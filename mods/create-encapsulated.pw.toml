@@ -1,0 +1,13 @@
+name = "Create: Encapsulated"
+filename = "create_encapsulated-1.0.7+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TQjpFpQk/versions/BifpDfjs/create_encapsulated-1.0.7%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "c455e5aae661f2850cdc37b3e07b6200ae9145c3805f2ed71b935c9efb8153fb60d8e34b833a8c9a814b346580b36ba8c3bf7dfdc26dc8cbfc1ac0d042379ba5"
+
+[update]
+[update.modrinth]
+mod-id = "TQjpFpQk"
+version = "BifpDfjs"
