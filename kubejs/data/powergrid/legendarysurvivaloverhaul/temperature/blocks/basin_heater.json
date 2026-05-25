@@ -1,0 +1,20 @@
+[
+  {
+    "properties": {
+      "blaze": "none"
+    },
+    "temperature": 0.0
+  },
+  {
+    "properties": {
+      "blaze": "kindled"
+    },
+    "temperature": 20.0
+  },
+  {
+    "properties": {
+      "blaze": "seething"
+    },
+    "temperature": 40.0
+  }
+]

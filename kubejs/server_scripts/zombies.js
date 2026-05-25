@@ -76,7 +76,7 @@ LevelEvents.tick(event => {
                     
                     let spawnY = level.getHeight('motion_blocking', spawnX, spawnZ);
                     
-                    // FIXED: Using .air property and direct coordinate access
+                    // Using .air property instead of isAir()
                     let block = level.getBlock(spawnX, spawnY, spawnZ);
                     let groundBlock = level.getBlock(spawnX, spawnY - 1, spawnZ);
                     

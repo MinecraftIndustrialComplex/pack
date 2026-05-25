@@ -29,6 +29,15 @@ global.VOIDED_ITEMS = [
 
   // legendary survival overhaul
   'legendarysurvivaloverhaul:heart_container',
+  // Original herbs replaced by cobblemon integration
+  'legendarysurvivaloverhaul:sun_fern_leaf',
+  'legendarysurvivaloverhaul:sun_fern_gold_leaf',
+  'legendarysurvivaloverhaul:sun_fern_seeds',
+  'legendarysurvivaloverhaul:ice_fern_leaf',
+  'legendarysurvivaloverhaul:ice_fern_gold_leaf',
+  'legendarysurvivaloverhaul:ice_fern_seeds',
+  'legendarysurvivaloverhaul:cold_string',
+  'legendarysurvivaloverhaul:warm_string',
 
   // create big cannons (use createmetallurgy molten steel/bronze)
   'createbigcannons:molten_steel_bucket',

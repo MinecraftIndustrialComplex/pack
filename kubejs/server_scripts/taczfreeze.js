@@ -5,6 +5,8 @@ if (Platform.isLoaded('tacz')) {
       "tacz:attachment_workbench",
       "tacz:ammo_workbench",
     ];
-    removeItems.forEach(id => e.remove({ output: id }));
+    removeItems.forEach(id => {
+      try { e.remove({ output: id }) } catch (ex) {}
+    });
   });
 }

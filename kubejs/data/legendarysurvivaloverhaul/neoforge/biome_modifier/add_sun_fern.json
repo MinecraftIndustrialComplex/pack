@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#kubejs:empty",
+  "features": "legendarysurvivaloverhaul:sun_fern_placed",
+  "step": "vegetal_decoration"
+}

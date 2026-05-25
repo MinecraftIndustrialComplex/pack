@@ -36,6 +36,7 @@
     "c:wires/{material}",
     "c:storage_blocks/{material}",
     "c:storage_blocks/raw_{material}",
+    "c:slag",
     "c:autocannon_barrels/steel",
     "c:cannon_barrels/steel",
     "c:autocannon_barrels/cast_iron",
@@ -100,6 +101,7 @@
     "c:ingots/brass": "create",
     "c:ingots/steel": "createmetallurgy",
     "c:plates/steel": "create_tank_defenses",
+    "c:slag": "destroy",
     "c:autocannon_barrels/steel": "createbigcannons",
     "c:cannon_barrels/steel": "createbigcannons",
     "c:autocannon_barrels/cast_iron": "createbigcannons",
@@ -161,6 +163,10 @@
     "c:dusts/aluminum": [
       "crusty_chunks:aluminum_dust",
       "create_tank_defenses:aluminum_dust"
+    ],
+    "c:slag": [
+      "destroy:slag",
+      "createmetallurgy:slag"
     ]
   },
   "tagOwnerships": {},

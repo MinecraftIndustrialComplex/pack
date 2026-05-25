@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "57c78bfb352852b1a665b0e5e1f66b22dab68d9a9b599d47394d1635419840f6"
+hash = "b55ec6e878f18af8b308fa8569b034748527dd5455831df2f1376b5771bc292b"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -22,15 +22,27 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "c132150057bd5c935ee08258ff5837160043d6e3638415044818b7109b6cacb4"
+hash = "1c727d801c992643b11c28beeea0398870ad2f9ff3949f1e5564f40f3888ee8b"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"
 hash = "769c4a4462090ca0b2245673e6b68b669ada1b589bdfde011e865c74a66d3678"
 
 [[files]]
+file = "config/createvintageneoforged-common.toml"
+hash = "09ff99bb34a4e104581bab4c5428c8110d1792f16169fa5d0a1894bc2e626a68"
+
+[[files]]
 file = "config/dice-common.toml"
 hash = "16f8a2192492535f10a5aa3b3ba08694e5b5a427945f8554594038b8f57f4c32"
+
+[[files]]
+file = "config/iceandfire/iaf-client.json"
+hash = "0f338c822ebc6cad040079c0959987c141e8847b73cb6f75b4c2e8044c8e7be0"
+
+[[files]]
+file = "config/iceandfire/iaf-common.json"
+hash = "a520e5e7909c9e50d1857874f853e6fafff8ac106fabff239868d5c57a57b546"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -141,6 +153,10 @@ file = "kubejs/server_scripts/create_vintage.js"
 hash = "efb42d1f19584c3dd603157c02d88884676487887d0c53a14fb8c81226d10977"
 
 [[files]]
+file = "kubejs/server_scripts/destroy_metallurgy_integration.js"
+hash = "434e6a93448e52f637352b4a3ed7566ee4747e5c390e23f073c4fc9fb7402d38"
+
+[[files]]
 file = "kubejs/server_scripts/disable_villager_trading.js"
 hash = "03102b54ce500bf19e960cfcdf988c1503df5b0090354ac9d9f91a76c09e91d1"
 
@@ -199,6 +215,10 @@ hash = "6f830fb2518a966a6d87ab608a009082f2f10d469dc2cf17d0b82e55e26b91a6"
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
 hash = "1f2b4ef9f04d6e77745f0a1109087287e38c98611597484fcce0e0aae0666600"
+
+[[files]]
+file = "logo.png"
+hash = "e42b0eee51de7c20110d11ecc9592ab0e346dbe162b45800bf585053600c729b"
 
 [[files]]
 file = "mods/accessories.pw.toml"

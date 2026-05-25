@@ -12,7 +12,7 @@ ServerEvents.recipes(e => {
   e.remove({ type: 'createvintageneoforged:polishing' })
 
   e.recipes.createmetallurgy
-    .grinding('#c:storage_blocks/iron', 'createvintageneoforged:w_shaped_curving_head')
+    .grinding('createvintageneoforged:w_shaped_curving_head', Ingredient.of('#c:storage_blocks/iron'))
     .processingTime(100)
     .id('kubejs:vintage/w_shaped_curving_head_from_iron_block')
 })

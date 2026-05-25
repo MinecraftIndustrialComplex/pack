@@ -1,7 +1,5 @@
 ServerEvents.recipes(e => {
-  // ----------------------------
-  // 1. Force Metallurgy Steel (Remove Overgeared Alloy Furnace & Steel)
-  // ----------------------------
+  // Force Metallurgy steel — remove Overgeared furnaces & steel recipes
   const removeRecipes = [
     'overgeared:alloy_furnace',
     'overgeared:nether_alloy_furnace',
@@ -33,9 +31,7 @@ ServerEvents.recipes(e => {
   e.remove({ type: 'overgeared:cast_smelting' });
   e.remove({ type: 'overgeared:cast_blasting' });
 
-  // ----------------------------
-  // 2. Add Casting in Table for Tool Heads
-  // ----------------------------
+  // Casting tool heads
   const molds = {
     'axe': 270,
     'pickaxe': 270,
@@ -74,9 +70,7 @@ ServerEvents.recipes(e => {
     });
   });
 
-  // // ----------------------------
-  // // 3. Melting Integration
-  // // ----------------------------
+  // // Melting integration (disabled)
   // // Melting down tool heads
   // Object.entries(materials).forEach(([mat, data]) => {
   //   Object.entries(molds).forEach(([mold, amount]) => {
@@ -109,7 +103,7 @@ ServerEvents.recipes(e => {
   //   });
   // });
   //
-  // // Melting down armor pieces
+  // // Armor melting (disabled)
   // const armorPieces = {
   //   'helmet': 450, // 5 ingots
   //   'chestplate': 720, // 8 ingots
@@ -128,10 +122,7 @@ ServerEvents.recipes(e => {
   //   });
   // });
   //
-  // ----------------------------
-  // 4. Mechanical Crafter Recipe for Diamond Upgrade Template
-  // ----------------------------
-  // 5x5 grid, 24 diamonds + 1 steel ingot
+  // Diamond upgrade template — 5x5 grid, 24 diamonds + 1 steel ingot
   e.custom({
     type: "create:mechanical_crafting",
     pattern: [

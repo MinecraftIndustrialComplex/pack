@@ -1,4 +1,4 @@
-// Create Big Cannons <-> Create: Metallurgy integration
+// Route CBC casting through Metallurgy
 
 const MB_INGOT = 90
 const MB_NUGGET = 10
@@ -107,9 +107,6 @@ ServerEvents.tags('fluid', e => {
 })
 
 ServerEvents.recipes(e => {
-  // ----------------------------
-  // Remove CBC melting / duplicate production
-  // ----------------------------
   e.remove({ type: 'createbigcannons:melting' })
 
   const removeIds = [
@@ -134,9 +131,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: id })
   })
 
-  // ----------------------------
   // Alloying (Metallurgy basin)
-  // ----------------------------
   e.recipes.createmetallurgy
     .alloying(Fluid.of(CBC_MATERIALS.cast_iron, MB_INGOT), [
       Fluid.of('createmetallurgy:molten_iron', MB_INGOT),
@@ -164,9 +159,7 @@ ServerEvents.recipes(e => {
     .superheated()
     .id('kubejs:cbc/alloy_nethersteel_from_cast_iron')
 
-  // ----------------------------
-  // Casting — Cast Iron & Nethersteel
-  // ----------------------------
+  // Casting cast iron & nethersteel
   const castForms = [
     { item: 'createbigcannons:cast_iron_ingot', fluid: CBC_MATERIALS.cast_iron, amount: MB_INGOT, mold: 'createmetallurgy:graphite_ingot_mold', table: true },
     { item: 'createbigcannons:cast_iron_nugget', fluid: CBC_MATERIALS.cast_iron, amount: MB_NUGGET, mold: 'createmetallurgy:graphite_nugget_mold', table: true },
@@ -192,9 +185,7 @@ ServerEvents.recipes(e => {
     }
   })
 
-  // ----------------------------
-  // Melting — ingots, blocks, cannon parts
-  // ----------------------------
+  // Melting ingots, blocks, cannon parts
   CBC_CANNON_PARTS.forEach(function (part) {
     const item = 'createbigcannons:' + part
     if (shouldSkipCbcMelt(item)) return
