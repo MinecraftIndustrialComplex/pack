@@ -1,0 +1,13 @@
+name = "Sable: True Impact"
+filename = "sabletrueimpact-1.1.0-gamma.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PskD6LDU/versions/YJkRej8n/sabletrueimpact-1.1.0-gamma.jar"
+hash-format = "sha512"
+hash = "4786829f85e9aef7c3829623b06d101d324baced0287085b259ccd6bf81137d27e8cd5ab08963dd0a20ce682acaf0af20ecd709b3489ee3d107c0d59fa4f91c9"
+
+[update]
+[update.modrinth]
+mod-id = "PskD6LDU"
+version = "YJkRej8n"
