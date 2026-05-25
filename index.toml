@@ -406,6 +406,11 @@ hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
 
 [[files]]
+file = "mods/cobblemonrf.pw.toml"
+hash = "d2a9de1657bd1a1f167f48c9e5719dc751381a7ff13c3b1bd0333c1084309bf0"
+metafile = true
+
+[[files]]
 file = "mods/connector.pw.toml"
 hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
 metafile = true

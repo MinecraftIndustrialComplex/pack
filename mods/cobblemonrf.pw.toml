@@ -1,0 +1,15 @@
+name = "CobblemonRF"
+filename = "cobblemonrf-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/BenMac31/CobblemonRF/releases/download/1.21/cobblemonrf-1.0.0.jar"
+hash-format = "sha256"
+hash = "9f341245f57d24dc2e3a137b4fd6035a5e53bf2a06a01b46d1df93b65aa6458a"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "BenMac31/CobblemonRF"
+tag = "1.21"
