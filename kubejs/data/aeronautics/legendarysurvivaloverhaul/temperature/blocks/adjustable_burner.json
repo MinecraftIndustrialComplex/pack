@@ -1,0 +1,30 @@
+[
+  {
+    "properties": {
+      "powered": "false",
+      "variant": "fire"
+    },
+    "temperature": 0.0
+  },
+  {
+    "properties": {
+      "powered": "false",
+      "variant": "soulful"
+    },
+    "temperature": 0.0
+  },
+  {
+    "properties": {
+      "powered": "true",
+      "variant": "fire"
+    },
+    "temperature": 12.0
+  },
+  {
+    "properties": {
+      "powered": "true",
+      "variant": "soulful"
+    },
+    "temperature": 12.0
+  }
+]

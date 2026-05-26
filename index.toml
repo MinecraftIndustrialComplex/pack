@@ -9,6 +9,10 @@ file = "README.md"
 hash = "b55ec6e878f18af8b308fa8569b034748527dd5455831df2f1376b5771bc292b"
 
 [[files]]
+file = "cliCrash1.txt"
+hash = "b24994a5b9132ae92b3507b2024d4ed5ab859cb69c8330b4cd1827a8ec1de1ab"
+
+[[files]]
 file = "config/almostunified/debug.json"
 hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
 
@@ -70,7 +74,7 @@ hash = "8d6bbefaf8e61bbe3645cf1c19078e176cb7a57e7e6bbc1d005714cbcc470fa1"
 
 [[files]]
 file = "config/structurify.json"
-hash = "9f23dddf0db69bed1c48bc51f000d833dbcba41c909e9f83efb6947a373e6c69"
+hash = "9a3518a630fbd415b00cafe766a71f0f5f67a68e42ac8759d7281973ee19c8af"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
@@ -115,6 +119,10 @@ hash = "46d76aaddf692f824b9d905445ce0dc9a45a2c1b6b66c8f853e624f1e7001b2d"
 [[files]]
 file = "kubejs/client_scripts/voided_jei.js"
 hash = "d3eb7b947b2a6bf2226442266960f3447b0f7d2a7af75cf81a05f83445ba3faf"
+
+[[files]]
+file = "kubejs/data/aeronautics/legendarysurvivaloverhaul/temperature/blocks/adjustable_burner.json"
+hash = "498cefdf67420a7a12f1d37587f0609c279cb49976093966880ea7fd470c2fa1"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -162,7 +170,7 @@ hash = "db34957d72880fe69ae27807d4aabce33c6df43d066b637a7793bfe1163fa843"
 
 [[files]]
 file = "kubejs/server_scripts/cbc_metallurgy_integration.js"
-hash = "9b9dda4f0a01edc984f02ade6f066ef8c4a0a61a1b6826774cb5caa0767676fc"
+hash = "1e4d16f17d8de22ce9ef4bf0d377ff24ceb38f0454190d2f70847a8ced5fd54b"
 
 [[files]]
 file = "kubejs/server_scripts/ccbr_integration.js"
@@ -182,7 +190,7 @@ hash = "5559636ff538a4b8e5fabc5064b19b79d850f3d26df365eb3c970a48ae34ccc9"
 
 [[files]]
 file = "kubejs/server_scripts/destroy_metallurgy_integration.js"
-hash = "6f61b2ee77df1801ab3bb1b234b4fa0c80f0ce505116de90eb45c910850e7651"
+hash = "8667a05d3833754333893fe26c3f9944ddb2dee2bdab3be902c3dd649341eb2c"
 
 [[files]]
 file = "kubejs/server_scripts/disable_villager_trading.js"
@@ -198,11 +206,11 @@ hash = "aeec16960394af2641c975e1b516d228cab0c3446ef2622258e11a18a47a5464"
 
 [[files]]
 file = "kubejs/server_scripts/legendarysurvival.js"
-hash = "5a974c47f992d3346f91aa7599a53b2c80a9bb69173bd06cea200cb2c6e3ff18"
+hash = "5db3948b40b48a7ff2a7ace920bb17b0024ded49728a4bf4edd2f7d0e5be77f3"
 
 [[files]]
 file = "kubejs/server_scripts/lso_cobblemon_herbs.js"
-hash = "0c2864ffb9034ffe84c4c9b5f689da6e9aa7e738f915da1da7186d0aecfad0ff"
+hash = "3a76c67df863308a3465632d268b8b7babd608e0a9e27d866a291d45b8f1656a"
 
 [[files]]
 file = "kubejs/server_scripts/oilyunification.js"
@@ -246,7 +254,7 @@ hash = "e25bf7e9cfa7de313ff9ee551e49de7ec555db5467e6119e20140f7bf62cd01c"
 
 [[files]]
 file = "kubejs/startup_scripts/heatjs_basin_heater.js"
-hash = "e54baac200142931f847b042eec8e4b25e37d396cfd3e81f3710bf16a74ac2ad"
+hash = "483bfe796d2b3d1ca5f24278145969276aacf613f9b765141b2ea8e9532d0114"
 
 [[files]]
 file = "kubejs/startup_scripts/molten_chromium.js"
@@ -444,18 +452,13 @@ hash = "fcdff70e42059d560693addb673b3511159e5d2d20b2391b8880c7f187e2201f"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-whiteout.pw.toml"
-hash = "4037245434d3c7155e17093bb4451a06ee6deaec93a472adbfe26817e0d8374f"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
 
 [[files]]
 file = "mods/cobblemonrf.pw.toml"
-hash = "d2a9de1657bd1a1f167f48c9e5719dc751381a7ff13c3b1bd0333c1084309bf0"
+hash = "3b8f885defc122b4174636035d45a1c6fa67017e92ed01240a2bd4920ba93c8d"
 metafile = true
 
 [[files]]
@@ -1043,7 +1046,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f8f05819409e1c8f35095603595a422e2e6367541fea670b840ea54ae4f8dbf2"
+hash = "b656cd4d01f562e4222b9e872770f9517d123d752019aa37946f3264163a6bcc"
 metafile = true
 
 [[files]]
@@ -1074,6 +1077,11 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
+metafile = true
+
+[[files]]
+file = "mods/terralith-restoned.pw.toml"
+hash = "abde622f6570b0b4c5ba50c6f329c174d3f8f82de3cd29523c0064b0f9d9987c"
 metafile = true
 
 [[files]]
@@ -1112,6 +1120,10 @@ hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
 
 [[files]]
+file = "mowzies_bug_report.md"
+hash = "3e3ebe6572843733de1cab4fb259494dc4b1105e5927d0a00300aef01b4442fa"
+
+[[files]]
 file = "options.txt"
 hash = "5f5eb760ed1f95c626113e178f6e559015005487113f45b7168effa1eab3aaa7"
 
@@ -1133,6 +1145,22 @@ metafile = true
 [[files]]
 file = "scripts/molds_config.json"
 hash = "e5e846116483f69014989f54e38b71a82a70b6c14d4d82198a4141ee7fac2331"
+
+[[files]]
+file = "srvCrash.txt"
+hash = "ce8110e910e2ae5b1f7a9a4f90be97849322800c63c533f4e9f5d2472aa2ca59"
+
+[[files]]
+file = "srvCrash2.txt"
+hash = "b908e6bf324b6f1c59f8eddb3f40ea5587a97b55020a3f461936a60b70583cd9"
+
+[[files]]
+file = "srvCrash3.txt"
+hash = "27d01a9c0088b8e4dea464a954eaca5b40aa2388dae7d27c3a0976df1877c8fb"
+
+[[files]]
+file = "srvCrash4.txt"
+hash = "addcce842d55bd830cf88d814c63bd59cddb26bd5e844d7661885be6f9379e9c"
 
 [[files]]
 file = "startup_scripts/item.js"

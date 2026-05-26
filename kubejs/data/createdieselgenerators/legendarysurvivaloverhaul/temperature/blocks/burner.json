@@ -1,0 +1,43 @@
+[
+  {
+    "properties": {
+      "lit": "false"
+    },
+    "temperature": 0.0
+  },
+  {
+    "properties": {
+      "lit": "true",
+      "blaze": "none"
+    },
+    "temperature": 0.0
+  },
+  {
+    "properties": {
+      "lit": "true",
+      "blaze": "smouldering"
+    },
+    "temperature": 10.0
+  },
+  {
+    "properties": {
+      "lit": "true",
+      "blaze": "fading"
+    },
+    "temperature": 5.0
+  },
+  {
+    "properties": {
+      "lit": "true",
+      "blaze": "kindled"
+    },
+    "temperature": 10.0
+  },
+  {
+    "properties": {
+      "lit": "true",
+      "blaze": "seething"
+    },
+    "temperature": 16.0
+  }
+]
