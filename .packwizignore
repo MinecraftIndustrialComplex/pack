@@ -26,6 +26,7 @@ techTree/**
 
 # Misc
 disabledMods/**
+crashes/**
 
 # Scripts
 *.py
