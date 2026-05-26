@@ -51,7 +51,8 @@ global.VOIDED_ITEMS = [
   // vintage (belt grinder + centrifuge replaced)
   'createvintageneoforged:belt_grinder',
   'createvintageneoforged:grinder_belt',
-  'createvintageneoforged:centrifuge'
+  'createvintageneoforged:centrifuge',
+  'createdieselgenerators:hammer'
 ]
 
 global.VOIDED_ITEM_PATTERNS = [
