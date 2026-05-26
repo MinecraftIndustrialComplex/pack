@@ -1,11 +1,10 @@
-if (!Platform.isLoaded('createpropulsion')) return
-
+if (Platform.isLoaded('createpropulsion')) {
 ServerEvents.recipes(event => {
   event.remove({ id: 'createpropulsion:crafting/thruster' })
   event.remove({ id: 'createpropulsion:crafting/ion_thruster' })
   event.remove({ id: 'createpropulsion:crafting/vector_thruster' })
   event.remove({ id: 'createpropulsion:crafting/liquid_vector_thruster' })
-  event.remove({ id: 'createpropulsion:crafting/solid_fuel_thruster' })
+  event.remove({ id: 'createpropulsion:crafting/solid_burner' })
   event.remove({ id: 'createpropulsion:crafting/redstone_transmission' })
   event.remove({ id: 'createpropulsion:crafting/redstone_converter' })
 
@@ -47,7 +46,7 @@ ServerEvents.recipes(event => {
       B: { item: 'create:chute' },
       P: { item: 'create:fluid_pipe' }
     },
-    result: { id: 'createpropulsion:solid_fuel_thruster', count: 1 }
+    result: { id: 'createpropulsion:solid_burner', count: 1 }
   }).id('kubejs:propulsion/mechanical_solid_fuel_thruster')
 
   if (Platform.isLoaded('powergrid')) {
@@ -75,7 +74,7 @@ ServerEvents.recipes(event => {
       'createpropulsion:thruster',
       'powergrid:circuit_board',
       'powergrid:electric_motor',
-      'powergrid:transformer_small'
+      'powergrid:transformer_core'
     ]).id('kubejs:propulsion/upgrade_thruster_to_ion')
 
     event.custom({
@@ -156,4 +155,4 @@ ServerEvents.recipes(event => {
     result: { id: 'createpropulsion:vector_thruster', count: 1 }
   }).id('kubejs:propulsion/mechanical_vector_thruster')
 
-})
+})}

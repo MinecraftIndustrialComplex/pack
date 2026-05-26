@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'mega_showdown:z_ring' })
   event.shaped('mega_showdown:z_ring', [' S ', 'SPS', ' S '], {
     S: 'destroy:stainless_steel_ingot',
-    P: 'mega_showdown:sparkling_stone'
+    P: 'mega_showdown:sparkling_stone_dark'
   }).id('kubejs:mega_showdown/z_ring')
 
   event.remove({ output: 'mega_showdown:dynamax_band' })

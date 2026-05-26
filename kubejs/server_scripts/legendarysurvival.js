@@ -5,8 +5,8 @@ ServerEvents.recipes(e => {
   removeItems.forEach(id => e.remove({ output: id }));
 
   // Large canteen — use Destroy rigid plastic + ancient debris
-  e.remove({ output: 'legendarysurvivaloverhaul:large_canteen_empty' });
-  e.shaped('legendarysurvivaloverhaul:large_canteen_empty', [
+  e.remove({ output: 'legendarysurvivaloverhaul:large_canteen' });
+  e.shaped('legendarysurvivaloverhaul:large_canteen', [
     ' A ',
     'P P',
     'PPP'
