@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
     ' P '
   ], {
     P: 'minecraft:paper',
-    H: `${CB}:revival_herb`
+    H: `${CB}:medicinal_leek`
   }).id('kubejs:lso/plaster')
 
   e.shapeless(`${LSO}:bandage`, [
