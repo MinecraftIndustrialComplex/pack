@@ -1,0 +1,13 @@
+name = "Simple Revive"
+filename = "player-revive-1.7+1.21.1+Datapack.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x1IFRoPF/versions/8RPlhT02/player-revive-1.7%2B1.21.1%2BDatapack.jar"
+hash-format = "sha512"
+hash = "ba769c7c0f33c11d13b173d6dfd2006d6da14c537a52b16356222eb691ed705ce89503591edd5a6a53a65ea481296d8734798bfc7025c89fcf5849ccc2ab7429"
+
+[update]
+[update.modrinth]
+mod-id = "x1IFRoPF"
+version = "8RPlhT02"
