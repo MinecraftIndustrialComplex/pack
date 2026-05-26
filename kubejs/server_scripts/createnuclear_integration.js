@@ -6,13 +6,13 @@
 // 4. Reactor material gating: Destroy stainless steel, borosilicate glass,
 //    circuit boards, and CC:Tweaked advanced computer
 
-const COLORS = [
+var COLORS = [
   'black', 'blue', 'brown', 'cyan', 'gray', 'green',
   'light_blue', 'light_gray', 'lime', 'magenta', 'orange',
   'pink', 'purple', 'red', 'white', 'yellow'
 ]
 
-const DYE_MAP = {
+var DYE_MAP = {
   black: 'minecraft:black_dye',        blue: 'minecraft:blue_dye',
   brown: 'minecraft:brown_dye',        cyan: 'minecraft:cyan_dye',
   gray: 'minecraft:gray_dye',          green: 'minecraft:green_dye',
