@@ -1,0 +1,5 @@
+{
+  "fluid": "destroy:refinery_gas",
+  "thrust_multiplier": 0.6,
+  "consumption_multiplier": 2.0
+}

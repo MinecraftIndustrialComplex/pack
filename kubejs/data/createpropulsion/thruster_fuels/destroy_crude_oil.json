@@ -1,0 +1,5 @@
+{
+  "fluid": "destroy:crude_oil",
+  "thrust_multiplier": 0.7,
+  "consumption_multiplier": 1.5
+}

@@ -1,0 +1,5 @@
+{
+  "fluid": "destroy:ethanol_distillate",
+  "thrust_multiplier": 0.8,
+  "consumption_multiplier": 1.0
+}

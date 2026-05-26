@@ -107,7 +107,10 @@
     "c:autocannon_barrels/steel": "createbigcannons",
     "c:cannon_barrels/steel": "createbigcannons",
     "c:autocannon_barrels/cast_iron": "createbigcannons",
-    "c:cannon_barrels/cast_iron": "createbigcannons"
+    "c:cannon_barrels/cast_iron": "createbigcannons",
+    "c:ingots/platinum": "destroy",
+    "c:storage_blocks/platinum": "destroy",
+    "c:crushed_ores/platinum": "destroy"
   },
   "customTags": {
     "c:dusts/iron": [
