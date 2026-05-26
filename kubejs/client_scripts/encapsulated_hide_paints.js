@@ -4,11 +4,12 @@ const COLORS = [
   'brown', 'green', 'red', 'black'
 ]
 
-JEIEvents.hideItems(event => {
-  COLORS.forEach(c => event.hide(`create_encapsulated:${c}_paint`))
-  event.hide('create_encapsulated:rainbow_paint')
-})
+function hidePaintEntries(event) {
+  COLORS.forEach(c => event.remove(`create_encapsulated:${c}_paint`))
+  event.remove('create_encapsulated:rainbow_paint')
+}
 
-JEIEvents.hideFluids(event => {
-  COLORS.forEach(c => event.hide(`create_encapsulated:${c}_paint`))
-})
+if (typeof RecipeViewerEvents !== 'undefined') {
+  RecipeViewerEvents.removeEntries('item', hidePaintEntries)
+  RecipeViewerEvents.removeEntries('fluid', hidePaintEntries)
+}
