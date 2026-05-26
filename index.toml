@@ -9,10 +9,6 @@ file = "README.md"
 hash = "b55ec6e878f18af8b308fa8569b034748527dd5455831df2f1376b5771bc292b"
 
 [[files]]
-file = "cliCrash1.txt"
-hash = "b24994a5b9132ae92b3507b2024d4ed5ab859cb69c8330b4cd1827a8ec1de1ab"
-
-[[files]]
 file = "config/almostunified/debug.json"
 hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
 
@@ -26,7 +22,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "58052c36acecf4e961a6f595bb64ce4e0733fb54fb60ed55c17f337a07f3182a"
+hash = "2867ea3891931145e3d0b45c2147a572c2068aa46dbc4ca6c1c994838cabb316"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"
@@ -122,7 +118,11 @@ hash = "d3eb7b947b2a6bf2226442266960f3447b0f7d2a7af75cf81a05f83445ba3faf"
 
 [[files]]
 file = "kubejs/data/aeronautics/legendarysurvivaloverhaul/temperature/blocks/adjustable_burner.json"
-hash = "498cefdf67420a7a12f1d37587f0609c279cb49976093966880ea7fd470c2fa1"
+hash = "5d80c51bf951e2079d810c0e0c563e771868aad26e04da7da5f71cc889527863"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/legendarysurvivaloverhaul/temperature/blocks/burner.json"
+hash = "7b9de193b08c3edcda22fec49bd0805fae0d446d8904ff8ce7b2e0b3c92d68df"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -131,6 +131,26 @@ hash = "2398173b4ba10a2f85b84aec59aa9fd157c57bf672b22af3ec40353081d65874"
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
 hash = "e09db7b2677fef89345d567bbcb9337f5f7617023af9abee63ab529a5eb4ea4c"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/destroy_crude_oil.json"
+hash = "a2a5aeb2cff66ce07b743bfbe6dd57b7ab2ce215cef42c0fd897a93a835dafbc"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/destroy_diesel.json"
+hash = "e7011b8c0d791eddfc555a350b258b07138c56c452ca3bc6cc33d43bf27596c7"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/destroy_ethanol_distillate.json"
+hash = "15ec8cf46b44a508ec27b01f3e34e71266c780eb6ec88842dcfb8e949e0a6c1a"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/destroy_gasoline.json"
+hash = "e2b5ca18a46bbac8115d5c08641b681a8597b0ba2c62b4528b04aec7bd9b9c82"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
+hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
 
 [[files]]
 file = "kubejs/data/forge/tags/fluids/crude_oil.json"
@@ -163,6 +183,18 @@ hash = "d3e911bb87ca315c9452f6a4bc2991c7219ff8d387dd298216e5aa886698479c"
 [[files]]
 file = "kubejs/data/mic/createdieselgenerators/fuel_type/diesel.json"
 hash = "e8ef59396efd083515b235d0816f889a171a91bbc1ef9a2873abaa36c4d0d343"
+
+[[files]]
+file = "kubejs/data/overgeared/legendarysurvivaloverhaul/temperature/blocks/alloy_furnace.json"
+hash = "bfb44f0031241f59664644f23ff7714cbb86f23c13fa68fef13086109c9178ba"
+
+[[files]]
+file = "kubejs/data/overgeared/legendarysurvivaloverhaul/temperature/blocks/casting_furnace.json"
+hash = "333d1234db3cd80d3de06f93829fb178c6a01145635686af398542b68b2204d6"
+
+[[files]]
+file = "kubejs/data/overgeared/legendarysurvivaloverhaul/temperature/blocks/nether_alloy_furnace.json"
+hash = "eb9814dcc267a854902163caea5e5251d15065beb58e15d52abdc30a17e1df8c"
 
 [[files]]
 file = "kubejs/data/powergrid/legendarysurvivaloverhaul/temperature/blocks/basin_heater.json"
@@ -201,6 +233,10 @@ file = "kubejs/server_scripts/electron_tube.js"
 hash = "9e224e011881ca3fb5b190be03f880d57ad2ae312731970d39d4ad1d03bd28b1"
 
 [[files]]
+file = "kubejs/server_scripts/flint_and_steel.js"
+hash = "6a7f2cd71bf7bb6c17ba4a063b484b6a92b86a92858ffb8e6eff9bb0091c497a"
+
+[[files]]
 file = "kubejs/server_scripts/iceandfire.js"
 hash = "aeec16960394af2641c975e1b516d228cab0c3446ef2622258e11a18a47a5464"
 
@@ -213,6 +249,10 @@ file = "kubejs/server_scripts/lso_cobblemon_herbs.js"
 hash = "3a76c67df863308a3465632d268b8b7babd608e0a9e27d866a291d45b8f1656a"
 
 [[files]]
+file = "kubejs/server_scripts/mega_showdown_integration.js"
+hash = "da4bb605532f04bb14883fe081adc63eef322113734704b8b53881fc8c9e37b4"
+
+[[files]]
 file = "kubejs/server_scripts/oilyunification.js"
 hash = "aa9b8f1d395ffdbd2f7bedcb524e571daba2ab1adc3a3e619eeb538e8096de37"
 
@@ -223,6 +263,10 @@ hash = "0c6a78fd980134a6668fbc3edb96e529d196d89ed6c3eb9611d75d63fc683b14"
 [[files]]
 file = "kubejs/server_scripts/powergrid_destroy_integration.js"
 hash = "89fdc6789f148667726ea7290c759ca60d5e2795fb068e5a6bd26a32f4b785d5"
+
+[[files]]
+file = "kubejs/server_scripts/propulsion_recipes.js"
+hash = "47da7e114e7d842f26d32aa03ca9e12cc94acb79e3fec5fe1be8ba68b7c3f8ee"
 
 [[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
@@ -270,7 +314,7 @@ hash = "4356fabb798b7f138034a0068aa3e0016e6f3f4cac1fd533213346c463ea8927"
 
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "c29291823a6130453c054263a1a900bd8237ef2a9fbb81d36671c89c2e31f3d9"
+hash = "fd53b4f1c43be2c7cf83d53ee887b8e2f7bb5744bf0ed7544fbf4bbace8fc9f5"
 
 [[files]]
 file = "logo.png"
@@ -374,6 +418,11 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
+metafile = true
+
+[[files]]
+file = "mods/cbc-neo-warfare.pw.toml"
+hash = "5c7b17dd5ce92c0e9f2915d8ec6692385db832000b078ac2fbacd012db425a6a"
 metafile = true
 
 [[files]]
@@ -971,11 +1020,6 @@ hash = "088b4db54168e69a4843cad9c85c5beb53c22a48f5fb7d5f420a4c8b77085dae"
 metafile = true
 
 [[files]]
-file = "mods/revive-me.pw.toml"
-hash = "21034122d90920b2c666c5c35f066c971186f7925627ec4d4498cd5039cff913"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 hash = "6b91f46291891e725189b0bd54d0db0f66925b1e785bdfa737592dfcf41a79a3"
 metafile = true
@@ -983,6 +1027,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "6a598c073aabc968d8ee736141d238c517e13662f3de0feb81796cb9c0d6f4f0"
+metafile = true
+
+[[files]]
+file = "mods/ritchies-projectile-library.pw.toml"
+hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
@@ -1003,11 +1052,6 @@ metafile = true
 [[files]]
 file = "mods/ryoamiclights.pw.toml"
 hash = "907a7f3584909169937bdb0891304108f6a5291ae1fdce211b62e2e8c3e14e68"
-metafile = true
-
-[[files]]
-file = "mods/sable-true-impact.pw.toml"
-hash = "5e0a49d5271292e159c53bc70949fd2f2bd195cbc8b4e2461648167f0478c048"
 metafile = true
 
 [[files]]
@@ -1155,22 +1199,6 @@ metafile = true
 [[files]]
 file = "scripts/molds_config.json"
 hash = "e5e846116483f69014989f54e38b71a82a70b6c14d4d82198a4141ee7fac2331"
-
-[[files]]
-file = "srvCrash.txt"
-hash = "ce8110e910e2ae5b1f7a9a4f90be97849322800c63c533f4e9f5d2472aa2ca59"
-
-[[files]]
-file = "srvCrash2.txt"
-hash = "b908e6bf324b6f1c59f8eddb3f40ea5587a97b55020a3f461936a60b70583cd9"
-
-[[files]]
-file = "srvCrash3.txt"
-hash = "27d01a9c0088b8e4dea464a954eaca5b40aa2388dae7d27c3a0976df1877c8fb"
-
-[[files]]
-file = "srvCrash4.txt"
-hash = "addcce842d55bd830cf88d814c63bd59cddb26bd5e844d7661885be6f9379e9c"
 
 [[files]]
 file = "startup_scripts/item.js"
