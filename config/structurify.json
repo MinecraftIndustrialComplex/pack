@@ -400,6 +400,14 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "mowziesmobs:wrought_chamber",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
     }
   ],
   "structure_sets": []
