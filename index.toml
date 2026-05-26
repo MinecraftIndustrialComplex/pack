@@ -269,6 +269,10 @@ file = "kubejs/server_scripts/propulsion_recipes.js"
 hash = "47da7e114e7d842f26d32aa03ca9e12cc94acb79e3fec5fe1be8ba68b7c3f8ee"
 
 [[files]]
+file = "kubejs/server_scripts/remove_cobblemon_pokeball_recipes.js"
+hash = "ba3966fc093a732db14370322e5c15b010c82270c7d50f31bb9c97b5420ede70"
+
+[[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
 hash = "27dc91ff70d1dc92ed8c69c7f0bab6f0e185af8e7472b12654045921f85b17a6"
 
