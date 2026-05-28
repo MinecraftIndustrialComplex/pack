@@ -113,6 +113,10 @@ file = "kubejs/client_scripts/create_aeronautics.js"
 hash = "46d76aaddf692f824b9d905445ce0dc9a45a2c1b6b66c8f853e624f1e7001b2d"
 
 [[files]]
+file = "kubejs/client_scripts/encapsulated_hide_paints.js"
+hash = "a32be4b956f44660e2de53942047dcd7050158a21ee5d846011c03e22f966d60"
+
+[[files]]
 file = "kubejs/client_scripts/voided_jei.js"
 hash = "d3eb7b947b2a6bf2226442266960f3447b0f7d2a7af75cf81a05f83445ba3faf"
 
@@ -218,7 +222,7 @@ hash = "10cb48e31b89b3473f1f309e9598449548945236126cdb7390568159d99023f4"
 
 [[files]]
 file = "kubejs/server_scripts/createnuclear_integration.js"
-hash = "5559636ff538a4b8e5fabc5064b19b79d850f3d26df365eb3c970a48ae34ccc9"
+hash = "021e606c224c7dcc49aee71813141c941f48aa828bde8110d5077e3851d72ff9"
 
 [[files]]
 file = "kubejs/server_scripts/destroy_metallurgy_integration.js"
@@ -233,6 +237,10 @@ file = "kubejs/server_scripts/electron_tube.js"
 hash = "9e224e011881ca3fb5b190be03f880d57ad2ae312731970d39d4ad1d03bd28b1"
 
 [[files]]
+file = "kubejs/server_scripts/encapsulated_paint_to_cdp_dyes.js"
+hash = "8880cddfaa1eda282125d4b690b1f44f8fb17096326fdbaa81d9e78efdaf6d94"
+
+[[files]]
 file = "kubejs/server_scripts/flint_and_steel.js"
 hash = "6a7f2cd71bf7bb6c17ba4a063b484b6a92b86a92858ffb8e6eff9bb0091c497a"
 
@@ -242,7 +250,7 @@ hash = "aeec16960394af2641c975e1b516d228cab0c3446ef2622258e11a18a47a5464"
 
 [[files]]
 file = "kubejs/server_scripts/legendarysurvival.js"
-hash = "5db3948b40b48a7ff2a7ace920bb17b0024ded49728a4bf4edd2f7d0e5be77f3"
+hash = "834bc51bc714529f67e87951f95c9f49a3ee4913d4ca4bb1ae351705e923acbe"
 
 [[files]]
 file = "kubejs/server_scripts/lso_cobblemon_herbs.js"
@@ -250,7 +258,7 @@ hash = "3a76c67df863308a3465632d268b8b7babd608e0a9e27d866a291d45b8f1656a"
 
 [[files]]
 file = "kubejs/server_scripts/mega_showdown_integration.js"
-hash = "da4bb605532f04bb14883fe081adc63eef322113734704b8b53881fc8c9e37b4"
+hash = "9176464e77d98b26137fce11ad09aa24ecf5c8f4f9ba9042e5b3a5ec03672867"
 
 [[files]]
 file = "kubejs/server_scripts/oilyunification.js"
@@ -266,7 +274,7 @@ hash = "89fdc6789f148667726ea7290c759ca60d5e2795fb068e5a6bd26a32f4b785d5"
 
 [[files]]
 file = "kubejs/server_scripts/propulsion_recipes.js"
-hash = "47da7e114e7d842f26d32aa03ca9e12cc94acb79e3fec5fe1be8ba68b7c3f8ee"
+hash = "319040294802c648266bf4eadd3ac43c52d56c18410c1a2f90a4bc9733d9d5e3"
 
 [[files]]
 file = "kubejs/server_scripts/remove_cobblemon_pokeball_recipes.js"
@@ -275,6 +283,10 @@ hash = "ba3966fc093a732db14370322e5c15b010c82270c7d50f31bb9c97b5420ede70"
 [[files]]
 file = "kubejs/server_scripts/remove_metals_from_chests.js"
 hash = "27dc91ff70d1dc92ed8c69c7f0bab6f0e185af8e7472b12654045921f85b17a6"
+
+[[files]]
+file = "kubejs/server_scripts/rha_integration.js"
+hash = "d18e17a941ea3a8ba95e7e2effdc6d58cb11cbacdc40485a296643def9768eba"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks.js"
@@ -286,7 +298,7 @@ hash = "7fce28b20174eb95efb68d5c02a9371b0f3d7b9a7b8209d30aefa1e893e40a25"
 
 [[files]]
 file = "kubejs/server_scripts/taczfreeze.js"
-hash = "3c4965ef4d03db51cd87049e12c20af4a5f2c1dc71a66af693bdf852c223712b"
+hash = "19a2c39a8910fe2720df5f70897d55532d2c2f7826f6eb14853f1df2f0541cd9"
 
 [[files]]
 file = "kubejs/server_scripts/volatile_compounds.js"
@@ -376,7 +388,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "762fcd212e5049e6e8dcece301c4f33a17d3fc9b00744301c52c4695d7015523"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
 
 [[files]]
@@ -1170,6 +1182,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "mods/yigd.pw.toml"
+hash = "ef80891ed72e87e1fd2fda3bcee9e8a50e5c4cf836283ae8ef4c81e7fd213fd0"
 metafile = true
 
 [[files]]
