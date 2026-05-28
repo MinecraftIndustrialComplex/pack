@@ -48,6 +48,9 @@ global.VOIDED_ITEMS = [
   'createbigcannons:molten_steel_bucket',
   'createbigcannons:molten_bronze_bucket',
 
+  // guncotton replaced by destroy:nitrocellulose
+  'createbigcannons:guncotton',
+
   // vintage (belt grinder + centrifuge replaced)
   'createvintageneoforged:belt_grinder',
   'createvintageneoforged:grinder_belt',
@@ -80,7 +83,5 @@ global.VOIDED_MOD_IDS = [
 ]
 
 global.VOIDED_ITEMS_TACZ = [
-  'tacz:gun_smith_table',
-  'tacz:attachment_workbench',
-  'tacz:ammo_workbench'
+  // Workbenches removed from voided — now craftable via pack recipes
 ]
