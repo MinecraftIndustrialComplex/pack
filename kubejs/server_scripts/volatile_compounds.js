@@ -11,6 +11,7 @@ var ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack")
 var ExplosionInteraction = Java.loadClass("net.minecraft.world.level.Level$ExplosionInteraction")
 
 function countItem(inv, itemId) {
+  if (!inv || typeof inv.getSlots !== "function") return 0
   var total = 0
   var slots = inv.getSlots()
   for (var i = 0; i < slots; i++) {
@@ -22,6 +23,7 @@ function countItem(inv, itemId) {
 }
 
 function removeAll(inv, itemId) {
+  if (!inv) return
   // prefer clear() if present
   try {
     if (typeof inv.clear === "function") {
@@ -30,6 +32,7 @@ function removeAll(inv, itemId) {
     }
   } catch (e) {}
 
+  if (typeof inv.getSlots !== "function") return
   var slots = inv.getSlots()
   for (var i = 0; i < slots; i++) {
     var stack = inv.getStackInSlot(i)
