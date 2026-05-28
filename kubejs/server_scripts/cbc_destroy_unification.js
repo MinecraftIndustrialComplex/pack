@@ -1,17 +1,13 @@
-// Integrations between Create Big Cannons and Destroy
-//
-// 1. Guncotton replaced by Destroy nitrocellulose (guncotton voided in startup)
-// 2. Destroy secondary explosives as CBC HE shell materials
-// 3. Destroy rigid plastics as inexpensive cartridge sheet materials
-// 4. Destroy lead as alternative shot material
-
 ServerEvents.recipes(e => {
   e.remove({ id: 'createbigcannons:mixing/guncotton' })
 
   if (Platform.isLoaded('destroy')) {
     // Autocannon cartridge sheets from rigid plastics (polymer-cased ammunition)
-    e.recipes.create.cutting('3x createbigcannons:autocannon_cartridge_sheet', '#destroy:plastics/rigid')
-      .id('kubejs:cbc/plastic_to_autocannon_cartridge_sheet')
+    e.custom({
+      type: 'create:cutting',
+      ingredients: [{ tag: 'destroy:plastics/rigid' }],
+      results: [{ id: 'createbigcannons:autocannon_cartridge_sheet', count: 3 }]
+    }).id('kubejs:cbc/plastic_to_autocannon_cartridge_sheet')
 
     // Inexpensive big cartridge sheet from rigid plastics
     e.shaped('1x createbigcannons:big_cartridge_sheet', ['PP', 'PP'], { P: '#destroy:plastics/rigid' })
