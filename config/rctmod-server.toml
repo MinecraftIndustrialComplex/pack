@@ -1,0 +1,36 @@
+[Spawning]
+globalSpawnChance = 0.85
+globalSpawnChanceMinimum = 0.1
+spawnIntervalTicks = 180
+spawnIntervalTicksMaximum = 2400
+despawnTicksIfUnseen = 6000
+maxHorizontalDistanceToPlayers = 70
+minHorizontalDistanceToPlayers = 25
+maxVerticalDistanceToPlayers = 30
+uniqueTrainerRadius = 500
+maxTrainersPerPlayer = 12
+maxTrainersTotal = 60
+maxLevelDiff = 25
+spawningRequiresTrainerCard = false
+spawnTrainerAssociation = true
+dimensionBlacklist = []
+dimensionWhitelist = []
+biomeTagBlacklist = []
+biomeTagWhitelist = []
+
+[Trainers]
+forceBattleOnSight = true
+forceBattleMaxDistance = 8.0
+forceBattleLookTicks = 60
+forceBattleMaxLevelDiff = 16
+
+[Players]
+initialLevelCap = 100
+relativeLevelCap = 100
+initialSeries = "empty"
+freeroamRequiresCompletedSeries = true
+allowOverLeveling = true
+
+[Debug]
+logSpawning = false
+logRepelRods = false
