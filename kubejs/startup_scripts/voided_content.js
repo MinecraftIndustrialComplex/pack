@@ -81,7 +81,3 @@ global.VOIDED_MOD_IDS = [
   'iceandfire',
   'crusty_chunks'
 ]
-
-global.VOIDED_ITEMS_TACZ = [
-  // Workbenches removed from voided — now craftable via pack recipes
-]

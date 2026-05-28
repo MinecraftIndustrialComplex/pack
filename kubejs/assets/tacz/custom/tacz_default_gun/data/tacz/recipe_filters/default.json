@@ -1,0 +1,4 @@
+{
+  "whitelist": ["^kubejs:.*$"],
+  "blacklist": ["^tacz:.*$"]
+}

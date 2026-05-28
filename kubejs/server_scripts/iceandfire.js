@@ -3,7 +3,8 @@ if (Platform.isLoaded('iceandfire')) {
     event.remove({ mod: 'iceandfire' })
   })
   LootJS.modifiers(event => {
-    event.addTableModifier(/iceandfire:.*/)
+    const BOSSES = ['fire_dragon', 'ice_dragon', 'lightning_dragon', 'hydra', 'cyclops', 'gorgon']
+    event.addTableModifier(new RegExp('iceandfire:(?!(.*/)?(' + BOSSES.join('|') + ')$).*'))
       .removeLoot(/.*/)
   })
 }
