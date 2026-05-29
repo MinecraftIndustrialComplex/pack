@@ -2,7 +2,6 @@ ServerEvents.recipes(e => {
   const voidedOutputs = [
     'createvintageneoforged:belt_grinder',
     'createvintageneoforged:grinder_belt',
-    'createvintageneoforged:centrifuge'
   ]
   voidedOutputs.forEach(id => e.remove({ output: id }))
 
