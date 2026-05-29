@@ -65,6 +65,10 @@ file = "config/overgeared-common.toml"
 hash = "31e692459679c8ce12abaaf3516bcc39ee0ddd525935567c64f00148a92e5129"
 
 [[files]]
+file = "config/rctmod-server.toml"
+hash = "d6afc2385969f33bf1a1b4f2aebc78e4d0fb3a9b52ba94c9605df7251275c811"
+
+[[files]]
 file = "config/reliable_replacer/swapper.json"
 hash = "8d6bbefaf8e61bbe3645cf1c19078e176cb7a57e7e6bbc1d005714cbcc470fa1"
 
@@ -79,6 +83,14 @@ hash = "e350a1c71c480ba4a6af09c3c5750aaa2cf6e202e6c057b0b01592e8a36d238d"
 [[files]]
 file = "defaultconfigs/gravestone-server.toml"
 hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
+
+[[files]]
+file = "kubejs/assets/createbigcannons/lang/en_us.json"
+hash = "18abef9f13de2d56eaa56b3adeb32b9c4f4d8ba0ff7ea7f8279a026480b0d7ab"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/smokeless_powder.json"
+hash = "2d5a82ae60b19e7a4b78f4b31e26d5110c81c22446937aaff8ff3098a356d7d9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/graphite_axe_mold.png"
@@ -103,6 +115,10 @@ hash = "00efe1a4662d59ed9772a1f06fd7af7e7765c7bbc4be068db64e97c986d46d76"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/graphite_sword_mold.png"
 hash = "ab4a1fcac110cd7cddc668cd68301712267c0599fd828c1b299fa54729fefae9"
+
+[[files]]
+file = "kubejs/assets/tacz/custom/tacz_default_gun/data/tacz/recipe_filters/default.json"
+hash = "3d29a66b813442d01bd6331c98e3f0660efa059c4841ce81834f906d7a0f0879"
 
 [[files]]
 file = "kubejs/assets/textures/item/smokeless_powder.png"
@@ -205,6 +221,10 @@ file = "kubejs/data/powergrid/legendarysurvivaloverhaul/temperature/blocks/basin
 hash = "db34957d72880fe69ae27807d4aabce33c6df43d066b637a7793bfe1163fa843"
 
 [[files]]
+file = "kubejs/server_scripts/cbc_destroy_unification.js"
+hash = "1b62c0c0ca42d41fbe76e7188c1dd46ffc5d011ee0b0348801c917342fbd8a8d"
+
+[[files]]
 file = "kubejs/server_scripts/cbc_metallurgy_integration.js"
 hash = "1e4d16f17d8de22ce9ef4bf0d377ff24ceb38f0454190d2f70847a8ced5fd54b"
 
@@ -234,7 +254,7 @@ hash = "cb617114caf6b64b9150382af9dbab4500703552a45ef657200ee254b7aa2c3c"
 
 [[files]]
 file = "kubejs/server_scripts/electron_tube.js"
-hash = "9e224e011881ca3fb5b190be03f880d57ad2ae312731970d39d4ad1d03bd28b1"
+hash = "723239b92696df7633eb55c330024664c0041de4550f29414eb97a01d58eb410"
 
 [[files]]
 file = "kubejs/server_scripts/encapsulated_paint_to_cdp_dyes.js"
@@ -246,7 +266,7 @@ hash = "6a7f2cd71bf7bb6c17ba4a063b484b6a92b86a92858ffb8e6eff9bb0091c497a"
 
 [[files]]
 file = "kubejs/server_scripts/iceandfire.js"
-hash = "aeec16960394af2641c975e1b516d228cab0c3446ef2622258e11a18a47a5464"
+hash = "4fd682e81b080d4b0ba8f26292007592dfacd30c5fa6aee6abf94e9eeb31e7b5"
 
 [[files]]
 file = "kubejs/server_scripts/legendarysurvival.js"
@@ -255,6 +275,10 @@ hash = "834bc51bc714529f67e87951f95c9f49a3ee4913d4ca4bb1ae351705e923acbe"
 [[files]]
 file = "kubejs/server_scripts/lso_cobblemon_herbs.js"
 hash = "3a76c67df863308a3465632d268b8b7babd608e0a9e27d866a291d45b8f1656a"
+
+[[files]]
+file = "kubejs/server_scripts/lso_sable_temp.js"
+hash = "12e1bbb9ad2dd6f2a6a0f6e54a2ecf56d6a06e1e71a8eff8af9b00683025270a"
 
 [[files]]
 file = "kubejs/server_scripts/mega_showdown_integration.js"
@@ -294,15 +318,15 @@ hash = "212207138d5a21593765e4a3224d8aca1031cc681a089ad55c42d488dd36a20e"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_new_recipes.js"
-hash = "7fce28b20174eb95efb68d5c02a9371b0f3d7b9a7b8209d30aefa1e893e40a25"
+hash = "1b485324574da39c6a667212ecc3c6d6a9380c9f0df82ae7b7e2ef9cc64d469d"
 
 [[files]]
-file = "kubejs/server_scripts/taczfreeze.js"
-hash = "19a2c39a8910fe2720df5f70897d55532d2c2f7826f6eb14853f1df2f0541cd9"
+file = "kubejs/server_scripts/tacz_workbenches.js"
+hash = "30df655910bb011440f8192831faf933732f8427ae688962307ccc26d2a04fbd"
 
 [[files]]
 file = "kubejs/server_scripts/volatile_compounds.js"
-hash = "b074a6d828d3e44c8a31144ac638ea9cb0067bd1a2fd0ad3cf0d4d77f7c99e28"
+hash = "cf5ad56e41656a1432d9f67fd46c08285b9261d9fc22c19fbbc7609e812254ee"
 
 [[files]]
 file = "kubejs/server_scripts/warium.js"
@@ -330,7 +354,7 @@ hash = "4356fabb798b7f138034a0068aa3e0016e6f3f4cac1fd533213346c463ea8927"
 
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "fd53b4f1c43be2c7cf83d53ee887b8e2f7bb5744bf0ed7544fbf4bbace8fc9f5"
+hash = "18069fe88ceb72a8b244426fb01957ccc2f8aa67c69a0b74b1bd40af8ff1ed21"
 
 [[files]]
 file = "logo.png"
@@ -683,12 +707,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "36732fd7fdad0831fdaef0c806def4ebcab5084bfd851bcff5e948923cd1b1d7"
-metafile = true
-
-[[files]]
-file = "mods/ecliptic-seasons.pw.toml"
-hash = "122b6498f22c33a94c97b3bf8679ba62eec8c50a68f55276ce624b91ece3ef64"
+hash = "a7917f94c7b75104bb9c5fdddcb5a365df7464885987bc50b8110591f512fb61"
 metafile = true
 
 [[files]]
@@ -749,21 +768,6 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
-metafile = true
-
-[[files]]
-file = "mods/gravestone-and-sable-compatibility-patch.pw.toml"
-hash = "6baec0ac505606e2066b5a00a5873cc6895f0ca639a0bfabd74bf408dcf25749"
-metafile = true
-
-[[files]]
-file = "mods/gravestone-mod.pw.toml"
-hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
-metafile = true
-
-[[files]]
-file = "mods/gravestone-x-curios-api-compat.pw.toml"
-hash = "89321cbcc8789aca2ba0e70cbd3e498de493a5f2b9db51f9c72d65d99c7afee7"
 metafile = true
 
 [[files]]
@@ -991,11 +995,6 @@ hash = "650330109d21831664d2ff597c7a90200eda69a1efaca4e9b0b6b6297ac3c364"
 metafile = true
 
 [[files]]
-file = "mods/player-revive.pw.toml"
-hash = "c9ca7c61810c2ed8a34931861674a1ed5b72c250e8d418b61099887b0365d5a8"
-metafile = true
-
-[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
@@ -1078,6 +1077,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "73b1e4f6608fcd396acc3e4e7aa753d314c8810ef4caf831ed93d9932d93f896"
 metafile = true
 
 [[files]]
@@ -1195,12 +1199,8 @@ hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
 
 [[files]]
-file = "mowzies_bug_report.md"
-hash = "3e3ebe6572843733de1cab4fb259494dc4b1105e5927d0a00300aef01b4442fa"
-
-[[files]]
 file = "options.txt"
-hash = "5f5eb760ed1f95c626113e178f6e559015005487113f45b7168effa1eab3aaa7"
+hash = "27e3ac15d77e5ef75448a16bb2e0994ef63a867b5eb9434d43157980b44299cd"
 
 [[files]]
 file = "resourcepacks/angels-weather.pw.toml"
