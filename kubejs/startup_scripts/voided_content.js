@@ -8,6 +8,7 @@ global.VOIDED_ITEMS = [
   'createdieselgenerators:crude_oil_bucket',
   'createdieselgenerators:biodiesel_bucket',
   'createdieselgenerators:gasoline_bucket',
+  'createdieselgenerators:diesel_bucket',
   'createdieselgenerators:ethanol_bucket',
 
   // duplicate steel (createmetallurgy is canonical)
@@ -54,7 +55,6 @@ global.VOIDED_ITEMS = [
   // vintage (belt grinder + centrifuge replaced)
   'createvintageneoforged:belt_grinder',
   'createvintageneoforged:grinder_belt',
-  'createvintageneoforged:centrifuge',
   'createdieselgenerators:hammer'
 ]
 
@@ -66,6 +66,7 @@ global.VOIDED_FLUIDS = [
   'createdieselgenerators:plant_oil',
   'createdieselgenerators:crude_oil',
   'createdieselgenerators:biodiesel',
+  'createdieselgenerators:diesel',
   'createdieselgenerators:gasoline',
   'createdieselgenerators:ethanol',
 
