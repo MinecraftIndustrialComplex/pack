@@ -238,7 +238,7 @@ hash = "1004eb20f5ebcb837ef768153e6b1f853d854e8eeb6abea7fb292bad253cab11"
 
 [[files]]
 file = "kubejs/server_scripts/create_vintage.js"
-hash = "10cb48e31b89b3473f1f309e9598449548945236126cdb7390568159d99023f4"
+hash = "88d4d95d837a3e1515df891af40a822df36045f98dcdec0886c141b01363f49f"
 
 [[files]]
 file = "kubejs/server_scripts/createnuclear_integration.js"
@@ -318,7 +318,7 @@ hash = "212207138d5a21593765e4a3224d8aca1031cc681a089ad55c42d488dd36a20e"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_new_recipes.js"
-hash = "1b485324574da39c6a667212ecc3c6d6a9380c9f0df82ae7b7e2ef9cc64d469d"
+hash = "e5a26105164ad3c7fa2ebbd711248d58476827f61ad7b7eff9161ca01e2e0bb1"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_workbenches.js"
@@ -354,7 +354,7 @@ hash = "4356fabb798b7f138034a0068aa3e0016e6f3f4cac1fd533213346c463ea8927"
 
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "18069fe88ceb72a8b244426fb01957ccc2f8aa67c69a0b74b1bd40af8ff1ed21"
+hash = "f22dcfcdec16764a6a3562bb5fccdab311fa15eae6ac53d88a04b92474e2858a"
 
 [[files]]
 file = "logo.png"
@@ -1166,11 +1166,6 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
-metafile = true
-
-[[files]]
-file = "mods/the-hordes.pw.toml"
-hash = "52d0b29b965324ed296c84c2be6614d94bf029a8b653264ed22e3a672b83a217"
 metafile = true
 
 [[files]]
