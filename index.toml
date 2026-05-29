@@ -841,6 +841,11 @@ hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
 metafile = true
 
 [[files]]
+file = "mods/kubejsable.pw.toml"
+hash = "373056af412ff3db99051f70f9ffc723f9c97857da4c4494d8fa96fe8f681b32"
+metafile = true
+
+[[files]]
 file = "mods/l2-complements.pw.toml"
 hash = "9fc7c2eefc34c5aad250388688e55f539a0eb506d2971561bb1d27bef5ac1631"
 metafile = true
