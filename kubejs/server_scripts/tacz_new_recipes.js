@@ -18,6 +18,29 @@ function tag(id, count) {
 if (Platform.isLoaded('tacz')) {
 ServerEvents.recipes(event => {
 
+// ===================== SMOKELESS POWDER  =====================
+if (Platform.isLoaded('destroy')) {
+  event.custom({
+    type: 'create:mixing',
+    heat_requirement: 'heated',
+    ingredients: [
+      { item: 'minecraft:gunpowder', count: 3 },
+      { item: 'createmetallurgy:graphite' },
+      { item: 'destroy:nitrocellulose' },
+      {
+        type: 'destroy:mixture_with_molecule',
+        amount: 250,
+        molecule: 'destroy:ethanol',
+        min_concentration: 4.5,
+        max_concentration: 5.5
+      }
+    ],
+    results: [
+      { id: 'kubejs:smokeless_powder', count: 2 }
+    ]
+  }).id('kubejs:mixing/smokeless_powder')
+}
+
 // ===================== GUNS =====================
 
 // ---- PISTOLS ----
