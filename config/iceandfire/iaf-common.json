@@ -9,7 +9,7 @@
     "generate.skeletonChance": 0.0033333333333333335,
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
-    "griefing": true,
+    "griefing": false,
     "tamedGriefing": true,
     "flapNoiseDistance": 4,
     "fluteDistance": 8,
