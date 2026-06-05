@@ -1,15 +1,15 @@
 name = "Destroy"
-filename = "destroy-1.21.1-0.3.0.jar"
+filename = "destroy-1.21.1-0.3.4.jar"
 side = "both"
 
 [download]
-url = "https://github.com/NHblock714/Destroy/releases/download/v0.3.0/destroy-1.21.1-0.3.0.jar"
+url = "https://github.com/NHblock714/Destroy/releases/download/v0.3.4/destroy-1.21.1-0.3.4.jar"
 hash-format = "sha256"
-hash = "438f3d9567f8a09a7970c29ac021ade514fddb5bffa79f87e9a5210a436df01e"
+hash = "8ca70c97643316adb950935cf950a37428b88ae1bad6234a3da9285f9bcf3a48"
 
 [update]
 [update.github]
 branch = "1.21.1-neo"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "NHblock714/Destroy"
-tag = "v0.3.0"
+tag = "v0.3.4"
