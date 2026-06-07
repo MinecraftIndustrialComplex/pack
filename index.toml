@@ -13989,6 +13989,10 @@ file = "kubejs/server_scripts/cdg_metallurgy_integration.js"
 hash = "4a087d58fdba124cf796e8801e703a795823f2a4ca777b2b03ae5b5e0c6acc48"
 
 [[files]]
+file = "kubejs/server_scripts/copper_nugget.js"
+hash = "4d97be4a228b43c32d4fd25557ed95670de0b22ed3248da37cef6a24345d6341"
+
+[[files]]
 file = "kubejs/server_scripts/create_aeronautics.js"
 hash = "1004eb20f5ebcb837ef768153e6b1f853d854e8eeb6abea7fb292bad253cab11"
 
@@ -14641,6 +14645,11 @@ file = "mods/lexiconfig-neoforge-1.21-1.4.19.jar"
 hash = "7bcb26452918cf4e31df787ac10566e2f462c80aed53c4e1aa7c4b47bb70d687"
 
 [[files]]
+file = "mods/lexiconfig.pw.toml"
+hash = "9d979373cbe241f781d50fcf9e41bb84576760bbe050d9d8a89f451e0ff7a615"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "c61f3c7eebe1c76067188d1e35fb10c40969c68f0bcac355a56542d215b3aaa3"
 metafile = true
@@ -14871,6 +14880,11 @@ hash = "e312f9b01407aadff6d7a3b52d68e9d38f048e376cc6ceeb4789eaa6b1ad94cb"
 metafile = true
 
 [[files]]
+file = "mods/simple-radio.pw.toml"
+hash = "f05358a85d4acead944e34a6bf07908317be878dc68ff25a11d277f984b12623"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "a4af1bf7389eddd65fb5b665b711e0b25e9e8ccb6b17a1fb50aff8d886859ad6"
 metafile = true
@@ -14881,7 +14895,7 @@ hash = "6a0ba960ddb38d00ce8fc851804c624471239ec259ca8c3fbc8ea111460575b0"
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "1aad262000bea80b345a973a19a626bfbcb65b2ba78843843649e740168d04fd"
+hash = "8b49e7f07bc791237e7f292b30e262e8b0d51c2b482226e71c8e24b751ff085c"
 metafile = true
 
 [[files]]
@@ -14966,7 +14980,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "27e3ac15d77e5ef75448a16bb2e0994ef63a867b5eb9434d43157980b44299cd"
+hash = "805b48389a5b76ec614665ae6ccd7ca2a1aa9be173cdbe291d423fca78d6e011"
 
 [[files]]
 file = "resourcepacks/angels-weather.pw.toml"
