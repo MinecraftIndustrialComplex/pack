@@ -21,7 +21,6 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
 - Make comutercraft recipes cool
 - Electric Heater (LSO)
 - Powergrid battery uses destroy acid, and lead.
-- Waterframe reasonable crafting
 - Null Cataclysms recipes
 - Sophisticated Backpacks: re-visit Everlasting and Inception upgrade crafting (recipes removed for now)
 - Powergrid wires through vintage
@@ -33,6 +32,7 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
   - Cataclysm: Make everything spawn without a structure
   - Mowzies mobs: Natty spawns
 - Actually good gun crafting system
+- Fix gold simplebackpacks removing backpack.
 
 # Installation:
 - Grab simple radio jars from their discord.

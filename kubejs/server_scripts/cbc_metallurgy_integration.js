@@ -9,7 +9,6 @@ const CBC_MATERIALS = {
   nethersteel: 'createbigcannons:molten_nethersteel'
 }
 
-/** Approximate melt yield (mB) from CBC block id patterns. */
 function meltAmountFor(itemId) {
   const id = itemId.replace('createbigcannons:', '')
   if (id.includes('nugget')) return MB_NUGGET
@@ -125,7 +124,7 @@ ServerEvents.recipes(e => {
     'createbigcannons:alloy_nethersteel_steel',
     'createbigcannons:alloy_nethersteel_cast_iron'
   ]
-  removeIds.forEach(function (id) {
+  removeIds.forEach(function(id) {
     e.remove({ id: id })
   })
 
@@ -165,7 +164,7 @@ ServerEvents.recipes(e => {
     { item: 'createbigcannons:nethersteel_block', fluid: CBC_MATERIALS.nethersteel, amount: MB_BLOCK, mold: null, table: false }
   ]
 
-  castForms.forEach(function (form) {
+  castForms.forEach(function(form) {
     const time = Math.max(20, Math.floor(form.amount / 3))
     const suffix = form.item.split(':')[1]
     if (form.table) {
@@ -181,7 +180,7 @@ ServerEvents.recipes(e => {
     }
   })
 
-  CBC_CANNON_PARTS.forEach(function (part) {
+  CBC_CANNON_PARTS.forEach(function(part) {
     const item = 'createbigcannons:' + part
     if (shouldSkipCbcMelt(item)) return
 
