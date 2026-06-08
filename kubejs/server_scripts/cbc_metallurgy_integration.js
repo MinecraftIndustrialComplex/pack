@@ -14,17 +14,23 @@ function meltAmountFor(itemId) {
   if (id.includes('nugget')) return MB_NUGGET
   if (id.endsWith('_block') || id === 'bronze_block') return MB_BLOCK
   if (id.includes('ingot')) return MB_INGOT
-  if (id.includes('very_large')) return MB_INGOT * 5
-  if (id.includes('very_small')) return MB_INGOT
-  if (id.includes('large') && !id.includes('very_large')) return MB_INGOT * 4
-  if (id.includes('medium')) return MB_INGOT * 3
-  if (id.includes('small') && !id.includes('very_small')) return MB_INGOT * 2
+  if (id.includes('very_large')) return 1800
+  if (id.includes('large') && !id.includes('very_large')) return 1260
+  if (id.includes('medium')) return 1080
+  if (id.includes('very_small')) return 630
+  if (id.includes('small') && !id.includes('very_small')) return 810
+  if (id.includes('sliding_breechblock')) return MB_INGOT * 2
+  if (id.includes('sliding_breech')) return 810
+  if (id.includes('screw_breech')) return 810
+  if (id.includes('cannon_end')) return 810
+  if (id.includes('autocannon_recoil_spring')) return 360
+  if (id.includes('autocannon_breech')) return 360
+  if (id.includes('autocannon_barrel')) return 270
+  if (id.includes('cannon_chamber')) return 1080
+  if (id.includes('cannon_barrel')) return 630
   if (id.includes('thick')) return MB_INGOT * 6
   if (id.includes('built_up')) return MB_INGOT * 8
-  if (id.includes('cannon_chamber') || id.includes('cannon_barrel')) return MB_INGOT * 4
-  if (id.includes('breech') || id.includes('autocannon') || id.includes('recoil')) return MB_INGOT * 3
-  if (id.includes('sliding') || id.includes('quickfiring')) return MB_INGOT * 2
-  if (id.includes('cannon_end')) return MB_INGOT
+  if (id.includes('quickfiring')) return MB_INGOT * 3
   if (id.includes('scrap')) return MB_NUGGET * 4
   if (id.includes('extractor') || id.includes('partial_')) return MB_INGOT * 2
   return MB_INGOT * 3
@@ -178,6 +184,57 @@ ServerEvents.recipes(e => {
         .processingTime(time)
         .id('kubejs:cbc/cast_basin_' + suffix)
     }
+  })
+
+  const CAST_TIMES = {
+    cast_iron: 2400,
+    bronze: 2400,
+    steel: 3600,
+    nethersteel: 6000
+  }
+
+  const CAST_MOULD_RECIPES = [
+    { mould: 'createbigcannons:very_small_cast_mould', material: 'cast_iron', output: 'createbigcannons:unbored_cast_iron_cannon_barrel' },
+    { mould: 'createbigcannons:very_small_cast_mould', material: 'bronze', output: 'createbigcannons:unbored_bronze_cannon_barrel' },
+    { mould: 'createbigcannons:very_small_cast_mould', material: 'steel', output: 'createbigcannons:unbored_very_small_steel_cannon_layer' },
+    { mould: 'createbigcannons:very_small_cast_mould', material: 'nethersteel', output: 'createbigcannons:unbored_very_small_nethersteel_cannon_layer' },
+    { mould: 'createbigcannons:small_cast_mould', material: 'steel', output: 'createbigcannons:unbored_small_steel_cannon_layer' },
+    { mould: 'createbigcannons:small_cast_mould', material: 'nethersteel', output: 'createbigcannons:unbored_small_nethersteel_cannon_layer' },
+    { mould: 'createbigcannons:medium_cast_mould', material: 'cast_iron', output: 'createbigcannons:unbored_cast_iron_cannon_chamber' },
+    { mould: 'createbigcannons:medium_cast_mould', material: 'bronze', output: 'createbigcannons:unbored_bronze_cannon_chamber' },
+    { mould: 'createbigcannons:medium_cast_mould', material: 'steel', output: 'createbigcannons:unbored_medium_steel_cannon_layer' },
+    { mould: 'createbigcannons:medium_cast_mould', material: 'nethersteel', output: 'createbigcannons:unbored_medium_nethersteel_cannon_layer' },
+    { mould: 'createbigcannons:large_cast_mould', material: 'steel', output: 'createbigcannons:unbored_large_steel_cannon_layer' },
+    { mould: 'createbigcannons:large_cast_mould', material: 'nethersteel', output: 'createbigcannons:unbored_large_nethersteel_cannon_layer' },
+    { mould: 'createbigcannons:very_large_cast_mould', material: 'steel', output: 'createbigcannons:unbored_very_large_steel_cannon_layer' },
+    { mould: 'createbigcannons:very_large_cast_mould', material: 'nethersteel', output: 'createbigcannons:unbored_very_large_nethersteel_cannon_layer' },
+    { mould: 'createbigcannons:cannon_end_cast_mould', material: 'cast_iron', output: 'createbigcannons:cast_iron_cannon_end' },
+    { mould: 'createbigcannons:cannon_end_cast_mould', material: 'bronze', output: 'createbigcannons:bronze_cannon_end' },
+    { mould: 'createbigcannons:screw_breech_cast_mould', material: 'steel', output: 'createbigcannons:unbored_steel_screw_breech' },
+    { mould: 'createbigcannons:screw_breech_cast_mould', material: 'nethersteel', output: 'createbigcannons:unbored_nethersteel_screw_breech' },
+    { mould: 'createbigcannons:sliding_breech_cast_mould', material: 'cast_iron', output: 'createbigcannons:unbored_cast_iron_sliding_breech' },
+    { mould: 'createbigcannons:sliding_breech_cast_mould', material: 'bronze', output: 'createbigcannons:unbored_bronze_sliding_breech' },
+    { mould: 'createbigcannons:sliding_breech_cast_mould', material: 'steel', output: 'createbigcannons:unbored_steel_sliding_breech' },
+    { mould: 'createbigcannons:autocannon_barrel_cast_mould', material: 'cast_iron', output: 'createbigcannons:unbored_cast_iron_autocannon_barrel' },
+    { mould: 'createbigcannons:autocannon_barrel_cast_mould', material: 'bronze', output: 'createbigcannons:unbored_bronze_autocannon_barrel' },
+    { mould: 'createbigcannons:autocannon_barrel_cast_mould', material: 'steel', output: 'createbigcannons:unbored_steel_autocannon_barrel' },
+    { mould: 'createbigcannons:autocannon_breech_cast_mould', material: 'cast_iron', output: 'createbigcannons:unbored_cast_iron_autocannon_breech' },
+    { mould: 'createbigcannons:autocannon_breech_cast_mould', material: 'bronze', output: 'createbigcannons:unbored_bronze_autocannon_breech' },
+    { mould: 'createbigcannons:autocannon_breech_cast_mould', material: 'steel', output: 'createbigcannons:unbored_steel_autocannon_breech' },
+    { mould: 'createbigcannons:autocannon_recoil_spring_cast_mould', material: 'cast_iron', output: 'createbigcannons:unbored_cast_iron_autocannon_recoil_spring' },
+    { mould: 'createbigcannons:autocannon_recoil_spring_cast_mould', material: 'bronze', output: 'createbigcannons:unbored_bronze_autocannon_recoil_spring' },
+    { mould: 'createbigcannons:autocannon_recoil_spring_cast_mould', material: 'steel', output: 'createbigcannons:unbored_steel_autocannon_recoil_spring' },
+  ]
+
+  CAST_MOULD_RECIPES.forEach(function(recipe) {
+    const fluid = CBC_MATERIALS[recipe.material]
+    const amount = meltAmountFor(recipe.output)
+    const time = CAST_TIMES[recipe.material]
+    const suffix = recipe.output.split(':')[1]
+    e.recipes.createmetallurgy
+      .casting_in_basin(recipe.output, [Fluid.of(fluid, amount), recipe.mould])
+      .processingTime(time)
+      .id('kubejs:cbc/cast_basin_' + suffix)
   })
 
   CBC_CANNON_PARTS.forEach(function(part) {
