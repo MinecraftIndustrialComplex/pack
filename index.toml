@@ -14894,6 +14894,11 @@ file = "mods/simpleradio-neoforge-1.21.1-4.4.6.9.jar"
 hash = "6a0ba960ddb38d00ce8fc851804c624471239ec259ca8c3fbc8ea111460575b0"
 
 [[files]]
+file = "mods/sleeping-bags.pw.toml"
+hash = "9de3675bdd0908ab4220da1b20343e2beed5b35805dd30fcc1ad84b14bf72398"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "8b49e7f07bc791237e7f292b30e262e8b0d51c2b482226e71c8e24b751ff085c"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Sleeping Bags"
+filename = "sleeping-bags-neoforge-1.21.1-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/abxRnW9z/versions/IyVz8P1V/sleeping-bags-neoforge-1.21.1-1.0.9.jar"
+hash-format = "sha512"
+hash = "b29c1bb682bc8f0f016af91043a6202761bb67e2434235008f2d986170973189b241dc04d17bf5c467d6dbbf69508116f79f66fce0e3954a11162b51ef02cb6f"
+
+[update]
+[update.modrinth]
+mod-id = "abxRnW9z"
+version = "IyVz8P1V"
