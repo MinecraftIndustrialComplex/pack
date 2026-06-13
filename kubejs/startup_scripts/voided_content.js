@@ -78,5 +78,6 @@ global.VOIDED_FLUIDS = [
 // entire mods removed
 global.VOIDED_MOD_IDS = [
   'iceandfire',
-  'crusty_chunks'
+  'crusty_chunks',
+  'l2complements'
 ]
