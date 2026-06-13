@@ -1,13 +1,13 @@
 name = "CBC Neo Warfare"
-filename = "cbcmodernwarfare-0.0.6m+mc.1.21.1-neoforge.jar"
+filename = "cbcmodernwarfare-0.0.6v+mc.1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "48522da206f59ac559edfe6671a48ed09c0620e4"
+hash = "c8cd9d1fd4a3913f7f453b397fcc5ef36aec4749"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8140533
+file-id = 8232556
 project-id = 1552960
