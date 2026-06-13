@@ -12,3 +12,12 @@ ServerEvents.recipes(e => {
     I: 'minecraft:iron_ingot'
   }).id('kubejs:cauldron_recipe')
 })
+ServerEvents.recipes(e => {
+  e.shaped('minecraft:bucket', [
+    '   ',
+    'I I',
+    ' I '
+  ], {
+    I: 'minecraft:iron_ingot'
+  }).id('kubejs:bucket_recipe')
+})
