@@ -10,21 +10,14 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
 - Powergrid to provide power management and transmisison systems.
 - Cobblemon as I am yet to find an engineer who does not like pokemon.
 - Timeless and Classic Zero to provide responsive weapons
-- Ice and Fire, as well as various other boss mods to provide
+- Ice and Fire, as well as various other boss mods to provide something to shoot
 
 # TODO
 - Kaiju
-- Exposure destroy integration
 - Space?
-- Destroy powergrid integration
 - Boss raid system
-- Make comutercraft recipes cool
-- Electric Heater (LSO)
-- Powergrid battery uses destroy acid, and lead.
 - Null Cataclysms recipes
 - Sophisticated Backpacks: re-visit Everlasting and Inception upgrade crafting (recipes removed for now)
-- Powergrid wires through vintage
-- Add in way to actually create fuel with destroy
 - Aerogel
 - Bosses
   - Natural Boss Spawning
@@ -34,10 +27,12 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
 - Actually good gun crafting system
 - Fix gold simplebackpacks removing backpack.
 - Add mineral oil and baby oil
+- Add in leaded gasoline
+- Migrate petrochem system to a mod to fix jank
 
 # Installation:
 - Grab simple radio jars from their discord.
-- Possible run scripts to re-generate various items.
+- Compile the destroy-mic fork of destroy and add the jar
 
 # Credits:
 - Huge thanks to NHBlock for developing the ![1.21.1 fork of destroy](https://github.com/NHblock714/Destroy/tree/1.21.1-neo)
