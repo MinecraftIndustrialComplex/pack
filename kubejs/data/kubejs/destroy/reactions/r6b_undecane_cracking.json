@@ -1,0 +1,16 @@
+{
+  "reactants": [
+    { "molecule": "kubejs:undecane", "ratio": 1, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "destroy:ethene", "ratio": 2 },
+    { "molecule": "destroy:propene", "ratio": 1 },
+    { "molecule": "destroy:butadiene", "ratio": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 2 }
+  ],
+  "kinetics": {
+    "activation_energy": 80.0,
+    "preexponential_factor": 15000.0,
+    "enthalpy_change": 35.0
+  }
+}

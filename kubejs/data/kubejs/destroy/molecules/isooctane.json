@@ -1,0 +1,10 @@
+{
+  "structure": "destroy:linear:CC(C)(C)CC(C)C",
+  "boiling_point_celsius": 99,
+  "density": 692,
+  "molar_heat_capacity": 184,
+  "color": 1150324816,
+  "tags": [
+    "destroy:fuel_additive"
+  ]
+}

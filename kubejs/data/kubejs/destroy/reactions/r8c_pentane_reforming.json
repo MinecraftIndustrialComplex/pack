@@ -1,0 +1,18 @@
+{
+  "reactants": [
+    { "molecule": "kubejs:pentane", "ratio": 2, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "destroy:benzene", "ratio": 1 },
+    { "molecule": "destroy:butane", "ratio": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 4 }
+  ],
+  "item_reactants": [
+    { "item": "destroy:zeolite", "moles": 150.0, "catalyst": true }
+  ],
+  "kinetics": {
+    "activation_energy": 70.0,
+    "preexponential_factor": 7000.0,
+    "enthalpy_change": 30.0
+  }
+}

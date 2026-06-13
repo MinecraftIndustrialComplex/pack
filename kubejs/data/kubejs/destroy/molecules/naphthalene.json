@@ -1,0 +1,9 @@
+{
+  "structure": "destroy:naphthalene:,,,,,,,",
+
+  "boiling_point_celsius": 218,
+  "density": 1025,
+  "molar_heat_capacity": 137,
+  "color": 1627326600,
+  "tags": ["destroy:carcinogen", "destroy:smog"]
+}

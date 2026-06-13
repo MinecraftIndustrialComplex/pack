@@ -1,0 +1,91 @@
+{
+  "kubejs.chemical.propane": "Propane",
+  "kubejs.chemical.butane": "Butane",
+  "kubejs.chemical.isobutane": "Isobutane",
+  "kubejs.chemical.pentane": "Pentane",
+  "kubejs.chemical.isopentane": "Isopentane",
+  "kubejs.chemical.hexane": "Hexane",
+  "kubejs.chemical.isohexane": "Isohexane",
+  "kubejs.chemical.cyclohexane": "Cyclohexane",
+  "kubejs.chemical.heptane": "Heptane",
+  "kubejs.chemical.octane": "Octane",
+  "kubejs.chemical.isooctane": "Isooctane",
+  "kubejs.chemical.nonane": "Nonane",
+  "kubejs.chemical.decane": "Decane",
+  "kubejs.chemical.undecane": "Undecane",
+  "kubejs.chemical.dodecane": "Dodecane",
+  "kubejs.chemical.tetradecane": "Tetradecane",
+  "kubejs.chemical.hexadecane": "Hexadecane",
+  "kubejs.chemical.octadecane": "Octadecane",
+  "kubejs.chemical.eicosane": "Eicosane",
+  "kubejs.chemical.naphthalene": "Naphthalene",
+  "kubejs.chemical.hydrogen_sulfide": "Hydrogen Sulfide",
+
+  "kubejs.reaction.r1_light_naphtha_isomerization": "Light Naphtha Isomerization",
+  "kubejs.reaction.r1_light_naphtha_isomerization.description": "Isomerizes linear C5-C7 alkanes from light naphtha into branched isomers (isopentane, isohexane, isooctane) with zeolite catalyst. Produces ~5% light ends byproduct. Raises octane number for gasoline blending.",
+
+  "kubejs.reaction.r2_heavy_naphtha_reforming": "Heavy Naphtha Catalytic Reforming",
+  "kubejs.reaction.r2_heavy_naphtha_reforming.description": "Reforms heavy naphtha (C7-C10) over zeolite catalyst at high temperature and pressure into reformate, BTX aromatics, hydrogen, and light ends. Primary source of aromatic feedstocks for the plastic chain.",
+
+  "kubejs.reaction.r3_raw_kerosene_hydrotreating": "Raw Kerosene Hydrotreating",
+  "kubejs.reaction.r3_raw_kerosene_hydrotreating.description": "Hydrotreats raw kerosene with hydrogen: saturates naphthalene (C10H8 + 5H2 → decane-range product) and removes trace sulfur as H2S. Produces ~98% kerosene-range product with minimal sour gas.",
+
+  "kubejs.reaction.r4a_tetradecane_hydrotreating": "Tetradecane Hydrotreating",
+  "kubejs.reaction.r4a_tetradecane_hydrotreating.description": "Hydrotreats tetradecane (C14) with hydrogen over a cobalt catalyst. Desulfurizes and saturates the gas-oil fraction without changing carbon chain length — required before diesel blending.",
+
+  "kubejs.reaction.r4b_hexadecane_hydrotreating": "Hexadecane Hydrotreating",
+  "kubejs.reaction.r4b_hexadecane_hydrotreating.description": "Hydrotreats hexadecane (C16) with hydrogen over a cobalt catalyst. Desulfurizes and saturates the gas-oil fraction without changing carbon chain length — required before diesel blending.",
+
+  "kubejs.reaction.r4c_octadecane_hydrotreating": "Octadecane Hydrotreating",
+  "kubejs.reaction.r4c_octadecane_hydrotreating.description": "Hydrotreats octadecane (C18) with hydrogen over a cobalt catalyst. Desulfurizes and saturates the gas-oil fraction without changing carbon chain length — required before diesel blending.",
+
+  "kubejs.reaction.r5_long_residue_thermal_cracking": "Long Residue Thermal Cracking",
+  "kubejs.reaction.r5_long_residue_thermal_cracking.description": "Thermally cracks long residue (C20+) into cracked gasoline, cracked diesel, light ends, and petroleum coke. Superheated, high-pressure operation. No catalyst required.",
+
+  "kubejs.reaction.r6_kerosene_steam_cracking": "Kerosene Steam Cracking",
+  "kubejs.reaction.r6_kerosene_steam_cracking.description": "Steam-cracks kerosene into light olefins (ethylene, propylene, butadiene), BTX aromatics, light ends, and hydrogen. Superheated, high-pressure. Primary olefin source for plastic production.",
+
+  "kubejs.reaction.r7a_tetradecane_catalytic_cracking": "Tetradecane Catalytic Cracking",
+  "kubejs.reaction.r7a_tetradecane_catalytic_cracking.description": "Catalytically cracks tetradecane (C14) into gasoline-range hexane and octane. Converts diesel feedstock into naphtha for the reforming and isomerization chain — not a diesel-upgrading step.",
+
+  "kubejs.reaction.r7b_hexadecane_catalytic_cracking": "Hexadecane Catalytic Cracking",
+  "kubejs.reaction.r7b_hexadecane_catalytic_cracking.description": "Catalytically cracks hexadecane (C16) into heptane and nonane for the catalytic reforming chain. Converts diesel feedstock into naphtha — not a diesel-upgrading step.",
+
+  "kubejs.reaction.r7c_octadecane_catalytic_cracking": "Octadecane Catalytic Cracking",
+  "kubejs.reaction.r7c_octadecane_catalytic_cracking.description": "Catalytically cracks octadecane (C18) into octane and decane. Produces gasoline- and kerosene-range products from diesel feedstock — not a diesel-upgrading step.",
+
+  "kubejs.reaction.r8_gasoline_re_reforming": "Gasoline Re-Reforming",
+  "kubejs.reaction.r8_gasoline_re_reforming.description": "Severe reforming of gasoline-range hydrocarbons over zeolite catalyst into BTX aromatics, light ends, and hydrogen. Maximizes aromatic yield from fuel fractions at the cost of fuel volume.",
+
+  "kubejs.reaction.r9_light_ends_steam_reforming": "Light Ends Steam Reforming",
+  "kubejs.reaction.r9_light_ends_steam_reforming.description": "Steam-reforms methane (CH4 + H2O → CO + 3H2) over a nickel catalyst into synthesis gas. Accepts light ends streams dominated by methane.",
+
+  "mixture.kubejs.light_naphtha": "Light Naphtha",
+  "mixture.kubejs.heavy_naphtha": "Heavy Naphtha",
+  "mixture.kubejs.raw_kerosene": "Raw Kerosene",
+  "mixture.kubejs.raw_diesel": "Raw Diesel",
+  "mixture.kubejs.long_residue": "Long Residue",
+  "mixture.kubejs.vacuum_gas_oil": "Vacuum Gas Oil",
+  "mixture.kubejs.kerosene": "Kerosene",
+  "mixture.kubejs.hydrotreated_diesel": "Hydrotreated Diesel",
+  "mixture.kubejs.isomerate": "Isomerate",
+  "mixture.kubejs.reformate": "Reformate",
+  "mixture.kubejs.cracked_gasoline": "Cracked Gasoline",
+  "mixture.kubejs.cracked_diesel": "Cracked Diesel",
+  "mixture.kubejs.gasoline_premium_blend": "Premium Gasoline Blend Stock",
+  "mixture.kubejs.gasoline_standard_blend": "Standard Gasoline Blend Stock",
+  "mixture.kubejs.gasoline_cracked_blend": "Cracked Gasoline Blend Stock",
+  "mixture.kubejs.cracked_diesel_blend": "Cracked Diesel Blend Stock",
+  "mixture.kubejs.light_ends": "Light Ends",
+  "mixture.kubejs.sour_gas": "Sour Gas",
+  "mixture.kubejs.lpg": "LPG",
+  "mixture.kubejs.reformate_byproduct": "Reformer Byproduct Mixture",
+  "mixture.kubejs.steam_crack_gas": "Steam Crack Gas Mixture",
+  "mixture.kubejs.re_reform_byproduct": "Re-Reform Byproduct Mixture",
+  "mixture.kubejs.btx_aromatics": "BTX Aromatics",
+  "mixture.kubejs.olefin_fraction": "Olefin Fraction",
+  "mixture.kubejs.hydrogen_stream": "Hydrogen Stream",
+  "mixture.kubejs.molten_sulfur_stream": "Molten Sulfur Stream",
+  "mixture.kubejs.refinery_gas_stream": "Refinery Gas Stream",
+  "mixture.kubejs.oxygen_stream": "Oxygen Stream"
+}

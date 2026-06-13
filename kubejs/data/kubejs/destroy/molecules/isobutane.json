@@ -1,0 +1,10 @@
+{
+  "structure": "destroy:linear:CC(C)C",
+  "boiling_point_celsius": -11,
+  "density": 556,
+  "molar_heat_capacity": 96,
+  "color": 1148227792,
+  "tags": [
+    "destroy:greenhouse"
+  ]
+}

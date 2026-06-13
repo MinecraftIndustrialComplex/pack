@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
 
   event.remove({ id: `${PG}:mixing/acid` })
   event.remove({ id: `${PG}:mixing/etched_circuit_board` })
+  event.remove({ id: `${PG}:sequenced_assembly/battery` })
 
   const SULFURIC_ACID_MIXTURE = {
     type: 'destroy:mixture_with_molecule',
@@ -25,8 +26,6 @@ ServerEvents.recipes(event => {
       { id: `${PG}:incomplete_circuit` }
     ]
   }).id('kubejs:mixing/etch_circuit')
-
-  event.remove({ id: `${PG}:sequenced_assembly/battery` })
 
   event.custom({
     type: 'create:sequenced_assembly',

@@ -1,3 +1,12 @@
+var INCOMPLETE_FUEL_BUCKETS = [
+  'kubejs:incomplete_premium_gasoline_bucket',
+  'kubejs:incomplete_standard_gasoline_bucket',
+  'kubejs:incomplete_cheap_gasoline_bucket',
+  'kubejs:incomplete_diesel_bucket',
+  'kubejs:incomplete_cracked_diesel_bucket',
+  'kubejs:incomplete_kerosene_bucket'
+]
+
 function collectVoidedItems() {
   const items = (global.VOIDED_ITEMS || []).slice()
   if (Platform.isLoaded('tacz')) {
@@ -10,6 +19,9 @@ function hideVoidedItems(event) {
   collectVoidedItems().forEach(function (id) {
     event.hide(id)
   })
+  INCOMPLETE_FUEL_BUCKETS.forEach(function (id) {
+    event.hide(id)
+  })
 }
 
 function hideVoidedFluids(event) {
@@ -20,6 +32,9 @@ function hideVoidedFluids(event) {
 
 function removeVoidedItemEntries(event) {
   collectVoidedItems().forEach(function (id) {
+    event.remove(id)
+  })
+  INCOMPLETE_FUEL_BUCKETS.forEach(function (id) {
     event.remove(id)
   })
   ;(global.VOIDED_ITEM_PATTERNS || []).forEach(function (pattern) {

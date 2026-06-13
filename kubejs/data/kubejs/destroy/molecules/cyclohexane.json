@@ -1,0 +1,9 @@
+{
+  "structure": "destroy:cyclohexane:,,,,,,,,,,,",
+
+  "boiling_point_celsius": 81,
+  "density": 779,
+  "molar_heat_capacity": 106,
+  "color": 1140850944,
+  "tags": ["destroy:solvent"]
+}

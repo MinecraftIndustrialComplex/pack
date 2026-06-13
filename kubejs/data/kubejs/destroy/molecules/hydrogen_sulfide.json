@@ -1,0 +1,12 @@
+{
+  "structure": "destroy:linear:S",
+  "boiling_point_celsius": -60,
+  "density": 950,
+  "molar_heat_capacity": 34,
+  "color": 1153491040,
+  "tags": [
+    "destroy:acutely_toxic",
+    "destroy:smog",
+    "destroy:acid_rain"
+  ]
+}

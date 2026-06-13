@@ -1,0 +1,23 @@
+{
+  "reactants": [
+    { "molecule": "kubejs:eicosane", "ratio": 1, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "kubejs:octane", "ratio": 1 },
+    { "molecule": "destroy:butadiene", "ratio": 1 },
+    { "molecule": "destroy:ethene", "ratio": 2 },
+    { "molecule": "destroy:propene", "ratio": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 1 }
+  ],
+  "kinetics": {
+    "activation_energy": 75.0,
+    "preexponential_factor": 10000.0,
+    "enthalpy_change": 20.0
+  },
+  "result": {
+    "type": "destroy:precipitate_item",
+    "moles": 1.0,
+    "item": "kubejs:petroleum_coke",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "reactants": [
+    { "molecule": "destroy:methane", "ratio": 1, "order": 1 },
+    { "molecule": "destroy:water", "ratio": 1, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "destroy:carbon_monoxide", "ratio": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 3 }
+  ],
+  "item_reactants": [
+    { "item": "createmetallurgy:nickel_ingot", "moles": 300.0, "catalyst": true }
+  ],
+  "kinetics": {
+    "activation_energy": 65.0,
+    "preexponential_factor": 8000.0,
+    "enthalpy_change": 206.0
+  }
+}

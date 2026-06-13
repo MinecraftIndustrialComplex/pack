@@ -1,0 +1,42 @@
+{
+    "blocks": {
+        "createnuclear:uranium_ore": "minecraft:stone",
+        "createnuclear:deepslate_uranium_ore": "minecraft:deepslate",
+        "createnuclear:lead_ore": "minecraft:stone",
+        "createnuclear:deepslate_lead_ore": "minecraft:deepslate",
+        "createnuclear:raw_uranium_block": "minecraft:raw_iron_block",
+        "createnuclear:raw_lead_block": "minecraft:raw_iron_block",
+        "createnuclear:uranium": "minecraft:iron_block",
+        "createnuclear:lead_block": "minecraft:iron_block",
+        "createnuclear:steel_block": "createmetallurgy:steel_block",
+        "createnuclear:reactor_casing": "minecraft:air",
+        "createnuclear:reactor_controller": "minecraft:air",
+        "createnuclear:reactor_core": "minecraft:air",
+        "createnuclear:reactor_cooling_frame": "minecraft:air",
+        "createnuclear:reactor_main_frame": "minecraft:air",
+        "createnuclear:reactor_input": "minecraft:air",
+        "createnuclear:reactor_output": "minecraft:air",
+        "createnuclear:reinforced_glass": "minecraft:glass",
+        "createnuclear:enriched_soul_soil": "minecraft:soul_soil",
+        "createnuclear:enriching_campfire": "minecraft:campfire",
+        "createnuclear:enriching_fire": "minecraft:fire",
+        "createnuclear:white_cloth": "minecraft:white_wool",
+        "createnuclear:anti_radiation_boots": "minecraft:leather_boots"
+    },
+    "items": {
+        "createnuclear:yellowcake": "minecraft:gunpowder",
+        "createnuclear:enriched_yellowcake": "minecraft:blaze_powder",
+        "createnuclear:uranium_powder": "minecraft:gunpowder",
+        "createnuclear:uranium_rod": "minecraft:stick",
+        "createnuclear:graphite_rod": "minecraft:stick",
+        "createnuclear:graphene": "minecraft:paper",
+        "createnuclear:coal_dust": "minecraft:gunpowder",
+        "createnuclear:reactor_blueprint_item": "minecraft:paper",
+        "createnuclear:lead_ingot": "minecraft:iron_ingot",
+        "createnuclear:lead_nugget": "minecraft:iron_nugget",
+        "createnuclear:raw_lead": "minecraft:raw_iron",
+        "createnuclear:raw_uranium": "minecraft:raw_iron",
+        "createnuclear:steel_ingot": "createmetallurgy:steel_ingot",
+        "createnuclear:steel_nugget": "createmetallurgy:steel_nugget"
+    }
+}

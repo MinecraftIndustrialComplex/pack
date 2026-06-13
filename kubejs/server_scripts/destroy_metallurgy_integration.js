@@ -51,7 +51,6 @@ ServerEvents.recipes(e => {
   e.recipes[CM].melting(Fluid.of('kubejs:molten_chromium', 10), `${DS}:chromium_nugget`).processingTime(15).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_chromium_nugget')
   e.recipes[CM].melting(Fluid.of('kubejs:molten_chromium', INGOT_MB), `${DS}:crushed_raw_chromium`).processingTime(50).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_crushed_chromium')
 
-  // PGM metals → molten_gold placeholder
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_gold`, INGOT_MB), `${DS}:platinum_ingot`).processingTime(50).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_platinum_ingot')
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_gold`, INGOT_MB), `${DS}:platinum_powder`).processingTime(50).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_platinum_powder')
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_gold`, BLOCK_MB), `${DS}:platinum_block`).processingTime(300).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_platinum_block')
@@ -62,7 +61,6 @@ ServerEvents.recipes(e => {
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_gold`, INGOT_MB), `${DS}:rhodium_powder`).processingTime(55).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_rhodium_powder')
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_gold`, BLOCK_MB), `${DS}:rhodium_block`).processingTime(330).heatLevel("HYPERHEATED").id('kubejs:destroy/melt_rhodium_block')
 
-  // Sodium → molten_lithium placeholder
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_lithium`, INGOT_MB), `${DS}:sodium_ingot`).processingTime(10).id('kubejs:destroy/melt_sodium_ingot')
 
   e.recipes[CM]

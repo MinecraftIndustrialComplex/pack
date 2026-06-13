@@ -13758,7 +13758,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "27d6afd40bf2b62c214ee4086fa9175805ac2cb3e7ba74888047099ed96f0a4f"
+hash = "7f40a4b8ff65300e5ea77c08d7c238b3fa9b67f2c3fc5b861427e70fb72715de"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -13837,8 +13837,24 @@ file = "defaultconfigs/gravestone-server.toml"
 hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
 
 [[files]]
+file = "kubejs/assets/create/lang/en_us.json"
+hash = "d4a9bd62dc89e9da120d5db74342d92216c029fde641e9dd1160ab34de1099b0"
+
+[[files]]
 file = "kubejs/assets/createbigcannons/lang/en_us.json"
 hash = "18abef9f13de2d56eaa56b3adeb32b9c4f4d8ba0ff7ea7f8279a026480b0d7ab"
+
+[[files]]
+file = "kubejs/assets/destroy/lang/en_us.json"
+hash = "d91f08a450ce0ca394afcc9646d513a46796376d143b7716b6226f2eee458837"
+
+[[files]]
+file = "kubejs/assets/destroy/textures/item/petroleum_coke.png"
+hash = "3198484da87bad2addc10d84199d476a65f49142ac35590cd64f0ca5225212d4"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/petroleum_coke.json"
+hash = "52177dea74d171784005aee535fbe34eba16b458a1a751939c7d51efdbc74499"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/smokeless_powder.json"
@@ -13910,7 +13926,7 @@ hash = "a2a5aeb2cff66ce07b743bfbe6dd57b7ab2ce215cef42c0fd897a93a835dafbc"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_diesel.json"
-hash = "e7011b8c0d791eddfc555a350b258b07138c56c452ca3bc6cc33d43bf27596c7"
+hash = "7d7148bce8790edd80aa59bca972fccd300c9a2d4a7ec5e364a17f1f819e2cf5"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_ethanol_distillate.json"
@@ -13918,11 +13934,27 @@ hash = "15ec8cf46b44a508ec27b01f3e34e71266c780eb6ec88842dcfb8e949e0a6c1a"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_gasoline.json"
-hash = "e2b5ca18a46bbac8115d5c08641b681a8597b0ba2c62b4528b04aec7bd9b9c82"
+hash = "8dfb11a6982b0b90209f42296b7c3575f7481651abf8064399835ed058e89091"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
 hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/kubejs_cheap_gasoline.json"
+hash = "a4546e84509d6b0296cbed8fd63d87c628e87b6e2f8c42cca2793671d855548b"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/kubejs_kerosene.json"
+hash = "0c4e4958830390c0fdc97d1035556e233f262375717aa89dee9803b873722dc9"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/kubejs_premium_gasoline.json"
+hash = "5703286f6aac4caf1a39df18ea26212e8bd59189648a7a8e42beb51f233762dd"
+
+[[files]]
+file = "kubejs/data/forge/tags/fluids/cheap_gasoline.json"
+hash = "fbda93c03ae0f32fb0347e0fff28be95813d11e3b23cf693ac2ed17f822fc4e7"
 
 [[files]]
 file = "kubejs/data/forge/tags/fluids/crude_oil.json"
@@ -13930,11 +13962,139 @@ hash = "452dabd43586291d9bf1823d8fd521cde7adf16ba805804ea45ec1a6fc0bb37d"
 
 [[files]]
 file = "kubejs/data/forge/tags/fluids/diesel.json"
-hash = "34602f508f7ab629f820ec1d4ba534eb9dc95e603941c6e0f206f49a47292aab"
+hash = "cbbffaf7de8aa0af851c4331e5709fb718bf3d22310683d62d8835cee19e0a53"
 
 [[files]]
 file = "kubejs/data/forge/tags/fluids/gasoline.json"
-hash = "223600b1ee33ee19d569f60590d5ac4640c3baf420b6af0e68b55896863a35a2"
+hash = "6ec6276b4977abc27d8c264c5b0feebdad8e7dcef0be7268cb2e08fc6f6e615f"
+
+[[files]]
+file = "kubejs/data/forge/tags/fluids/kerosene.json"
+hash = "b58a51546134e64efa8a76f59ce7474f3309b7549662d497403968259b160b7c"
+
+[[files]]
+file = "kubejs/data/forge/tags/fluids/premium_gasoline.json"
+hash = "923ae4795442c1493ec49d82fccb6ec0a330890862d9b5d0544c4fd138ae05d6"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/butane.json"
+hash = "fa73451c91db5e16e836dadaffef960b46935e3d24e2c6aabc73c9404ab66973"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/cyclohexane.json"
+hash = "c737aa5d914ddb83870c3b8a2775ec27fe9b7a287b2578d66f4c2270dc4fb3bf"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/decane.json"
+hash = "8b771c53a063b1fb0ca741c702999883c1d04eed0a0fde251c98306adcd25edc"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/dodecane.json"
+hash = "aeb66bad22fda57fd0c4255cf7441c83f0adc3f5f6aa6858bbbce0778ec9ba83"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/eicosane.json"
+hash = "e1ecb17141f781149aeef799f08d3bf5a79eede6d08aa59cd276bef87c3e831a"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/heptane.json"
+hash = "7d666a5a4bd545e7da8d965962526f6e51bc4db126061c4a4d4fd6089feecb44"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/hexadecane.json"
+hash = "f0152682be5a2a06576ee5d473ef9994be3631528dec9bdbe46968592b9281c8"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/hexane.json"
+hash = "d6858bdfd8fa9a6ec98942bd332f825d935173d1a8cbfc6c72570118a7fd9f0c"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/hydrogen_sulfide.json"
+hash = "d38ea50ba34cd56f451b7e358fa3b7c6e78662b51a4ab99bec89aa92163f5111"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/isobutane.json"
+hash = "175abc7dd03cc122a4eb45259b9377fe0bd8d5b2b29c33589aedec3c21e3dfee"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/isohexane.json"
+hash = "aa1754ea8be3f34c765e4ab1e3a37701ba5f1ec828bef99d000ffdd25caa5195"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/isooctane.json"
+hash = "39f7eda1db33e4ca724fb38c964a48d83ed21355f13ef43731812c590a6d7444"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/isopentane.json"
+hash = "d6dc76aed2eab1d97373f4a42edabc73371c68b8d7c509328162e88793c3ee57"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/naphthalene.json"
+hash = "b2eb9eacb2c8981cd11d7343b274bc9b5d8357b26a2719408553ba5ee58b7ee7"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/nonane.json"
+hash = "d8d260c35de31163b41eaf41a7df2c252a062106ab0b144fa572e35b8bea57a5"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/octadecane.json"
+hash = "7dd7e639709a650f3e5f0b0d3efb3d8c65f5e7630c5a3225f80e987580db4013"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/octane.json"
+hash = "edee991d1aea77a05e9deebcbb82cf961a29496ea107ffde60efd103f2e4d0be"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/pentane.json"
+hash = "a054728743731fadf378708f37792cc93fce4ae7e7fc528dcdc3dfb82f21a9fc"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/propane.json"
+hash = "8f77f233e4ca85b3fba0fae075434943f75dba83846a938ef4458fd5f9f72e0c"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/tetradecane.json"
+hash = "9d658cd0fffedd2e9e7a1b6b0e71ce715a25ee922470894b6da767af62346b15"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/molecules/undecane.json"
+hash = "114bde3a60d33a5ebc1db80d1b0c9ca9ced222f5dc7ddd43e1ce3a9854631422"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r1_light_naphtha_isomerization.json"
+hash = "5fa85dab6535bddcacd09005995084baf0047f7254d32562476ae4d5dc35d9e5"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r2_heavy_naphtha_reforming.json"
+hash = "cafc90428c150daa009266c6c633591ef75a1bc6037b5cb7204fe50fb5fbaa59"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r3_raw_kerosene_hydrotreating.json"
+hash = "9fecbbe42613e4a8da1fbbd028d93c99916499f6fdc8665be53a1d28d6fd4ec6"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r4_raw_diesel_hydrotreating.json"
+hash = "11db5f8201bb6e7b98ca9c26b164747d0d215111fdaf626959ecf406787f187a"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r5_long_residue_thermal_cracking.json"
+hash = "caa25df86f32d800336753a3189cd03ce3867f6cc32967db639d611583425c9d"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r6_kerosene_steam_cracking.json"
+hash = "37f6a009c296f060663eaab12362b845d09bd984ec5ebb73f07cda4ba22edbc3"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r7_diesel_hydrocracking.json"
+hash = "194d51c6a00b5300287f38811d140e15441050105f8b7c0462f5ab899ed9f3c0"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r8_gasoline_re_reforming.json"
+hash = "f6be0dbdddad0fb6ed8a515f5e6fc39948592c54deff0a3c785fc995a8dd7285"
+
+[[files]]
+file = "kubejs/data/kubejs/destroy/reactions/r9_light_ends_steam_reforming.json"
+hash = "512be4cac6546d442d34b5617f77ecc37638aac47bb6322989eea33043074b58"
 
 [[files]]
 file = "kubejs/data/kubejs/tags/worldgen/biome/empty.json"
@@ -13957,6 +14117,18 @@ file = "kubejs/data/mic/createdieselgenerators/fuel_type/diesel.json"
 hash = "e8ef59396efd083515b235d0816f889a171a91bbc1ef9a2873abaa36c4d0d343"
 
 [[files]]
+file = "kubejs/data/mic/createdieselgenerators/fuel_type/cheap_gasoline.json"
+hash = "c23ff0e51567f6abe0e80e350f200537281c1c49d135f8531e8f362bba7b71b9"
+
+[[files]]
+file = "kubejs/data/mic/createdieselgenerators/fuel_type/kerosene.json"
+hash = "b12b8cb8bfc071ddeed1e423496a428fe08edd309feb64dbe41a94061b502e59"
+
+[[files]]
+file = "kubejs/data/mic/createdieselgenerators/fuel_type/premium_gasoline.json"
+hash = "eef33779c3927fa08dc88deaa77ff86d99115f5ad3d366fb976d48f1ac8a100b"
+
+[[files]]
 file = "kubejs/data/overgeared/legendarysurvivaloverhaul/temperature/blocks/alloy_furnace.json"
 hash = "bfb44f0031241f59664644f23ff7714cbb86f23c13fa68fef13086109c9178ba"
 
@@ -13973,12 +14145,20 @@ file = "kubejs/data/powergrid/legendarysurvivaloverhaul/temperature/blocks/basin
 hash = "db34957d72880fe69ae27807d4aabce33c6df43d066b637a7793bfe1163fa843"
 
 [[files]]
+file = "kubejs/server_scripts/_molecule_check.js"
+hash = "64330d45cf92c6adf62c03e7759f90e95c124308129c2888e0ff4d0faab92bcb"
+
+[[files]]
+file = "kubejs/server_scripts/auto_reload.js"
+hash = "8e788043ecb11c8979778b3901ef67196183fdd1556b03bdf01cb641f79ac68e"
+
+[[files]]
 file = "kubejs/server_scripts/cbc_destroy_unification.js"
 hash = "1b62c0c0ca42d41fbe76e7188c1dd46ffc5d011ee0b0348801c917342fbd8a8d"
 
 [[files]]
 file = "kubejs/server_scripts/cbc_metallurgy_integration.js"
-hash = "1e4d16f17d8de22ce9ef4bf0d377ff24ceb38f0454190d2f70847a8ced5fd54b"
+hash = "cdcd24cfa6010bb45f3a0489fdb406af9255f07081e85c105912ec5f11edaae9"
 
 [[files]]
 file = "kubejs/server_scripts/ccbr_integration.js"
@@ -13987,10 +14167,6 @@ hash = "6152daae540ffc6fa1caa1ae97d99f2359f7db80fa5a3fc24c7fd0e1a10d17c2"
 [[files]]
 file = "kubejs/server_scripts/cdg_metallurgy_integration.js"
 hash = "4a087d58fdba124cf796e8801e703a795823f2a4ca777b2b03ae5b5e0c6acc48"
-
-[[files]]
-file = "kubejs/server_scripts/copper_nugget.js"
-hash = "4d97be4a228b43c32d4fd25557ed95670de0b22ed3248da37cef6a24345d6341"
 
 [[files]]
 file = "kubejs/server_scripts/create_aeronautics.js"
@@ -14021,6 +14197,10 @@ file = "kubejs/server_scripts/encapsulated_paint_to_cdp_dyes.js"
 hash = "8880cddfaa1eda282125d4b690b1f44f8fb17096326fdbaa81d9e78efdaf6d94"
 
 [[files]]
+file = "kubejs/server_scripts/fix_recipes.js"
+hash = "213a975f249c62ba36c1afa389a30af8a76fb939cf7d636a6343872768dc4573"
+
+[[files]]
 file = "kubejs/server_scripts/flint_and_steel.js"
 hash = "6a7f2cd71bf7bb6c17ba4a063b484b6a92b86a92858ffb8e6eff9bb0091c497a"
 
@@ -14046,15 +14226,23 @@ hash = "9176464e77d98b26137fce11ad09aa24ecf5c8f4f9ba9042e5b3a5ec03672867"
 
 [[files]]
 file = "kubejs/server_scripts/oilyunification.js"
-hash = "5324a45b6c6d5a27a9c4c761c1fa587783af2875310b1b1ae79614bfcb6d5df9"
+hash = "55525004baacfcdb45d02701228735e9133f68e553473f30b2452091b91204c3"
 
 [[files]]
 file = "kubejs/server_scripts/overgeared.js"
 hash = "0c6a78fd980134a6668fbc3edb96e529d196d89ed6c3eb9611d75d63fc683b14"
 
 [[files]]
+file = "kubejs/server_scripts/petrochem_mixing.js"
+hash = "b2a82141bae3dee63462212f325c87d157a0f2ab5c72286df46b32e67a80a7c6"
+
+[[files]]
+file = "kubejs/server_scripts/petrochem_processing.js"
+hash = "a3ffeaa3ed9a9fb8c14ba99f6622b58264a00896fc5ea591b7268c28eb75b219"
+
+[[files]]
 file = "kubejs/server_scripts/powergrid_destroy_integration.js"
-hash = "89fdc6789f148667726ea7290c759ca60d5e2795fb068e5a6bd26a32f4b785d5"
+hash = "4f4acc472152bcbef75795fa066036add09e81ea3817a3b486d59bcee9ccfae1"
 
 [[files]]
 file = "kubejs/server_scripts/propulsion_recipes.js"
@@ -14109,12 +14297,20 @@ file = "kubejs/startup_scripts/overgeared_molds.js"
 hash = "6f830fb2518a966a6d87ab608a009082f2f10d469dc2cf17d0b82e55e26b91a6"
 
 [[files]]
+file = "kubejs/startup_scripts/petrochem_items.js"
+hash = "ff81c0cba95fc7ad58bd68164cc8f62e3c08c7e81fb26576119dfb456a88ff92"
+
+[[files]]
+file = "kubejs/startup_scripts/petrochem_fluids.js"
+hash = "184e6587fe72447f1348f1fa3faa70cd623c12d000ec5b89693e250e71625bd0"
+
+[[files]]
 file = "kubejs/startup_scripts/smokeless_powder.js"
 hash = "4356fabb798b7f138034a0068aa3e0016e6f3f4cac1fd533213346c463ea8927"
 
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "3ebfd0aeeb6ee71dd41a92b92475d29336ff126492a4d8dabd8d8dff7e5477e3"
+hash = "c8eede3e5bcfbf0290330e301430232ecdf1cadc308ab5a9c7a7624a80698c1d"
 
 [[files]]
 file = "logo.png"
@@ -14178,6 +14374,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
+metafile = true
+
+[[files]]
+file = "mods/betterdays.pw.toml"
+hash = "f567df6f58cbb28cd6e28dfa72dde29ed8c787afc6e4694c797b0896fa07c8f6"
 metafile = true
 
 [[files]]
@@ -14303,6 +14504,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemonrf.pw.toml"
 hash = "3b8f885defc122b4174636035d45a1c6fa67017e92ed01240a2bd4920ba93c8d"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
@@ -14641,10 +14847,6 @@ hash = "ac28adfc439374ba252cfeff8439c14894f70522b10549400a17ff5ecf221f2f"
 metafile = true
 
 [[files]]
-file = "mods/lexiconfig-neoforge-1.21-1.4.19.jar"
-hash = "7bcb26452918cf4e31df787ac10566e2f462c80aed53c4e1aa7c4b47bb70d687"
-
-[[files]]
 file = "mods/lexiconfig.pw.toml"
 hash = "9d979373cbe241f781d50fcf9e41bb84576760bbe050d9d8a89f451e0ff7a615"
 metafile = true
@@ -14755,11 +14957,6 @@ hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
-file = "mods/particle-rain.pw.toml"
-hash = "6f24e7f5ecef862b1bdb61031637e27b093f185c3219023bea94d2d954ec4180"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
@@ -14850,8 +15047,13 @@ hash = "907a7f3584909169937bdb0891304108f6a5291ae1fdce211b62e2e8c3e14e68"
 metafile = true
 
 [[files]]
+file = "mods/sable-player-ragdolls.pw.toml"
+hash = "b0254b4d5e44c530fc0db7c1713f531de9e5abfd383b388347075f099b4e9c14"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
-hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
+hash = "07c1d1a846572a60bf88dc54977d9a65d20f74c19209cb82e8d7dfe0d3cdfadf"
 metafile = true
 
 [[files]]
@@ -14867,6 +15069,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "ba0fbc01b797b664021580151aa626f3816bdf4420136cc424761df4d05c9d55"
+metafile = true
+
+[[files]]
+file = "mods/serversleep.pw.toml"
+hash = "5c5192448bfc8094d1a9a2038b29d9dc6e9e668ff74924c2ea378bc489644f94"
 metafile = true
 
 [[files]]
@@ -14900,7 +15107,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "8b49e7f07bc791237e7f292b30e262e8b0d51c2b482226e71c8e24b751ff085c"
+hash = "6e7beb707df0ad9632e26665955d8303851ddbf1f6fb1bfaf752731a8adfa8ac"
 metafile = true
 
 [[files]]
@@ -15001,6 +15208,10 @@ metafile = true
 file = "resourcepacks/simple-create-radios.pw.toml"
 hash = "441cd7d1b5dd4a41b4950095b8def6142e1786d266eb06a7b9c00e2062643b14"
 metafile = true
+
+[[files]]
+file = "scripts/default-config.json"
+hash = "453732e191681999aa414267c6a503fc8e74e6d2a3f09be26ca1f5238c1dba51"
 
 [[files]]
 file = "scripts/molds_config.json"

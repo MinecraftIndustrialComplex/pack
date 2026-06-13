@@ -1,0 +1,5 @@
+{
+  "fluid": "kubejs:kerosene",
+  "thrust_multiplier": 1.05,
+  "consumption_multiplier": 0.95
+}

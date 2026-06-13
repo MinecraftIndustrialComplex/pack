@@ -1,0 +1,17 @@
+{
+  "reactants": [
+    { "molecule": "kubejs:octadecane", "ratio": 1, "order": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 1, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "kubejs:octadecane", "ratio": 1 }
+  ],
+  "item_reactants": [
+    { "item": "createmetallurgy:cobalt_dust", "moles": 200.0, "catalyst": true }
+  ],
+  "kinetics": {
+    "activation_energy": 60.0,
+    "preexponential_factor": 2500.0,
+    "enthalpy_change": -30.0
+  }
+}

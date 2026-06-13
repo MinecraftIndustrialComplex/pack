@@ -33,6 +33,7 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
   - Mowzies mobs: Natty spawns
 - Actually good gun crafting system
 - Fix gold simplebackpacks removing backpack.
+- Add mineral oil and baby oil
 
 # Installation:
 - Grab simple radio jars from their discord.

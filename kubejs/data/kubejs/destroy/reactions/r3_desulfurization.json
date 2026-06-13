@@ -1,0 +1,17 @@
+{
+  "reactants": [
+    { "molecule": "destroy:octasulfur", "ratio": 1, "order": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 8, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "kubejs:hydrogen_sulfide", "ratio": 8 }
+  ],
+  "item_reactants": [
+    { "item": "createmetallurgy:cobalt_dust", "moles": 200.0, "catalyst": true }
+  ],
+  "kinetics": {
+    "activation_energy": 55.0,
+    "preexponential_factor": 3000.0,
+    "enthalpy_change": -25.0
+  }
+}

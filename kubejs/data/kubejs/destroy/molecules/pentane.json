@@ -1,0 +1,10 @@
+{
+  "structure": "destroy:linear:CCCCC",
+  "boiling_point_celsius": 36,
+  "density": 626,
+  "molar_heat_capacity": 120,
+  "color": 1154535552,
+  "tags": [
+    "destroy:solvent"
+  ]
+}

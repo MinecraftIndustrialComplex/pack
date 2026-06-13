@@ -1,5 +1,5 @@
 {
-  "fluid": "destroy:gasoline",
+  "fluid": "createdieselgenerators:gasoline",
   "thrust_multiplier": 1.1,
   "consumption_multiplier": 1.2
 }

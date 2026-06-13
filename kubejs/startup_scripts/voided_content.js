@@ -7,8 +7,7 @@ global.VOIDED_ITEMS = [
   'createdieselgenerators:plant_oil_bucket',
   'createdieselgenerators:crude_oil_bucket',
   'createdieselgenerators:biodiesel_bucket',
-  'createdieselgenerators:gasoline_bucket',
-  'createdieselgenerators:diesel_bucket',
+  // diesel+gasoline buckets unvoided - brought back for petrochem revamp
   'createdieselgenerators:ethanol_bucket',
 
   // duplicate steel (createmetallurgy is canonical)
@@ -66,8 +65,7 @@ global.VOIDED_FLUIDS = [
   'createdieselgenerators:plant_oil',
   'createdieselgenerators:crude_oil',
   'createdieselgenerators:biodiesel',
-  'createdieselgenerators:diesel',
-  'createdieselgenerators:gasoline',
+  // diesel+gasoline unvoided - brought back for petrochem revamp
   'createdieselgenerators:ethanol',
 
   // big cannons (canonical: createmetallurgy)

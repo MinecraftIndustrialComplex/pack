@@ -1,0 +1,5 @@
+{
+  "fluid": "kubejs:premium_gasoline",
+  "thrust_multiplier": 1.4,
+  "consumption_multiplier": 1.1
+}

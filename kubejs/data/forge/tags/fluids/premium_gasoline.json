@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:premium_gasoline",
+    "kubejs:flowing_premium_gasoline"
+  ]
+}

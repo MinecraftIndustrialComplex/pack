@@ -1,0 +1,8 @@
+{
+  "fluid": "#c:cheap_gasoline",
+  "sound_pitch": 0.8,
+  "normal": { "speed": 64.0, "strength": 3072.0, "burn_rate": 0.06 },
+  "modular": { "speed": 64.0, "strength": 4096.0, "burn_rate": 0.06 },
+  "huge": { "speed": 192.0, "strength": 8192.0, "burn_rate": 0.06 },
+  "burner_multiplier": 0.9
+}

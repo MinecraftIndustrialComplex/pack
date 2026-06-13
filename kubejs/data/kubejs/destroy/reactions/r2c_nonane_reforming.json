@@ -1,0 +1,18 @@
+{
+  "reactants": [
+    { "molecule": "kubejs:nonane", "ratio": 1, "order": 1 }
+  ],
+  "products": [
+    { "molecule": "destroy:paraxylene", "ratio": 1 },
+    { "molecule": "destroy:methane", "ratio": 1 },
+    { "molecule": "destroy:hydrogen", "ratio": 3 }
+  ],
+  "item_reactants": [
+    { "item": "destroy:zeolite", "moles": 100.0, "catalyst": true }
+  ],
+  "kinetics": {
+    "activation_energy": 65.0,
+    "preexponential_factor": 8000.0,
+    "enthalpy_change": 25.0
+  }
+}
