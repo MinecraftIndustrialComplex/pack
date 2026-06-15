@@ -1,0 +1,13 @@
+name = "Ragdoll Reactions"
+filename = "ragdoll_reactions-1.21.1-0.6.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6awFMFjR/versions/W3RiBiT9/ragdoll_reactions-1.21.1-0.6.5.jar"
+hash-format = "sha512"
+hash = "c42357bc673837857515f4d428628debfed1b8c18bac57ef467ab06cce29a0a8e66cf45e6d76ebb09348cb9a634a8915dde0c292b5516af017207dcf80188c5b"
+
+[update]
+[update.modrinth]
+mod-id = "6awFMFjR"
+version = "W3RiBiT9"
