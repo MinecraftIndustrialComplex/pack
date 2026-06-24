@@ -1322,6 +1322,11 @@ hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
 
 [[files]]
+file = "mods/project-atmosphere.pw.toml"
+hash = "244620753102a3092feb560ab00ff7d5be3c92d95d867d20b59f477597b1d217"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
 metafile = true
@@ -1394,6 +1399,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons-plus.pw.toml"
+hash = "846abe5d9f8b5c4137771ff5874bf5d228983ca2830ef8508cffcc3c592729bf"
 metafile = true
 
 [[files]]
