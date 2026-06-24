@@ -1,13 +1,13 @@
 name = "Born in Chaos"
-filename = "born_in_chaos_[Neoforge]_1.21.1_1.7.5.jar"
+filename = "born_in_chaos_[Neoforge]_1.21.1_1.7.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1kcHy4de/versions/SmoP64vt/born_in_chaos_%5BNeoforge%5D_1.21.1_1.7.5.jar"
+url = "https://cdn.modrinth.com/data/1kcHy4de/versions/ttcWWp3r/born_in_chaos_%5BNeoforge%5D_1.21.1_1.7.6.jar"
 hash-format = "sha512"
-hash = "9827e7569df214775083d805019740e56a9e674cce93efeeb5c723db779cc652cff6596be542b91e8297bd39d93fbc197159361e296054b5a8a850e5e74a5f2a"
+hash = "69310fffb1d60f27c75ece2bf2f6feb06f9b364cd772917544fad06cacf24b195f838c6fc3807ca8d5ae84675fb08db59179ced4d18de71b9b7d8ddabe4b0fe7"
 
 [update]
 [update.modrinth]
 mod-id = "1kcHy4de"
-version = "SmoP64vt"
+version = "ttcWWp3r"

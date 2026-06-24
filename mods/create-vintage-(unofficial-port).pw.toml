@@ -1,13 +1,13 @@
 name = "Create: Vintage"
-filename = "createvintageneoforged-1.21.1-1.3.5.jar"
+filename = "createvintageneoforged-1.21.1-1.3.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qVZh767G/versions/f3HPDufN/createvintageneoforged-1.21.1-1.3.5.jar"
+url = "https://cdn.modrinth.com/data/qVZh767G/versions/JsCs8dZ7/createvintageneoforged-1.21.1-1.3.6.jar"
 hash-format = "sha512"
-hash = "26255909ab65dcd1b49bc8820bd204b52876adcc88411d1d94c22fa28a35681d398006dc9660e04d4fb56c42651194a375817aaaefe91f0808f29af141a40042"
+hash = "0799afdf80b7237a2ea657f8f6f22950d8b9058b11ffd0ed02a227bf2cdf5c2927a89b6aa4afb356fda0cbb55cb251c587212ceddb2af5ff39f37768a1a6d8ed"
 
 [update]
 [update.modrinth]
 mod-id = "qVZh767G"
-version = "f3HPDufN"
+version = "JsCs8dZ7"
