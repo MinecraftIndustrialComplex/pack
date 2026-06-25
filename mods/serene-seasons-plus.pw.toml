@@ -1,13 +1,13 @@
 name = "Serene Seasons Plus"
-filename = "NeoForge-Version-Serene Seasons Plus-1.21.1-5.1.1.jar"
+filename = "NeoForge-Version-Serene Seasons Plus-1.21.1-4.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4Al4H3t9/versions/cl33kVzM/NeoForge-Version-Serene%20Seasons%20Plus-1.21.1-5.1.1.jar"
+url = "https://cdn.modrinth.com/data/4Al4H3t9/versions/QiOlBGcz/NeoForge-Version-Serene%20Seasons%20Plus-1.21.1-4.2.3.jar"
 hash-format = "sha512"
-hash = "dc7f38fd89903c23100fb841a74985bdab730cc9c0542c1ac722372fd99588adf40c73a1cd3b45e718a5d349cb3b134a3bc921bab233bcde6c1e73d6177b0463"
+hash = "02273b48ff4180c379257b3cf48070a067949928de69c220178ef07f9760d5e9101a7e29a78ddc9289e8070ee3229bce63df4a3a9bef117bd1f6e16f70f7b009"
 
 [update]
 [update.modrinth]
 mod-id = "4Al4H3t9"
-version = "cl33kVzM"
+version = "QiOlBGcz"
