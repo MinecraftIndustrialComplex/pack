@@ -959,7 +959,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-vintage-(unofficial-port).pw.toml"
-hash = "bbbdb7eef5eac472b2f41b46a69aa01fdb68c0b82999df5f92178cf8f5cf2570"
+hash = "99b9475f59e85d05c6c3598baffde8592b3fb72106e02118ac6dac622448f18a"
 metafile = true
 
 [[files]]
@@ -1063,7 +1063,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "edf3fff88146fc4c1c81530bd7deb94a15fcb4e4cb3312bf35ae8a65fa700164"
+hash = "0e79bdc0e20758b00f330867f389e57cd9046496da89fcd37701789443f96d24"
 metafile = true
 
 [[files]]
@@ -1138,7 +1138,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
@@ -1173,12 +1173,12 @@ metafile = true
 
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
-hash = "724206c2b7dbf3501b9ec3ea38036eb616118c1c0ec562d68526eb529f8dfb41"
+hash = "6073107a99cc984fcab576785455f5686850a7aadf4e2c818a93721e67216fd8"
 metafile = true
 
 [[files]]
 file = "mods/legendary-survival-overhaul.pw.toml"
-hash = "ac28adfc439374ba252cfeff8439c14894f70522b10549400a17ff5ecf221f2f"
+hash = "0d717f2837eec7f080109b809b5ed3dc8f935853dcc907a07ee9a5ce2f01c730"
 metafile = true
 
 [[files]]
@@ -1193,12 +1193,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "75d21d70ee36cccb4fb48b69ce654fd3bf5e05e46ffac006d5753b3a4eef4852"
+hash = "6cb90789f0adf2996fd38d3bb22d3e6e09fe00d25653ed5012e8f10846ed6df7"
 metafile = true
 
 [[files]]
@@ -1208,7 +1208,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "988377a2fb2346223a83b6545ec52f5b22ebd0e26b63d141427ad389bedfe4f0"
+hash = "141584f0498f59dc445d163b82e148b339a7948927e476c6183b40da19c05799"
 metafile = true
 
 [[files]]
@@ -1393,7 +1393,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable-player-ragdolls.pw.toml"
-hash = "970467b5ae3aacdf2f3574729b819695c024db63c77c3d4edb94ec5bb978f489"
+hash = "032749f1be201c3900eb6ae7500814dd0cb0430b74df47ba2a606ddbc1c3494b"
 metafile = true
 
 [[files]]
@@ -1448,7 +1448,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "1aad262000bea80b345a973a19a626bfbcb65b2ba78843843649e740168d04fd"
+hash = "e843b87f52758657caf3863367e0f3c22e23c16ac673ab278f12f820b4d4f551"
 metafile = true
 
 [[files]]
@@ -1458,12 +1458,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ffb55dc7c35521b4e3fe36716321b9cf3ca11673bb6e511c63de8e5ec7d29541"
+hash = "2950556c3171e961c78ac6dfb82a006b2b9ad78eebda1930c7f1f436cf6db64b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "82e9a1a3374847c0cda6bd0cef3718df19983226742f988f80a04cee0e94a45f"
+hash = "3f7cef7e3aaadd163f8505cdc372e6f1957b59937d2b96a4cdf38473bce20f47"
 metafile = true
 
 [[files]]
@@ -1483,7 +1483,7 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-1.21.1.pw.toml"
-hash = "6f3afa4d434d61b2c08310e687673fdfe56cee59e245c06f8bcccaf16a682344"
+hash = "1adf681aeaa2bfc05d122993ece170dd6931e38c5cfad0f4bd0cbbbac0b5be79"
 metafile = true
 
 [[files]]

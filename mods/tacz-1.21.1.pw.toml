@@ -1,13 +1,13 @@
 name = "[UNOFFICIAL] TaCZ 1.21.1 NeoForge Port"
-filename = "tacz-neoforge-1.21.1-1.1.8-hotfix-r1.jar"
+filename = "tacz-neoforge-1.21.1-1.1.8-hotfix-r2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/OypNE65K/versions/N9ffXNy0/tacz-neoforge-1.21.1-1.1.8-hotfix-r1.jar"
+url = "https://cdn.modrinth.com/data/OypNE65K/versions/BwxUMl5T/tacz-neoforge-1.21.1-1.1.8-hotfix-r2.jar"
 hash-format = "sha512"
-hash = "802b2011beeb78db72e835ba346e3ee8cdcfa33aec5635bb9f15fe35f1601c6f258541f85ed51ee60ebae0783afcc364561d1f8b5598e36211c3dd303228e413"
+hash = "c4d4d1c6bd1d91943a49c55c68e30ee6219c88a8b359bd1d5c1d32f95ab2622c577fffe27a8a18876007ec9187c2091e83957c1511724a0ccd77bdb92b173c65"
 
 [update]
 [update.modrinth]
 mod-id = "OypNE65K"
-version = "N9ffXNy0"
+version = "BwxUMl5T"
