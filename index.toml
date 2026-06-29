@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".claude/settings.local.json"
+hash = "3b7b0ee6a0e270837b9e9c89ba20112fb0b641234770b4521f51e082367903cf"
+
+[[files]]
+file = "CLAUDE.md"
+hash = "de1438c02ede764f198660d9e697d1e310049446dc8fb6591a5d288492046869"
+
+[[files]]
 file = "LICENCE.txt"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
@@ -565,6 +573,10 @@ file = "kubejs/server_scripts/propulsion_recipes.js"
 hash = "319040294802c648266bf4eadd3ac43c52d56c18410c1a2f90a4bc9733d9d5e3"
 
 [[files]]
+file = "kubejs/server_scripts/radar_integration.js"
+hash = "66a77dfc1d804dd93c178aa9c22396f8d86c70dd30260bd07487aeaa7c8b8bd7"
+
+[[files]]
 file = "kubejs/server_scripts/remove_cobblemon_pokeball_recipes.js"
 hash = "ba3966fc093a732db14370322e5c15b010c82270c7d50f31bb9c97b5420ede70"
 
@@ -631,6 +643,10 @@ hash = "c3aba53ed37b49c38df55c7eb49e4e50e9fd1daa080e4de9e04f497d3173c918"
 [[files]]
 file = "logo.png"
 hash = "e42b0eee51de7c20110d11ecc9592ab0e346dbe162b45800bf585053600c729b"
+
+[[files]]
+file = "mods/Dice-neoforge-1.0.0.jar"
+hash = "cb6b00a061729b5123303612e63404c98810d2c8003cdd9a39e42aa79f46d76a"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -1072,6 +1088,11 @@ hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
 metafile = true
 
 [[files]]
+file = "mods/gabous-libs.pw.toml"
+hash = "13023f6ee3bcd847f2299fd4adc89ecfa802b9e9902662c640c634f7a68a9728"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "076b61776e2df489b323758c97d85c5370554c044845ee2e90476a3c138779e8"
 metafile = true
@@ -1312,6 +1333,10 @@ hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
+file = "mods/playingcards-2.0.1-neoforge.jar"
+hash = "e1c08cf2b6fd700392744b6b8f2a6deab7f109a0ca0f319b04f84dd9575a041f"
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
@@ -1408,7 +1433,7 @@ metafile = true
 
 [[files]]
 file = "mods/serene-seasons-plus.pw.toml"
-hash = "846abe5d9f8b5c4137771ff5874bf5d228983ca2830ef8508cffcc3c592729bf"
+hash = "d464e8d84f3489db66f408b5302fe70be667359d129696d7bc7201e1de331661"
 metafile = true
 
 [[files]]
