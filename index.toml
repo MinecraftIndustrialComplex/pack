@@ -938,6 +938,11 @@ hash = "b3adf7e1a518ce4e49332c3d5855d5c9cdc4ff10a31dc652e5daa85d8f33a619"
 metafile = true
 
 [[files]]
+file = "mods/create-radars.pw.toml"
+hash = "c24712eb82bb29d7ed210d7bc175baeb3b022c3b365b2dd0275c25f690e98f52"
+metafile = true
+
+[[files]]
 file = "mods/create-sound-of-steam.pw.toml"
 hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
 metafile = true
