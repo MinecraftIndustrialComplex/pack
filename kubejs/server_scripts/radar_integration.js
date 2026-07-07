@@ -1,6 +1,6 @@
 const RADAR = 'create_radar'
-const PG = Platform.isLoaded('powergrid')
-const DESTROY = Platform.isLoaded('destroy')
+const HAS_PG = Platform.isLoaded('powergrid')
+const HAS_DESTROY = Platform.isLoaded('destroy')
 
 ServerEvents.recipes(event => {
   if (!Platform.isLoaded('create_radar')) return
@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
   // ==================== CORE RADAR BLOCKS ====================
 
-  if (PG && DESTROY) {
+  if (HAS_PG && HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`${RADAR}:radar_bearing`, [
       ' SBS ',
       'SC CS',
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
       M: 'powergrid:electric_motor',
       E: `create:mechanical_bearing`
     }).id('kubejs:radar/radar_bearing')
-  } else if (PG) {
+  } else if (HAS_PG) {
     event.recipes.create.mechanical_crafting(`${RADAR}:radar_bearing`, [
       ' SBS ',
       'SC CS',
@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
       M: 'powergrid:copper_coil',
       E: `create:mechanical_bearing`
     }).id('kubejs:radar/radar_bearing')
-  } else if (DESTROY) {
+  } else if (HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`${RADAR}:radar_bearing`, [
       ' SBS ',
       'SC CS',
@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Radar Receiver Block (mechanical crafting — antenna/detector) ---
-  if (PG && DESTROY) {
+  if (HAS_PG && HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`${RADAR}:radar_receiver_block`, [
       '  A  ',
       ' RCR ',
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
       C: 'powergrid:capacitor',
       E: 'create:electron_tube'
     }).id('kubejs:radar/radar_receiver_block')
-  } else if (PG) {
+  } else if (HAS_PG) {
     event.recipes.create.mechanical_crafting(`${RADAR}:radar_receiver_block`, [
       '  A  ',
       ' ICI ',
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
       C: 'powergrid:capacitor',
       E: 'create:electron_tube'
     }).id('kubejs:radar/radar_receiver_block')
-  } else if (DESTROY) {
+  } else if (HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`${RADAR}:radar_receiver_block`, [
       '  A  ',
       ' RIR ',
@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
   }).id('kubejs:radar/data_link')
 
   // --- Monitor (mechanical crafting — CRT display array) ---
-  if (PG) {
+  if (HAS_PG) {
     event.recipes.create.mechanical_crafting(`3x ${RADAR}:monitor`, [
       ' BBB ',
       ' CEC ',
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
       E: 'powergrid:circuit_board',
       P: 'create:precision_mechanism'
     }).id('kubejs:radar/monitor')
-  } else if (DESTROY) {
+  } else if (HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`3x ${RADAR}:monitor`, [
       ' BBB ',
       ' BEB ',
@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Network Controller (mechanical crafting — central processing hub) ---
-  if (PG && DESTROY) {
+  if (HAS_PG && HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`${RADAR}:network_filterer`, [
       ' DTI ',
       ' C C ',
@@ -189,7 +189,7 @@ ServerEvents.recipes(event => {
       C: 'powergrid:circuit_board',
       B: 'destroy:stainless_steel_ingot'
     }).id('kubejs:radar/network_filterer')
-  } else if (PG) {
+  } else if (HAS_PG) {
     event.recipes.create.mechanical_crafting(`${RADAR}:network_filterer`, [
       ' DTI ',
       ' C C ',
@@ -201,7 +201,7 @@ ServerEvents.recipes(event => {
       C: 'powergrid:circuit_board',
       B: 'create:brass_casing'
     }).id('kubejs:radar/network_filterer')
-  } else if (DESTROY) {
+  } else if (HAS_DESTROY) {
     event.recipes.create.mechanical_crafting(`${RADAR}:network_filterer`, [
       ' DTI ',
       ' B B ',
@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
   // ==================== WEAPON CONTROL ====================
 
   // --- Auto Yaw Controller (shaped) ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:auto_yaw_controller`, ['B/A'], {
       B: 'powergrid:servo',
       A: 'create:precision_mechanism'
@@ -243,7 +243,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Auto Pitch Controller (shaped) ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:auto_pitch_controller`, ['BG'], {
       B: 'powergrid:servo',
       G: 'create:gearbox'
@@ -256,7 +256,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Fire Controller (shaped — alignment/fire redstone signal) ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:fire_controller`, [
       ' R ',
       'CPC',
@@ -281,7 +281,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Guided Fuze (shaped — proximity fuze for CBC autocannon) ---
-  if (PG && DESTROY) {
+  if (HAS_PG && HAS_DESTROY) {
     event.shaped(`${RADAR}:guided_fuze`, [
       ' E ',
       'RPR',
@@ -292,7 +292,7 @@ ServerEvents.recipes(event => {
       R: 'minecraft:redstone',
       C: 'destroy:nitrocellulose'
     }).id('kubejs:radar/guided_fuze')
-  } else if (PG) {
+  } else if (HAS_PG) {
     event.shaped(`${RADAR}:guided_fuze`, [
       ' E ',
       'RPR',
@@ -302,7 +302,7 @@ ServerEvents.recipes(event => {
       P: 'powergrid:capacitor',
       R: 'minecraft:redstone'
     }).id('kubejs:radar/guided_fuze')
-  } else if (DESTROY) {
+  } else if (HAS_DESTROY) {
     event.shaped(`${RADAR}:guided_fuze`, [
       ' E ',
       'RPR',
@@ -328,7 +328,7 @@ ServerEvents.recipes(event => {
   // ==================== IFF & COUNTERMEASURES ====================
 
   // --- Identification Transponder (shaped — IFF beacon) ---
-  if (PG && DESTROY) {
+  if (HAS_PG && HAS_DESTROY) {
     event.shaped(`${RADAR}:identification_transponder`, [
       ' E ',
       'RBR',
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Radar Warning Receiver (shaped — passive detection alert) ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:radar_warning_receiver`, [
       ' D ',
       'PNP',
@@ -378,7 +378,7 @@ ServerEvents.recipes(event => {
   // ==================== TOOLS ====================
 
   // --- Binoculars (shaped) ---
-  if (DESTROY) {
+  if (HAS_DESTROY) {
     event.shaped(`${RADAR}:binoculars`, [
       'G G',
       'C C',
@@ -401,7 +401,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Radar Safe Zone Designator (shaped) ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:radar_safe_zone_designator`, [
       ' P ',
       'RCR',
@@ -426,7 +426,7 @@ ServerEvents.recipes(event => {
   // ==================== FILTER ITEMS (configuration tools) ====================
 
   // --- Detection Filter ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:radar_filter_item`, [
       ' R ',
       'EPE',
@@ -449,7 +449,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Targeting Filter ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:target_filter_item`, [
       ' R ',
       'PRP',
@@ -471,7 +471,7 @@ ServerEvents.recipes(event => {
   }
 
   // --- Identification Filter ---
-  if (PG) {
+  if (HAS_PG) {
     event.shaped(`${RADAR}:ident_filter_item`, [
       ' E ',
       'RCR',
