@@ -18,10 +18,10 @@ ServerEvents.recipes(e => {
   }
 
   const PETROCHEM_MOLECULES = [
-    'kubejs:isopentane', 'kubejs:isohexane', 'kubejs:isooctane', 'kubejs:heptane', 'kubejs:propane', 'kubejs:butane',
-    'kubejs:hexadecane', 'kubejs:decane', 'kubejs:hydrogen_sulfide',
-    'kubejs:pentane', 'kubejs:hexane', 'kubejs:octane', 'kubejs:nonane', 'kubejs:cyclohexane',
-    'kubejs:undecane', 'kubejs:dodecane', 'kubejs:tetradecane', 'kubejs:eicosane'
+    'mic_petrochem:isopentane', 'mic_petrochem:isohexane', 'mic_petrochem:isooctane', 'mic_petrochem:heptane', 'mic_petrochem:propane', 'mic_petrochem:butane',
+    'mic_petrochem:hexadecane', 'mic_petrochem:decane', 'mic_petrochem:hydrogen_sulfide',
+    'mic_petrochem:pentane', 'mic_petrochem:hexane', 'mic_petrochem:octane', 'mic_petrochem:nonane', 'mic_petrochem:cyclohexane',
+    'mic_petrochem:undecane', 'mic_petrochem:dodecane', 'mic_petrochem:tetradecane', 'mic_petrochem:eicosane'
   ]
 
   if (!allExist(PETROCHEM_MOLECULES)) return
@@ -31,10 +31,10 @@ ServerEvents.recipes(e => {
       { type: 'destroy:mixture_with_molecule', amount: 100, molecule: 'destroy:water', min_concentration: 50.0 }
     ],
     results: [
-      mixture(67, 'mixture.kubejs.hydrogen_stream', [
+      mixture(67, 'mixture.mic_petrochem.hydrogen_stream', [
         { Molecule: 'destroy:hydrogen', Concentration: 35.0 }
       ]),
-      mixture(33, 'mixture.kubejs.oxygen_stream', [
+      mixture(33, 'mixture.mic_petrochem.oxygen_stream', [
         { Molecule: 'destroy:oxygen', Concentration: 17.5 }
       ])
     ],
