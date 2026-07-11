@@ -79,5 +79,6 @@ global.VOIDED_FLUIDS = [
 global.VOIDED_MOD_IDS = [
   'iceandfire',
   'crusty_chunks',
-  'l2complements'
+  'l2complements',
+  'create_power_loader'
 ]
