@@ -1,11 +1,7 @@
 // TacZ recipes — all crafted at the Gun Smith Table via tacz:gun_smith_table_crafting
-// Native recipe format:
-//   materials: [ { item: { item: "mod:id" } or { tag: "c:tag" }, count: N }, ... ]
+// Material format: "item" field is fed to Ingredient.CODEC which expects { item: "id" } or { tag: "c:tag" }:
+//   materials: [ { item: { item: "mod:id" }, count: N } | { item: { tag: "c:tag" }, count: N }, ... ]
 //   result: { type: "gun", id: "tacz:gun_id" } | { type: "ammo", group: "...", id: "tacz:ammo_id", count: N } | { type: "attachment", id: "tacz:attachment_id" }
-
-const CBC = Platform.isLoaded('createbigcannons')
-const DESTROY = Platform.isLoaded('destroy')
-const POWERGRID = Platform.isLoaded('powergrid')
 
 function item(id, count) {
   return { item: { item: id }, count: count || 1 }
@@ -1012,29 +1008,29 @@ event.custom({
 // ===================== AMMUNITION =====================
 
 const AMMO_GROUPS = {
-  '9mm': 'pd_cartridges',
-  '45acp': 'pd_cartridges',
-  '57x28': 'pd_cartridges',
-  '762x25': 'pd_cartridges',
-  '22wmr': 'pd_cartridges',
-  '46x30': 'pd_cartridges',
-  '556x45': 'ifp_rifle_cartridges',
-  '762x39': 'ifp_rifle_cartridges',
-  '545x39': 'ifp_rifle_cartridges',
-  '58x42': 'ifp_rifle_cartridges',
-  '68x51fury': 'ifp_rifle_cartridges',
-  '308': 'ifp_rifle_cartridges',
-  '30_06': 'lc_specialized',
-  '338': 'lc_specialized',
-  '357mag': 'lc_specialized',
-  '45_70': 'lc_specialized',
-  '500mag': 'lc_specialized',
-  '50ae': 'lc_specialized',
-  '50bmg': 'lc_specialized',
-  '792x57': 'ifp_rifle_cartridges',
-  '12g': 'shotgun_shells',
-  '40mm': 'explosives',
-  'rpg_rocket': 'explosives'
+  '9mm': 'tacz:pd_cartridges',
+  '45acp': 'tacz:pd_cartridges',
+  '57x28': 'tacz:pd_cartridges',
+  '762x25': 'tacz:pd_cartridges',
+  '22wmr': 'tacz:pd_cartridges',
+  '46x30': 'tacz:pd_cartridges',
+  '556x45': 'tacz:ifp_rifle_cartridges',
+  '762x39': 'tacz:ifp_rifle_cartridges',
+  '545x39': 'tacz:ifp_rifle_cartridges',
+  '58x42': 'tacz:ifp_rifle_cartridges',
+  '68x51fury': 'tacz:ifp_rifle_cartridges',
+  '308': 'tacz:ifp_rifle_cartridges',
+  '30_06': 'tacz:lc_specialized',
+  '338': 'tacz:lc_specialized',
+  '357mag': 'tacz:lc_specialized',
+  '45_70': 'tacz:lc_specialized',
+  '500mag': 'tacz:lc_specialized',
+  '50ae': 'tacz:lc_specialized',
+  '50bmg': 'tacz:lc_specialized',
+  '792x57': 'tacz:ifp_rifle_cartridges',
+  '12g': 'tacz:shotgun_shells',
+  '40mm': 'tacz:explosives',
+  'rpg_rocket': 'tacz:explosives'
 }
 
 function ammoRecipe(ammoId, count, powder, brass, copper, lead, extra) {
@@ -1099,7 +1095,7 @@ event.custom({
     item('create:brass_ingot', 2),
     item('minecraft:glass', 2)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_1873_6x' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_1873_6x' }
 }).id('kubejs:tacz/att/scope_1873_6x')
 
 event.custom({
@@ -1109,7 +1105,7 @@ event.custom({
     item('minecraft:glass', 1),
     item('minecraft:amethyst_shard', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_98k' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_98k' }
 }).id('kubejs:tacz/att/scope_98k')
 
 event.custom({
@@ -1121,7 +1117,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_elcan_4x' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_elcan_4x' }
 }).id('kubejs:tacz/att/scope_elcan_4x')
 
 event.custom({
@@ -1133,7 +1129,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_hamr' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_hamr' }
 }).id('kubejs:tacz/att/scope_hamr')
 
 event.custom({
@@ -1146,7 +1142,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_lpvo_1_6' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_lpvo_1_6' }
 }).id('kubejs:tacz/att/scope_lpvo_1_6')
 
 event.custom({
@@ -1159,7 +1155,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 2)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_mk5hd' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_mk5hd' }
 }).id('kubejs:tacz/att/scope_mk5hd')
 
 event.custom({
@@ -1170,7 +1166,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_qmk152' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_qmk152' }
 }).id('kubejs:tacz/att/scope_qmk152')
 
 event.custom({
@@ -1180,7 +1176,7 @@ event.custom({
     item('minecraft:glass', 1),
     item('minecraft:amethyst_shard', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_retro_2x' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_retro_2x' }
 }).id('kubejs:tacz/att/scope_retro_2x')
 
 event.custom({
@@ -1193,7 +1189,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 2)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_standard_8x' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_standard_8x' }
 }).id('kubejs:tacz/att/scope_standard_8x')
 
 event.custom({
@@ -1206,7 +1202,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_vudu' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_vudu' }
 }).id('kubejs:tacz/att/scope_vudu')
 
 event.custom({
@@ -1218,7 +1214,7 @@ event.custom({
     item('powergrid:circuit_board', 1),
     item('powergrid:resistor', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_acog_ta31' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_acog_ta31' }
 }).id('kubejs:tacz/att/scope_acog_ta31')
 
 event.custom({
@@ -1228,7 +1224,7 @@ event.custom({
     item('minecraft:glass', 1),
     item('minecraft:amethyst_shard', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_contender' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_contender' }
 }).id('kubejs:tacz/att/scope_contender')
 
 event.custom({
@@ -1238,7 +1234,7 @@ event.custom({
     item('minecraft:glass', 1),
     item('minecraft:amethyst_shard', 1)
   ],
-  result: { type: 'attachment', id: 'tacz:scope_aug_default' }
+  result: { type: 'attachment', group: 'tacz:scope', id: 'tacz:scope_aug_default' }
 }).id('kubejs:tacz/att/scope_aug_default')
 
 // ---- RED DOT SIGHTS ----
@@ -1249,7 +1245,7 @@ function redDot(id, steel, glass, hasBoard) {
   event.custom({
     type: 'tacz:gun_smith_table_crafting',
     materials: materials,
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:scope', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1280,7 +1276,7 @@ function muzzle(id, steel, addItem, addCount) {
   event.custom({
     type: 'tacz:gun_smith_table_crafting',
     materials: materials,
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:muzzle', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1300,7 +1296,7 @@ function suppressor(id, steel, leather) {
   event.custom({
     type: 'tacz:gun_smith_table_crafting',
     materials: materials,
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:muzzle', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1322,7 +1318,7 @@ function grip(id, steel, leather) {
       tag('c:plates/steel', steel),
       item('minecraft:leather', leather)
     ],
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:grip', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1346,7 +1342,7 @@ function stock(id, steel, leather, wood) {
   event.custom({
     type: 'tacz:gun_smith_table_crafting',
     materials: materials,
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:stock', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1373,7 +1369,7 @@ function extMag(id, steel, extra) {
   event.custom({
     type: 'tacz:gun_smith_table_crafting',
     materials: materials,
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:extended_mag', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1402,7 +1398,7 @@ function laser(id, steel, extra) {
   event.custom({
     type: 'tacz:gun_smith_table_crafting',
     materials: materials,
-    result: { type: 'attachment', id: id }
+    result: { type: 'attachment', group: 'tacz:laser', id: id }
   }).id('kubejs:tacz/att/' + id.replace('tacz:', ''))
 }
 
@@ -1419,7 +1415,7 @@ event.custom({
     tag('c:plates/steel', 3),
     item('minecraft:oak_log', 32)
   ],
-  result: { type: 'attachment', id: 'tacz:bayonet_6h3' }
+  result: { type: 'attachment', group: 'tacz:muzzle', id: 'tacz:bayonet_6h3' }
 }).id('kubejs:tacz/att/bayonet_6h3')
 
 event.custom({
@@ -1428,7 +1424,7 @@ event.custom({
     tag('c:plates/steel', 4),
     item('minecraft:oak_log', 32)
   ],
-  result: { type: 'attachment', id: 'tacz:bayonet_m9' }
+  result: { type: 'attachment', group: 'tacz:muzzle', id: 'tacz:bayonet_m9' }
 }).id('kubejs:tacz/att/bayonet_m9')
 
 // ---- SPECIAL ----
@@ -1438,7 +1434,7 @@ event.custom({
     tag('c:plates/steel', 8),
     item('minecraft:gold_ingot', 16)
   ],
-  result: { type: 'attachment', id: 'tacz:deagle_golden_long_barrel' }
+  result: { type: 'attachment', group: 'tacz:muzzle', id: 'tacz:deagle_golden_long_barrel' }
 }).id('kubejs:tacz/att/deagle_golden_long_barrel')
 
 // ---- AMMO MODS ----
@@ -1449,7 +1445,7 @@ event.custom({
     item('minecraft:diamond', 5),
     tag('c:plates/steel', 4)
   ],
-  result: { type: 'attachment', id: 'tacz:ammo_mod_fmj' }
+  result: { type: 'attachment', group: 'tacz:extended_mag', id: 'tacz:ammo_mod_fmj' }
 }).id('kubejs:tacz/att/ammo_mod_fmj')
 
 event.custom({
@@ -1459,7 +1455,7 @@ event.custom({
     item('minecraft:end_crystal', 1),
     tag('c:plates/steel', 4)
   ],
-  result: { type: 'attachment', id: 'tacz:ammo_mod_he' }
+  result: { type: 'attachment', group: 'tacz:extended_mag', id: 'tacz:ammo_mod_he' }
 }).id('kubejs:tacz/att/ammo_mod_he')
 
 event.custom({
@@ -1469,7 +1465,7 @@ event.custom({
     item('minecraft:gold_ingot', 8),
     tag('c:plates/steel', 4)
   ],
-  result: { type: 'attachment', id: 'tacz:ammo_mod_hp' }
+  result: { type: 'attachment', group: 'tacz:extended_mag', id: 'tacz:ammo_mod_hp' }
 }).id('kubejs:tacz/att/ammo_mod_hp')
 
 event.custom({
@@ -1480,7 +1476,7 @@ event.custom({
     item('minecraft:blaze_rod', 4),
     tag('c:plates/steel', 4)
   ],
-  result: { type: 'attachment', id: 'tacz:ammo_mod_i' }
+  result: { type: 'attachment', group: 'tacz:extended_mag', id: 'tacz:ammo_mod_i' }
 }).id('kubejs:tacz/att/ammo_mod_i')
 
 event.custom({
@@ -1490,7 +1486,7 @@ event.custom({
     item('minecraft:netherite_scrap', 1),
     tag('c:plates/steel', 4)
   ],
-  result: { type: 'attachment', id: 'tacz:ammo_mod_slug' }
+  result: { type: 'attachment', group: 'tacz:extended_mag', id: 'tacz:ammo_mod_slug' }
 }).id('kubejs:tacz/att/ammo_mod_slug')
 
 })

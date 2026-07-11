@@ -14,10 +14,10 @@ ServerEvents.recipes(e => {
   // Stainless steel alloying — requires HYPERHEATED (basin heater temp > 1500)
   e.recipes[CM]
     .alloying(Fluid.of(`${DS}:molten_stainless_steel`, 1000), [
-      Fluid.of(`${CM}:molten_iron`, 450),
+      Fluid.of(`${CM}:molten_steel`, 450),
       Fluid.of(`${CM}:molten_nickel`, 180),
       Fluid.of('kubejs:molten_chromium', 90),
-      `${CM}:coke`
+      `${DS}:destroy`
     ])
     .processingTime(200)
     .heatLevel("HYPERHEATED")
@@ -127,4 +127,3 @@ ServerEvents.tags('fluid', e => {
     'kubejs:flowing_molten_chromium'
   ])
 })
-
