@@ -1,0 +1,15 @@
+name = "mic-grid-loader"
+filename = "mic_grid_loader-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MinecraftIndustrialComplex/mic-grid-loader/releases/download/1.0.0/mic_grid_loader-1.21.1-1.0.0.jar"
+hash-format = "sha256"
+hash = "98c94af3fd07e2a26edf60d954359b642657bf9812bbb6096b2ad24247dc8858"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "MinecraftIndustrialComplex/mic-grid-loader"
+tag = "1.0.0"

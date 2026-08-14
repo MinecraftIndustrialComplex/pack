@@ -1058,6 +1058,11 @@ hash = "604b7674b96d10b2c9f03e47a91ec50b448e8193de56f36fca93b5ff0f3132f6"
 metafile = true
 
 [[files]]
+file = "mods/mic-grid-loader.pw.toml"
+hash = "8082ce3f5fb8436814ac120b67b70b5c66791becbfc3ea8213b59b5b2f1ad314"
+metafile = true
+
+[[files]]
 file = "mods/mic_destroy_electric-1.21.1-1.0.0.jar"
 hash = "e15782619b26ea1cff3929c638d8d83b6ab9b842265be0e7269c9336f96a2750"
 
