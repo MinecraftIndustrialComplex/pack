@@ -1032,21 +1032,24 @@ hash = "604b7674b96d10b2c9f03e47a91ec50b448e8193de56f36fca93b5ff0f3132f6"
 metafile = true
 
 [[files]]
+file = "mods/mic-climate.pw.toml"
+hash = "a30273768249b1b923b2f248f26c14c814bee3d210ce2323de666cc28e4366d5"
+metafile = true
+
+[[files]]
+file = "mods/mic-destroy-electric.pw.toml"
+hash = "86b4ca8db4b65979d52c72890cf7b868480da7347ff34da07ef98b66f0228717"
+metafile = true
+
+[[files]]
 file = "mods/mic-grid-loader.pw.toml"
 hash = "8082ce3f5fb8436814ac120b67b70b5c66791becbfc3ea8213b59b5b2f1ad314"
 metafile = true
 
 [[files]]
-file = "mods/mic_climate-1.21.1-0.1.0.jar"
-hash = "775dc48e96272af4de09c7fc04f75571a7e2aef812e2e63c395af96a846b82f6"
-
-[[files]]
-file = "mods/mic_destroy_electric-1.21.1-1.0.0.jar"
-hash = "57e7c839e8c3a2f5ddc766d78b0f6ef3dcb446506cd940916f449e145f6a4001"
-
-[[files]]
-file = "mods/mic_petrochem-1.21.1-1.0.0.jar"
-hash = "73c4025ea29b1263323f40f0148c306394e922022db98f75c42d0bc76b357b64"
+file = "mods/mic-petrochem.pw.toml"
+hash = "1450527ef56757d4980baac3a1c26a097579ff931a1cc6f98c1000fa55b01027"
+metafile = true
 
 [[files]]
 file = "mods/minopp.pw.toml"
