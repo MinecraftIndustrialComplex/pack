@@ -1045,10 +1045,6 @@ file = "mods/mic_destroy_electric-1.21.1-1.0.0.jar"
 hash = "57e7c839e8c3a2f5ddc766d78b0f6ef3dcb446506cd940916f449e145f6a4001"
 
 [[files]]
-file = "mods/mic_grid_loader-1.21.1-1.0.0.jar"
-hash = "6d54312a13e5c32491637b9d95a0d91d821f8d0220b904ff5c58776e4a73e490"
-
-[[files]]
 file = "mods/mic_petrochem-1.21.1-1.0.0.jar"
 hash = "73c4025ea29b1263323f40f0148c306394e922022db98f75c42d0bc76b357b64"
 
@@ -1060,6 +1056,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "c84140c66f233909b392bd7253ca33c59903ffda51beff558d9a2a4a8c6bc269"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
 metafile = true
 
 [[files]]
