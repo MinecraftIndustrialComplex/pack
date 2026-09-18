@@ -1,13 +1,13 @@
 name = "Rolled Homongenous: Forked"
-filename = "rha-1.0.3-1.21.1.jar"
+filename = "rha-1.0.3b.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/UFXAeoqT/versions/xEpTXgPb/rha-1.0.3-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/UFXAeoqT/versions/WODSoRtT/rha-1.0.3b.jar"
 hash-format = "sha512"
-hash = "be1c50501d2fbc1befc564833780162ec8f7dbc4631018f1fb58b9b2244d2a5bd28def10dc1d43ca9f3f3a3c20acf32be972b61028c7e9d2336b7de7c7335a00"
+hash = "b1580113fe5fd548746c976a79cf83cf70e1214b5145361b79f4a5a998a9eb9f36aec53bd4b02e702f688f833e0bf7a2f394bbb503beb6ab29db29d829099167"
 
 [update]
 [update.modrinth]
 mod-id = "UFXAeoqT"
-version = "xEpTXgPb"
+version = "WODSoRtT"

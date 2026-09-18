@@ -1,13 +1,13 @@
 name = "Legendary Survival Overhaul"
-filename = "legendarysurvivaloverhaul-1.21.1-2.4.5.jar"
+filename = "legendarysurvivaloverhaul-1.21.1-2.4.7.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TQr3t8Sb/versions/qVabfOA6/legendarysurvivaloverhaul-1.21.1-2.4.5.jar"
+url = "https://cdn.modrinth.com/data/TQr3t8Sb/versions/AZzEduN3/legendarysurvivaloverhaul-1.21.1-2.4.7.2.jar"
 hash-format = "sha512"
-hash = "0c3986a55beb95843180d20142b1de379ab6708dbdbbd377c0056214808c6fef2405b501a680af7baf2ca808a27de7bdd1d2ed6b9813cd44bcb1a5e633c47762"
+hash = "953a728870daa1c1d33fb9db36d2386e98122bc9242161ef9bfbd724e01669c236c9f7b4eea99222cdcc070d14973e44fbf940b28b1497231a2fed18ecd1f3a8"
 
 [update]
 [update.modrinth]
 mod-id = "TQr3t8Sb"
-version = "qVabfOA6"
+version = "AZzEduN3"

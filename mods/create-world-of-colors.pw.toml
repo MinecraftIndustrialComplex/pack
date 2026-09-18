@@ -1,0 +1,13 @@
+name = "Create: World of Colors"
+filename = "world_of_color-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DLDpwb0R/versions/jBxdmYmP/world_of_color-1.2.1.jar"
+hash-format = "sha512"
+hash = "66c8820393f50b71398d1afc024aa8f574444471c4484dc0f53bd4c97b5a60286f692709066458b5d8b789017113aade53952b59ab9b8f173d5360ab4082c5d5"
+
+[update]
+[update.modrinth]
+mod-id = "DLDpwb0R"
+version = "jBxdmYmP"

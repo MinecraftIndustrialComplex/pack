@@ -1,13 +1,13 @@
 name = "Veinminer"
-filename = "Veinminer-neoforge-3.1.2+mc1.21.1.jar"
+filename = "Veinminer-neoforge-3.1.3+mc1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/MnavVAzj/versions/axtsxx77/Veinminer-neoforge-3.1.2%2Bmc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/MnavVAzj/versions/KZwNdyUM/Veinminer-neoforge-3.1.3%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "4a667a652decb0d5b9d65c49360f235f39d8a974161278d1d2ef8b901631705c400c3817df00a1f4befd02f05403b93ca7011388c8d78d3412faf27564280388"
+hash = "ad4719c2fa8331ad8f0fac734e93c8d0a20004ec1a93fbce493e4fc1cdde399fd4e2fa15cdb742a684594f20213c98aeb57108a877db0db3a2a21265dba7ad5c"
 
 [update]
 [update.modrinth]
 mod-id = "MnavVAzj"
-version = "axtsxx77"
+version = "KZwNdyUM"

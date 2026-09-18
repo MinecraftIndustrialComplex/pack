@@ -1,13 +1,13 @@
 name = "Create: Diesel Generators"
-filename = "createdieselgenerators-1.21.1-1.3.14.jar"
+filename = "createdieselgenerators-1.21.1-1.3.15.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/Kijd1iDy/createdieselgenerators-1.21.1-1.3.14.jar"
+url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/UoPH8lO1/createdieselgenerators-1.21.1-1.3.15.jar"
 hash-format = "sha512"
-hash = "9386203b0afdb69ccfeb753579311f043104f49049ce99063f279e4ede191361436d9c875b929f30e44e0c69594d3d319a90aeab1d3a08bb6de309fef4d39a0f"
+hash = "1507ebcd07d3185aac3ae6ce768b4d6bab16cb6f39776d25a850c8133a4dc5826b8ddbeca112d76afc64deaa37ec177cac4237c6c34621c4b65e73d83f8ab43f"
 
 [update]
 [update.modrinth]
 mod-id = "ZM3tt6p1"
-version = "Kijd1iDy"
+version = "UoPH8lO1"

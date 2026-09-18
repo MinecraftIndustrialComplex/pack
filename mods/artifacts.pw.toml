@@ -1,13 +1,13 @@
 name = "Artifacts"
-filename = "artifacts-neoforge-13.2.1.jar"
+filename = "artifacts-neoforge-13.2.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/rGPw090r/artifacts-neoforge-13.2.1.jar"
+url = "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lMfuK0o7/artifacts-neoforge-13.2.5.jar"
 hash-format = "sha512"
-hash = "4e5ccc2733e2ede833e6c4ae6b44751eab5ac48857055b61fdcbb6434c7d867c17b438eea9f226f6af652ee397f3fb4d7583f263a5d706d730ff7243ace865dc"
+hash = "9079bc8a22c237881b22b38027bbab2a8a2e685a1f49c1e1e0e5796f3e0a5509a130d73753c7b2980f12e4f00845f8e8c967ee969f1eadcd52139c2780afe09d"
 
 [update]
 [update.modrinth]
 mod-id = "P0Mu4wcQ"
-version = "rGPw090r"
+version = "lMfuK0o7"
