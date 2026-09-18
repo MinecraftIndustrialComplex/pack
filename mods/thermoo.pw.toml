@@ -1,0 +1,13 @@
+name = "Thermoo"
+filename = "thermoo-4.8.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9TbXlAut/versions/T0vIbHHv/thermoo-4.8.1-neoforge.jar"
+hash-format = "sha512"
+hash = "3c81b9690f7e8dfb9c76b9101bb4dc578284a5f09bbd45b409e9a872adbc8a1e460ed8b65083bd0c397b585d9688a436438dc0e537035af1a42febc3540ac265"
+
+[update]
+[update.modrinth]
+mod-id = "9TbXlAut"
+version = "T0vIbHHv"

@@ -7,6 +7,12 @@
   },
   {
     "properties": {
+      "blaze": "fading"
+    },
+    "temperature": 10.0
+  },
+  {
+    "properties": {
       "blaze": "kindled"
     },
     "temperature": 20.0
