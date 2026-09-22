@@ -12,16 +12,32 @@ ServerEvents.recipes(e => {
   e.remove({ id: 'destroy:mixing/stainless_steel_inefficient_fluxed' })
 
   // Stainless steel alloying — requires HYPERHEATED (basin heater temp > 1500)
+  // Coke is the reductant for the chromium, matching the charcoal slot in Destroy's own
+  // six stainless recipes (all removed above). Flux is optional and buys speed, mirroring
+  // Destroy's unfluxed/fluxed pair. destroy:fluxes = fluorite, oxidized sodium, borax,
+  // chalk dust, quicklime — borax is the one that does not compete with the HF chain.
   e.recipes[CM]
     .alloying(Fluid.of(`${DS}:molten_stainless_steel`, 1000), [
       Fluid.of(`${CM}:molten_steel`, 450),
       Fluid.of(`${CM}:molten_nickel`, 180),
       Fluid.of('kubejs:molten_chromium', 90),
-      `${DS}:destroy`
+      `${CM}:coke`
     ])
     .processingTime(200)
     .heatLevel("HYPERHEATED")
     .id('kubejs:destroy/alloy_stainless_steel')
+
+  e.recipes[CM]
+    .alloying(Fluid.of(`${DS}:molten_stainless_steel`, 1000), [
+      Fluid.of(`${CM}:molten_steel`, 450),
+      Fluid.of(`${CM}:molten_nickel`, 180),
+      Fluid.of('kubejs:molten_chromium', 90),
+      `${CM}:coke`,
+      `#${DS}:fluxes`
+    ])
+    .processingTime(100)
+    .heatLevel("HYPERHEATED")
+    .id('kubejs:destroy/alloy_stainless_steel_fluxed')
 
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_nickel`, INGOT_MB), `${DS}:nickel_ingot`).processingTime(30).heated().id('kubejs:destroy/melt_nickel_ingot')
   e.recipes[CM].melting(Fluid.of(`${CM}:molten_nickel`, INGOT_MB), `${DS}:nickel_powder`).processingTime(30).heated().id('kubejs:destroy/melt_nickel_powder')
