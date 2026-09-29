@@ -18,19 +18,27 @@ hash = "604d07a6f04f58980b65db940f94c5eb1c4ed5a595f689176e8b2a56be544138"
 
 [[files]]
 file = "config/almostunified/debug.json"
-hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
+hash = "e4742020c79a12fbb718d368d7ebc6ca326717c11b508f4ea616e308160b55cf"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
-hash = "f691adbc09657b01c03384ec2a08c17d519fa37047b5b79ed78f6653304b5f4d"
+hash = "c29eb8a1ae147a8c427ad4404ecb3291dcc529c23128e2139681e8d06f7b17ae"
+
+[[files]]
+file = "config/almostunified/placeholders.json"
+hash = "98185cbc7612def928eb9e9ac959aa7ffdf0956c338c205630539e2762595ac4"
 
 [[files]]
 file = "config/almostunified/startup.json"
-hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
+hash = "b4ce4d99b37a679b372fd2d5c34113f0b79adfe67a5b830e4fb5a20f47951278"
 
 [[files]]
-file = "config/almostunified/unify.json"
-hash = "2867ea3891931145e3d0b45c2147a572c2068aa46dbc4ca6c1c994838cabb316"
+file = "config/almostunified/tags.json"
+hash = "e9748f03bcafd9a78bf11c5b1bb3be0933d8fa0ac71ade653aec19fb183f20aa"
+
+[[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "82cfae3ad79699ab2ebc930d5a057f1e8388acdf51a7aeb45dbddd651478264c"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"

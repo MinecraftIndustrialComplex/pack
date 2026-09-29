@@ -1,0 +1,35 @@
+{
+  "custom_tags": {
+    "c:ores/zinc": [
+      "create:zinc_ore"
+    ],
+    "c:ores/lead": [
+      "createnuclear:lead_ore",
+      "createnuclear:deepslate_lead_ore"
+    ],
+    "c:ores/nickel": [
+      "destroy:nickel_ore"
+    ],
+    "c:ores/uranium": [
+      "createnuclear:uranium_ore"
+    ],
+    "c:ingots/zinc": [
+      "create:zinc_ingot"
+    ],
+    "c:ingots/brass": [
+      "create:brass_ingot"
+    ],
+    "c:ingots/steel": [
+      "createmetallurgy:steel_ingot"
+    ],
+    "c:slag": [
+      "destroy:slag",
+      "createmetallurgy:slag"
+    ]
+  },
+  "tag_substitutions": {},
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance": {},
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {}
+}
