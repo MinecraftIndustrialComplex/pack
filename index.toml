@@ -29,6 +29,10 @@ file = "config/almostunified/startup.json"
 hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "5f7af0badb5c547edc20c1a881135f1b3be70212f9c8fd1bb97fc104534ad678"
+
+[[files]]
 file = "config/almostunified/unify.json"
 hash = "2867ea3891931145e3d0b45c2147a572c2068aa46dbc4ca6c1c994838cabb316"
 
