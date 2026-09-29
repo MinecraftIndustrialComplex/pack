@@ -2,17 +2,16 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
-    "crafttweaker",
     "createmetallurgy",
-    "create_tank_defenses",
     "createnuclear",
     "create",
     "destroy",
     "createbigcannons",
-    "thermal",
-    "immersiveengineering",
-    "mekanism",
-    "crusty_chunks"
+    "pneumaticcraft",
+    "copycats",
+    "create_connected",
+    "create_dd",
+    "tfmg"
   ],
   "priority_overrides": {
     "c:ores/zinc": "create",
@@ -24,7 +23,6 @@
     "c:ingots/lead": "destroy",
     "c:storage_blocks/lead": "destroy",
     "c:ingots/steel": "createmetallurgy",
-    "c:plates/steel": "create_tank_defenses",
     "c:slag": "destroy",
     "c:autocannon_barrels/steel": "createbigcannons",
     "c:cannon_barrels/steel": "createbigcannons",
@@ -33,6 +31,7 @@
     "c:ingots/platinum": "destroy",
     "c:storage_blocks/platinum": "destroy",
     "c:crushed_ores/platinum": "destroy",
+    "c:nuggets/steel": "overgeared",
     "c:ores/silver": "iceandfire"
   },
   "stone_variants": [
@@ -61,7 +60,20 @@
     "c:autocannon_barrels/steel",
     "c:cannon_barrels/steel",
     "c:autocannon_barrels/cast_iron",
-    "c:cannon_barrels/cast_iron"
+    "c:cannon_barrels/cast_iron",
+    "c:ingots/plastic",
+    "createaddoncompatibility:six_way_gearbox",
+    "copycats:copycat_beam",
+    "copycats:copycat_block",
+    "copycats:copycat_board",
+    "copycats:copycat_box",
+    "copycats:copycat_catwalk",
+    "copycats:copycat_fence",
+    "copycats:copycat_fence_gate",
+    "copycats:copycat_slab",
+    "copycats:copycat_stairs",
+    "copycats:copycat_vertical_step",
+    "copycats:copycat_wall"
   ],
   "ignored_tags": [],
   "ignored_items": [
@@ -72,7 +84,10 @@
     "cucumber:shaped_tag"
   ],
   "ignored_recipe_ids": [
-    "createmetallurgy:casting_in_(table|basin)/[^/]+/[^/]+"
+    "createmetallurgy:casting_in_(table|basin)/[^/]+/[^/]+",
+    "createbigcannons:mixing/alloy_steel",
+    "createnuclear:mixing/steel",
+    "createbigcannons:compacting/forge_steel_ingot"
   ],
   "recipe_viewer_hiding": true,
   "loot_unification": false,

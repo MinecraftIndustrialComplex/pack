@@ -39,9 +39,10 @@ Schema (EV 4.3.1, from `api/data/Stone` and `api/data/Ore` codecs):
 
 This branch first carried AU's generated default plus three EV entries, because AU 1.4.2 reads only
 `config/almostunified/unification/*.json` and master's `unify.json` (0.x layout) was never read.
-Master now ports that config (`au-port`, 7dd9dd2: `unification/materials.json`, `placeholders.json`,
-`tags.json`, and the renamed duplicates/startup/debug files; `unify.json` deleted), and this branch
-has merged it. The EV entries were reconciled against the port:
+The AU port for master (`au-port-steel-guard`, 5041f8e: the port, a steel guard against KubeJS's
+recipe cleanup, entries for absent mods pruned, Create Addon Compatibility's injected entries written
+out) is merged into this branch. `unify.json` is deleted; `unification/materials.json`,
+`placeholders.json` and `tags.json` are new. The EV entries were reconciled against the port:
 
 - `c:ores/lead → createnuclear`: in the port already (it came from `unify.json`). Nothing added.
 - `c:ores/coal`: the port's `placeholders.json` lists `coal` as a `{material}`, so `c:ores/{material}`
@@ -49,10 +50,10 @@ has merged it. The EV entries were reconciled against the port:
 - `c:ores/silver → iceandfire`: not in the port and no priority mod owns silver. Added to
   `priority_overrides`; it is the only line this branch's `materials.json` has beyond the port.
 
-The file this branch used to carry also held the entries Create Addon Compatibility appends to every
-AU config in memory on a dedicated server (pneumaticcraft, copycats, create_connected, create_dd, tfmg;
-`c:ingots/plastic`, the copycat tags). They came from copying a generated file, not from EV, and are
-not carried. The mod's mixin is server-side only, so a singleplayer world does not get them.
+The copycat tags, `c:ingots/plastic` and the pneumaticcraft/copycats/create_connected/create_dd/tfmg
+priorities that this branch used to carry from a generated file are in the port too: Create Addon
+Compatibility appends them in memory on a dedicated server only, so the port writes them out and
+singleplayer gets them as well.
 
 ## Verification (2026-09-29, on the Mac)
 
@@ -98,11 +99,13 @@ the MVT) and **silver 46 / 46** (43 in black argillite, 3 in asurine). Zinc 3,17
 gold, iron, lapis, **lead**, **silver** and zinc (19 of 24 items each, 24 of 30 for gold). AU keeps
 one item per stone stratum.
 
-Re-measured after merging `au-port` (2026-09-29, a plain dedicated boot of the pack without the Deep
-Time jar, on the Mac, AU debug dumps on; the counts above are from the Deep Time world, these from the
-boot-time lookup): the same 10 tags hide the same EV variants as the generated-default file did
-(15 of 20 entries in nine tags, 20 of 26 in gold; lead, silver and coal included), 0 AU errors, and the pack installs from
-the merged index with `unify.json` removed.
+Re-measured after merging the AU candidate (`au-port-steel-guard`, 2026-09-29, a plain dedicated boot of
+the pack without the Deep Time jar, on the Mac, AU debug dumps on; the counts above are from the Deep Time
+world, these from the boot-time lookup): the same 10 ore tags hide the same EV variants as the
+generated-default file did (15 of 20 entries in nine tags, 20 of 26 in gold; lead, silver and coal
+included), 0 AU errors, and the pack installs from the merged index with `unify.json` removed. A boot with
+Create Addon Compatibility's mixin switched off (a singleplayer view) unifies exactly what the server boot
+does.
 
 Not checked here: textures. DAG paints EV's textures on the client. Q10's `ev-assets` client run
 covered only EV's own and Deep Time's stones, so the argillite, lead and silver sprites have not
