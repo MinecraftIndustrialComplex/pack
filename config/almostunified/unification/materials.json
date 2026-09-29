@@ -6,7 +6,12 @@
     "createnuclear",
     "create",
     "destroy",
-    "createbigcannons"
+    "createbigcannons",
+    "pneumaticcraft",
+    "copycats",
+    "create_connected",
+    "create_dd",
+    "tfmg"
   ],
   "priority_overrides": {
     "c:ores/zinc": "create",
@@ -54,7 +59,20 @@
     "c:autocannon_barrels/steel",
     "c:cannon_barrels/steel",
     "c:autocannon_barrels/cast_iron",
-    "c:cannon_barrels/cast_iron"
+    "c:cannon_barrels/cast_iron",
+    "c:ingots/plastic",
+    "createaddoncompatibility:six_way_gearbox",
+    "copycats:copycat_beam",
+    "copycats:copycat_block",
+    "copycats:copycat_board",
+    "copycats:copycat_box",
+    "copycats:copycat_catwalk",
+    "copycats:copycat_fence",
+    "copycats:copycat_fence_gate",
+    "copycats:copycat_slab",
+    "copycats:copycat_stairs",
+    "copycats:copycat_vertical_step",
+    "copycats:copycat_wall"
   ],
   "ignored_tags": [],
   "ignored_items": [

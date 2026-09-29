@@ -38,7 +38,7 @@ hash = "e9748f03bcafd9a78bf11c5b1bb3be0933d8fa0ac71ade653aec19fb183f20aa"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "6f11022664c749eddd1f69ba234f71f2ed87ee4c85921c6e798d9fef41276983"
+hash = "82cfae3ad79699ab2ebc930d5a057f1e8388acdf51a7aeb45dbddd651478264c"
 
 [[files]]
 file = "config/cavedifficulty-common.toml"
