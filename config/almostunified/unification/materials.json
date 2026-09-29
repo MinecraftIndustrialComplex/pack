@@ -2,17 +2,11 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
-    "crafttweaker",
     "createmetallurgy",
-    "create_tank_defenses",
     "createnuclear",
     "create",
     "destroy",
-    "createbigcannons",
-    "thermal",
-    "immersiveengineering",
-    "mekanism",
-    "crusty_chunks"
+    "createbigcannons"
   ],
   "priority_overrides": {
     "c:ores/zinc": "create",
@@ -24,7 +18,6 @@
     "c:ingots/lead": "destroy",
     "c:storage_blocks/lead": "destroy",
     "c:ingots/steel": "createmetallurgy",
-    "c:plates/steel": "create_tank_defenses",
     "c:slag": "destroy",
     "c:autocannon_barrels/steel": "createbigcannons",
     "c:cannon_barrels/steel": "createbigcannons",
