@@ -1,12 +1,12 @@
 {
-  "ignoredRecipeTypes": [
+  "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
-  "defaultDuplicateRules": {
-    "ignoredFields": [
+  "ignored_recipe_ids": [],
+  "default_duplicate_rules": {
+    "ignored_fields": [
       "show_notification",
-      "conditions",
+      "neoforge:conditions",
       "category",
       "group"
     ],
@@ -15,21 +15,21 @@
       "energy": "HigherRule",
       "experience": "HigherRule"
     },
-    "shouldSanitize": false
+    "handle_implicit_counts": false
   },
-  "overrideDuplicateRules": {
+  "override_duplicate_rules": {
     "minecraft:crafting_shaped": {
-      "ignoredFields": [
+      "ignored_fields": [
         "pattern",
         "show_notification",
-        "conditions",
+        "neoforge:conditions",
         "category",
         "key",
         "group"
       ],
       "rules": {},
-      "shouldSanitize": false
+      "handle_implicit_counts": false
     }
   },
-  "strictMode": false
+  "compare_all": false
 }

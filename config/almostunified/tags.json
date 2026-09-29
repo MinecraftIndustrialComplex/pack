@@ -1,0 +1,69 @@
+{
+  "custom_tags": {
+    "c:dusts/iron": [
+      "crusty_chunks:iron_dust",
+      "create_tank_defenses:iron_dust"
+    ],
+    "c:dusts/gold": [
+      "crusty_chunks:gold_dust"
+    ],
+    "c:dusts/copper": [
+      "crusty_chunks:copper_dust"
+    ],
+    "c:dusts/zinc": [
+      "crusty_chunks:zinc_dust"
+    ],
+    "c:ores/zinc": [
+      "crusty_chunks:zinc_ore",
+      "create:zinc_ore"
+    ],
+    "c:ores/lead": [
+      "crusty_chunks:lead_ore",
+      "crusty_chunks:deepslate_lead_ore",
+      "createnuclear:lead_ore",
+      "createnuclear:deepslate_lead_ore"
+    ],
+    "c:ores/nickel": [
+      "crusty_chunks:nickel_ore",
+      "destroy:nickel_ore"
+    ],
+    "c:ores/uranium": [
+      "crusty_chunks:uranium_ore",
+      "createnuclear:uranium_ore"
+    ],
+    "c:ingots/zinc": [
+      "crusty_chunks:zinc_ingot",
+      "create:zinc_ingot"
+    ],
+    "c:ingots/brass": [
+      "crusty_chunks:brass_ingot",
+      "create:brass_ingot"
+    ],
+    "c:ingots/steel": [
+      "create_tank_defenses:steel_ingot",
+      "crusty_chunks:steel_ingot",
+      "createmetallurgy:steel_ingot"
+    ],
+    "c:ingots/aluminum": [
+      "crusty_chunks:aluminum_ingot",
+      "create_tank_defenses:aluminum_ingot"
+    ],
+    "c:plates/steel": [
+      "crusty_chunks:steelplate",
+      "create_tank_defenses:steel_sheet"
+    ],
+    "c:dusts/aluminum": [
+      "crusty_chunks:aluminum_dust",
+      "create_tank_defenses:aluminum_dust"
+    ],
+    "c:slag": [
+      "destroy:slag",
+      "createmetallurgy:slag"
+    ]
+  },
+  "tag_substitutions": {},
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance": {},
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {}
+}

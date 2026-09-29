@@ -1,0 +1,79 @@
+{
+  "mod_priorities": [
+    "minecraft",
+    "kubejs",
+    "crafttweaker",
+    "createmetallurgy",
+    "create_tank_defenses",
+    "createnuclear",
+    "create",
+    "destroy",
+    "createbigcannons",
+    "thermal",
+    "immersiveengineering",
+    "mekanism",
+    "crusty_chunks"
+  ],
+  "priority_overrides": {
+    "c:ores/zinc": "create",
+    "c:ores/lead": "createnuclear",
+    "c:ores/nickel": "destroy",
+    "c:ores/uranium": "createnuclear",
+    "c:ingots/zinc": "create",
+    "c:ingots/brass": "create",
+    "c:ingots/lead": "destroy",
+    "c:storage_blocks/lead": "destroy",
+    "c:ingots/steel": "createmetallurgy",
+    "c:plates/steel": "create_tank_defenses",
+    "c:slag": "destroy",
+    "c:autocannon_barrels/steel": "createbigcannons",
+    "c:cannon_barrels/steel": "createbigcannons",
+    "c:autocannon_barrels/cast_iron": "createbigcannons",
+    "c:cannon_barrels/cast_iron": "createbigcannons",
+    "c:ingots/platinum": "destroy",
+    "c:storage_blocks/platinum": "destroy",
+    "c:crushed_ores/platinum": "destroy"
+  },
+  "stone_variants": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "netherrack",
+    "end_stone"
+  ],
+  "tags": [
+    "c:nuggets/{material}",
+    "c:dusts/{material}",
+    "c:gears/{material}",
+    "c:gems/{material}",
+    "c:ingots/{material}",
+    "c:raw_materials/{material}",
+    "c:ores/{material}",
+    "c:plates/{material}",
+    "c:rods/{material}",
+    "c:wires/{material}",
+    "c:storage_blocks/{material}",
+    "c:storage_blocks/raw_{material}",
+    "c:slag",
+    "c:autocannon_barrels/steel",
+    "c:cannon_barrels/steel",
+    "c:autocannon_barrels/cast_iron",
+    "c:cannon_barrels/cast_iron"
+  ],
+  "ignored_tags": [],
+  "ignored_items": [
+    ".*:small_aluminum_dust",
+    "destroy:stainless_steel_.*"
+  ],
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag"
+  ],
+  "ignored_recipe_ids": [
+    "createmetallurgy:casting_in_(table|basin)/[^/]+/[^/]+"
+  ],
+  "recipe_viewer_hiding": true,
+  "loot_unification": false,
+  "ignored_loot_tables": []
+}
