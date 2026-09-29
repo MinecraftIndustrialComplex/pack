@@ -32,7 +32,8 @@
     "c:cannon_barrels/cast_iron": "createbigcannons",
     "c:ingots/platinum": "destroy",
     "c:storage_blocks/platinum": "destroy",
-    "c:crushed_ores/platinum": "destroy"
+    "c:crushed_ores/platinum": "destroy",
+    "c:nuggets/steel": "overgeared"
   },
   "stone_variants": [
     "stone",
@@ -71,7 +72,10 @@
     "cucumber:shaped_tag"
   ],
   "ignored_recipe_ids": [
-    "createmetallurgy:casting_in_(table|basin)/[^/]+/[^/]+"
+    "createmetallurgy:casting_in_(table|basin)/[^/]+/[^/]+",
+    "createbigcannons:mixing/alloy_steel",
+    "createnuclear:mixing/steel",
+    "createbigcannons:compacting/forge_steel_ingot"
   ],
   "recipe_viewer_hiding": true,
   "loot_unification": false,
