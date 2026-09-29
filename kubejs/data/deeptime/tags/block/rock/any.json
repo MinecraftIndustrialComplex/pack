@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/igneous",
+    "#deeptime:rock/sedimentary",
+    "#deeptime:rock/metamorphic",
+    "#deeptime:rock/special",
+    "#deeptime:rock/unconsolidated",
+    "#deeptime:rock/unclassified_crust"
+  ]
+}

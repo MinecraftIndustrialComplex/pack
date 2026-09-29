@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/rhyolite",
+    "#deeptime:rock/andesite",
+    "#deeptime:rock/basalt",
+    "#deeptime:rock/tuff",
+    "#deeptime:rock/obsidian",
+    "#deeptime:rock/scoria",
+    "#deeptime:rock/pumice"
+  ]
+}

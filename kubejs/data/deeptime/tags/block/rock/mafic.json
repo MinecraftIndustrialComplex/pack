@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/gabbro",
+    "#deeptime:rock/anorthosite",
+    "#deeptime:rock/basalt",
+    "#deeptime:rock/scoria",
+    "#deeptime:rock/amphibolite",
+    "#deeptime:rock/greenstone"
+  ]
+}

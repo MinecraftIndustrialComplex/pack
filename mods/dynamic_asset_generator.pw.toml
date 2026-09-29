@@ -1,0 +1,13 @@
+name = "Dynamic Asset Generator"
+filename = "dynamicassetgenerator-6.1.2-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/83pFEQVb/versions/U0ft2n2p/dynamicassetgenerator-6.1.2-neoforge.jar"
+hash-format = "sha512"
+hash = "b3b87fc00e39bcabc3b883c7cd59b49cf3d5d3e9c01fa09394603801bd48bd914c1b0818ccc3075938e072daf9bb4106ec21d55f12eae48c6cee1a2f1f0e7387"
+
+[update]
+[update.modrinth]
+mod-id = "83pFEQVb"
+version = "U0ft2n2p"

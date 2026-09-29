@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/conglomerate",
+    "#deeptime:rock/sandstone",
+    "#deeptime:rock/red_bed",
+    "#deeptime:rock/mudstone",
+    "#deeptime:rock/shale",
+    "#deeptime:rock/black_shale"
+  ]
+}

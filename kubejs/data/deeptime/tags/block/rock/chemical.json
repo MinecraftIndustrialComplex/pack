@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/limestone",
+    "#deeptime:rock/dolostone",
+    "#deeptime:rock/chalk",
+    "#deeptime:rock/chert",
+    "#deeptime:rock/travertine",
+    "#deeptime:rock/halite",
+    "#deeptime:rock/gypsum",
+    "#deeptime:rock/anhydrite",
+    "#deeptime:rock/coal",
+    "#deeptime:rock/ironstone",
+    "#deeptime:rock/banded_iron_formation",
+    "#deeptime:rock/phosphorite"
+  ]
+}

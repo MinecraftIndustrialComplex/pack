@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/slate",
+    "#deeptime:rock/phyllite",
+    "#deeptime:rock/schist",
+    "#deeptime:rock/blueschist",
+    "#deeptime:rock/greenstone",
+    "#deeptime:rock/gneiss",
+    "#deeptime:rock/quartzite",
+    "#deeptime:rock/marble",
+    "#deeptime:rock/amphibolite",
+    "#deeptime:rock/eclogite",
+    "#deeptime:rock/hornfels",
+    "#deeptime:rock/skarn",
+    "#deeptime:rock/serpentinite",
+    "#deeptime:rock/greisen"
+  ]
+}

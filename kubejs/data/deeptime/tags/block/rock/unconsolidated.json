@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/soil",
+    "#deeptime:rock/saprolite",
+    "#deeptime:rock/laterite",
+    "#deeptime:rock/bauxite",
+    "#deeptime:rock/gravel",
+    "#deeptime:rock/sand",
+    "#deeptime:rock/clay",
+    "#deeptime:rock/mud",
+    "#deeptime:rock/till",
+    "#deeptime:rock/loess",
+    "#deeptime:rock/volcanic_ash"
+  ]
+}

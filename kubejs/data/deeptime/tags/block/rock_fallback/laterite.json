@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:crimsite",
+      "required": false
+    },
+    "minecraft:red_sand"
+  ]
+}

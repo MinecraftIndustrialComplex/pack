@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/granite",
+    "#deeptime:rock/granodiorite",
+    "#deeptime:rock/diorite",
+    "#deeptime:rock/gabbro",
+    "#deeptime:rock/anorthosite",
+    "#deeptime:rock/peridotite"
+  ]
+}

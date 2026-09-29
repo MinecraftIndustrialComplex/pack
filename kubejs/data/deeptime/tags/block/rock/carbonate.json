@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/limestone",
+    "#deeptime:rock/dolostone",
+    "#deeptime:rock/chalk",
+    "#deeptime:rock/travertine",
+    "#deeptime:rock/marble"
+  ]
+}

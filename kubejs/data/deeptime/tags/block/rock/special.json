@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/kimberlite",
+    "#deeptime:rock/carbonatite",
+    "#deeptime:rock/pegmatite",
+    "#deeptime:rock/greisen"
+  ]
+}

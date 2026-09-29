@@ -101,6 +101,22 @@ file = "defaultconfigs/gravestone-server.toml"
 hash = "306cbea7f1cddc7240b9bc91cc57ad48b26c9d7e15a350b1d39cc9146d2a82c8"
 
 [[files]]
+file = "globalresources/mic/globaldata/excavated_variants/excavated_variants/ore/createnuclear/lead_ore.json"
+hash = "531a2786e2fcf99480f730243173dd96da82795213236175d69b9e57b7ff0dc2"
+
+[[files]]
+file = "globalresources/mic/globaldata/excavated_variants/excavated_variants/ore/iceandfire/silver_ore.json"
+hash = "c5061ff6ab7d0e90246617a56892bc8c7ae2ffb4739010c8982e595724108e6e"
+
+[[files]]
+file = "globalresources/mic/globaldata/excavated_variants/excavated_variants/stone/born_in_chaos_v1/black_argillite.json"
+hash = "bef6dd3a99fb3fa959cb031b1e47c7caf125f0c80d830af37ac2a92175f58213"
+
+[[files]]
+file = "globalresources/mic/globaldata/excavated_variants/excavated_variants/stone/born_in_chaos_v1/fired_black_argillite.json"
+hash = "1ca978195ada2302705f1a6b13dbedbb11b9d813a7ff9b37361e355c05579056"
+
+[[files]]
 file = "kubejs/assets/create/lang/en_us.json"
 hash = "d4a9bd62dc89e9da120d5db74342d92216c029fde641e9dd1160ab34de1099b0"
 
@@ -199,6 +215,486 @@ hash = "8dfb11a6982b0b90209f42296b7c3575f7481651abf8064399835ed058e89091"
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
 hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/amphibolite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/andesite.json"
+hash = "c068e3806fc31030dda692fc0a8557f270daf7faf5531d8219b997fba246961f"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/anhydrite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/anorthosite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/any.json"
+hash = "0c677cda1be0f36b203e06aaa50f3738dbb1b2236b5a9ebd0d1cc2b98f317fb3"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/banded_iron_formation.json"
+hash = "36bfd4718a953082b24f25aeda121add39f60596126b3c11a1ac3e09214517e0"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/basalt.json"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/bauxite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/black_shale.json"
+hash = "ca9283f7af3f74fbd35833f2cb47a424d5ad0a50032dde2d14d8f81796588ca5"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/blueschist.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/carbonate.json"
+hash = "9930a67ec8c2021dc05e8f04a252cc44b1895bdafe02f691af1efe9adff85471"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/carbonatite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/chalk.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/chemical.json"
+hash = "4bf5627d3900fbddc60d014fb0df2717cc358aa8e088e4b6d7725d45d3d561ae"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/chert.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/clastic.json"
+hash = "e9f6666590e12208fb62ca8fe2def6fc4184aef4befb38cc1d0ac3bbfa1df6f1"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/clay.json"
+hash = "c2c5999df4df6dd5604b1a7a11066cd544abdc54e567d55fabbbe06b342fb425"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/coal.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/conglomerate.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/diorite.json"
+hash = "491e8b39acb18563d04690832387dc17cb2fad700ce3821d622266cd2837197b"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/dolostone.json"
+hash = "a719f017a5c3d1448061cce46b1b781541dfc5266d3dcedd49755b27d2037f44"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/eclogite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/evaporite.json"
+hash = "c3fa1bacb248e44fa06465677f0151bfe55da31675af29973a846672c625e872"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/felsic.json"
+hash = "6958ec4dddd1ebc299296bf41befb3caec3b0e4152e797e70b883f82fd5f7879"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/gabbro.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/gneiss.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/granite.json"
+hash = "9ab2bf8e2045066f7ca3636515406f748218ac0277ac552b4cd6251a3e41ca92"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/granodiorite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/gravel.json"
+hash = "60e95884ca3b4f12d11accb32302b0c9e244502a4ad6412a44ac0888c4aaf6df"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/greenstone.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/greisen.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/gypsum.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/halite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/hornfels.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/igneous.json"
+hash = "daead91556ac611f3d79e3a08e8ae3f6b77a44eb7c67b7636582fc2c43f86f8e"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/intermediate.json"
+hash = "458c1ab743b8c8e5b19ea0e586d05811acffe59e9a03965ff0fa2322e84e1190"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/intrusive.json"
+hash = "56e5f1453d71454a1d27111d10485847ae9f64e6de3441fe41386517c831ab0a"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/iron_formation.json"
+hash = "3e7e20342f65de2786d41ac8730f1853e3a0cecf3eb129867a25bd388dd0ffa1"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/ironstone.json"
+hash = "60d35e84bd19486edfb5076a65315eacd595cafed22beae9598c9b3aced37028"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/kimberlite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/laterite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/limestone.json"
+hash = "c2b9dd1a1ab991ebf8c51c7d676c3b9587a0a7c27de6597979c4babb16935faf"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/loess.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/mafic.json"
+hash = "b2c272e3223fe3cb4d058773864da331dc7aa5715e822ce47d63b6401ed8615b"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/marble.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/metamorphic.json"
+hash = "ca7b9841d2b07e0cfb1b29d15ac75cb7a32bdc0812967c53ff30b4481acac203"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/mud.json"
+hash = "3bc173317fb0c877f089ea446b95b5946f35d12a4439b64d444be0207f343a1a"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/mudstone.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/obsidian.json"
+hash = "255358a6781577aaea957e718d0ea085d81492ad68dfe48b0576070d1736286f"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/pegmatite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/peridotite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/phosphorite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/phyllite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/pumice.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/quartzite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/red_bed.json"
+hash = "283d501536d206364d39e1bf335a6bacf29635dfc2a17057ddd15618342eade5"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/rhyolite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/sand.json"
+hash = "7dc9d3c73acd6cdf903caaa77652b8530ddbf7751c854e7c3c6d416e576c234f"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/sandstone.json"
+hash = "9e15ddfc9ef46087c13900aa824eaecc0a0648eec37f8ac3135b7b77f8d65dca"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/saprolite.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/schist.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/scoria.json"
+hash = "ec2757be03da05cc118bad2e3cb3e92bfc9651e7c840bab29135c33a9d9cae80"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/sedimentary.json"
+hash = "7ddf132e3a483d0f583d39ebc8d42c16deba8c0cb0f984769e185b4c20054c46"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/serpentinite.json"
+hash = "c0802a6399ed913aa7c5619ca1830ed2dbc22e01907a940892545ac4efc6e605"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/shale.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/skarn.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/slate.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/soil.json"
+hash = "370886e03faf602e035884c88fc993f1a09203c1f3f9b232a05795b65abea037"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/special.json"
+hash = "c9103e6ef038b3fbba109e7ad8ede12ba85a811f95718f1b6c8e54edd9fa08f9"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/till.json"
+hash = "c2af06f1baa7b5b3faddb36a2fb7bc6aaad633e87cda1df020dc8d87240878c8"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/travertine.json"
+hash = "1765a244ce7fb4fe28dc28eba7ee1dbaac5bf34497101da7ad820f31f1f6dcca"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/tuff.json"
+hash = "a769d18b901b729e93e0614076ef29785c0c1f527a58b64519a39d0c53bd3936"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/ultramafic.json"
+hash = "48b7322131f4b22086c3d872506e43448211d81dc33c7f90deae4425456e4528"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/unclassified_crust.json"
+hash = "5a47e184356b37a2ded9425f4b6cbea05b25d624facedb581b5547dd6490caf1"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/unconsolidated.json"
+hash = "bdf79190d369ca3ec1cb740464d42d49a09557716ddd2ef6f54a5bee3d938da0"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/volcanic.json"
+hash = "c9fae1e91f6fec168bbf163920a128a7ebec728afe2df31291099011fb09767b"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/volcanic_ash.json"
+hash = "0ad9bae113fa794fce35d485775c73a2324bb427b44b7d3f872df5723b73badc"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/amphibolite.json"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/anhydrite.json"
+hash = "41e9ef079b7355ed076f61feada687d57e4829e488bdb71487c9dfc6ecd3d6e8"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/anorthosite.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/banded_iron_formation.json"
+hash = "9ab2bf8e2045066f7ca3636515406f748218ac0277ac552b4cd6251a3e41ca92"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/bauxite.json"
+hash = "b6922b4fd8a0fdea8525d5ae69bd01ac541db4a295df4beae74b3878bc0a695f"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/black_shale.json"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/blueschist.json"
+hash = "b1fde27d1f46c268176f0305f92334b4e25aa2ce19667cbc9c94d1a710b002a1"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/carbonatite.json"
+hash = "1765a244ce7fb4fe28dc28eba7ee1dbaac5bf34497101da7ad820f31f1f6dcca"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/chalk.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/chert.json"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/coal.json"
+hash = "bbdfb64ecb41fc127ca08cad374d2af6d343de3d50c4cc3e4e9de669d32e5ce2"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/conglomerate.json"
+hash = "a4cd509cb37ce72da1d57b9968dc236814250a2751d872e8240f98699bafbb31"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/dolostone.json"
+hash = "1765a244ce7fb4fe28dc28eba7ee1dbaac5bf34497101da7ad820f31f1f6dcca"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/eclogite.json"
+hash = "e2dac9d3eeb529d26a6e5b19e25dd07fe080b6120e750b6962dd16907a13d0f3"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/gabbro.json"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/gneiss.json"
+hash = "9ab2bf8e2045066f7ca3636515406f748218ac0277ac552b4cd6251a3e41ca92"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/granodiorite.json"
+hash = "491e8b39acb18563d04690832387dc17cb2fad700ce3821d622266cd2837197b"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/greenstone.json"
+hash = "e2dac9d3eeb529d26a6e5b19e25dd07fe080b6120e750b6962dd16907a13d0f3"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/greisen.json"
+hash = "491e8b39acb18563d04690832387dc17cb2fad700ce3821d622266cd2837197b"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/gypsum.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/halite.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/hornfels.json"
+hash = "44fc73d9dbc268ae198f3aefa7ced965d5fd82ab07a3e5b918aa48fd97136502"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/ironstone.json"
+hash = "283d501536d206364d39e1bf335a6bacf29635dfc2a17057ddd15618342eade5"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/kimberlite.json"
+hash = "b1fde27d1f46c268176f0305f92334b4e25aa2ce19667cbc9c94d1a710b002a1"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/laterite.json"
+hash = "56f34b36c26543a680d2bcf198aed42399fc4f1ebcc555d45840c9d52811a63c"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/limestone.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/loess.json"
+hash = "07d7a248a9cfab2dafaeca1f5b1ed28cc3fd961568d54f14d2b896314ba2c743"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/mudstone.json"
+hash = "9f8969cb1cbf1ae2f210854a3a7c2013e46156170c13fe6bcf1bf37861bfc9c0"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/pegmatite.json"
+hash = "9ab2bf8e2045066f7ca3636515406f748218ac0277ac552b4cd6251a3e41ca92"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/peridotite.json"
+hash = "e2dac9d3eeb529d26a6e5b19e25dd07fe080b6120e750b6962dd16907a13d0f3"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/phosphorite.json"
+hash = "9f8969cb1cbf1ae2f210854a3a7c2013e46156170c13fe6bcf1bf37861bfc9c0"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/phyllite.json"
+hash = "753c56e493252f09cd536f12ee8363a6cd4949b0184836ae7cc689b575e0f857"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/pumice.json"
+hash = "491e8b39acb18563d04690832387dc17cb2fad700ce3821d622266cd2837197b"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/quartzite.json"
+hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/rhyolite.json"
+hash = "9ab2bf8e2045066f7ca3636515406f748218ac0277ac552b4cd6251a3e41ca92"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/saprolite.json"
+hash = "c2af06f1baa7b5b3faddb36a2fb7bc6aaad633e87cda1df020dc8d87240878c8"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/schist.json"
+hash = "a769d18b901b729e93e0614076ef29785c0c1f527a58b64519a39d0c53bd3936"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/scoria.json"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/serpentinite.json"
+hash = "a769d18b901b729e93e0614076ef29785c0c1f527a58b64519a39d0c53bd3936"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/shale.json"
+hash = "753c56e493252f09cd536f12ee8363a6cd4949b0184836ae7cc689b575e0f857"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/skarn.json"
+hash = "8b3109451a399d666b9ab818ce72d790b081737661050b160b1ba404ba0aa30f"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/slate.json"
+hash = "1ac9c5f4aff63bbb45a69376e31bd50991fd0413e34a2c30aa49b35e30f45bda"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/volcanic_ash.json"
+hash = "a769d18b901b729e93e0614076ef29785c0c1f527a58b64519a39d0c53bd3936"
 
 [[files]]
 file = "kubejs/data/forge/tags/fluids/crude_oil.json"
@@ -817,6 +1313,11 @@ hash = "dfcf0ef42d5dc33213781ebd3bc2c5e0debd9bb6540006d9941a02906fb33601"
 metafile = true
 
 [[files]]
+file = "mods/dynamic_asset_generator.pw.toml"
+hash = "4c404e9cbac4caf352804b3a4c7943941ff31772e20cfb1076a680f25e6b68e7"
+metafile = true
+
+[[files]]
 file = "mods/dynamiccrosshair.pw.toml"
 hash = "41ddb2dfcf6b2d87bd52d0fb8dc9c8c3a7e3e83f9f1cbf9c495ab195333dfbd9"
 metafile = true
@@ -849,6 +1350,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "ed5521dfd83152b035c8609e8bfdfc7c66717cbbe201244f401dbf849e716e9f"
+metafile = true
+
+[[files]]
+file = "mods/excavated_variants.pw.toml"
+hash = "c4bc7c10328b5a2aafcb916dff29cdb3f2be812c3e6d80d921ea1cfd2f761251"
 metafile = true
 
 [[files]]

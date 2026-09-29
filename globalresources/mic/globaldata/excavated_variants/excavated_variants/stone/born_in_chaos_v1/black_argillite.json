@@ -1,0 +1,12 @@
+{
+  "types": [
+    "excavated_variants:overworld"
+  ],
+  "translations": {
+    "en_us": "Black Argillite"
+  },
+  "block": "born_in_chaos_v1:black_argillite",
+  "ore_tags": [
+    "c:ores_in_ground/black_argillite"
+  ]
+}

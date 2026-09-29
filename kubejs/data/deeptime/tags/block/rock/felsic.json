@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#deeptime:rock/granite",
+    "#deeptime:rock/granodiorite",
+    "#deeptime:rock/rhyolite",
+    "#deeptime:rock/pegmatite",
+    "#deeptime:rock/greisen"
+  ]
+}
