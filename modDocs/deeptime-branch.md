@@ -1,0 +1,106 @@
+# The `deep-time` pack branch
+
+What this branch adds on top of pack master for the Deep Time mod, and why. Ben's rule (Deep Time
+decisions log, 2026-09-28): every pack change for Deep Time stays on this branch, never on master.
+Deep Time's own jar is not on the branch yet.
+
+This file sits under `modDocs/`, which `.packwizignore` excludes, so it never ships. It is
+force-added to git (`modDocs/` is otherwise gitignored).
+
+## What is on the branch
+
+| Change | Files | Why |
+|---|---|---|
+| Excavated Variants 4.3.1 + Dynamic Asset Generator 6.1.2 (NeoForge 1.21.1, Modrinth `krUiU6UD` / `U0ft2n2p`, LGPL-3.0-or-later) | `mods/excavated_variants.pw.toml`, `mods/dynamic_asset_generator.pw.toml` | Q10, "Keep EV, fill its gaps": Deep Time places EV's ore-in-this-rock blocks when EV is installed. These are the pins the Q10 comparison used. EV bundles DefaultResources 3.6.0 (jar-in-jar). |
+| EV stone configs: Born in Chaos black argillite, fired black argillite | `globalresources/mic/globaldata/excavated_variants/excavated_variants/stone/born_in_chaos_v1/*.json` | Black argillite is MIC's rock for coal, shale, black shale, slate and phyllite, and fired argillite is its hornfels. EV had no stone for either, so ore in them stayed plain stone ore. |
+| EV ore configs: Create Nuclear lead, Ice and Fire silver | `globalresources/mic/…/ore/createnuclear/lead_ore.json`, `…/ore/iceandfire/silver_ore.json` | EV ships lead and silver configs only for other mods (Embers, IE, …). These give MIC's lead and silver variants in every EV stone. |
+| Almost Unified: hide the new variants | `config/almostunified/unification/materials.json` | See "Almost Unified" below. |
+| Deep Time rock tags (plan Q16) | `kubejs/data/deeptime/` (120 tag files) | A copy of `mic/Docs/datapacks/deeptime-mic-rock-tags/data/deeptime/`. KubeJS loads it into every world. |
+
+### How the EV configs load
+
+EV reads its configs through DefaultResources, which treats every folder or zip in
+`<game dir>/globalresources/` as a pack and reads `globaldata/<namespace>/…` from it. The branch
+ships `globalresources/mic/` as a plain folder through packwiz (side `both`). A config for a block
+whose mod is absent is inert, because EV's `required_mods` defaults to the block's namespace.
+
+Schema (EV 4.3.1, from `api/data/Stone` and `api/data/Ore` codecs):
+
+- stone: `{"types": ["excavated_variants:overworld"], "translations": {"en_us": …}, "block": <id>,
+  "ore_tags": [<tag>…]}`, id `excavated_variants:<ns>/<name>`.
+- ore: `{"types": […], "translations": {…}, "blocks": {<ore block>: <stone id> | {"stone": …,
+  "generating": true, "required_mods": […]}}, "tags": [<tag>…]}`. `generating` marks the ore block
+  EV builds each variant from (the stone one, as in EV's vanilla configs; EV's mappings cache names
+  `createnuclear:lead_ore` / `iceandfire:silver_ore` as the source).
+  The lead config also carries `createnuclear:lead_ores`, the tag Create Nuclear's own recipes use,
+  so the variants count in them.
+
+### Almost Unified
+
+AU 1.4.2 reads unification configs only from `config/almostunified/unification/*.json`. The
+pack's `config/almostunified/unify.json` is in the old 0.x layout and AU never reads it. On a
+fresh server AU writes its default `unification/materials.json`, whose priorities are minecraft,
+kubejs and create (plus mods MIC doesn't have), with no overrides. So on master none of
+`unify.json`'s priorities or overrides apply. With EV, that left the lead, silver and coal
+variants visible in recipe viewers: no priority mod owns lead or silver, and coal is not in AU's
+default materials.
+
+The branch ships that generated default unchanged, plus:
+`priority_overrides` `c:ores/lead → createnuclear` (what the dead `unify.json` asked for) and
+`c:ores/silver → iceandfire`, and the one extra tag `c:ores/coal`. Nothing else in `unify.json` is
+ported; that is a pack-wide decision for master.
+
+## Verification (2026-09-29, on the Mac)
+
+Recipe: the Q10 comparison's (Deep Time repo `tools/review/q10-ev.sh`). Preset
+`deposits_world_16k.json` (every-class strata), 500 Myr, level seed 7, first-start generation,
+Chunky squares at −5582,−1022 r112 and −16,−2144 r80. Two servers from one Deep Time jar
+(Deep Time master 84759b0):
+
+- **plain**: pack master 303fd89 (168 jars), with the rock tags as a world datapack;
+- **branch**: this branch (170 jars), with the rock tags from `kubejs/data/deeptime/` only.
+
+Both passed every smoke check (boot, generation before Done, all mixins applied, **every rock class
+resolves**, sites, claims, restart without regeneration). EV registers **252** generated variants
+(Q10: 190): 22 per overworld ore config, including **22 lead and 22 silver**, and 11 ores each in
+black argillite and fired black argillite. Neither log has an EV, DAG or DefaultResources error
+or warning, other than EV's usual mixin compatibility-level notices. The ERROR count differs by 2,
+both from Create Jetpack's config-reload race (`Cannot send clientbound payloads on the client`),
+which is unrelated.
+
+Deep Time's own ore (claimed materials), the same three boxes as Q10, position by position between
+the two worlds (`deeptime-inspect ore-hosts --other`):
+
+| | Q10 (EV, no gap configs) | this branch |
+|---|---|---|
+| ore blocks | 2,506 | 2,507 |
+| an EV variant | 1,350 | **2,291** |
+| unchanged | 1,156 | **216** |
+| black argillite (ore / variant) | 483 / 0 | **549 / 549** |
+| fired black argillite | 390 / 0 | **395 / 395** |
+| silver | 3 / 0 | 3 / 2 |
+
+The argillite rows rose because hosts in the branch world are now exact (EV's own stone) rather
+than estimated. What stays plain is ore in hosts EV has no stone for: stone 168 (its variant *is*
+the original), dirt 12, obsidian 10, coarse dirt 6, deepslate 6, grass 1.
+
+**Lead and silver.** The Q10 boxes have no Zn–Pb deposit, so a second boot of both worlds added
+Chunky squares over MVT sites 23/24 (1625,−844 r32) and SEDEX site 25 (5063,401 r48). In those two
+boxes, **lead 262 / 262** are variants (240 in black argillite at the SEDEX, 22 in Create asurine at
+the MVT) and **silver 46 / 46** (43 in black argillite, 3 in asurine). Zinc 3,176 / 3,176, and
+4,732 of 4,739 claimed-ore blocks overall.
+
+**Almost Unified** on the branch hides variants in 10 ore tags: coal, copper, diamond, emerald,
+gold, iron, lapis, **lead**, **silver** and zinc (19 of 24 items each, 24 of 30 for gold). AU keeps
+one item per stone stratum.
+
+Not checked here: textures. DAG paints EV's textures on the client. Q10's `ev-assets` client run
+covered only EV's own and Deep Time's stones, so the argillite, lead and silver sprites have not
+been looked at yet.
+
+## Known pack issues not touched here
+
+A stale index hash for `kubejs/server_scripts/destroy_metallurgy_integration.js`; Ritchie's
+Projectile Library pinned twice; three index-listed raw jars that `.gitignore` keeps out of git
+(Destroy, Dice, Playing Cards); and the dead `config/almostunified/unify.json` described above.
+The index was edited by hand (entries added only) rather than with `packwiz refresh`.
