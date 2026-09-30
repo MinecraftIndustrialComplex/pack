@@ -85,6 +85,10 @@ file = "config/overgeared-common.toml"
 hash = "31e692459679c8ce12abaaf3516bcc39ee0ddd525935567c64f00148a92e5129"
 
 [[files]]
+file = "config/projectatmosphere/biome_temps.json"
+hash = "3154f3fc9db30e961019f03719ac28fbf7725aa179ee23d06a43c7428d473b5b"
+
+[[files]]
 file = "config/rctmod-server.toml"
 hash = "d6afc2385969f33bf1a1b4f2aebc78e4d0fb3a9b52ba94c9605df7251275c811"
 
