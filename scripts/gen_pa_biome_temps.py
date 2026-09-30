@@ -49,6 +49,19 @@ THE RULE (per terralith:* biome; everything below is reproduced by this script)
   4. Water and shore (deep_warm_ocean, warm_river, gravel_beach): PA's ocean / river / beach row, shifted by 0.4 of
      the MAT difference against that vanilla biome (PA itself maps warm_ocean to its ocean row unshifted).
   Altitude is not modelled: PA applies its own lapse rate at the real height.
+
+EXISTING WORLDS KEEP THEIR OLD FORECASTS (verified on a headless MIC server, 2026-09-30)
+  PA saves each region's forecast (world/overworld/data/projectatmosphere/region_forecasts plus
+  world/data/project_atmosphere_live_atmosphere.dat) and reloads it at start. It regenerates a saved region only
+  if it fails PA's corruption check, never on a season or day change (those shift a drift offset, or rebuild
+  only when no region is saved at all). So a world that already generated regions before this table keeps
+  Terralith near 0 C in those regions: booting the old world with this file changed its readings by 0.1 C.
+  Regions generated afterwards, and every region of a new world, use the table. To apply it to an old world,
+  stop the server and delete those two paths (regions regenerate lazily, the same boot then matched a fresh
+  world to 0.2 C), or run `/pa forecast regenerate` with players online (PA rebuilds around them; not tested).
+  Check a biome from the console, standing in it: `/pa temperature raw` prints PA's week for the biome under
+  the source position, straight from the table (about +-2 C all week without an entry). `/pa temperature
+  current` and mic_climate's probe give PA's regional value instead, a blend over a 2000-block region.
 """
 import argparse
 import collections
