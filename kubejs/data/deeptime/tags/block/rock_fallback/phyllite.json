@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    {
-      "id": "born_in_chaos_v1:black_argillite",
-      "required": false
-    },
-    "minecraft:polished_tuff"
+    "minecraft:deepslate"
   ]
 }
