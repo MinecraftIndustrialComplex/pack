@@ -8,6 +8,7 @@
 .vscode/**
 .idea/**
 .cursor/**
+.claude/**
 .envrc
 .direnv/**
 flake.nix

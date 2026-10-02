@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".claude/settings.local.json"
-hash = "d8e3a4f9234a4816cb0db37ffceb58efb96b9100cd475a0ebdc43fb42684f261"
-
-[[files]]
-file = "CLAUDE.md"
-hash = "de1438c02ede764f198660d9e697d1e310049446dc8fb6591a5d288492046869"
-
-[[files]]
 file = "LICENCE.txt"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
@@ -95,6 +87,10 @@ hash = "d6afc2385969f33bf1a1b4f2aebc78e4d0fb3a9b52ba94c9605df7251275c811"
 [[files]]
 file = "config/reliable_replacer/swapper.json"
 hash = "8d6bbefaf8e61bbe3645cf1c19078e176cb7a57e7e6bbc1d005714cbcc470fa1"
+
+[[files]]
+file = "config/rrls.toml"
+hash = "f097471ad7fd4d3adccdc4d6f935b0cdcac68c0cbdec6ea3d752d307ec66d867"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
@@ -302,7 +298,7 @@ hash = "021e606c224c7dcc49aee71813141c941f48aa828bde8110d5077e3851d72ff9"
 
 [[files]]
 file = "kubejs/server_scripts/destroy_metallurgy_integration.js"
-hash = "68ffc58944a1e8b4f4db1467c8b635e51af218420decbcc6a195c7cab4964e7d"
+hash = "8a096a2da55f75ddabfbff8a4e9713e24737627e96a62b6b34435264c73c3c59"
 
 [[files]]
 file = "kubejs/server_scripts/disable_villager_trading.js"
@@ -820,7 +816,7 @@ hash = "ba20bd69fd69e94671060665f08249f782e5526e1fd4223995c681a23361d351"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "696d3006998b03e94925dacb882e6c166e9810fb8221948382413407345bf94c"
+hash = "c3e0dd6a4bac728f3f892616af7e78ce363df113b0fe11daf95f17a32d68ef1a"
 metafile = true
 
 [[files]]
