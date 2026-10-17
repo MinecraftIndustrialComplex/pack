@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".claude/settings.local.json"
-hash = "d8e3a4f9234a4816cb0db37ffceb58efb96b9100cd475a0ebdc43fb42684f261"
-
-[[files]]
-file = "CLAUDE.md"
-hash = "de1438c02ede764f198660d9e697d1e310049446dc8fb6591a5d288492046869"
-
-[[files]]
 file = "LICENCE.txt"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
