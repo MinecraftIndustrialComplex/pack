@@ -4,6 +4,8 @@
     "#deeptime:rock/kimberlite",
     "#deeptime:rock/carbonatite",
     "#deeptime:rock/pegmatite",
-    "#deeptime:rock/greisen"
+    "#deeptime:rock/greisen",
+    "#deeptime:rock/impact_breccia",
+    "#deeptime:rock/impact_melt"
   ]
 }

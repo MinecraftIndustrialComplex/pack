@@ -15,7 +15,7 @@ force-added to git (`modDocs/` is otherwise gitignored).
 | EV stone configs: Born in Chaos black argillite, fired black argillite | `globalresources/mic/globaldata/excavated_variants/excavated_variants/stone/born_in_chaos_v1/*.json` | Black argillite is MIC's rock for coal, shale, black shale, slate and phyllite, and fired argillite is its hornfels. EV had no stone for either, so ore in them stayed plain stone ore. |
 | EV ore configs: Create Nuclear lead, Ice and Fire silver | `globalresources/mic/…/ore/createnuclear/lead_ore.json`, `…/ore/iceandfire/silver_ore.json` | EV ships lead and silver configs only for other mods (Embers, IE, …). These give MIC's lead and silver variants in every EV stone. |
 | Almost Unified: hide the new variants | `config/almostunified/unification/materials.json` | See "Almost Unified" below. |
-| Deep Time rock tags (plan Q16) | `kubejs/data/deeptime/` (120 tag files) | A copy of `mic/Docs/datapacks/deeptime-mic-rock-tags/data/deeptime/`. KubeJS loads it into every world. |
+| Deep Time rock tags (plan Q16) | `kubejs/data/deeptime/` (126 tag files) | A copy of `mic/Docs/datapacks/deeptime-mic-rock-tags/data/deeptime/`. KubeJS loads it into every world. |
 
 ### How the EV configs load
 

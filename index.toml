@@ -286,7 +286,7 @@ hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/clastic.json"
-hash = "e9f6666590e12208fb62ca8fe2def6fc4184aef4befb38cc1d0ac3bbfa1df6f1"
+hash = "7bfff0401570f0649439c5d505a9299ca49617b3456b9f364961126191312a3b"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/clay.json"
@@ -298,6 +298,10 @@ hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/conglomerate.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/diamictite.json"
 hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
@@ -362,7 +366,15 @@ hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/igneous.json"
-hash = "daead91556ac611f3d79e3a08e8ae3f6b77a44eb7c67b7636582fc2c43f86f8e"
+hash = "a1ad991d922f65557c6529a6a537b7c6fae683a6c5f9cd54604c05a9cd977c7d"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/impact_breccia.json"
+hash = "4175bdecafeaeac50a739d996fe65651184427a7d86adc01fb250039e773a3a5"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock/impact_melt.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/intermediate.json"
@@ -498,7 +510,7 @@ hash = "370886e03faf602e035884c88fc993f1a09203c1f3f9b232a05795b65abea037"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/special.json"
-hash = "c9103e6ef038b3fbba109e7ad8ede12ba85a811f95718f1b6c8e54edd9fa08f9"
+hash = "0f888fac5ad5af47b6de7e9750aa900ba0b7334d4e04a650f56758448b034e40"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock/till.json"
@@ -581,6 +593,10 @@ file = "kubejs/data/deeptime/tags/block/rock_fallback/conglomerate.json"
 hash = "a4cd509cb37ce72da1d57b9968dc236814250a2751d872e8240f98699bafbb31"
 
 [[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/diamictite.json"
+hash = "c8e19e7c5fef587208c07b3c327563120437bccff0a6bcdf0ac3b16570dda8f4"
+
+[[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/dolostone.json"
 hash = "1765a244ce7fb4fe28dc28eba7ee1dbaac5bf34497101da7ad820f31f1f6dcca"
 
@@ -594,7 +610,7 @@ hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/gneiss.json"
-hash = "9ab2bf8e2045066f7ca3636515406f748218ac0277ac552b4cd6251a3e41ca92"
+hash = "85950cd22b9888ceec4699d332880b0d46ead2ca16a0e147c4f683ca0ae17009"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/granodiorite.json"
@@ -621,6 +637,14 @@ file = "kubejs/data/deeptime/tags/block/rock_fallback/hornfels.json"
 hash = "44fc73d9dbc268ae198f3aefa7ced965d5fd82ab07a3e5b918aa48fd97136502"
 
 [[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/impact_breccia.json"
+hash = "a4cd509cb37ce72da1d57b9968dc236814250a2751d872e8240f98699bafbb31"
+
+[[files]]
+file = "kubejs/data/deeptime/tags/block/rock_fallback/impact_melt.json"
+hash = "d6af34dafa9eeb1621b026f55471e1b3820d144840cfbd9dd86333bf559da69c"
+
+[[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/ironstone.json"
 hash = "283d501536d206364d39e1bf335a6bacf29635dfc2a17057ddd15618342eade5"
 
@@ -642,7 +666,7 @@ hash = "07d7a248a9cfab2dafaeca1f5b1ed28cc3fd961568d54f14d2b896314ba2c743"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/mudstone.json"
-hash = "9f8969cb1cbf1ae2f210854a3a7c2013e46156170c13fe6bcf1bf37861bfc9c0"
+hash = "794de3a098e0b9761cb84f364cb0a0724d87cbcb3e430c343886b023a89f5eeb"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/pegmatite.json"
@@ -658,7 +682,7 @@ hash = "9f8969cb1cbf1ae2f210854a3a7c2013e46156170c13fe6bcf1bf37861bfc9c0"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/phyllite.json"
-hash = "753c56e493252f09cd536f12ee8363a6cd4949b0184836ae7cc689b575e0f857"
+hash = "85950cd22b9888ceec4699d332880b0d46ead2ca16a0e147c4f683ca0ae17009"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/pumice.json"
@@ -678,7 +702,7 @@ hash = "c2af06f1baa7b5b3faddb36a2fb7bc6aaad633e87cda1df020dc8d87240878c8"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/schist.json"
-hash = "a769d18b901b729e93e0614076ef29785c0c1f527a58b64519a39d0c53bd3936"
+hash = "85950cd22b9888ceec4699d332880b0d46ead2ca16a0e147c4f683ca0ae17009"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/scoria.json"
@@ -690,7 +714,7 @@ hash = "a769d18b901b729e93e0614076ef29785c0c1f527a58b64519a39d0c53bd3936"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/shale.json"
-hash = "753c56e493252f09cd536f12ee8363a6cd4949b0184836ae7cc689b575e0f857"
+hash = "794de3a098e0b9761cb84f364cb0a0724d87cbcb3e430c343886b023a89f5eeb"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/skarn.json"
@@ -698,7 +722,7 @@ hash = "8b3109451a399d666b9ab818ce72d790b081737661050b160b1ba404ba0aa30f"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/slate.json"
-hash = "1ac9c5f4aff63bbb45a69376e31bd50991fd0413e34a2c30aa49b35e30f45bda"
+hash = "85950cd22b9888ceec4699d332880b0d46ead2ca16a0e147c4f683ca0ae17009"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/volcanic_ash.json"
@@ -794,7 +818,7 @@ hash = "021e606c224c7dcc49aee71813141c941f48aa828bde8110d5077e3851d72ff9"
 
 [[files]]
 file = "kubejs/server_scripts/destroy_metallurgy_integration.js"
-hash = "68ffc58944a1e8b4f4db1467c8b635e51af218420decbcc6a195c7cab4964e7d"
+hash = "8a096a2da55f75ddabfbff8a4e9713e24737627e96a62b6b34435264c73c3c59"
 
 [[files]]
 file = "kubejs/server_scripts/disable_villager_trading.js"

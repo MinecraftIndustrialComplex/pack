@@ -5,6 +5,7 @@
     "#deeptime:rock/volcanic",
     "#deeptime:rock/kimberlite",
     "#deeptime:rock/carbonatite",
-    "#deeptime:rock/pegmatite"
+    "#deeptime:rock/pegmatite",
+    "#deeptime:rock/impact_melt"
   ]
 }

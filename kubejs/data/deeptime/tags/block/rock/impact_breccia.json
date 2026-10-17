@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createmetallurgy:slag_block",
+      "required": false
+    }
+  ]
+}
