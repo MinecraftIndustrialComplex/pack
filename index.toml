@@ -173,6 +173,10 @@ file = "kubejs/client_scripts/voided_jei.js"
 hash = "d3eb7b947b2a6bf2226442266960f3447b0f7d2a7af75cf81a05f83445ba3faf"
 
 [[files]]
+file = "kubejs/config/web_server.json"
+hash = "62e7dc15d755bfdb73271fa00bb3223ad04b2cde2fb93f696050e2fe58ad19a8"
+
+[[files]]
 file = "kubejs/data/aeronautics/legendarysurvivaloverhaul/temperature/blocks/adjustable_burner.json"
 hash = "5d80c51bf951e2079d810c0e0c563e771868aad26e04da7da5f71cc889527863"
 
