@@ -586,9 +586,13 @@ WantedBy=timers.target
 def install(_args) -> int:
     d = Path.home() / ".config/systemd/user"
     d.mkdir(parents=True, exist_ok=True)
-    path = ":".join(p for p in [str(Path(shutil.which("git") or "/run/current-system/sw/bin/git").parent),
-                                "/run/current-system/sw/bin", os.environ.get("PATH", "")] if p)
-    (d / "pack-gc.service").write_text(UNIT.format(path=path, python=sys.executable, script=Path(__file__).resolve()))
+    # The profiles' bin folders only: a shell's PATH also holds /nix/store paths a Nix GC can remove.
+    bins = [Path.home() / ".nix-profile/bin", Path(f"/etc/profiles/per-user/{os.environ.get('USER', '')}/bin"),
+            Path("/run/current-system/sw/bin"), Path("/run/wrappers/bin"), Path("/usr/bin"), Path("/bin")]
+    bins = [b for b in bins if b.is_dir()]
+    python = next((str(b / "python3") for b in bins if (b / "python3").exists()), sys.executable)
+    (d / "pack-gc.service").write_text(UNIT.format(path=":".join(map(str, bins)), python=python,
+                                                   script=Path(__file__).resolve()))
     (d / "pack-gc.timer").write_text(TIMER)
     subprocess.run(["systemctl", "--user", "daemon-reload"], check=True)
     subprocess.run(["systemctl", "--user", "enable", "--now", "pack-gc.timer"], check=True)
