@@ -189,6 +189,10 @@ file = "kubejs/data/c/tags/fluid/gasoline.json"
 hash = "6ec6276b4977abc27d8c264c5b0feebdad8e7dcef0be7268cb2e08fc6f6e615f"
 
 [[files]]
+file = "kubejs/data/copycats/physics_block_properties/copycat_catwalk.json"
+hash = "3026faaf03b1e1cd92974228712110b3384fb287a9b0b20556237ab5cac1b544"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/legendarysurvivaloverhaul/temperature/blocks/burner.json"
 hash = "7b9de193b08c3edcda22fec49bd0805fae0d446d8904ff8ce7b2e0b3c92d68df"
 
@@ -219,6 +223,10 @@ hash = "8dfb11a6982b0b90209f42296b7c3575f7481651abf8064399835ed058e89091"
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
 hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
+
+[[files]]
+file = "kubejs/data/kubejs/tags/block/empty.json"
+hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
 [[files]]
 file = "kubejs/data/kubejs/tags/worldgen/biome/empty.json"
@@ -286,7 +294,7 @@ hash = "1004eb20f5ebcb837ef768153e6b1f853d854e8eeb6abea7fb292bad253cab11"
 
 [[files]]
 file = "kubejs/server_scripts/create_power_loader.js"
-hash = "1ffa8b73838f37664af559b65823b90647cbe8a210cfcf3d2ad6608f07906735"
+hash = "537a80f8991affa86df9c61c535fa14edde448029b8ef549cf573159315be427"
 
 [[files]]
 file = "kubejs/server_scripts/create_vintage.js"
@@ -374,7 +382,7 @@ hash = "319040294802c648266bf4eadd3ac43c52d56c18410c1a2f90a4bc9733d9d5e3"
 
 [[files]]
 file = "kubejs/server_scripts/radar_integration.js"
-hash = "abad228f8d6c8851264dc5b329cacfc475665bc8e719f428e5a20d4f26477aa9"
+hash = "2f35ef02aa8ae50f77f075dc4422b54a96954221aa86a1fe2bee8065ffc774c2"
 
 [[files]]
 file = "kubejs/server_scripts/remove_cobblemon_pokeball_recipes.js"

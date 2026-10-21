@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
       E: 'create:electron_tube'
     }).id('kubejs:radar/radar_receiver_block')
   } else {
-    event.shaped(`${RADAR}:radar_receiver_block`, ['R/I/E'], {
+    event.shaped(`${RADAR}:radar_receiver_block`, ['R', 'I', 'E'], {
       R: 'minecraft:lightning_rod',
       I: 'create:industrial_iron_block',
       E: 'create:electron_tube'
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
   // ==================== NETWORK COMPONENTS ====================
 
   // --- Data Link (shaped — network connector block) ---
-  event.shaped(`${RADAR}:data_link`, ['R/B/T'], {
+  event.shaped(`${RADAR}:data_link`, ['R', 'B', 'T'], {
     R: 'minecraft:redstone_torch',
     B: 'create:brass_casing',
     T: 'create:transmitter'
@@ -231,12 +231,12 @@ ServerEvents.recipes(event => {
 
   // --- Auto Yaw Controller (shaped) ---
   if (HAS_PG) {
-    event.shaped(`${RADAR}:auto_yaw_controller`, ['B/A'], {
+    event.shaped(`${RADAR}:auto_yaw_controller`, ['B', 'A'], {
       B: 'powergrid:servo',
       A: 'create:precision_mechanism'
     }).id('kubejs:radar/auto_yaw_controller')
   } else {
-    event.shaped(`${RADAR}:auto_yaw_controller`, ['P/G'], {
+    event.shaped(`${RADAR}:auto_yaw_controller`, ['P', 'G'], {
       P: 'create:precision_mechanism',
       G: 'create:gearbox'
     }).id('kubejs:radar/auto_yaw_controller')
