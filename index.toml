@@ -1064,8 +1064,12 @@ metafile = true
 
 [[files]]
 file = "mods/mic-petrochem.pw.toml"
-hash = "1450527ef56757d4980baac3a1c26a097579ff931a1cc6f98c1000fa55b01027"
+hash = "0ccf67d1df6dfe8a5030dda207db81bcf7fe061476dc6279795edf57f723ba3f"
 metafile = true
+
+[[files]]
+file = "mods/mic_fixes-1.21.1-1.0.0.jar"
+hash = "ea0930939d046e5ddb00c5104d98b3db5bd0036e68c01f664e65511a27389148"
 
 [[files]]
 file = "mods/minopp.pw.toml"

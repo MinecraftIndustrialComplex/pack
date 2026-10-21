@@ -24,6 +24,7 @@ HTCE/**
 .cache_moddocs/**
 modDocs/**
 techTree/**
+CLAUDE.md
 
 # Misc
 disabledMods/**
