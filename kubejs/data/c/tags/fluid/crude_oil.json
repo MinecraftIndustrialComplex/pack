@@ -3,10 +3,10 @@
   "values": [
     "createdieselgenerators:crude_oil",
     "destroy:crude_oil",
-    "crusty_chunks:crude_oil",
+    { "id": "crusty_chunks:crude_oil", "required": false },
 
     "createdieselgenerators:flowing_crude_oil",
     "destroy:flowing_crude_oil",
-    "crusty_chunks:flowing_crude_oil"
+    { "id": "crusty_chunks:flowing_crude_oil", "required": false }
   ]
 }

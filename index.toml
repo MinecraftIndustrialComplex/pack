@@ -177,11 +177,23 @@ file = "kubejs/data/aeronautics/legendarysurvivaloverhaul/temperature/blocks/adj
 hash = "5d80c51bf951e2079d810c0e0c563e771868aad26e04da7da5f71cc889527863"
 
 [[files]]
+file = "kubejs/data/c/tags/fluid/crude_oil.json"
+hash = "f658787115eab93d3ba3ec8c62869f72015e975c1deab389b7e006270b6bc3df"
+
+[[files]]
+file = "kubejs/data/c/tags/fluid/diesel.json"
+hash = "cbbffaf7de8aa0af851c4331e5709fb718bf3d22310683d62d8835cee19e0a53"
+
+[[files]]
+file = "kubejs/data/c/tags/fluid/gasoline.json"
+hash = "6ec6276b4977abc27d8c264c5b0feebdad8e7dcef0be7268cb2e08fc6f6e615f"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/legendarysurvivaloverhaul/temperature/blocks/burner.json"
 hash = "7b9de193b08c3edcda22fec49bd0805fae0d446d8904ff8ce7b2e0b3c92d68df"
 
 [[files]]
-file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
+file = "kubejs/data/createdieselgenerators/tags/fluid/pumpjack_output.json"
 hash = "2398173b4ba10a2f85b84aec59aa9fd157c57bf672b22af3ec40353081d65874"
 
 [[files]]
@@ -207,18 +219,6 @@ hash = "8dfb11a6982b0b90209f42296b7c3575f7481651abf8064399835ed058e89091"
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
 hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
-
-[[files]]
-file = "kubejs/data/forge/tags/fluids/crude_oil.json"
-hash = "452dabd43586291d9bf1823d8fd521cde7adf16ba805804ea45ec1a6fc0bb37d"
-
-[[files]]
-file = "kubejs/data/forge/tags/fluids/diesel.json"
-hash = "cbbffaf7de8aa0af851c4331e5709fb718bf3d22310683d62d8835cee19e0a53"
-
-[[files]]
-file = "kubejs/data/forge/tags/fluids/gasoline.json"
-hash = "6ec6276b4977abc27d8c264c5b0feebdad8e7dcef0be7268cb2e08fc6f6e615f"
 
 [[files]]
 file = "kubejs/data/kubejs/tags/worldgen/biome/empty.json"
