@@ -1,15 +1,15 @@
 name = "mic-petrochem"
-filename = "mic_petrochem-1.21.1-1.0.1.jar"
+filename = "mic_petrochem-1.21.1-1.0.2.jar"
 side = "both"
 
 [download]
-url = "https://github.com/MinecraftIndustrialComplex/mic-petrochem/releases/download/1.0.1/mic_petrochem-1.21.1-1.0.1.jar"
+url = "https://github.com/MinecraftIndustrialComplex/mic-petrochem/releases/download/1.0.2/mic_petrochem-1.21.1-1.0.2.jar"
 hash-format = "sha256"
-hash = "8e1571563ba16cacb8d02245f9d79621fed68f6861d535d35f71821f6a753cfc"
+hash = "1035ac82fbf12d0e271abd5f075c82a896f7512e1a8c123515f12b0683258e0a"
 
 [update]
 [update.github]
 branch = "master"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "MinecraftIndustrialComplex/mic-petrochem"
-tag = "1.0.1"
+tag = "1.0.2"
