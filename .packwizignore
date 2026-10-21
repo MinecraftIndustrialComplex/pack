@@ -33,3 +33,4 @@ crashes/**
 # Scripts
 *.py
 *.sh
+tools/**
