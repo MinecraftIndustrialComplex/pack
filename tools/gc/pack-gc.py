@@ -208,7 +208,8 @@ def lock_held(lock: Path) -> bool:
 
 
 def process_paths() -> list[tuple[str, str]]:
-    """(pid and command name, path) for every cwd, executable and open file of this user's processes."""
+    """(pid and command name, path) for every cwd, executable, open file and mapped file of this user's
+    processes (a dlopened native, such as a GameTest JVM's librtsim_jni.so, is mapped with its fd closed)."""
     out = []
     me = os.getuid()
     for pid in os.listdir("/proc"):
@@ -235,6 +236,16 @@ def process_paths() -> list[tuple[str, str]]:
                     pass
         except OSError:
             pass
+        mapped = set()
+        try:
+            with open(f"{base}/maps") as f:
+                for line in f:
+                    cols = line.split(None, 5)
+                    if len(cols) == 6 and cols[5].startswith("/"):
+                        mapped.add(cols[5].strip().removesuffix(" (deleted)"))
+        except OSError:
+            pass
+        out += [(who, m) for m in mapped]
     return out
 
 
@@ -292,7 +303,7 @@ def inspect(t: Tree, trees: list[Tree], procs: list[tuple[str, str]], sizes: boo
     scratch = [build, *(c for c in build.iterdir() if c.is_dir())] if build.is_dir() else []
     t.last_src = newest_mtime([gitdir / "index", gitdir / "HEAD", gitdir / "logs" / "HEAD", *scratch])
     target = t.path / "target"
-    if not is_cargo_target(target):
+    if target.is_symlink() or not is_cargo_target(target):  # a shared CARGO_TARGET_DIR is not this tree's
         return
     t.target = target
     t.subvol = is_subvol(target)
@@ -300,7 +311,7 @@ def inspect(t: Tree, trees: list[Tree], procs: list[tuple[str, str]], sizes: boo
     for prof in profile_dirs(target):
         marks += [prof, prof / "deps", prof / ".fingerprint", prof / "build", prof / ".cargo-lock"]
         inc = prof / "incremental"
-        if inc.is_dir():
+        if inc.is_dir() and not inc.is_symlink():
             t.incremental.append(inc)
         if not t.in_use and lock_held(prof / ".cargo-lock"):
             t.in_use = f"cargo lock {prof.relative_to(t.path)}"
@@ -330,6 +341,9 @@ def drop_target(t: Tree, dry: bool) -> None:
 def convert(tree: Path, log) -> int:
     """`subvol`: make tree/target a subvolume, keeping its contents (reflink copy)."""
     target = tree / "target"
+    if target.is_symlink():
+        log(f"{target}: a symlink (a shared target dir); convert the folder it points to instead")
+        return 1
     if not on_btrfs(tree):
         log(f"{tree}: not on btrfs")
         return 1
@@ -417,15 +431,29 @@ def retire_worktree(t: Tree, dry: bool, log) -> None:
 def sweep_old_trash(trees: list[Tree], dry: bool, log) -> None:
     """Folders an interrupted pass renamed and did not finish deleting."""
     for t in trees:
-        for p in [t.path, *[c for c in (t.path / "target").glob("*") if c.is_dir()]]:
+        target = t.path / "target"
+        subdirs = [] if target.is_symlink() else [c for c in target.glob("*") if not c.is_symlink() and c.is_dir()]
+        for p in [t.path, *subdirs]:
             try:
                 for c in p.iterdir():
-                    if TRASH in c.name and c.is_dir():
-                        log(f"leftover {c}: deleted")
+                    if TRASH in c.name and not c.is_symlink() and c.is_dir():
+                        log(f"leftover {c}: {'would delete' if dry else 'deleted'}")
                         if not dry:
                             remove(c, False)
             except OSError:
                 pass
+
+
+def take_lock():
+    """The pass lock (one pass or conversion at a time), or None when another holds it."""
+    STATE.mkdir(parents=True, exist_ok=True)
+    lock = open(STATE / "lock", "w")
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        lock.close()
+        return None
+    return lock
 
 
 def run(args) -> int:
@@ -438,10 +466,8 @@ def run(args) -> int:
         lines.append(msg)
         print(msg, flush=True)
 
-    lock = open(STATE / "lock", "w")
-    try:
-        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-    except BlockingIOError:
+    lock = take_lock()
+    if lock is None:
         print("pack-gc: another pass is running", file=sys.stderr)
         return 0
     trees = find_trees(roots)
@@ -581,6 +607,10 @@ def main() -> int:
     if args.cmd == "install":
         return install(args)
     if args.cmd == "subvol":
+        lock = take_lock()  # a pass's trash sweep would take a conversion's half-made folders
+        if lock is None:
+            print("pack-gc: a pass is running; try again when it ends", file=sys.stderr)
+            return 1
         return max((convert(Path(t).resolve(), print) for t in args.trees), default=0)
     return run(args)
 
