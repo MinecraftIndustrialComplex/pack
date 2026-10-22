@@ -8,7 +8,7 @@ global.VOIDED_ITEMS = [
   'createdieselgenerators:crude_oil_bucket',
   'createdieselgenerators:biodiesel_bucket',
   // diesel+gasoline buckets unvoided - brought back for petrochem revamp
-  'createdieselgenerators:ethanol_bucket',
+  // ethanol bucket unvoided - ethanol is the pre-oil fuel on purpose (OGB-8)
 
   // duplicate steel (createmetallurgy is canonical)
   'overgeared:steel_ingot',
@@ -66,7 +66,7 @@ global.VOIDED_FLUIDS = [
   'createdieselgenerators:crude_oil',
   'createdieselgenerators:biodiesel',
   // diesel+gasoline unvoided - brought back for petrochem revamp
-  'createdieselgenerators:ethanol',
+  // ethanol unvoided - ethanol is the pre-oil fuel on purpose (OGB-8)
 
   // big cannons (canonical: createmetallurgy)
   'createbigcannons:molten_steel',

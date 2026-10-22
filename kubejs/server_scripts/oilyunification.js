@@ -17,7 +17,9 @@ ServerEvents.recipes(e => {
     "createdieselgenerators:plant_oil",
     "createdieselgenerators:crude_oil",
     "createdieselgenerators:biodiesel",
-    "createdieselgenerators:ethanol",
+    // Ethanol is not removed: it is the pre-oil fuel on purpose (OGB-8), poor in engines by its
+    // real properties. Its values: kubejs/data/createdieselgenerators/.../fuel_type/ethanol.json
+    // and kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_ethanol.json.
   ];
   removeFluids.forEach(id => e.remove({ output: Fluid.of(id, 1) }));
 
@@ -25,7 +27,6 @@ ServerEvents.recipes(e => {
     "createdieselgenerators:plant_oil_bucket",
     "createdieselgenerators:crude_oil_bucket",
     "createdieselgenerators:biodiesel_bucket",
-    "createdieselgenerators:ethanol_bucket",
   ];
   removeBuckets.forEach(id => e.remove({ output: id }));
 });

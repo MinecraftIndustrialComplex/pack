@@ -6,7 +6,7 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "README.md"
-hash = "604d07a6f04f58980b65db940f94c5eb1c4ed5a595f689176e8b2a56be544138"
+hash = "0197b72c48c7dd3e65630a391fe3229d22fb249e8470c8da406bbaa88845e640"
 
 [[files]]
 file = "config/almostunified/debug.json"
@@ -35,6 +35,10 @@ hash = "82cfae3ad79699ab2ebc930d5a057f1e8388acdf51a7aeb45dbddd651478264c"
 [[files]]
 file = "config/cavedifficulty-common.toml"
 hash = "769c4a4462090ca0b2245673e6b68b669ada1b589bdfde011e865c74a66d3678"
+
+[[files]]
+file = "config/createpropulsion-common.toml"
+hash = "4a9d9339d992ce52a00154a6200e7f7fa68a9d96c5533483e6dd770f7b52cdb8"
 
 [[files]]
 file = "config/createvintageneoforged-common.toml"
@@ -193,6 +197,10 @@ file = "kubejs/data/copycats/physics_block_properties/copycat_catwalk.json"
 hash = "3026faaf03b1e1cd92974228712110b3384fb287a9b0b20556237ab5cac1b544"
 
 [[files]]
+file = "kubejs/data/createdieselgenerators/createdieselgenerators/fuel_type/ethanol.json"
+hash = "454b15fcdabe7cccdea49f11f2bf72576af3b979568aa828b2bc2f0bf2c01e89"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/legendarysurvivaloverhaul/temperature/blocks/burner.json"
 hash = "7b9de193b08c3edcda22fec49bd0805fae0d446d8904ff8ce7b2e0b3c92d68df"
 
@@ -205,16 +213,16 @@ file = "kubejs/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
 hash = "e09db7b2677fef89345d567bbcb9337f5f7617023af9abee63ab529a5eb4ea4c"
 
 [[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_ethanol.json"
+hash = "d0593e4b0b544fc263b38138b4505e054d9fccc24630c69c5212eeb916748ba2"
+
+[[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_crude_oil.json"
 hash = "a2a5aeb2cff66ce07b743bfbe6dd57b7ab2ce215cef42c0fd897a93a835dafbc"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_diesel.json"
 hash = "7d7148bce8790edd80aa59bca972fccd300c9a2d4a7ec5e364a17f1f819e2cf5"
-
-[[files]]
-file = "kubejs/data/createpropulsion/thruster_fuels/destroy_ethanol_distillate.json"
-hash = "15ec8cf46b44a508ec27b01f3e34e71266c780eb6ec88842dcfb8e949e0a6c1a"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_gasoline.json"
@@ -354,7 +362,7 @@ hash = "9176464e77d98b26137fce11ad09aa24ecf5c8f4f9ba9042e5b3a5ec03672867"
 
 [[files]]
 file = "kubejs/server_scripts/oilyunification.js"
-hash = "b8f0e5360aed46a870a8f2d3b0636d033d12a57cfd14bc3ca9ea1937f663c7d9"
+hash = "bbe93ce663366468f8ed8d3b28c6a7d5127d539bb42614e0948e8b816ac9fdfb"
 
 [[files]]
 file = "kubejs/server_scripts/overgeared.js"
@@ -438,7 +446,7 @@ hash = "4356fabb798b7f138034a0068aa3e0016e6f3f4cac1fd533213346c463ea8927"
 
 [[files]]
 file = "kubejs/startup_scripts/voided_content.js"
-hash = "8fa8ea36fabcbb8900d8ae37d1304cdc88053e35c1e11f2038e92de214954c53"
+hash = "9db2729cc2ce691f177328442e79f6cacc56675dd417195f99bf81fb468a0f42"
 
 [[files]]
 file = "logo.png"
