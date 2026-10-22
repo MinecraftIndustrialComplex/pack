@@ -1,13 +1,13 @@
 [
   {
-    "mob": ["minecraft:blaze"],
+    "mob": ["minecraft:blaze", "iceandfire:fire_dragon"],
     "dimension": "minecraft:overworld",
     "biometags": "c:is_desert",
     "when": "onjoin",
     "result": "default"
   },
   {
-    "mob": ["minecraft:blaze"],
+    "mob": ["minecraft:blaze", "iceandfire:fire_dragon"],
     "dimension": "minecraft:overworld",
     "incontrol": true,
     "when": "onjoin",

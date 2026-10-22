@@ -58,11 +58,11 @@ hash = "a9b0bb2283c7eae7188e0f3333df63ce5365fdd6a1449011bfce6a1b80463389"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "cfaf1f29c1b01eac2729b511479623767e038d4f58ccecbde6d5775183c9d5ae"
+hash = "ebdd150ea8739da68b9614b955328048b1678806622e4a05289f68310380787b"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "4072a1f9a1f59f8f640cecc7a98085cc23ae88ccf6139b5d6626db2d14d097c7"
+hash = "305232ede66fb7d6bb2b60a9a28b95b3b60c2d0ff78d4868cd60a4b13685353e"
 
 [[files]]
 file = "config/l2_configs/l2hostility-common.toml"
