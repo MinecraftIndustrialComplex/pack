@@ -13,8 +13,12 @@
 #                 cdg/cdg_gasoline.json 0.89 / 100                  = 0.89
 #                 mic_petrochem_gasoline.json 0.89 / 0.9 vs mic diesel 1.0 / 0.9 = 0.989 vs 1.111
 #   ethanol     76,330                        0.594 of diesel, 0.60 here (cdg_ethanol.json 0.8 / 120)
-# The mic_petrochem gasoline JSON here sits at the same path as the mod's own file, so it replaces
-# it. Move the value into the mod at its next release and delete the override.
+#   mic premium and cheap gasoline  same 0.89 / 0.9 as plain gasoline (0.989 per mB). Octane
+#                 changes knock in a piston engine and does nothing for energy in a thruster.
+#   biodiesel   119,550 (B100)                0.93 of diesel (cdg_biodiesel.json 0.93 / 100)
+#   plant oil   about 0.90 of diesel          cdg_plant_oil.json 0.9 / 100 (no AFDC row for straight oil)
+# The mic_petrochem gasoline JSON files here sit at the same path as the mod's own files, so they
+# replace them. Move the values into the mod at its next release and delete the overrides.
 ["Fuel Configuration".fuelProperties.createdieselgenerators_diesel]
 	efficiency = 100
 	burnRate = 100
@@ -26,3 +30,11 @@
 ["Fuel Configuration".fuelProperties.createdieselgenerators_ethanol]
 	efficiency = 100
 	burnRate = 120
+
+["Fuel Configuration".fuelProperties.createdieselgenerators_biodiesel]
+	efficiency = 100
+	burnRate = 100
+
+["Fuel Configuration".fuelProperties.createdieselgenerators_plant_oil]
+	efficiency = 100
+	burnRate = 100

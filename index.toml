@@ -38,7 +38,7 @@ hash = "769c4a4462090ca0b2245673e6b68b669ada1b589bdfde011e865c74a66d3678"
 
 [[files]]
 file = "config/createpropulsion-common.toml"
-hash = "03794f694473a5768a99d118fd7179a32a3b13054713b7cb95b31a3a750967cf"
+hash = "8421dcf1aa3919f52caf265d931cb022aaddeacc10008fa95ccbbfdaad5dccf7"
 
 [[files]]
 file = "config/createvintageneoforged-common.toml"
@@ -213,6 +213,10 @@ file = "kubejs/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
 hash = "e09db7b2677fef89345d567bbcb9337f5f7617023af9abee63ab529a5eb4ea4c"
 
 [[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_biodiesel.json"
+hash = "01cdc04824e42a70aacbe3b9c676ab59a6a21e368a7c3823e5c5a5192531510e"
+
+[[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_diesel.json"
 hash = "63d5bb719eac774725f201d2055da94d3b002105d08f29d27b332c54da195a6b"
 
@@ -225,6 +229,10 @@ file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_gasoline.json"
 hash = "5e1d0dbff290cf5fed56de2b854793e9f001b9b10da321cde1b064988492f35f"
 
 [[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_plant_oil.json"
+hash = "014d795b3e981aa03b1390b0a5e7ae27a2a7f75d90193af57d81e3bf72103374"
+
+[[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_crude_oil.json"
 hash = "a2a5aeb2cff66ce07b743bfbe6dd57b7ab2ce215cef42c0fd897a93a835dafbc"
 
@@ -233,8 +241,16 @@ file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
 hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
 
 [[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/mic_petrochem_cheap_gasoline.json"
+hash = "def99f037110bd2b9d8005bdec3000a98a410437161779957f696140957feda7"
+
+[[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/mic_petrochem_gasoline.json"
 hash = "ce0f9d3bbf3b0ca733681420515f64403797255d64d6ad9a7cd8a93b340466cc"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/mic_petrochem_premium_gasoline.json"
+hash = "832c523ed06bebf7cb3295308a0a4eb719692f0c636d9517d11a5b17358f237a"
 
 [[files]]
 file = "kubejs/data/kubejs/tags/block/empty.json"
