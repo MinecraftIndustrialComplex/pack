@@ -8,21 +8,145 @@ then installs the NeoForge server for the appropriate version.
 Handles updates by detecting removed/outdated files and prompting
 before destructive actions (delete, backup, or skip).
 
+After the install it sets the server heap in user_jvm_args.txt (-Xms equal
+to -Xmx, 8G by default, never lowering a larger -Xmx already there). Big Create
+worlds need this: at -Xmx6G the live heap sits near G1's marking threshold and
+background GC costs 10 to 16 ms of CPU per tick.
+
 Usage:
     python scripts/setup_server.py [--mrpack <path>] [--output <dir>]
     python scripts/setup_server.py -y   (auto-accept all changes)
+    python scripts/setup_server.py --heap 12G   (choose the heap size)
 """
 
 import argparse
 import hashlib
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
 import urllib.request
 import zipfile
 from pathlib import Path
+
+
+DEFAULT_HEAP = "8G"
+MIN_HEAP_MIB = 8 * 1024
+HEAP_FLAG = re.compile(r"^-X(ms|mx)(\d+)([kKmMgG]?)$")
+
+
+def parse_heap_size(text):
+    """'8G' -> 8192 (MiB). A bare number is bytes, as in the JVM."""
+    m = re.fullmatch(r"(\d+)([kKmMgG]?)", text.strip())
+    if not m:
+        raise ValueError(f"not a heap size: {text!r} (use e.g. 8G or 8192M)")
+    return heap_mib(int(m.group(1)), m.group(2))
+
+
+def heap_mib(number, unit):
+    unit = unit.lower()
+    if unit == "g":
+        return number * 1024
+    if unit == "m":
+        return number
+    if unit == "k":
+        return number // 1024
+    return number // (1024 * 1024)
+
+
+def format_heap(mib):
+    return f"{mib // 1024}G" if mib % 1024 == 0 else f"{mib}M"
+
+
+def plan_heap(lines, requested_mib):
+    """Work out the new lines of user_jvm_args.txt.
+
+    Returns (new_lines, target_mib, old_xms, old_xmx), the olds in MiB or None.
+    Comment lines are left alone. Every active -Xms/-Xmx token is dropped, the
+    other tokens on its line stay, and one heap line goes where the first one
+    was (or at the end). The target is the largest of the request, any
+    existing -Xmx and any existing -Xms (the JVM raises a missing maximum to
+    the initial size, so an -Xms alone is a maximum too).
+    """
+    old_xms = old_xmx = None
+    for line in lines:
+        if line.lstrip().startswith("#"):
+            continue
+        for tok in line.split():
+            m = HEAP_FLAG.match(tok)
+            if m:
+                mib = heap_mib(int(m.group(2)), m.group(3))
+                if m.group(1) == "ms":
+                    old_xms = mib
+                else:
+                    old_xmx = mib
+    target = max(requested_mib, old_xms or 0, old_xmx or 0)
+    heap_line = f"-Xms{format_heap(target)} -Xmx{format_heap(target)}"
+
+    out = []
+    placed = False
+    for line in lines:
+        if line.lstrip().startswith("#"):
+            out.append(line)
+            continue
+        toks = line.split()
+        kept = [t for t in toks if not HEAP_FLAG.match(t)]
+        if len(kept) == len(toks):
+            out.append(line)
+            continue
+        if not placed:
+            out.append(heap_line)
+            placed = True
+        if kept:
+            out.append(" ".join(kept))
+    if not placed:
+        out.append(heap_line)
+    return out, target, old_xms, old_xmx
+
+
+def set_server_heap(server_dir, heap_text, yes=False):
+    """Set -Xms equal to -Xmx in user_jvm_args.txt, asking first. Returns the path or None."""
+    requested = parse_heap_size(heap_text)
+    if requested < MIN_HEAP_MIB:
+        print(f"\nNote: --heap {heap_text} is below 8G. Big Create worlds want at least 8G.")
+    jvm_args = server_dir / "user_jvm_args.txt"
+    lines = jvm_args.read_text().splitlines() if jvm_args.exists() else []
+    new_lines, target, old_xms, old_xmx = plan_heap(lines, requested)
+
+    print(f"\n{'='*60}")
+    print("Server heap (user_jvm_args.txt)")
+    if old_xms == target and old_xmx == target:
+        print(f"  already -Xms{format_heap(target)} -Xmx{format_heap(target)}, nothing to change")
+        return jvm_args
+
+    old = "no heap flags" if old_xms is None and old_xmx is None else (
+        f"-Xms{format_heap(old_xms) if old_xms else '(unset)'} "
+        f"-Xmx{format_heap(old_xmx) if old_xmx else '(unset)'}"
+    )
+    print(f"  now: {old}")
+    print(f"  new: -Xms{format_heap(target)} -Xmx{format_heap(target)}")
+    if old_xmx and old_xmx > requested:
+        print(f"  (kept the larger existing -Xmx{format_heap(old_xmx)}, not lowered to {format_heap(requested)})")
+
+    has_heap = old_xms is not None or old_xmx is not None
+    action = prompt_action(
+        f"Set the server heap in '{jvm_args.name}'?",
+        yes=yes,
+        default="k" if has_heap else "d",
+    )
+    if action == "k":
+        print("  kept: heap settings unchanged")
+        return jvm_args
+    if action == "b" and jvm_args.exists():
+        backup_target = server_dir / ".backups" / "overrides" / jvm_args.name
+        backup_target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(str(jvm_args), str(backup_target))
+        print(f"  backed up original: {jvm_args.name}")
+    jvm_args.write_text("\n".join(new_lines) + "\n")
+    print(f"  wrote: {jvm_args}")
+    return jvm_args
 
 
 def parse_args():
@@ -48,11 +172,28 @@ def parse_args():
         help="Skip NeoForge server installer",
     )
     parser.add_argument(
+        "--heap",
+        default=DEFAULT_HEAP,
+        metavar="SIZE",
+        help=f"Server heap for user_jvm_args.txt, sets -Xms and -Xmx to it, e.g. 8G or 12G "
+        f"(default: {DEFAULT_HEAP}; an existing larger -Xmx is kept)",
+    )
+    parser.add_argument(
+        "--no-heap",
+        action="store_true",
+        help="Do not touch the heap settings in user_jvm_args.txt",
+    )
+    parser.add_argument(
         "-y", "--yes",
         action="store_true",
         help="Auto-accept all destructive changes (delete without prompting)",
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+    try:
+        parse_heap_size(args.heap)
+    except ValueError as e:
+        parser.error(str(e))
+    return args
 
 
 def find_mrpack():
@@ -355,6 +496,11 @@ def main():
     # ── NeoForge install ──────────────────────────────────────────
     if not args.no_server_install and neoforge_version:
         download_neoforge(mc_version, neoforge_version, server_dir)
+
+    # ── Server heap ───────────────────────────────────────────────
+    installed = not args.no_server_install and neoforge_version
+    if not args.no_heap and (installed or (server_dir / "user_jvm_args.txt").exists()):
+        set_server_heap(server_dir, args.heap, yes=args.yes)
 
     print(f"\n{'='*60}")
     print(f"Server setup complete!")

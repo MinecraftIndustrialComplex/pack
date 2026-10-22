@@ -34,5 +34,16 @@ Makes heavy use of aeronautics, tacz, create, powergrid.
 - Grab simple radio jars from their discord.
 - Compile the destroy-mic fork of destroy and add the jar
 
+# Running a server:
+- `python scripts/setup_server.py` extracts an `.mrpack` and installs the NeoForge server (`-y` accepts every prompt).
+- It also sets the heap in `user_jvm_args.txt` to `-Xms8G -Xmx8G`. Use `--heap 12G` for a different size, or `--no-heap` to leave the file alone. It never lowers a larger `-Xmx` you already have and keeps your other JVM args.
+- Give big Create worlds at least 8 GB, with `-Xms` equal to `-Xmx`. At `-Xmx6G` the live heap sits near G1's marking threshold and background GC costs 10 to 16 ms of CPU per tick.
+
+# Do not bring a 1.19.2 world:
+- Do not upgrade a Create world from 1.19.2 to this pack. Items inside modded block entities do not survive. Copycats, toolboxes, deployers and chutes come back with count 1 and no components, and a deployer or chute holding more than one item keeps one.
+- Create 6 also zeroes the old station, signal and curve positions, so trains lose their stations.
+- This is Minecraft's and Create's behaviour, not the pack's. Start a new world.
+- If you must migrate anyway, work on a copy and run `tools/stress-worlds/remap_tracks.py --positions-only` from the mic-rtsim repository (`mods/mic-rtsim`) before the world's first Create 6 load. It fixes the positions only. It does not bring back item data.
+
 # Credits:
 - Huge thanks to NHBlock for developing the ![1.21.1 fork of destroy](https://github.com/NHblock714/Destroy/tree/1.21.1-neo)
