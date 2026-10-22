@@ -1068,8 +1068,8 @@ hash = "e2690844881588d39bea0766e292e165e61e228838ca036801510628829ec808"
 metafile = true
 
 [[files]]
-file = "mods/mic_fixes-1.21.1-1.0.1.jar"
-hash = "664e378a3c8d4546162d2e9318313080d649bbd56debfc25872d3257e39b808d"
+file = "mods/mic_fixes-1.21.1-1.0.2.jar"
+hash = "473dc9f26a9c2102183b8060d532d6fdb6c782498cf02652750adaa30afdfa75"
 
 [[files]]
 file = "mods/minopp.pw.toml"
