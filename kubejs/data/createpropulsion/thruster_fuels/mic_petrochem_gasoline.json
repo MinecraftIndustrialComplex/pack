@@ -1,0 +1,5 @@
+{
+  "fluid": "mic_petrochem:gasoline",
+  "thrust_multiplier": 0.89,
+  "consumption_multiplier": 0.9
+}

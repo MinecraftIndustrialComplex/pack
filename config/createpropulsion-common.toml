@@ -1,13 +1,28 @@
-# Pack override. Only the ethanol row of Create Propulsion's fuel table is set here;
-# every other key takes the mod's default when the game starts.
+# Pack override. Only the rows below are set; every other key takes the mod's default at game start.
 #
 # Why: this table wins over the JSON in data/createpropulsion/thruster_fuels. burnRate replaces the
-# JSON consumption_multiplier and efficiency multiplies thrust. The mod's default for ethanol is
-# 70 / 140, which hid the JSON values. Efficiency 100 and burnRate 120 let
-# kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_ethanol.json (thrust 0.8, consumption 1.2)
-# mean what it says: 0.667 thrust per mB, 0.60 of the pack's diesel, as real ethanol is 0.594 of
-# diesel by volume (US DOE AFDC lower heating values, 76,330 / 128,488 Btu per gallon).
-# The liquid burner reads the same JSON thrust and this burn rate, so keep them equal.
+# JSON consumption_multiplier and efficiency multiplies thrust. The mod's defaults hid the JSON
+# values (ethanol 70 / 140, gasoline 125 / 80), so each row here is pinned to 100 / burnRate and
+# the JSON files in kubejs/data/createpropulsion/thruster_fuels carry the real numbers.
+# The liquid burner reads the JSON thrust and this burn rate, so keep them equal.
+#
+# Per mB of thrust (thrust x efficiency / burn rate), checked against the US DOE AFDC fuel
+# comparison chart (lower heating value, Btu per gallon):
+#   diesel      128,488                       1.00 here (cdg/cdg_diesel.json, 1.0 / 100)
+#   gasoline    112,114 to 116,090, mid 114,102   0.89 of diesel (114,102 / 128,488 = 0.888)
+#                 cdg/cdg_gasoline.json 0.89 / 100                  = 0.89
+#                 mic_petrochem_gasoline.json 0.89 / 0.9 vs mic diesel 1.0 / 0.9 = 0.989 vs 1.111
+#   ethanol     76,330                        0.594 of diesel, 0.60 here (cdg_ethanol.json 0.8 / 120)
+# The mic_petrochem gasoline JSON here sits at the same path as the mod's own file, so it replaces
+# it. Move the value into the mod at its next release and delete the override.
+["Fuel Configuration".fuelProperties.createdieselgenerators_diesel]
+	efficiency = 100
+	burnRate = 100
+
+["Fuel Configuration".fuelProperties.createdieselgenerators_gasoline]
+	efficiency = 100
+	burnRate = 100
+
 ["Fuel Configuration".fuelProperties.createdieselgenerators_ethanol]
 	efficiency = 100
 	burnRate = 120

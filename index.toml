@@ -38,7 +38,7 @@ hash = "769c4a4462090ca0b2245673e6b68b669ada1b589bdfde011e865c74a66d3678"
 
 [[files]]
 file = "config/createpropulsion-common.toml"
-hash = "4a9d9339d992ce52a00154a6200e7f7fa68a9d96c5533483e6dd770f7b52cdb8"
+hash = "03794f694473a5768a99d118fd7179a32a3b13054713b7cb95b31a3a750967cf"
 
 [[files]]
 file = "config/createvintageneoforged-common.toml"
@@ -213,24 +213,28 @@ file = "kubejs/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
 hash = "e09db7b2677fef89345d567bbcb9337f5f7617023af9abee63ab529a5eb4ea4c"
 
 [[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_diesel.json"
+hash = "63d5bb719eac774725f201d2055da94d3b002105d08f29d27b332c54da195a6b"
+
+[[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_ethanol.json"
 hash = "d0593e4b0b544fc263b38138b4505e054d9fccc24630c69c5212eeb916748ba2"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/cdg/cdg_gasoline.json"
+hash = "5e1d0dbff290cf5fed56de2b854793e9f001b9b10da321cde1b064988492f35f"
 
 [[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_crude_oil.json"
 hash = "a2a5aeb2cff66ce07b743bfbe6dd57b7ab2ce215cef42c0fd897a93a835dafbc"
 
 [[files]]
-file = "kubejs/data/createpropulsion/thruster_fuels/destroy_diesel.json"
-hash = "7d7148bce8790edd80aa59bca972fccd300c9a2d4a7ec5e364a17f1f819e2cf5"
-
-[[files]]
-file = "kubejs/data/createpropulsion/thruster_fuels/destroy_gasoline.json"
-hash = "8dfb11a6982b0b90209f42296b7c3575f7481651abf8064399835ed058e89091"
-
-[[files]]
 file = "kubejs/data/createpropulsion/thruster_fuels/destroy_refinery_gas.json"
 hash = "863b5a220fe9b3d818a96f3f786aaddd4eaaef9f75c2277052256873529010c5"
+
+[[files]]
+file = "kubejs/data/createpropulsion/thruster_fuels/mic_petrochem_gasoline.json"
+hash = "ce0f9d3bbf3b0ca733681420515f64403797255d64d6ad9a7cd8a93b340466cc"
 
 [[files]]
 file = "kubejs/data/kubejs/tags/block/empty.json"

@@ -1,0 +1,6 @@
+{
+  "fluid": "createdieselgenerators:gasoline",
+  "thrust_multiplier": 0.89,
+  "consumption_multiplier": 1.0,
+  "required_mod": "createdieselgenerators"
+}
