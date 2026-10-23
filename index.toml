@@ -532,6 +532,11 @@ hash = "7dba9a4a9894a6bbab3a8c7edcc718499297412247fc0e8ccebf75b760c85140"
 metafile = true
 
 [[files]]
+file = "mods/bathymetry.pw.toml"
+hash = "bae8c7a2dd7cce43aaac1f5ae3a57bc93d1a323752be5d5e92bceb3a133cd23e"
+metafile = true
+
+[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
@@ -1117,6 +1122,11 @@ metafile = true
 [[files]]
 file = "mods/morejs.pw.toml"
 hash = "f53cc593da93578483624241ca1390829588bc5881a9d31ac512b74b0eb2f86b"
+metafile = true
+
+[[files]]
+file = "mods/mossylib.pw.toml"
+hash = "ef8e9f48c234fbdadc2bb011ea670248688dda9730f30f13ff5a52fb8a04fb76"
 metafile = true
 
 [[files]]

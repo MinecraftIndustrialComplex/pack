@@ -1,0 +1,13 @@
+name = "Bathymetry"
+filename = "bathymetry-1.0.4+1.21.1+neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jn3yCCDl/versions/Yo2fTC7v/bathymetry-1.0.4%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "30a7a6e899e6be99c92dadead1e1092ff5e18a8a619d460e458e1f29f9aad632965f3a8b103b702cff4a0b1d3e3f383acad442c3dff260e2ef50ca600fe6588f"
+
+[update]
+[update.modrinth]
+mod-id = "jn3yCCDl"
+version = "Yo2fTC7v"
