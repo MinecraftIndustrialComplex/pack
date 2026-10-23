@@ -626,7 +626,7 @@ hash = "26623c9638d717c35effee48ce3a59801b2711189fe7090556ba880383d38896"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/hornfels.json"
-hash = "44fc73d9dbc268ae198f3aefa7ced965d5fd82ab07a3e5b918aa48fd97136502"
+hash = "faf58d2faa27baf4be81ab8e529e0a6d270a5eee81812a89b43b712d17beacc6"
 
 [[files]]
 file = "kubejs/data/deeptime/tags/block/rock_fallback/impact_breccia.json"
@@ -947,10 +947,6 @@ hash = "8fa8ea36fabcbb8900d8ae37d1304cdc88053e35c1e11f2038e92de214954c53"
 [[files]]
 file = "logo.png"
 hash = "e42b0eee51de7c20110d11ecc9592ab0e346dbe162b45800bf585053600c729b"
-
-[[files]]
-file = "mods/Dice-neoforge-1.0.0.jar"
-hash = "cb6b00a061729b5123303612e63404c98810d2c8003cdd9a39e42aa79f46d76a"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -1323,10 +1319,6 @@ hash = "bdc409a5eb4e06535a0387250fc4002ea578213bc2a1c5fbcdd4a836f54281c0"
 metafile = true
 
 [[files]]
-file = "mods/destroy-1.21.1-0.4.1.jar"
-hash = "ba20bd69fd69e94671060665f08249f782e5526e1fd4223995c681a23361d351"
-
-[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "696d3006998b03e94925dacb882e6c166e9810fb8221948382413407345bf94c"
 metafile = true
@@ -1680,10 +1672,6 @@ metafile = true
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
-
-[[files]]
-file = "mods/playingcards-2.0.1-neoforge.jar"
-hash = "e1c08cf2b6fd700392744b6b8f2a6deab7f109a0ca0f319b04f84dd9575a041f"
 
 [[files]]
 file = "mods/polymorph.pw.toml"
