@@ -1082,7 +1082,7 @@ metafile = true
 
 [[files]]
 file = "mods/mic-climate.pw.toml"
-hash = "5da8c50f0d2bb8406b72b93b9acf4ef48d1881700abefd605f3f19afb882a6ee"
+hash = "a4a90632de84efdad4511646c9e8303b958465f27a934ccaf3582fe41fc1ab94"
 metafile = true
 
 [[files]]

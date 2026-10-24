@@ -1,15 +1,15 @@
 name = "mic-climate"
-filename = "mic_climate-1.21.1-0.2.1.jar"
+filename = "mic_climate-1.21.1-0.2.2.jar"
 side = "both"
 
 [download]
-url = "https://github.com/MinecraftIndustrialComplex/mic-climate/releases/download/0.2.1/mic_climate-1.21.1-0.2.1.jar"
+url = "https://github.com/MinecraftIndustrialComplex/mic-climate/releases/download/0.2.2/mic_climate-1.21.1-0.2.2.jar"
 hash-format = "sha256"
-hash = "975c8be0d6f421cc105d696ffd7fe86da6f1ff01cc10e40492b9bcb7eed510e3"
+hash = "67a887857eabd3249ebf094aa1711aabd0608a356670e87d33d764d220f19a7a"
 
 [update]
 [update.github]
 branch = "master"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "MinecraftIndustrialComplex/mic-climate"
-tag = "0.2.1"
+tag = "0.2.2"
