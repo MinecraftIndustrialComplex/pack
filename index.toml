@@ -97,6 +97,10 @@ file = "config/rrls.toml"
 hash = "f097471ad7fd4d3adccdc4d6f935b0cdcac68c0cbdec6ea3d752d307ec66d867"
 
 [[files]]
+file = "config/simpleclouds-client.toml"
+hash = "1e54c7ee5b9f2bc4c36e009ce729b8d7e0387ead60db13c913dc0262b79d62ac"
+
+[[files]]
 file = "config/sophisticatedbackpacks-server.toml"
 hash = "c27b6619fd8af563254cd8a7401b9f00f1e83191938331ace654502f5a32ff66"
 
