@@ -49,6 +49,10 @@ file = "config/dice-common.toml"
 hash = "16f8a2192492535f10a5aa3b3ba08694e5b5a427945f8554594038b8f57f4c32"
 
 [[files]]
+file = "config/flywheel-client.toml"
+hash = "6153557dea62233f8eb56d05b182c0e330be7f180e3fc68b23ef107474de03aa"
+
+[[files]]
 file = "config/iceandfire/iaf-client.json"
 hash = "0f338c822ebc6cad040079c0959987c141e8847b73cb6f75b4c2e8044c8e7be0"
 
