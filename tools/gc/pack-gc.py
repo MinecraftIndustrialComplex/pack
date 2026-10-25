@@ -4,7 +4,8 @@
 Ben, 2026-10-21: "you & mcrtsim's rust builds are using ~200+Gb worth of disk space ... get a
 decent garbage collection system up and running for you two and future agents in this pack".
 
-What it collects: cargo `target/` folders (only folders holding cargo's CACHEDIR.TAG) inside the
+What it collects: cargo `target/` folders (folders holding cargo's CACHEDIR.TAG or its
+.rustc_info.json; the empty subvolumes this tool leaves never get cargo's tag) inside the
 git worktrees of every repo under the pack's mods/ folder, including agents' worktrees under
 `<repo>/.claude/worktrees/`; and those agents' worktrees themselves once they are spent (rule 6).
 Nothing else: no other source, no unmerged branch, no Gradle build.
@@ -145,10 +146,14 @@ def free_bytes(p: Path) -> int:
 
 
 def is_cargo_target(p: Path) -> bool:
+    # cargo writes CACHEDIR.TAG only when it creates target/ itself, so a target that began as one
+    # of our empty subvolumes never gets one; .rustc_info.json is in every target cargo has used.
     try:
-        return (p / "CACHEDIR.TAG").read_bytes().startswith(CACHEDIR_SIG)
+        if (p / "CACHEDIR.TAG").read_bytes().startswith(CACHEDIR_SIG):
+            return True
     except OSError:
-        return False
+        pass
+    return (p / ".rustc_info.json").is_file()
 
 
 def is_subvol(p: Path) -> bool:
@@ -166,7 +171,13 @@ def on_btrfs(p: Path) -> bool:
 def make_subvol(p: Path) -> bool:
     btrfs = shutil.which("btrfs") or "/run/current-system/sw/bin/btrfs"
     r = subprocess.run([btrfs, "subvolume", "create", str(p)], capture_output=True, text=True)
-    return r.returncode == 0
+    if r.returncode != 0:
+        return False
+    try:  # cargo will not write its tag into a folder that already exists
+        (p / "CACHEDIR.TAG").write_bytes(CACHEDIR_SIG + b"\n# This file is a cache directory tag created by pack-gc for cargo.\n")
+    except OSError:
+        pass
+    return True
 
 
 def profile_dirs(target: Path) -> list[Path]:

@@ -21,8 +21,9 @@ lock) or built in the last 6 h is never touched; a repo's main checkout only eve
 open one loses `incremental/` after 2 idle days and `target/` after 7; above a 100 GiB budget the
 least recently active targets idle at least 24 h go; a spent agent worktree (`.claude/worktrees/agent-*`,
 merged, clean, idle 3 days) is removed, its ignored notes kept under
-`~/.local/state/pack-gc/archive/`. Only cargo targets (with cargo's `CACHEDIR.TAG`) and spent
-agent worktrees are ever deleted. Log: `~/.local/state/pack-gc/log`.
+`~/.local/state/pack-gc/archive/`. Only cargo targets (with cargo's `CACHEDIR.TAG` or its `.rustc_info.json`; cargo never tags
+the empty subvolume pack-gc leaves, so the tag alone missed every target from its second build on,
+970 GiB by 2026-10-25) and spent agent worktrees are ever deleted. Log: `~/.local/state/pack-gc/log`.
 
 **Snapshots.** `/home` is btrfs with hourly snapper snapshots kept up to two weeks, so deleting
 a plain `target/` frees nothing until the last snapshot holding it expires, and every rebuild's
